@@ -1,0 +1,18 @@
+$cyan-color-500: #02EB9E;
+$white-color: #ffffff;
+$black-color: #000000;
+$pink-color-500: #EA1D5D;
+$gray-color-900: #24262A;
+$gray-color-100: #E5E5E5;
+$gray-color-500: #919191;
+
+$font-size-h1: 6.5rem;
+$font-size-h2: 5.625rem;
+$font-size-h3: 2.5rem;
+$font-size-h4: 1.5rem;
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: $font-size-h1;
+  color: $pink-color-500;
+}
