@@ -1,9 +1,9 @@
-$cyan-color-500: #02EB9E;
+$cyan-color-500: #02eb9e;
 $white-color: #ffffff;
 $black-color: #000000;
-$pink-color-500: #EA1D5D;
-$gray-color-900: #24262A;
-$gray-color-100: #E5E5E5;
+$pink-color-500: #ea1d5d;
+$gray-color-900: #24262a;
+$gray-color-100: #e5e5e5;
 $gray-color-500: #919191;
 
 $font-size-h1: 6.5rem;
@@ -11,8 +11,31 @@ $font-size-h2: 5.625rem;
 $font-size-h3: 2.5rem;
 $font-size-h4: 1.5rem;
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: $font-size-h1;
-  color: $pink-color-500;
+@import "components/header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: $white-color;
+  -webkit-font-smoothing: antialiased; //deixa as fontes do chrome mais detalhadas, mais nítidas.
+  font-family: "Roboto", sans-serif;
+
+  button {
+    cursor: pointer;
+  }
+}
+

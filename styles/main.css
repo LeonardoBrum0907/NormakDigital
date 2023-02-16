@@ -1,5 +1,75 @@
-h1 {
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  position: relative;
+  margin-right: 1rem;
+}
+header nav a:last-of-type {
+  margin-right: 0;
+}
+header nav a:hover {
+  color: #fff;
+}
+header nav a ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+header nav a ul li {
+  margin: 0;
+  padding: 0.5rem;
+}
+header nav a ul li:hover {
+  background-color: #555;
+}
+header nav a ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav a:hover ul {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
-  font-size: 6.5rem;
-  color: #EA1D5D;
+}
+body button {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
