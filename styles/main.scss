@@ -16,10 +16,10 @@ $font-size-h4: 1.5rem;
   align-items: center;
 }
 
-@mixin home-background(){
+@mixin home-background() {
   content: "";
   position: absolute;
-  background-image: url('/assets/header-background.png');
+  background-image: url("/assets/header-background.png");
   background-position: center;
   background-size: cover;
   top: 100%;
@@ -36,7 +36,11 @@ $font-size-h4: 1.5rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+a, button, input, select, textarea {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 
 html {
@@ -57,4 +61,3 @@ body {
     cursor: pointer;
   }
 }
-

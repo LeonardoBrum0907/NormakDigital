@@ -35,7 +35,8 @@
           color: $white-color;
           font-weight: 500;
           transition: color 0.2s ease;
-          padding: 1rem 0;
+          height: 2.5rem;
+
 
           &:hover {
             color: $pink-color-500;
@@ -45,13 +46,18 @@
         &.has-submenu {
           position: relative;
 
-          .arrow-submenu {
+          .arrow-submenu span {
             @include flex-center();
+            align-items: center;
+            box-sizing: content-box;
+            padding-bottom: 4px;
             justify-content: center;
             font-weight: 900;
+            line-height: 15px;
+            font-size: 2rem;
           }
 
-          &:hover .arrow-submenu {
+          &:hover .arrow-submenu span{
             transform: rotate(90deg);
           }
 
@@ -59,8 +65,7 @@
             display: none;
             position: absolute;
             top: 100%;
-            // left: 0;
-            width: 244px;
+            width: 15.25rem;
             padding: 39px 24px;
 
             background-color: $white-color;
@@ -158,7 +163,7 @@
   }
 
   @media (max-width: 980px) {
-    padding: 0 2%;
+    padding: 0 4%;
 
     &__nav {
       flex-direction: row-reverse;
@@ -179,11 +184,13 @@
       right: 5%;
     }
 
-    &__nav ul {
+    &__nav .mobile-menu {
       display: none;
       position: absolute;
       padding: 30% 30px;
+      height: 100vh;
       flex-direction: column;
+      justify-content: space-between;
       top: 0%;
       left: 0;
       width: 70vw;
@@ -202,12 +209,13 @@
       li {
         a {
           color: $black-color;
+          font-size: 16px;
           font-weight: 900;
         }
       }
 
       &.navbar--open {
-        display: block;
+        display: flex;
         animation-name: menu;
         animation-duration: 0.4s;
         li .submenu {
@@ -224,6 +232,7 @@
       flex-direction: column;
       height: 46px;
       color: $white-color;
+      width: 70px;
       cursor: pointer;
       
       &::after {
@@ -231,11 +240,10 @@
       }
       
       &.active {
-        width: 70px;
         align-items: center;
         flex-direction: row;
-        position: absolute;
-        left: 3%;
+        // position: relative;
+        left: 4%;
 
         &::after {
           position: absolute;
