@@ -211,7 +211,6 @@
     }
     
     .hamburger-menu {
-      width: 100px;
       position: relative;
       display: flex;
       align-items: flex-start;
@@ -220,14 +219,17 @@
       height: 46px;
       color: $white-color;
       cursor: pointer;
-
+      
       &::after {
         content: "menu";
       }
-
+      
       &.active {
+        width: 70px;
         align-items: center;
         flex-direction: row;
+        position: absolute;
+        left: 3%;
 
         &::after {
           position: absolute;

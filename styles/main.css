@@ -197,7 +197,6 @@
     width: 100%;
   }
   .site-header .hamburger-menu {
-    width: 100px;
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -211,8 +210,11 @@
     content: "menu";
   }
   .site-header .hamburger-menu.active {
+    width: 70px;
     align-items: center;
     flex-direction: row;
+    position: absolute;
+    left: 3%;
   }
   .site-header .hamburger-menu.active::after {
     position: absolute;
