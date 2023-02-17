@@ -6,10 +6,6 @@
   background-color: $gray-color-900;
   position: relative;
 
-  &:after {
-    @include home-background();
-  }
-
   &__nav {
     @include flex-center();
     justify-content: space-between;
@@ -236,20 +232,19 @@
       cursor: pointer;
       
       &::after {
-        content: "menu";
+        content: "Menu";
       }
       
       &.active {
         align-items: center;
         flex-direction: row;
-        // position: relative;
         left: 4%;
 
         &::after {
           position: absolute;
           color: $black-color;
           right: 0;
-          content: "fechar";
+          content: "Fechar";
         }
 
         .hamburger-menu__line:nth-child(1) {
