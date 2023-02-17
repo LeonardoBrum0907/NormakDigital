@@ -9,12 +9,71 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/main.css">
 
 </head>
 
 <body>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="#" class="site-header__logo">
+        <img src="/assets/logo.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="#">Quem somos</a></li>
+        <li class="has-submenu">
+          <a href="#">Laudo de SEO <span class="arrow-submenu">›</span></a>
+          <ul class="submenu">
+            <li><a href="#">Sublink 1</a></li>
+            <li><a href="#">Sublink 2</a></li>
+            <li><a href="#">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">Serviços <span class="arrow-submenu">›</span></a>
+          <ul class="submenu">
+            <li><a href="#">Sublink 1</a></li>
+            <li><a href="#">Sublink 2</a></li>
+            <li><a href="#">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Clientes & Cases</a></li>
+        <li><a href="#">Parceiros</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+  <script>
+    const searchContainer = document.querySelector('.search-container');
+    const searchIcon = searchContainer.querySelector('.search-icon');
+    const searchInput = searchContainer.querySelector('input');
+
+    const menuBtn = document.querySelector('.hamburger-menu');
+    const navbar = document.querySelector('.mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      navbar.classList.toggle('navbar--open');
+    });
+
+    searchIcon.addEventListener('click', () => {
+      searchContainer.classList.toggle('focus');
+      searchInput.focus();
+    });
+  </script>
+
+
   <h1>Hello world!</h1>
 </body>
 
