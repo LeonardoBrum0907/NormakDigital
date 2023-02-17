@@ -217,8 +217,8 @@
     gap: 7px;
     flex-direction: column;
     height: 46px;
+    width: 80px;
     color: #ffffff;
-    width: 70px;
     cursor: pointer;
   }
   .site-header .hamburger-menu::after {
