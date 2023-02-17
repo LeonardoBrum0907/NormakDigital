@@ -11,6 +11,25 @@ $font-size-h2: 5.625rem;
 $font-size-h3: 2.5rem;
 $font-size-h4: 1.5rem;
 
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin home-background(){
+  content: "";
+  position: absolute;
+  background-image: url('/assets/header-background.png');
+  background-position: center;
+  background-size: cover;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
 @import "components/header";
 
 * {

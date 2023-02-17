@@ -4,6 +4,11 @@
   height: 167px;
   justify-content: space-between;
   background-color: $gray-color-900;
+  position: relative;
+
+  &:after {
+    @include home-background();
+  }
 
   &__nav {
     @include flex-center();
@@ -144,6 +149,11 @@
 
     &__nav ul {
       display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 90%;
+      border: 1px solid red;
 
       &.navbar--open {
         display: block;
