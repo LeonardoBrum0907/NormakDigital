@@ -1,11 +1,14 @@
 .site-header {
   @include flex-center();
-  padding: 0 10rem;
-  height: 167px;
+  padding: 1.5rem 10rem;
   justify-content: space-between;
   background-color: $gray-color-900;
   position: relative;
 
+  &__logo img {
+    width: 188px;
+  }
+  
   &__nav {
     @include flex-center();
     justify-content: space-between;
@@ -13,6 +16,7 @@
     width: calc(100% - 9rem);
     height: 100%;
     max-width: 1500px;
+
 
     ul {
       display: flex;
@@ -146,15 +150,11 @@
   }
 
   @media (max-width: 1500px) {
-    height: 127px;
-    padding: 0 5%;
+    // height: 127px;
+    padding: 1.5rem 5%;
 
     &__nav {
       gap: 5%;
-    }
-
-    &__logo img {
-      width: 188px;
     }
   }
 

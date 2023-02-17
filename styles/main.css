@@ -1,11 +1,13 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: 0 10rem;
-  height: 167px;
+  padding: 1.5rem 10rem;
   justify-content: space-between;
   background-color: #24262a;
   position: relative;
+}
+.site-header__logo img {
+  width: 188px;
 }
 .site-header__nav {
   display: flex;
@@ -132,14 +134,10 @@
 }
 @media (max-width: 1500px) {
   .site-header {
-    height: 127px;
-    padding: 0 5%;
+    padding: 1.5rem 5%;
   }
   .site-header__nav {
     gap: 5%;
-  }
-  .site-header__logo img {
-    width: 188px;
   }
 }
 @media (max-width: 980px) {
