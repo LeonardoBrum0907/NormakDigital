@@ -40,14 +40,20 @@
           &:hover {
             color: $pink-color-500;
           }
-
-          .arrow-submenu {
-            transform: rotate(90deg);
-          }
         }
 
         &.has-submenu {
           position: relative;
+
+          .arrow-submenu {
+            @include flex-center();
+            justify-content: center;
+            font-weight: 900;
+          }
+
+          &:hover .arrow-submenu {
+            transform: rotate(90deg);
+          }
 
           .submenu {
             display: none;

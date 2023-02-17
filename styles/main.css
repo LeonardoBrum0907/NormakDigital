@@ -51,11 +51,17 @@
 .site-header__nav ul li a:hover {
   color: #ea1d5d;
 }
-.site-header__nav ul li a .arrow-submenu {
-  transform: rotate(90deg);
-}
 .site-header__nav ul li.has-submenu {
   position: relative;
+}
+.site-header__nav ul li.has-submenu .arrow-submenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+.site-header__nav ul li.has-submenu:hover .arrow-submenu {
+  transform: rotate(90deg);
 }
 .site-header__nav ul li.has-submenu .submenu {
   display: none;
