@@ -172,6 +172,7 @@
     left: 0;
     width: 70vw;
     background-color: #ffffff;
+    z-index: 10;
     border-radius: 0 20px 20px 20px;
   }
   @keyframes menu {
