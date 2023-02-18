@@ -206,6 +206,7 @@
     width: 80px;
     color: #ffffff;
     cursor: pointer;
+    z-index: 11;
   }
   .site-header .hamburger-menu::after {
     content: "Menu";
