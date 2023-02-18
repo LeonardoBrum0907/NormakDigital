@@ -10,7 +10,6 @@
 .section-trafego {
   display: flex;
   padding: 7rem 5rem 0;
-
   position: relative;
   height: 850px;
 
@@ -81,9 +80,60 @@
   }
 }
 
+.o-que-vc-precisa {
+  position: relative;
+  @include flex-center();
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding: 0 5rem;
+
+  &__description {
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+
+    h2 {
+      font-size: $font-size-h2;
+      line-height: 100px;
+      color: $pink-color-500;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    .btn-ver-mais {
+      @include button();
+      @include flex-center();
+      justify-content: center;
+      background: $cyan-color-500;
+      color: $black-color;
+      font-size: 1.5rem;
+      width: 345px;
+      transition: 0.3s;
+      text-decoration: none;
+
+      &:hover {
+        background: darken($cyan-color-500, 5%);
+        color: $white-color;
+      }
+
+      span {
+        margin-left: 30%;
+      }
+    }
+  }
+
+  .cards {
+    width: 50%;
+  }
+}
+
 @media (max-width: 980px) {
   .img-background {
-    height: 100vh;
+    height: 80vh;
     background-position: 80%;
   }
   .section-trafego {
@@ -122,6 +172,36 @@
       height: 15.71rem;
       bottom: 0;
       z-index: -1;
+    }
+  }
+
+  .o-que-vc-precisa {
+    padding: 0 2rem 3rem;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__description {
+      width: 100%;
+
+      h2 {
+        font-size: 2.85rem;
+        line-height: 3.35rem;
+      }
+    }
+
+    .btn-ver-mais {
+      position: absolute;
+      bottom: 0;
+      right: 2rem;
+      width: 50%;
+
+      span {
+        margin-left: 5%;
+      }
+    }
+
+    .cards {
+      width: 100%;
     }
   }
 }

@@ -26,6 +26,7 @@ $font-size-h4: 1.5rem;
 @mixin button() {
   height: 4.125rem;
   border-radius: 16px;
+  transition: 0.3s;
 }
 
 @import "components/header";
