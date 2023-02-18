@@ -247,6 +247,76 @@
   }
 }
 
+.section-trafego {
+  display: flex;
+  padding: 7rem 5rem 0;
+  position: relative;
+  background-image: url("/assets/home/background-trafego.svg");
+  background-size: cover;
+  height: 130vh;
+}
+.section-trafego__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 60%;
+}
+.section-trafego__description h1 {
+  font-size: 6.5rem;
+  color: #ea1d5d;
+  line-height: 104px;
+  font-weight: 800;
+}
+.section-trafego__description h3 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+.section-trafego__description p {
+  width: 70%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.section-trafego__description .btn-vamos-comecar {
+  height: 4.125rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  font-size: 1.5rem;
+  width: 345px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.section-trafego__description .btn-vamos-comecar span {
+  margin-left: 2rem;
+}
+.section-trafego__description .btn-vamos-comecar:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-trafego .avatar {
+  position: absolute;
+  bottom: 10%;
+  right: 2rem;
+  height: 600px;
+}
+.section-trafego .gear {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-trafego .mini-gear {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
