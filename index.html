@@ -5,12 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
   <title>Normak Digital</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="styles/main.css">
 
@@ -82,26 +85,161 @@
 
   <main>
     <div class="img-background"></div>
-    <section class="section-trafego">
+    <article class="section-trafego">
       <section class="section-trafego__description">
-        <h1>AUMENTE <br> SEU TRÁFEGO</h1>
-        <h3>Marketing digital é complicado.</h3>
-        <p>Nossos produtos e serviços permitem que marcas criem estratégias de conteúdo de alta qualidade, que promovem reconhecimento e geram receita, sem complicação.</p>
+        <h1>aumente <br> seu tráfego</h1>
+        <h2>Marketing digital é complicado.</h2>
+        <p>Nossos produtos e serviços permitem que marcas criem estratégias de conteúdo de alta qualidade, que promovem
+          reconhecimento e geram receita, sem complicação.</p>
         <a href="#" class="btn-vamos-comecar">Vamos Começar <span>&rarr;</span></a href="#">
       </section>
-      <img class="avatar" src="/assets/home/avatar.svg" alt="animação de um homem com um megafone na mão deitado em uma seta amarela">
+      <img class="avatar" src="/assets/home/avatar.svg"
+        alt="animação de um homem com um megafone na mão deitado em uma seta amarela">
       <img class="gear" src="/assets/home/gear.svg" alt="engrenagem rosa">
       <img class="mini-gear" src="/assets/home/mini-gear.svg" alt="engrenagem pequena rosa">
-    </section>
+    </article>
 
-    <section class="o-que-vc-precisa">
+    <article class="o-que-vc-precisa">
       <section class="o-que-vc-precisa__description">
-        <h2>O QUE VOCÊ <br> PRECISA &gt; </h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga beatae porro, debitis hic nemo soluta doloribus pariatur corrupti consectetur adipisci quibusdam dolores deserunt nihil quas, labore distinctio, et rerum perferendis excepturi quaerat? </p>
+        <h2>O que você <br> precisa &gt; </h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga beatae porro, debitis hic nemo soluta
+          doloribus pariatur corrupti consectetur adipisci quibusdam dolores deserunt nihil quas, labore distinctio, et
+          rerum perferendis excepturi quaerat? </p>
         <a href="#" class="btn-ver-mais">Ver mais<span>&rarr;</span></a href="#">
       </section>
       <img class="cards" src="/assets/home/cards-voce-precisa.png" alt="">
-    </section>
+    </article>
+
+    <article class="section-abordagem">
+      <div class="section-abordagem__background"></div>
+      <img src="/assets/home/menor-que-abordagem.svg" alt="operador menor que">
+      <section class="section-abordagem__description">
+        <h2>nossa abordagem</h2>
+      </section>
+      <section class="section-abordagem__slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <section class="swiper-slide">
+              <section class="icone">
+                <img src="/assets/icons/graphic.svg" alt="icone">
+              </section>
+              <span>Pesquisa <br> de palavra chave</span>
+              <p class="texto1">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+                prosseguir com
+                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              </p>
+              <button class="btn-ler-mais first"></button>
+              <script>
+                const btnLerMais1 = document.querySelector('.first');
+                const texto1 = document.querySelector('.texto1');
+
+                btnLerMais1.addEventListener('click', function () {
+                  // texto.style.maxHeight = 'none';
+                  btnLerMais1.classList.toggle('focus');
+                  texto1.classList.toggle('active')
+                });
+              </script>
+
+            </section>
+            <section class="swiper-slide">
+              <section class="icone">
+                <img src="/assets/icons/graphic.svg" alt="icone">
+              </section>
+              <span>Pesquisa <br> de palavra chave</span>
+              <p class="texto2">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+                prosseguir com
+                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              </p>
+              <button class="btn-ler-mais second"></button>
+
+              <script>
+                const btnLerMais2 = document.querySelector('.second');
+                const texto2 = document.querySelector('.texto2');
+
+                btnLerMais2.addEventListener('click', function () {
+                  // texto.style.maxHeight = 'none';
+                  btnLerMais2.classList.toggle('focus');
+                  texto2.classList.toggle('active')
+                });
+              </script>
+            </section>
+            <section class="swiper-slide">
+              <section class="icone">
+                <img src="/assets/icons/graphic.svg" alt="icone">
+              </section>
+              <span>Pesquisa <br> de palavra chave</span>
+              <p class="texto3">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+                prosseguir com
+                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              </p>
+              <button class="btn-ler-mais third"></button>
+
+              <script>
+                const btnLerMais3 = document.querySelector('.third');
+                const texto3 = document.querySelector('.texto3');
+
+                btnLerMais3.addEventListener('click', function () {
+                  // texto.style.maxHeight = 'none';
+                  btnLerMais3.classList.toggle('focus');
+                  texto3.classList.toggle('active')
+                });
+              </script>
+            </section>
+            <section class="swiper-slide">
+              <section class="icone">
+                <img src="/assets/icons/graphic.svg" alt="icone">
+              </section>
+              <span>Pesquisa <br> de palavra chave</span>
+              <p class="texto4">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+                prosseguir com
+                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              </p>
+              <button class="btn-ler-mais fourth"></button>
+
+              <script>
+                const btnLerMais4 = document.querySelector('.fourth ');
+                const texto4 = document.querySelector('.texto4');
+
+                btnLerMais4.addEventListener('click', function () {
+                  // texto.style.maxHeight = 'none';
+                  btnLerMais4.classList.toggle('focus');
+                  texto4.classList.toggle('active')
+                });
+              </script>
+            </section>
+          </div>
+          <button class="swiper-button-next"></button>
+          <button class="swiper-button-prev"></button>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 1,
+            breakpoints: {
+              640: {
+                slidesPerView: 1,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }
+          });
+        </script>
+      </section>
+    </article>
   </main>
 </body>
 
