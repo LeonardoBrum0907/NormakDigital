@@ -142,7 +142,7 @@
 }
 @media (max-width: 980px) {
   .site-header {
-    padding: 0 4%;
+    padding: 1.5rem 4%;
   }
   .site-header__nav {
     flex-direction: row-reverse;
