@@ -16,11 +16,23 @@ $font-size-h4: 1.5rem;
   align-items: center;
 }
 
+@mixin text-ocult() {
+  max-height: 4em; /* altura máxima do texto */
+  text-overflow: ellipsis; /* exibir reticências no final do texto cortado */
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  &.active {
+    max-height: none;
+  }
+}
+
 @mixin title() {
   font-size: $font-size-h1;
   color: $pink-color-500;
   line-height: 104px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 @mixin button() {
