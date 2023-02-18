@@ -344,21 +344,21 @@
   }
   .section-trafego__description h1 {
     font-size: 3.125rem;
-    line-height: 52px;
+    line-height: 3.71rem;
   }
   .section-trafego__description h3 {
-    font-size: 20px;
+    font-size: 1.42rem;
   }
   .section-trafego__description p {
-    font-size: 16px;
+    font-size: 1.14rem;
   }
   .section-trafego__description .btn-vamos-comecar {
-    width: 240px;
-    height: 44px;
-    font-size: 20px;
+    width: 17.14rem;
+    height: 3.38rem;
+    font-size: 1.42rem;
   }
   .section-trafego .avatar {
-    height: 220px;
+    height: 15.71rem;
     bottom: 0;
     z-index: -1;
   }
