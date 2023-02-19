@@ -8,7 +8,8 @@
   position: relative;
 }
 .site-header__logo img {
-  width: 188px;
+  width: 200px;
+  height: 100%;
 }
 .site-header__nav {
   display: flex;
@@ -337,6 +338,7 @@
 }
 .o-que-vc-precisa__description {
   padding-right: 2rem;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -372,6 +374,7 @@
   color: #ffffff;
 }
 .o-que-vc-precisa .cards {
+  height: 100%;
   width: 50%;
 }
 
@@ -493,6 +496,7 @@
   margin-right: 2rem;
 }
 .section-blog figure img {
+  height: 100%;
   width: 100%;
 }
 .section-blog .mySwiper2 {

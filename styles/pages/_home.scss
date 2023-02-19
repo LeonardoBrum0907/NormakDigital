@@ -84,6 +84,7 @@
 
   &__description {
     padding-right: 2rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -115,6 +116,7 @@
   }
 
   .cards {
+    height: 100%;
     width: 50%;
   }
 }
@@ -242,6 +244,7 @@
       }
     }
     img {
+      height: 100%;
       width: 100%;
     }
   }
