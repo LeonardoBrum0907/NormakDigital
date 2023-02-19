@@ -122,7 +122,7 @@
           <div class="swiper-wrapper">
             <section class="swiper-slide">
               <section class="icone">
-                <img src="/assets/icons/graphic.svg" alt="icone">
+                <img src="/assets/icons/key-icon.svg" alt="icone">
               </section>
               <span>Pesquisa <br> de palavra chave</span>
               <p class="texto1">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
@@ -136,7 +136,6 @@
                 const texto1 = document.querySelector('.texto1');
 
                 btnLerMais1.addEventListener('click', function () {
-                  // texto.style.maxHeight = 'none';
                   btnLerMais1.classList.toggle('focus');
                   texto1.classList.toggle('active')
                 });
@@ -147,11 +146,8 @@
               <section class="icone">
                 <img src="/assets/icons/graphic.svg" alt="icone">
               </section>
-              <span>Pesquisa <br> de palavra chave</span>
-              <p class="texto2">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
-                prosseguir com
-                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
-                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              <span>SEO na página</span>
+              <p class="texto2">O SEO On-Page é a base de qualquer site de sucesso. Ao implementar melhorias na estrutura do seu site, navegação, links internos, conteúdo, uso de palavras-chave e metatags, garantimos que seu site seja fácil de pesquisar e fácil de usar.
               </p>
               <button class="btn-ler-mais second"></button>
 
@@ -160,7 +156,6 @@
                 const texto2 = document.querySelector('.texto2');
 
                 btnLerMais2.addEventListener('click', function () {
-                  // texto.style.maxHeight = 'none';
                   btnLerMais2.classList.toggle('focus');
                   texto2.classList.toggle('active')
                 });
@@ -168,13 +163,10 @@
             </section>
             <section class="swiper-slide">
               <section class="icone">
-                <img src="/assets/icons/graphic.svg" alt="icone">
+                <img src="/assets/icons/gear-icon.svg" alt="icone">
               </section>
-              <span>Pesquisa <br> de palavra chave</span>
-              <p class="texto3">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
-                prosseguir com
-                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
-                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+              <span>SEO técnico</span>
+              <p class="texto3">É vital garantir que não haja nada que impeça o Google de rastrear e indexar seu site. Verificamos, corrigimos e otimizamos o desempenho do seu site, velocidade, robots.txt, meta robôs, erros de página, redirecionamentos e sitemaps.
               </p>
               <button class="btn-ler-mais third"></button>
 
@@ -183,7 +175,6 @@
                 const texto3 = document.querySelector('.texto3');
 
                 btnLerMais3.addEventListener('click', function () {
-                  // texto.style.maxHeight = 'none';
                   btnLerMais3.classList.toggle('focus');
                   texto3.classList.toggle('active')
                 });
@@ -206,7 +197,6 @@
                 const texto4 = document.querySelector('.texto4');
 
                 btnLerMais4.addEventListener('click', function () {
-                  // texto.style.maxHeight = 'none';
                   btnLerMais4.classList.toggle('focus');
                   texto4.classList.toggle('active')
                 });
@@ -227,13 +217,18 @@
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             },
-            slidesPerView: 1,
             breakpoints: {
-              640: {
+              320: {
                 slidesPerView: 1,
+                spaceBetween: 10,
               },
               1024: {
                 slidesPerView: 3,
+                spaceBetween: 30,
+              },
+              1700: {
+                slidesPerView: 4,
+                spaceBetween: 100,
               },
             }
           });
