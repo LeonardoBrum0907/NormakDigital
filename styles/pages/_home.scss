@@ -139,7 +139,7 @@
   padding: 0 0 0 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
   height: 600px;
 
   &__background {
@@ -162,75 +162,67 @@
 
   &__description {
     padding-top: 1.25rem;
-    flex: 1;
-
-    h2 {
-      font-size: $font-size-h2;
-      text-transform: uppercase;
-      color: $white-color;
-    }
+    font-size: $font-size-h2;
+    text-transform: uppercase;
+    color: $white-color;
   }
 
-  &__slider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  .swiper {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 0.5rem 0;
     width: 100%;
-    height: 80%;
 
-    .swiper {
-      padding: 2rem 1rem 0.5rem 5rem;
-      width: 100%;
+    .swiper-slide {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      text-align: center;
+      height: max-content;
+      min-height: 18.75rem;
+      max-width: 31.25rem;
+      min-width: 12.5rem;
+      background: $white-color;
+      border-radius: 65px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 85px 40px 10px;
+      cursor: grab;
 
-      .swiper-slide {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        align-items: center;
-        text-align: center;
-        height: max-content;
-        min-height: 18.75rem;
-        max-width: 31.25rem;
-        min-width: 12.5rem;
-        background: $white-color;
-        border-radius: 65px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 80px 20px 10px;
-        cursor: grab;
+      .icone {
+        @include flex-center();
+        justify-content: center;
+        position: absolute;
+        top: -20px;
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 50px;
+        background-color: $cyan-color-500;
 
-        .icone {
-          @include flex-center();
-          justify-content: center;
-          position: absolute;
-          top: -20px;
-          width: 6.25rem;
-          height: 6.25rem;
-          border-radius: 50px;
-          background-color: $cyan-color-500;
-
-          img {
-            height: 3.125rem;
-            width: 3.125rem;
-          }
-        }
-
-        span {
-          font-size: 1.5rem;
-          font-weight: 900;
-          line-height: 20px;
-          height: 50px;
-        }
-
-        p {
-          font-size: 1rem;
-        }
-
-        .btn-ler-mais {
-          display: none;
+        img {
+          height: 3.125rem;
+          width: 3.125rem;
         }
       }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 25px;
+        height: 40px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn-ler-mais {
+        display: none;
+      }
     }
+    // }
   }
 
   .swiper-button-next,
@@ -332,31 +324,34 @@
     }
 
     &__description {
-      h2 {
-        font-size: 2.85rem;
-      }
+      font-size: 2.85rem;
     }
 
-    &__slider {
-      .swiper {
-        padding: 2rem 5rem;
+    .swiper {
+      padding: 2rem 4rem 0 0;
 
-        .swiper-slide {
-          .icone {
-            width: 5.71rem;
-            height: 5.71rem;
+      .swiper-slide {
+        padding: 70px 10px 10px;
 
-            img {
-              height: 2.5rem;
-              width: 2.5rem;
-            }
+        .icone {
+          width: 5.71rem;
+          height: 5.71rem;
+
+          img {
+            height: 2.5rem;
+            width: 2.5rem;
           }
-        }
 
-        .swiper-button-next,
-        .swiper-button-prev {
-          display: none;
         }
+        h2 {
+          font-size: 1rem;
+          line-height: 15px;
+        }
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
       }
     }
 

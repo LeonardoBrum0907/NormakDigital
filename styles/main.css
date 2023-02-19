@@ -384,7 +384,6 @@
   padding: 0 0 0 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 600px;
 }
 .section-abordagem__background {
@@ -404,25 +403,17 @@
 }
 .section-abordagem__description {
   padding-top: 1.25rem;
-  flex: 1;
-}
-.section-abordagem__description h2 {
   font-size: 5.625rem;
   text-transform: uppercase;
   color: #ffffff;
 }
-.section-abordagem__slider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80%;
-}
-.section-abordagem__slider .swiper {
-  padding: 2rem 1rem 0.5rem 5rem;
+.section-abordagem .swiper {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem 0.5rem 0;
   width: 100%;
 }
-.section-abordagem__slider .swiper .swiper-slide {
+.section-abordagem .swiper .swiper-slide {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -437,10 +428,10 @@
   background: #ffffff;
   border-radius: 65px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 80px 20px 10px;
+  padding: 85px 40px 10px;
   cursor: grab;
 }
-.section-abordagem__slider .swiper .swiper-slide .icone {
+.section-abordagem .swiper .swiper-slide .icone {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -451,20 +442,21 @@
   border-radius: 50px;
   background-color: #02eb9e;
 }
-.section-abordagem__slider .swiper .swiper-slide .icone img {
+.section-abordagem .swiper .swiper-slide .icone img {
   height: 3.125rem;
   width: 3.125rem;
 }
-.section-abordagem__slider .swiper .swiper-slide span {
+.section-abordagem .swiper .swiper-slide h2 {
   font-size: 1.5rem;
   font-weight: 900;
-  line-height: 20px;
-  height: 50px;
+  line-height: 25px;
+  height: 40px;
+  text-transform: uppercase;
 }
-.section-abordagem__slider .swiper .swiper-slide p {
+.section-abordagem .swiper .swiper-slide p {
   font-size: 1rem;
 }
-.section-abordagem__slider .swiper .swiper-slide .btn-ler-mais {
+.section-abordagem .swiper .swiper-slide .btn-ler-mais {
   display: none;
 }
 .section-abordagem .swiper-button-next,
@@ -545,7 +537,7 @@
   .section-abordagem .texto2,
   .section-abordagem .texto3,
   .section-abordagem .texto4 {
-    max-height: 7em; /* altura máxima do texto */
+    max-height: 4em; /* altura máxima do texto */
     text-overflow: ellipsis; /* exibir reticências no final do texto cortado */
     overflow: hidden;
     margin-bottom: 20px;
@@ -556,22 +548,29 @@
   .section-abordagem .texto4.active {
     max-height: none;
   }
-  .section-abordagem__description h2 {
+  .section-abordagem__description {
     font-size: 2.85rem;
   }
-  .section-abordagem__slider .swiper {
-    padding: 2rem 5rem;
+  .section-abordagem .swiper {
+    padding: 2rem 4rem 0 0;
   }
-  .section-abordagem__slider .swiper .swiper-slide .icone {
+  .section-abordagem .swiper .swiper-slide {
+    padding: 70px 10px 10px;
+  }
+  .section-abordagem .swiper .swiper-slide .icone {
     width: 5.71rem;
     height: 5.71rem;
   }
-  .section-abordagem__slider .swiper .swiper-slide .icone img {
+  .section-abordagem .swiper .swiper-slide .icone img {
     height: 2.5rem;
     width: 2.5rem;
   }
-  .section-abordagem__slider .swiper .swiper-button-next,
-  .section-abordagem__slider .swiper .swiper-button-prev {
+  .section-abordagem .swiper .swiper-slide h2 {
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .section-abordagem .swiper .swiper-button-next,
+  .section-abordagem .swiper .swiper-button-prev {
     display: none;
   }
   .section-abordagem .btn-ler-mais {

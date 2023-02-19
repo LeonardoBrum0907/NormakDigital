@@ -55,7 +55,6 @@
         <span class="hamburger-menu__line"></span>
         <span class="hamburger-menu__line"></span>
         <span class="hamburger-menu__line"></span>
-        <!-- <span class="hamburguer-menu__text">Menu</span> -->
       </div>
     </nav>
     <div class="search-container">
@@ -113,129 +112,128 @@
     <article class="section-abordagem">
       <div class="section-abordagem__background"></div>
       <img src="/assets/home/menor-que-abordagem.svg" alt="operador menor que">
-      <section class="section-abordagem__description">
-        <h2>nossa abordagem</h2>
-      </section>
-      <section class="section-abordagem__slider">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <section class="swiper-slide">
-              <section class="icone">
-                <img src="/assets/icons/key-icon.svg" alt="icone">
-              </section>
-              <span>Pesquisa <br> de palavra chave</span>
-              <p class="texto1">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
-                prosseguir com
-                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
-                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
-              </p>
-              <button class="btn-ler-mais first" aria-label="ler mais"></button>
-              <script>
-                const btnLerMais1 = document.querySelector('.first');
-                const texto1 = document.querySelector('.texto1');
-
-                btnLerMais1.addEventListener('click', function () {
-                  btnLerMais1.classList.toggle('focus');
-                  texto1.classList.toggle('active')
-                });
-              </script>
-
+      <h2 class="section-abordagem__description">nossa abordagem</h2>
+      <!-- Swiper -->
+      <section class="swiper mySwiper">
+        <section class="swiper-wrapper">
+          <section class="swiper-slide">
+            <section class="icone">
+              <img src="/assets/icons/key-icon.svg" alt="icone">
             </section>
-            <section class="swiper-slide">
-              <section class="icone">
-                <img src="/assets/icons/graphic.svg" alt="icone">
-              </section>
-              <span>SEO na página</span>
-              <p class="texto2">O SEO On-Page é a base de qualquer site de sucesso. Ao implementar melhorias na estrutura do seu site, navegação, links internos, conteúdo, uso de palavras-chave e metatags, garantimos que seu site seja fácil de pesquisar e fácil de usar.
-              </p>
-              <button class="btn-ler-mais second" aria-label="ler mais"></button>
+            <h2>Pesquisa <br> de palavra chave</h2>
+            <p class="texto1">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+              prosseguir com
+              qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+              palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+            </p>
+            <button class="btn-ler-mais first" aria-label="ler mais"></button>
+            <script>
+              const btnLerMais1 = document.querySelector('.first');
+              const texto1 = document.querySelector('.texto1');
 
-              <script>
-                const btnLerMais2 = document.querySelector('.second');
-                const texto2 = document.querySelector('.texto2');
+              btnLerMais1.addEventListener('click', function () {
+                btnLerMais1.classList.toggle('focus');
+                texto1.classList.toggle('active')
+              });
+            </script>
 
-                btnLerMais2.addEventListener('click', function () {
-                  btnLerMais2.classList.toggle('focus');
-                  texto2.classList.toggle('active')
-                });
-              </script>
+          </section>
+          <section class="swiper-slide">
+            <section class="icone">
+              <img src="/assets/icons/graphic.svg" alt="icone">
             </section>
-            <section class="swiper-slide">
-              <section class="icone">
-                <img src="/assets/icons/gear-icon.svg" alt="icone">
-              </section>
-              <span>SEO técnico</span>
-              <p class="texto3">É vital garantir que não haja nada que impeça o Google de rastrear e indexar seu site. Verificamos, corrigimos e otimizamos o desempenho do seu site, velocidade, robots.txt, meta robôs, erros de página, redirecionamentos e sitemaps.
-              </p>
-              <button class="btn-ler-mais third" aria-label="ler mais"></button>
+            <h2>SEO na página</h2>
+            <p class="texto2">O SEO On-Page é a base de qualquer site de sucesso. Ao implementar melhorias na
+              estrutura do seu site, navegação, links internos, conteúdo, uso de palavras-chave e metatags, garantimos
+              que seu site seja fácil de pesquisar e fácil de usar.
+            </p>
+            <button class="btn-ler-mais second" aria-label="ler mais"></button>
 
-              <script>
-                const btnLerMais3 = document.querySelector('.third');
-                const texto3 = document.querySelector('.texto3');
+            <script>
+              const btnLerMais2 = document.querySelector('.second');
+              const texto2 = document.querySelector('.texto2');
 
-                btnLerMais3.addEventListener('click', function () {
-                  btnLerMais3.classList.toggle('focus');
-                  texto3.classList.toggle('active')
-                });
-              </script>
+              btnLerMais2.addEventListener('click', function () {
+                btnLerMais2.classList.toggle('focus');
+                texto2.classList.toggle('active')
+              });
+            </script>
+          </section>
+          <section class="swiper-slide">
+            <section class="icone">
+              <img src="/assets/icons/gear-icon.svg" alt="icone">
             </section>
-            <section class="swiper-slide">
-              <section class="icone">
-                <img src="/assets/icons/graphic.svg" alt="icone">
-              </section>
-              <span>Pesquisa <br> de palavra chave</span>
-              <p class="texto4">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
-                prosseguir com
-                qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
-                palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
-              </p>
-              <button class="btn-ler-mais fourth" aria-label="ler mais"></button>
+            <h2>SEO técnico</h2>
+            <p class="texto3">É vital garantir que não haja nada que impeça o Google de rastrear e indexar seu site.
+              Verificamos, corrigimos e otimizamos o desempenho do seu site, velocidade, robots.txt, meta robôs, erros
+              de página, redirecionamentos e sitemaps.
+            </p>
+            <button class="btn-ler-mais third" aria-label="ler mais"></button>
 
-              <script>
-                const btnLerMais4 = document.querySelector('.fourth ');
-                const texto4 = document.querySelector('.texto4');
+            <script>
+              const btnLerMais3 = document.querySelector('.third');
+              const texto3 = document.querySelector('.texto3');
 
-                btnLerMais4.addEventListener('click', function () {
-                  btnLerMais4.classList.toggle('focus');
-                  texto4.classList.toggle('active')
-                });
-              </script>
+              btnLerMais3.addEventListener('click', function () {
+                btnLerMais3.classList.toggle('focus');
+                texto3.classList.toggle('active')
+              });
+            </script>
+          </section>
+          <section class="swiper-slide">
+            <section class="icone">
+              <img src="/assets/icons/graphic.svg" alt="icone">
             </section>
-          </div>
-          <button class="swiper-button-next"></button>
-          <button class="swiper-button-prev"></button>
-        </div>
+            <h2>Pesquisa <br> de palavra chave</h2>
+            <p class="texto4">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+              prosseguir com
+              qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+              palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+            </p>
+            <button class="btn-ler-mais fourth" aria-label="ler mais"></button>
 
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>
+              const btnLerMais4 = document.querySelector('.fourth ');
+              const texto4 = document.querySelector('.texto4');
 
-        <!-- Initialize Swiper -->
-        <script>
-          var swiper = new Swiper(".mySwiper", {
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-              },
-              1700: {
-                slidesPerView: 4,
-                spaceBetween: 100,
-              },
-            }
-          });
-        </script>
+              btnLerMais4.addEventListener('click', function () {
+                btnLerMais4.classList.toggle('focus');
+                texto4.classList.toggle('active')
+              });
+            </script>
+          </section>
+        </section>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
       </section>
     </article>
   </main>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1700: {
+          slidesPerView: 4,
+          spaceBetween: 100,
+        },
+      }
+    });
+  </script>
 </body>
 
 </html>
