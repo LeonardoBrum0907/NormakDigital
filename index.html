@@ -11,7 +11,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
@@ -80,7 +80,6 @@
       searchInput.focus();
     });
   </script>
-
 
   <main>
     <div class="img-background"></div>
@@ -203,9 +202,56 @@
             </script>
           </section>
         </section>
-        <button class="swiper-button-next"></button>
-        <button class="swiper-button-prev"></button>
+        <button class="swiper-button-next" aria-label="scrollar slider de cards para direita"></button>
+        <button class="swiper-button-prev" aria-label="scrollar slider de cards para esquerda"></button>
       </section>
+    </article>
+
+    <article class="section-blog">
+      <figure>
+        <figcaption><span>|</span> Blog</figcaption>
+        <img src="/assets/home/mulher-notebook-blog.png" alt="Descrição da imagem">
+      </figure>
+
+      <!-- Swiper2 -->
+      <section class="swiper mySwiper2">
+        <section class="swiper-wrapper">
+          <section class="swiper-slide">
+            <h2>Leads qualificados: 5 RPAs para tornar as conversões mais eficientes</h2>
+            <p>Se você trabalha com vendas, principalmente B2B, sabe que um contato pode ser ouro ou uma completa perda
+              de tempo.
+              <br> <br>
+              Toda informação do consumidor em potencial é registrada como um lead, e esses dados são valiosos
+              para que você consiga convertê-los em clientes, assim aumentando as vendas.
+            </p>
+            <a href="#">Ler mais <span>&rarr;</span></a>
+          </section>
+          <section class="swiper-slide">
+            <h2>Leads qualificados: 5 RPAs para tornar as conversões mais eficientes</h2>
+            <p>Se você trabalha com vendas, principalmente B2B, sabe que um contato pode ser ouro ou uma completa perda
+              de tempo.
+              <br> <br>
+              Toda informação do consumidor em potencial é registrada como um lead, e esses dados são valiosos
+              para que você consiga convertê-los em clientes, assim aumentando as vendas.
+            </p>
+            <a href="#">Ler mais <span>&rarr;</span></a>
+          </section>
+          <section class="swiper-slide">
+            <h2>Leads qualificados: 5 RPAs para tornar as conversões mais eficientes</h2>
+            <p>Se você trabalha com vendas, principalmente B2B, sabe que um contato pode ser ouro ou uma completa perda
+              de tempo.
+              <br> <br>
+              Toda informação do consumidor em potencial é registrada como um lead, e esses dados são valiosos
+              para que você consiga convertê-los em clientes, assim aumentando as vendas.
+            </p>
+            <a href="#">Ler mais <span>&rarr;</span></a>
+          </section>
+        </section>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </section>
+
     </article>
   </main>
 
@@ -232,6 +278,19 @@
           spaceBetween: 100,
         },
       }
+    });
+  </script>
+  <!-- Initialize Swiper2 -->
+  <script>
+    var swiper = new Swiper(".mySwiper2", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
   </script>
 </body>

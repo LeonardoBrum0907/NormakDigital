@@ -6,8 +6,8 @@ $gray-color-900: #24262a;
 $gray-color-100: #e5e5e5;
 $gray-color-500: #919191;
 
-$font-size-h1: 6.5rem;
-$font-size-h2: 5.625rem;
+$font-size-h1: 5.5rem;
+$font-size-h2: 4.5rem;
 $font-size-h3: 2.5rem;
 $font-size-h4: 1.5rem;
 
@@ -28,17 +28,19 @@ $font-size-h4: 1.5rem;
 }
 
 @mixin title() {
-  font-size: $font-size-h1;
   color: $pink-color-500;
-  line-height: 104px;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
+  line-height: 100px;
 }
 
 @mixin button() {
+  @include flex-center();
   height: 4.125rem;
   border-radius: 16px;
   transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
 
 @import "components/header";
@@ -50,7 +52,11 @@ $font-size-h4: 1.5rem;
   box-sizing: border-box;
 }
 
-a, button, input, select, textarea {
+a,
+button,
+input,
+select,
+textarea {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
