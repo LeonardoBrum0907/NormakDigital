@@ -928,6 +928,7 @@
     display: flex;
     position: inherit;
     margin-top: 3rem;
+    border-radius: 10px;
   }
   .section-comece-seo .modal .modal-content {
     width: 100%;
