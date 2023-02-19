@@ -33,7 +33,7 @@
     p {
       width: 70%;
       color: $white-color;
-      font-size: 1.5rem;
+      font-size: $font-size-p;
       font-weight: 400;
     }
 
@@ -42,8 +42,7 @@
       background: transparent;
       border: 1px solid $cyan-color-500;
       color: $cyan-color-500;
-      font-size: 1.5rem;
-      width: 21.56rem;
+      width: 20rem;
       transition: 0.3s;
       text-decoration: none;
 
@@ -96,14 +95,13 @@
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: $font-size-p;
     }
 
     .btn-ver-mais {
       @include button();
       background: $cyan-color-500;
       color: $black-color;
-      font-size: 1.5rem;
       width: 21.56rem;
       transition: 0.3s;
       text-decoration: none;
@@ -290,7 +288,7 @@
       }
 
       p {
-        font-size: 24px;
+        font-size: $font-size-p;
       }
 
       a {
@@ -298,7 +296,6 @@
         color: $black-color;
         background-color: $cyan-color-500;
         width: 300px;
-        font-size: 24px;
         text-decoration: none;
 
         &:hover {
@@ -365,7 +362,6 @@
     width: 40%;
     color: $black-color;
     border: none;
-    font-size: 24px;
   }
 
   .modal {
@@ -490,6 +486,7 @@
       @include flex-center();
       justify-content: center;
       color: $white-color;
+      text-transform: uppercase;
     }
     .linha {
       position: absolute;
