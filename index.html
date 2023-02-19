@@ -253,6 +253,66 @@
       </section>
 
     </article>
+
+    <article class="section-comece-seo">
+      <section class="section-comece-seo__title">
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+        <h2>Comece seu seo hoje</h2>
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+      </section>
+      <section class="section-comece-seo__content">
+        <section>
+          <img src="/assets/home/passo1-comece-seo.svg" alt="icone de play">
+          <p>Inicie seu projeto conosco. Dê-nos uma breve descrição do seu negócio, o que você faz e seu orçamento.
+            Entraremos em contato em até 24 horas.</p>
+        </section>
+        <section>
+          <img src="/assets/home/passo2-comece-seo.svg" alt="icone de com dois quadrados sobrepostos">
+          <p>Vamos auditar seu site e elaborar um plano de ação detalhado, abrangente e passo a passo para obter os
+            melhores resultados de SEO para sua campanha.</p>
+        </section>
+        <section>
+          <img src="/assets/home/passo3-comece-seo.svg" alt="icone de seta para cima">
+          <p>Assim que concordarmos com os detalhes, começaremos a trabalhar para melhorar a presença orgânica, o
+            tráfego e as posições de classificação para você.</p>
+        </section>
+      </section>
+      <section class="linha-passos">
+        <div class="passo">passo 1</div>
+        <div class="passo">passo 2</div>
+        <div class="passo">passo 3</div>
+        <div class="linha"></div>
+      </section>
+      <button class="btn-comecar-agora" id="abrir-modal">Começar agora <span>&rarr;</span></button>
+      <form class="modal" id="modal-form" method="post" action="/submit-form">
+        <fieldset class="modal-content">
+          <legend><span>Primeiro passo:</span>  Preencha o formulario</legend>
+
+          <section>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail:" required>
+          </section>
+
+          <section>
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+            <label for="tel">Site ou mídias sociais</label>
+            <input type="tel" id="tel" name="tel" placeholder="Site ou mídias sociais:" required>
+          </section>
+
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+          <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar"> Enviar</button>
+
+          <button class="fechar-modal" id="fechar-modal-form">&times;</button>
+        </fieldset>
+      </form>
+    </article>
   </main>
 
   <!-- Swiper JS -->
@@ -291,6 +351,20 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+    });
+  </script>
+
+  <script>
+    const abrirModal = document.getElementById('abrir-modal');
+    const modal = document.getElementById('modal-form');
+    const fecharModal = document.getElementById('fechar-modal-form');
+
+    abrirModal.addEventListener('click', () => {
+      modal.style.display = 'flex';
+    });
+
+    fecharModal.addEventListener('click', () => {
+      modal.style.display = 'none';
     });
   </script>
 </body>
