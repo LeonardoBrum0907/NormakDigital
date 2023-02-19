@@ -120,14 +120,13 @@
 }
 
 .section-abordagem {
-  margin-top: 6rem; //retirar
+  margin-top: 6rem;
 
   position: relative;
   padding: 0 0 0 5rem;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
-  height: 600px;
+  height: 550px;
 
   &__background {
     position: absolute;
@@ -141,7 +140,7 @@
 
   & > img {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
 
     height: 150px;
@@ -209,7 +208,6 @@
         display: none;
       }
     }
-    // }
   }
 
   .swiper-button-next,
@@ -386,7 +384,7 @@
 
   .section-abordagem {
     & > img {
-      height: 90px;
+      height: 130px;
     }
 
     .texto1,
@@ -398,9 +396,13 @@
 
     &__description {
       font-size: 2.85rem;
+      line-height: 3rem;
     }
 
     .swiper {
+      position: absolute;
+      left: 0;
+      bottom: 5rem;
       padding: 2rem 4rem 0.5rem 0;
 
       .swiper-slide {
