@@ -84,11 +84,17 @@ html {
 }
 
 body {
-  background: $white-color;
+  background: $gray-color-100;
   -webkit-font-smoothing: antialiased; //deixa as fontes do chrome mais detalhadas, mais nítidas.
   font-family: "Roboto", sans-serif;
-  max-width: 1700px;
+  max-width: 1920px;
   margin: 0 auto;
+
+  main {
+    background: $white-color;
+    position: relative;
+    z-index: -1;
+  }
 
   button {
     cursor: pointer;

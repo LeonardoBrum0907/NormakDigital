@@ -2,13 +2,14 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 10rem;
   justify-content: space-between;
   background-color: #24262a;
   position: relative;
+  z-index: 1;
 }
 .site-header__logo img {
-  width: 200px;
+  width: 300px;
   height: 100%;
 }
 .site-header__nav {
@@ -261,7 +262,7 @@
   background-image: url("/assets/home/teste.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: 0;
   max-height: 1000px;
   height: 900px;
   width: 100%;
@@ -269,7 +270,7 @@
 
 .section-trafego {
   display: flex;
-  padding: 4rem 5rem 0;
+  padding: 4rem 10rem 0;
   position: relative;
   height: 850px;
 }
@@ -345,7 +346,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 3rem;
-  padding: 0 5rem;
+  padding: 0 10rem;
 }
 .o-que-vc-precisa__description {
   padding: 4rem 4rem 4rem 0;
@@ -491,7 +492,7 @@
 
 .section-blog {
   display: flex;
-  padding: 0 2rem 0 5rem;
+  padding: 0 2rem 0 10rem;
 }
 .section-blog figure {
   display: flex;
@@ -796,7 +797,7 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 0 5rem;
+  padding: 0 10rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -832,7 +833,7 @@
 
 .faq-section {
   margin: 5rem 0;
-  padding: 0 5rem;
+  padding: 0 10rem;
   height: 800px;
 }
 .faq-section a {
@@ -877,7 +878,7 @@
           user-select: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 20px;
@@ -886,6 +887,7 @@
   padding: 1rem 2rem;
   min-width: 350px;
   width: 45%;
+  min-height: 88px;
   height: -moz-max-content;
   height: max-content;
   cursor: pointer;
@@ -1183,11 +1185,16 @@ textarea {
 }
 
 body {
-  background: #ffffff;
+  background: #e5e5e5;
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
-  max-width: 1700px;
+  max-width: 1920px;
   margin: 0 auto;
+}
+body main {
+  background: #ffffff;
+  position: relative;
+  z-index: -1;
 }
 body button {
   cursor: pointer;

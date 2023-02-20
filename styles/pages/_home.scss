@@ -6,7 +6,7 @@
   background-image: url("/assets/home/teste.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: 0;
   max-height: 1000px;
   height: 900px;
   width: 100%;
@@ -14,7 +14,7 @@
 
 .section-trafego {
   display: flex;
-  padding: 4rem 5rem 0;
+  padding: 4rem 10rem 0;
   position: relative;
   height: 850px;
 
@@ -84,7 +84,7 @@
   @include flex-center();
   justify-content: space-between;
   margin-top: 3rem;
-  padding: 0 5rem;
+  padding: 0 10rem;
 
   &__description {
     padding: 4rem 4rem 4rem 0;
@@ -231,7 +231,7 @@
 
 .section-blog {
   display: flex;
-  padding: 0 2rem 0 5rem;
+  padding: 0 2rem 0 10rem;
 
   figure {
     display: flex;
@@ -517,7 +517,7 @@
 .empresas-atendidas-slider {
   margin-top: 6rem;
   height: max-content;
-  padding: 0 5rem;
+  padding: 0 10rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -556,7 +556,7 @@
 
 .faq-section {
   margin: 5rem 0;
-  padding: 0 5rem;
+  padding: 0 10rem;
   height: 800px;
 
   a {
@@ -587,7 +587,7 @@
     .faq-card {
       user-select: none;
       @include flex-center();
-      justify-content: space-between;
+      justify-content: center;
       flex-direction: column;
       background-color: $white-color;
       border-radius: 20px;
@@ -596,6 +596,7 @@
       padding: 1rem 2rem;
       min-width: 350px;
       width: 45%;
+      min-height: 88px;
       height: max-content;
       cursor: pointer;
       position: relative;
