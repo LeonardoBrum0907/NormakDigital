@@ -312,7 +312,7 @@
   background-color: #02eb9e;
   color: #ffffff;
 }
-.section-trafego .avatar {
+.section-trafego .avatar img {
   position: absolute;
   bottom: 10%;
   right: 2rem;
@@ -921,7 +921,7 @@
     height: 3.38rem;
     font-size: 1.42rem;
   }
-  .section-trafego .avatar {
+  .section-trafego .avatar img {
     height: 15.71rem;
     bottom: 0;
     z-index: -1;
@@ -1096,6 +1096,9 @@
     top: initial;
     bottom: 0;
     left: 50%;
+  }
+  .faq-section {
+    padding: 0 1rem;
   }
   .faq-section a {
     width: 100%;
