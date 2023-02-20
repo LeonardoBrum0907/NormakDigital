@@ -1097,6 +1097,12 @@
     bottom: 0;
     left: 50%;
   }
+  .faq-section a {
+    width: 100%;
+  }
+  .faq-section .faq-cards {
+    justify-content: center;
+  }
 }
 * {
   margin: 0;
