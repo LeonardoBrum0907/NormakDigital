@@ -673,7 +673,6 @@
 
     .avatar img{
       height: 15.71rem;
-
       bottom: 0;
       z-index: -1;
     }
@@ -833,6 +832,7 @@
       border-radius: 10px;
 
       .modal-content {
+        max-height: 598px;
         width: 100%;
         border-top: 3px solid $pink-color-500;
         padding-top: 5rem;
@@ -866,7 +866,7 @@
       justify-content: center;
       align-items: center;
       gap: 260px;
-      height: calc(100% - 571px);
+      height: calc(100% - 600px);
       // padding-bottom: 1rem;
       top: 0;
       right: 0;
@@ -878,6 +878,16 @@
         top: initial;
         bottom: 0;
         left: 50%;
+      }
+    }
+  }
+
+  .empresas-atendidas-slider {
+    padding: 0 1rem;
+
+    .mySwiper3 {
+      & > button {
+        display: none;
       }
     }
   }
