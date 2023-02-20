@@ -6,8 +6,8 @@ $gray-color-900: #24262a;
 $gray-color-100: #e5e5e5;
 $gray-color-500: #919191;
 
-$font-size-h1: 4.5rem;
-$font-size-h2: 3.5rem;
+$font-size-h1: 6.5rem;
+$font-size-h2: 5.5rem;
 $font-size-h3: 2.5rem;
 $font-size-p: 1.3rem;
 
@@ -41,6 +41,10 @@ $font-size-p: 1.3rem;
   justify-content: space-between;
   padding: 0 5%;
   font-size: 1.3rem;
+
+  @media(max-width:980px) {
+    font-size: 1rem;
+  }
 }
 
 @mixin input() {
@@ -83,6 +87,13 @@ body {
   background: $white-color;
   -webkit-font-smoothing: antialiased; //deixa as fontes do chrome mais detalhadas, mais nítidas.
   font-family: "Roboto", sans-serif;
+  max-width: 1700px;
+  margin: 0 auto;
+
+  // position: relative;
+  main {
+    border: 1px solid red;
+  }
 
   button {
     cursor: pointer;
