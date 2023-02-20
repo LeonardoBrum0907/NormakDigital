@@ -14,7 +14,7 @@
 
 .section-trafego {
   display: flex;
-  padding: 4rem 10rem 0;
+  padding: 4rem 7rem 0;
   position: relative;
   height: 850px;
 
@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    width: 60%;
+    width: 65%;
 
     h1 {
       @include title();
@@ -84,7 +84,7 @@
   @include flex-center();
   justify-content: space-between;
   margin-top: 3rem;
-  padding: 0 10rem;
+  padding: 0 7rem;
 
   &__description {
     padding: 4rem 4rem 4rem 0;
@@ -231,7 +231,7 @@
 
 .section-blog {
   display: flex;
-  padding: 0 2rem 0 10rem;
+  padding: 0 2rem 0 7rem;
 
   figure {
     display: flex;
@@ -517,7 +517,7 @@
 .empresas-atendidas-slider {
   margin-top: 6rem;
   height: max-content;
-  padding: 0 10rem;
+  padding: 0 7rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -556,7 +556,7 @@
 
 .faq-section {
   margin: 5rem 0;
-  padding: 0 10rem;
+  padding: 0 7rem;
   height: 800px;
 
   a {

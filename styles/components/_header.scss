@@ -1,13 +1,13 @@
 .site-header {
   @include flex-center();
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 7rem;
   justify-content: space-between;
   background-color: $gray-color-900;
   position: relative;
   z-index: 1;
 
   &__logo img {
-    width: 300px;
+    width: 250px;
     height: 100%;
 
   }

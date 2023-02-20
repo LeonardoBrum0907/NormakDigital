@@ -2,14 +2,14 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 7rem;
   justify-content: space-between;
   background-color: #24262a;
   position: relative;
   z-index: 1;
 }
 .site-header__logo img {
-  width: 300px;
+  width: 250px;
   height: 100%;
 }
 .site-header__nav {
@@ -270,7 +270,7 @@
 
 .section-trafego {
   display: flex;
-  padding: 4rem 10rem 0;
+  padding: 4rem 7rem 0;
   position: relative;
   height: 850px;
 }
@@ -278,7 +278,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  width: 60%;
+  width: 65%;
 }
 .section-trafego__description h1 {
   color: #ea1d5d;
@@ -346,7 +346,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 3rem;
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
 .o-que-vc-precisa__description {
   padding: 4rem 4rem 4rem 0;
@@ -492,7 +492,7 @@
 
 .section-blog {
   display: flex;
-  padding: 0 2rem 0 10rem;
+  padding: 0 2rem 0 7rem;
 }
 .section-blog figure {
   display: flex;
@@ -797,7 +797,7 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 0 10rem;
+  padding: 0 7rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -833,7 +833,7 @@
 
 .faq-section {
   margin: 5rem 0;
-  padding: 0 10rem;
+  padding: 0 7rem;
   height: 800px;
 }
 .faq-section a {
