@@ -148,7 +148,7 @@
 
   &__description {
     @include title();
-    padding-top: 1.25rem;
+    margin-top: 2.5rem;
     font-size: $font-size-h2;
     color: $white-color;
   }
@@ -362,6 +362,11 @@
     width: 40%;
     color: $black-color;
     border: none;
+
+    &:hover {
+      background-color: darken($cyan-color-500, 5%);
+      color: $white-color;
+    }
   }
 
   .modal {
@@ -495,6 +500,136 @@
       top: 50%;
       width: 70%;
       border: 1px solid black;
+    }
+  }
+}
+
+.empresas-atendidas-slider {
+  margin-top: 6rem;
+  height: max-content;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  h2 {
+    @include title();
+    font-size: $font-size-h3;
+
+    span {
+      font-size: 3rem;
+      font-weight: 100;
+      margin-right: 2rem;
+    }
+  }
+
+  .mySwiper3 {
+    width: 100%;
+    align-self: flex-start;
+    margin: 2rem 0;
+
+    .swiper-slide {
+      @include flex-center();
+      justify-content: center;
+    }
+
+    & > button {
+      background: transparent;
+      border: none;
+      color: $pink-color-500;
+
+      &::after {
+        font-weight: 900;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.faq-section {
+  margin: 5rem 0;
+  padding: 0 5rem;
+  height: 800px;
+
+  a {
+    @include button();
+    background: transparent;
+    width: 30%;
+    border: 1px solid $cyan-color-500;
+    text-decoration: none;
+    color: $cyan-color-500;
+
+    &:hover {
+      background: $cyan-color-500;
+      color: $white-color;
+    }
+  }
+
+  h2 {
+    @include title();
+    font-size: $font-size-h2;
+    margin-bottom: 2rem;
+  }
+
+  .faq-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .faq-card {
+      user-select: none;
+      @include flex-center();
+      justify-content: space-between;
+      flex-direction: column;
+      background-color: $white-color;
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 1rem;
+      padding: 1rem 2rem;
+      min-width: 350px;
+      width: 45%;
+      height: max-content;
+      cursor: pointer;
+      position: relative;
+
+      &__question {
+        font-weight: 400;
+        color: $gray-color-900;
+        font-size: $font-size-p;
+        width: 100%;
+
+        &.active {
+          color: $pink-color-500;
+        }
+
+        .arrow-toggle {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 2rem;
+          display: inline-block;
+          transition: transform 0.2s ease-in-out;
+
+          &.focus {
+            color: $pink-color-500;
+            transform: rotate(90deg);
+          }
+        }
+      }
+
+      &__answer {
+        display: none;
+        margin-top: 1rem;
+
+        p {
+          margin: 0;
+        }
+
+        &.expanded {
+          display: block;
+        }
+      }
     }
   }
 }

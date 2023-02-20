@@ -82,7 +82,7 @@
   </script>
 
   <main>
-    <div class="img-background"></div>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background"></figure>
     <article class="section-trafego">
       <section class="section-trafego__description">
         <h1>aumente <br> seu tráfego</h1>
@@ -91,10 +91,16 @@
           reconhecimento e geram receita, sem complicação.</p>
         <a href="#" class="btn-vamos-comecar">Vamos Começar <span>&rarr;</span></a href="#">
       </section>
-      <img class="avatar" src="/assets/home/avatar.svg"
-        alt="animação de um homem com um megafone na mão deitado em uma seta amarela">
-      <img class="gear" src="/assets/home/gear.svg" alt="engrenagem rosa">
-      <img class="mini-gear" src="/assets/home/mini-gear.svg" alt="engrenagem pequena rosa">
+      <figure role="img" aria-label="Animação de um homem com um megafone na mão deitado em uma seta amarela"
+        class="avatar">
+        <img src="/assets/home/avatar.svg" alt="homem com um megafone na mão deitado em uma seta amarela">
+      </figure>
+      <figure role="img" aria-label="Ícone rosa de engrenagem" class="gear">
+        <img src="/assets/home/gear.svg" alt="Engrenagem rosa">
+      </figure>
+      <figure role="img" aria-label="Ícone pequeno rosa de engrenagem" class="mini-gear">
+        <img src="/assets/home/mini-gear.svg" alt="engrenagem rosa pequena">
+      </figure>
     </article>
 
     <article class="o-que-vc-precisa">
@@ -105,7 +111,8 @@
           rerum perferendis excepturi quaerat? </p>
         <a href="#" class="btn-ver-mais">Ver mais<span>&rarr;</span></a href="#">
       </section>
-      <img class="cards" src="/assets/home/cards-voce-precisa.png" alt="">
+      <img class="cards" src="/assets/home/cards-voce-precisa.png"
+        alt="Cartões com imagens e descrições de produtos que oferecemos">
     </article>
 
     <article class="section-abordagem">
@@ -286,7 +293,7 @@
       <button class="btn-comecar-agora" id="abrir-modal">Começar agora <span>&rarr;</span></button>
       <form class="modal" id="modal-form" method="post" action="/submit-form">
         <fieldset class="modal-content">
-          <legend><span>Primeiro passo:</span>  Preencha o formulario</legend>
+          <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
 
           <section>
             <label for="name">Nome</label>
@@ -305,14 +312,115 @@
           </section>
 
           <label for="message">Mensagem</label>
-          <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+          <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio"
+            required></textarea>
 
-          <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar"> Enviar</button>
+          <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+            Enviar</button>
 
           <button class="fechar-modal" id="fechar-modal-form">&times;</button>
         </fieldset>
       </form>
     </article>
+
+    <section class="empresas-atendidas-slider">
+      <h2><span>|</span>Algumas das empresas que já atendemos:</h2>
+      <!-- Swiper3 -->
+      <article class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+          <section class="swiper-slide"><img src="/assets/clientes/green-fuel.png" alt=""></section>
+          <section class="swiper-slide"><img src="/assets/clientes/intersena.png" alt=""></section>
+          <section class="swiper-slide"><img src="/assets/clientes/witbiz.png" alt=""></section>
+          <section class="swiper-slide"><img src="/assets/clientes/intersena.png" alt=""></section>
+          <section class="swiper-slide"><img src="/assets/clientes/green-fuel.png" alt=""></section>
+        </div>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
+      </article>
+    </section>
+
+    <section class="faq-section">
+      <h2>Dúvidas Frequentes</h2>
+      <div class="faq-cards">
+        <article class="faq-card">
+          <h3 class="faq-card__question">Como faço para alterar minha senha? <span class="arrow-toggle">&rarr;</span></h3>
+          <div class="faq-card__answer">
+            <p>Para alterar sua senha, siga os seguintes passos:</p>
+            <ol>
+              <li>Acesse a página de configurações da sua conta</li>
+              <li>Selecione a opção "Alterar senha"</li>
+              <li>Preencha os campos com sua senha atual e a nova senha desejada</li>
+              <li>Clique em "Salvar"</li>
+            </ol>
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Como faço para alterar minha senha? <span class="arrow-toggle">&rarr;</span></h3>
+          <div class="faq-card__answer">
+            <p>Para alterar sua senha, siga os seguintes passos:</p>
+            <ol>
+              <li>Acesse a página de configurações da sua conta</li>
+              <li>Selecione a opção "Alterar senha"</li>
+              <li>Preencha os campos com sua senha atual e a nova senha desejada</li>
+              <li>Clique em "Salvar"</li>
+            </ol>
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Como faço para alterar minha senha? <span class="arrow-toggle">&rarr;</span></h3>
+          <div class="faq-card__answer">
+            <p>Para alterar sua senha, siga os seguintes passos:</p>
+            <ol>
+              <li>Acesse a página de configurações da sua conta</li>
+              <li>Selecione a opção "Alterar senha"</li>
+              <li>Preencha os campos com sua senha atual e a nova senha desejada</li>
+              <li>Clique em "Salvar"</li>
+            </ol>
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Como faço para alterar minha senha? <span class="arrow-toggle">&rarr;</span></h3>
+          <div class="faq-card__answer">
+            <p>Para alterar sua senha, siga os seguintes passos:</p>
+            <ol>
+              <li>Acesse a página de configurações da sua conta</li>
+              <li>Selecione a opção "Alterar senha"</li>
+              <li>Preencha os campos com sua senha atual e a nova senha desejada</li>
+              <li>Clique em "Salvar"</li>
+            </ol>
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Como faço para alterar minha senha? <span class="arrow-toggle">&rarr;</span></h3>
+          <div class="faq-card__answer">
+            <p>Para alterar sua senha, siga os seguintes passos:</p>
+            <ol>
+              <li>Acesse a página de configurações da sua conta</li>
+              <li>Selecione a opção "Alterar senha"</li>
+              <li>Preencha os campos com sua senha atual e a nova senha desejada</li>
+              <li>Clique em "Salvar"</li>
+            </ol>
+          </div>
+        </article>
+      </div>
+      <a href="#">Ver mais</a>
+
+      <script>
+        const faqCards = document.querySelectorAll('.faq-card');
+
+        faqCards.forEach(card => {
+          const question = card.querySelector('.faq-card__question');
+          const answer = card.querySelector('.faq-card__answer');
+          const arrow =  card.querySelector('.arrow-toggle');
+
+          card.addEventListener('click', () => {
+            question.classList.toggle('active')
+            arrow.classList.toggle('focus')
+            answer.classList.toggle('expanded');
+          });
+        });
+      </script>
+    </section>
   </main>
 
   <!-- Swiper JS -->
@@ -353,7 +461,35 @@
       },
     });
   </script>
-
+  <!-- Initialize Swiper3 -->
+  <script>
+    var swiper = new Swiper(".mySwiper3", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      // slidesPerView: 3,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        620: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1700: {
+          slidesPerView: 4,
+          spaceBetween: 100,
+        },
+      }
+    });
+  </script>
+  <!--Form modal-->
   <script>
     const abrirModal = document.getElementById('abrir-modal');
     const modal = document.getElementById('modal-form');

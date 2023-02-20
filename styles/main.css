@@ -279,7 +279,6 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
   font-size: 4.5rem;
 }
 .section-trafego__description h2 {
@@ -351,7 +350,6 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
   font-size: 3.5rem;
 }
 .o-que-vc-precisa__description p {
@@ -408,8 +406,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
-  padding-top: 1.25rem;
+  margin-top: 2.5rem;
   font-size: 3.5rem;
   color: #ffffff;
 }
@@ -491,7 +488,6 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
 }
 .section-blog figure figcaption span {
   font-size: 3rem;
@@ -540,7 +536,6 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
   font-size: 2.5rem;
   line-height: 46px;
   width: 70%;
@@ -588,7 +583,6 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 100px;
   font-size: 3.5rem;
 }
 .section-comece-seo__content {
@@ -628,6 +622,10 @@
   width: 40%;
   color: #000000;
   border: none;
+}
+.section-comece-seo .btn-comecar-agora:hover {
+  background-color: #02d28d;
+  color: #ffffff;
 }
 .section-comece-seo .modal {
   display: none;
@@ -761,6 +759,135 @@
   top: 50%;
   width: 70%;
   border: 1px solid black;
+}
+
+.empresas-atendidas-slider {
+  margin-top: 6rem;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.empresas-atendidas-slider h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.empresas-atendidas-slider h2 span {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-right: 2rem;
+}
+.empresas-atendidas-slider .mySwiper3 {
+  width: 100%;
+  align-self: flex-start;
+  margin: 2rem 0;
+}
+.empresas-atendidas-slider .mySwiper3 .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empresas-atendidas-slider .mySwiper3 > button {
+  background: transparent;
+  border: none;
+  color: #ea1d5d;
+}
+.empresas-atendidas-slider .mySwiper3 > button::after {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.faq-section {
+  margin: 5rem 0;
+  padding: 0 5rem;
+  height: 800px;
+}
+.faq-section a {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background: transparent;
+  width: 30%;
+  border: 1px solid #02eb9e;
+  text-decoration: none;
+  color: #02eb9e;
+}
+.faq-section a:hover {
+  background: #02eb9e;
+  color: #ffffff;
+}
+.faq-section h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.faq-section .faq-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.faq-section .faq-cards .faq-card {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  min-width: 350px;
+  width: 45%;
+  height: -moz-max-content;
+  height: max-content;
+  cursor: pointer;
+  position: relative;
+}
+.faq-section .faq-cards .faq-card__question {
+  font-weight: 400;
+  color: #24262a;
+  font-size: 1.3rem;
+  width: 100%;
+}
+.faq-section .faq-cards .faq-card__question.active {
+  color: #ea1d5d;
+}
+.faq-section .faq-cards .faq-card__question .arrow-toggle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+.faq-section .faq-cards .faq-card__question .arrow-toggle.focus {
+  color: #ea1d5d;
+  transform: rotate(90deg);
+}
+.faq-section .faq-cards .faq-card__answer {
+  display: none;
+  margin-top: 1rem;
+}
+.faq-section .faq-cards .faq-card__answer p {
+  margin: 0;
+}
+.faq-section .faq-cards .faq-card__answer.expanded {
+  display: block;
 }
 
 @media (max-width: 980px) {
