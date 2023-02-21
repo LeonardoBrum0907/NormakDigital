@@ -6,9 +6,9 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  z-index: 0;
+  z-index: -1;
   max-height: 1000px;
-  height: 900px;
+  height: 800px;
   width: 100%;
 }
 
@@ -20,8 +20,8 @@
   height: 850px;
 
   h1 {
-    @include title();
-    font-size: $font-size-h1;
+    @include title(h1);
+    // font-size: $font-size-h1;
   }
   &__description {
     display: flex;
@@ -96,8 +96,8 @@
   padding: 0 7rem;
 
   h2 {
-    @include title();
-    font-size: $font-size-h2;
+    @include title(h2);
+    // font-size: $font-size-h2;
   }
 
   &__description {
@@ -157,10 +157,10 @@
   }
 
   &__description {
-    @include title();
+    @include title(h2);
     @include flex-center();
     margin-left: 120px;
-    font-size: $font-size-h2;
+    // font-size: $font-size-h2;
     color: $white-color;
     height: 230px;
 
@@ -244,11 +244,11 @@
   & > div {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
     justify-content: space-around;
     flex: 1;
-    h2 {
-      font-size: $font-size-h3;
-      @include title();
+    & > h2 {
+      @include title(h3);
       border-left: 3px solid $pink-color-500;
       padding-left: 2rem;
     }
@@ -293,14 +293,15 @@
       justify-content: space-around;
 
       h2 {
-        @include title();
-        font-size: $font-size-h3;
+        @include title(h3);
+        // font-size: $font-size-h3;
         line-height: 46px;
         width: 70%;
       }
 
       p {
-        font-size: $font-size-p;
+        @include title(p);
+        color: $gray-color-900
       }
 
       a {
@@ -336,8 +337,8 @@
     }
 
     h2 {
-      @include title();
-      font-size: $font-size-h2;
+      @include title(h2);
+      // font-size: $font-size-h2;
 
       @media (max-width: 1200px) {
         font-size: 70px;
@@ -536,8 +537,8 @@
   h2 {
     position: relative;
     padding-left: 2rem;
-    @include title();
-    font-size: $font-size-h3;
+    @include title(h3);
+    // font-size: $font-size-h3;
 
     border-left: 3px solid $pink-color-500;
   }
@@ -589,8 +590,8 @@
   }
 
   h2 {
-    @include title();
-    font-size: $font-size-h2;
+    @include title(h2);
+    // font-size: $font-size-h2;
     margin-bottom: 2rem;
   }
 
@@ -608,15 +609,15 @@
       border-radius: 20px;
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
       margin-bottom: 1rem;
-      padding: 1rem 2rem;
+      padding: 1rem 1rem 1rem 2rem;
       min-width: 350px;
       width: 45%;
       min-height: 88px;
       height: max-content;
       cursor: pointer;
-      position: relative;
 
       &__question {
+        position: relative;
         font-weight: 400;
         color: $gray-color-900;
         font-size: $font-size-p;
@@ -629,11 +630,12 @@
         .arrow-toggle {
           position: absolute;
           right: 0;
-          top: 50%;
+          top: 10%;
           transform: translate(-50%, -50%);
-          font-size: 2rem;
+          font-size: 1rem;
           display: inline-block;
           transition: transform 0.2s ease-in-out;
+          transform: rotate(0deg);
 
           &.focus {
             color: $pink-color-500;
@@ -818,6 +820,12 @@
       width: 100%;
       padding-top: 80px;
 
+      .swiper-slide {
+        h2 {
+          line-height: 28px;
+        }
+      }
+
       .swiper-button-next {
         top: 50px;
       }
@@ -920,10 +928,6 @@
 
   .empresas-atendidas-slider {
     padding: 0 1rem;
-
-    h2 {
-      font-size: 22px;
-    }
 
     .mySwiper3 {
       & > button {
