@@ -236,12 +236,12 @@
   display: flex;
   padding: 0 2rem 0 7rem;
 
-  figure {
+  & > div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex: 1;
-    figcaption {
+    h2 {
       font-size: $font-size-h3;
       @include title();
       border-left: 3px solid $pink-color-500;
