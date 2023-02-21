@@ -1188,6 +1188,10 @@
   }
   .section-abordagem__description {
     font-size: 2.5rem;
+    margin-left: 80px;
+  }
+  .section-abordagem > img {
+    left: -40px;
   }
   .section-abordagem .swiper {
     padding: 2rem 4rem 0.5rem 2rem;
