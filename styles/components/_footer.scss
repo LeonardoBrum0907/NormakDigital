@@ -1,0 +1,94 @@
+.rodape-columns {
+  background: transparent;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  height: 400px;
+
+  .rodape-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 20%;
+
+    h2 {
+      text-transform: uppercase;
+      color: $gray-color-900;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    nav {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin: 10px 0;
+
+          a {
+            color: $black-color;
+            text-decoration: none;
+
+            &:hover {
+              cursor: pointer;
+              color: $pink-color-500;
+            }
+          }
+        }
+      }
+    }
+
+    .social-icons {
+      height: 100px;
+      ul {
+        @include flex-center();
+        height: 100%;
+      }
+
+      a {
+        color: $pink-color-500;
+        border: 1px solid $pink-color-500;
+        border-radius: 100%;
+        padding: 0.5rem 0.8rem;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 25px;
+        transition: all 0.2s;
+
+        &:hover {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .rodape-columns {
+    margin-top: 6rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: max-content;
+
+    .rodape-column {
+      width: 80%;
+
+      img {
+        width: 250px;
+      }
+    }
+  }
+}

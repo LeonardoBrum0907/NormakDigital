@@ -1,9 +1,9 @@
-.img-background {
+.img-background-top {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("/assets/home/teste.png");
+  background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 0;
@@ -245,8 +245,9 @@
       padding-left: 2rem;
     }
     img {
-      height: 100%;
+      height: 70%;
       width: 100%;
+      object-fit: cover;
     }
   }
 
@@ -330,7 +331,7 @@
       @include title();
       font-size: $font-size-h2;
 
-      @media(max-width:1200px) {
+      @media (max-width: 1200px) {
         font-size: 70px;
       }
     }
@@ -555,7 +556,7 @@
 }
 
 .faq-section {
-  margin: 5rem 0;
+  margin-top: 5rem;
   padding: 0 7rem;
   height: 800px;
 
@@ -643,8 +644,22 @@
   }
 }
 
+.img-background-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/home/img-bottom.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  // max-height: 1000px;
+  height: 550px;
+  width: 100%;
+}
+
 @media (max-width: 980px) {
-  .img-background {
+  .img-background-top {
     height: 90vh;
     background-size: cover;
     background-position: 80%;
@@ -922,5 +937,11 @@
     .faq-cards {
       justify-content: center;
     }
+  }
+
+  .img-background-bottom {
+    height: 850px;
+    background-size: cover;
+    background-position: 15%;
   }
 }

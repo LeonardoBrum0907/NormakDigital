@@ -57,6 +57,7 @@ $font-size-p: 1.3rem;
 }
 
 @import "components/header";
+@import "components/footer";
 @import "pages/home";
 
 * {
@@ -93,7 +94,19 @@ body {
   main {
     background: $white-color;
     position: relative;
-    z-index: -1;
+    z-index: 0;
+  }
+
+  footer {
+    @include flex-center();
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 60px;
+    background: $white-color;
+
+    img {
+      width: 100px;
+    }
   }
 
   button {
