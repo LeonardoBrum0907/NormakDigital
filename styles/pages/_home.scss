@@ -88,6 +88,11 @@
   margin-top: 3rem;
   padding: 0 7rem;
 
+  h2 {
+    @include title();
+    font-size: $font-size-h2;
+  }
+
   &__description {
     padding: 4rem 4rem 4rem 0;
     display: flex;
@@ -95,10 +100,6 @@
     gap: 24px;
     width: 50%;
 
-    h2 {
-      @include title();
-      font-size: $font-size-h2;
-    }
 
     p {
       font-size: $font-size-p;
@@ -117,12 +118,12 @@
         color: $white-color;
       }
     }
+    .cards {
+      height: 100%;
+      width: 50%;
+    }
   }
 
-  .cards {
-    height: 100%;
-    width: 50%;
-  }
 }
 
 .section-abordagem {
