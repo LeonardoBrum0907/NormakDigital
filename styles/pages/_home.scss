@@ -62,9 +62,16 @@
     position: absolute;
     bottom: 10%;
     right: 5%;
-    width: 40vh;
-    height: 70vh;
+    width: auto;
+    height: 70%;
     object-fit: contain;
+
+    @media (max-width: 1200px) {
+      width: 50%;
+      height: 50%;
+      right: 0;
+      bottom: 0;
+    }
   }
 
   .gear {
@@ -100,7 +107,6 @@
     gap: 24px;
     width: 50%;
 
-
     p {
       font-size: $font-size-p;
     }
@@ -123,7 +129,6 @@
     height: 100%;
     width: 50%;
   }
-
 }
 
 .section-abordagem {
@@ -685,7 +690,6 @@
     &__description {
       width: 100%;
 
-
       h2 {
         font-size: 1.42rem;
       }
@@ -701,13 +705,6 @@
         max-width: 17.14rem;
         height: 3.38rem;
       }
-    }
-
-    .avatar img {
-      height: 30vh;
-      width: 40vw;
-      right: 0;
-      bottom: 0;
     }
   }
 
