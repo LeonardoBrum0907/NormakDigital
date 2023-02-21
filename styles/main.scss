@@ -7,7 +7,7 @@ $gray-color-100: #E1E1E1;
 $gray-color-500: #919191;
 
 $font-size-h1: 6.5rem;
-$font-size-h2: 5.5rem;
+$font-size-h2: 5.625rem;
 $font-size-h3: 2.5rem;
 $font-size-p: 1.3rem;
 
@@ -27,10 +27,27 @@ $font-size-p: 1.3rem;
   }
 }
 
-@mixin title() {
+@mixin title($type) {
+  $font-size: null;
+  
+  @if $type == 'h1' {
+    $font-size: $font-size-h1;
+  } @else if $type == 'h2' {
+    $font-size: $font-size-h2;
+  } @else if $type == 'h3' {
+    $font-size: $font-size-h3;
+  } @else if $type == 'p' {
+    $font-size: $font-size-p;
+  }
+  
   color: $pink-color-500;
   font-weight: 900;
   text-transform: uppercase;
+  font-size: $font-size;
+
+  @media(max-width: 980px) {
+    font-size: calc($font-size / 2) !important;
+  }
 }
 
 @mixin button() {
@@ -59,6 +76,7 @@ $font-size-p: 1.3rem;
 @import "components/header";
 @import "components/footer";
 @import "pages/home";
+@import "pages/quem-somos";
 
 * {
   margin: 0;
@@ -73,15 +91,6 @@ select,
 textarea {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-}
-
-html {
-  @media (max-width: 1080px) {
-    font-size: 93.75%;
-  }
-  @media (max-width: 720px) {
-    font-size: 87.5%;
-  }
 }
 
 body {
