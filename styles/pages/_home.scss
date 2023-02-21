@@ -14,20 +14,20 @@
 
 .section-trafego {
   display: flex;
+  flex-direction: column;
   padding: 4rem 7rem 0;
   position: relative;
   height: 850px;
 
+  h1 {
+    @include title();
+    font-size: $font-size-h1;
+  }
   &__description {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     width: 65%;
-
-    h1 {
-      @include title();
-      font-size: $font-size-h1;
-    }
 
     h2 {
       font-size: $font-size-h3;
@@ -62,7 +62,9 @@
     position: absolute;
     bottom: 10%;
     right: 5%;
-    height: 600px;
+    width: 40vh;
+    height: 70vh;
+    object-fit: contain;
   }
 
   .gear {
@@ -673,13 +675,14 @@
       display: none;
     }
 
+    h1 {
+      font-size: 3.125rem;
+      line-height: 3.71rem;
+    }
+
     &__description {
       width: 100%;
 
-      h1 {
-        font-size: 3.125rem;
-        line-height: 3.71rem;
-      }
 
       h2 {
         font-size: 1.42rem;
@@ -699,9 +702,10 @@
     }
 
     .avatar img {
-      height: 15.71rem;
+      height: 30vh;
+      width: 40vw;
+      right: 0;
       bottom: 0;
-      z-index: -1;
     }
   }
 

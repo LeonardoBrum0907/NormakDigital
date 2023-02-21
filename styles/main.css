@@ -351,21 +351,22 @@
 
 .section-trafego {
   display: flex;
+  flex-direction: column;
   padding: 4rem 7rem 0;
   position: relative;
   height: 850px;
+}
+.section-trafego h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
 }
 .section-trafego__description {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   width: 65%;
-}
-.section-trafego__description h1 {
-  color: #ea1d5d;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 6.5rem;
 }
 .section-trafego__description h2 {
   font-size: 2.5rem;
@@ -407,7 +408,10 @@
   position: absolute;
   bottom: 10%;
   right: 5%;
-  height: 600px;
+  width: 40vh;
+  height: 70vh;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .section-trafego .gear {
   position: absolute;
@@ -1036,12 +1040,12 @@
   .section-trafego .mini-gear {
     display: none;
   }
-  .section-trafego__description {
-    width: 100%;
-  }
-  .section-trafego__description h1 {
+  .section-trafego h1 {
     font-size: 3.125rem;
     line-height: 3.71rem;
+  }
+  .section-trafego__description {
+    width: 100%;
   }
   .section-trafego__description h2 {
     font-size: 1.42rem;
@@ -1057,9 +1061,10 @@
     height: 3.38rem;
   }
   .section-trafego .avatar img {
-    height: 15.71rem;
+    height: 30vh;
+    width: 40vw;
+    right: 0;
     bottom: 0;
-    z-index: -1;
   }
   .o-que-vc-precisa {
     padding: 0 1rem 3rem;
