@@ -293,6 +293,8 @@
 .rodape-columns .rodape-column nav ul li a {
   color: #000000;
   text-decoration: none;
+  border: 1px solid red;
+  padding: 0.5rem 0;
 }
 .rodape-columns .rodape-column nav ul li a:hover {
   cursor: pointer;
