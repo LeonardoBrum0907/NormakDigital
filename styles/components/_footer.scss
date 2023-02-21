@@ -37,12 +37,12 @@
 
         li {
           margin: 10px 0;
+          width: 100%;
 
-          a {
+          & > a {
             color: $black-color;
             text-decoration: none;
-            border: 1px solid red;
-            padding: 0.5rem 0;
+            padding: 1rem 1rem 1rem 0;
 
             &:hover {
               cursor: pointer;
@@ -58,22 +58,22 @@
       ul {
         @include flex-center();
         height: 100%;
-      }
-
-      a {
-        color: $pink-color-500;
-        border: 1px solid $pink-color-500;
-        border-radius: 100%;
-        padding: 0.5rem 0.8rem;
-        text-decoration: none;
-        margin-right: 10px;
-        font-size: 25px;
-        transition: all 0.2s;
-
-        &:hover {
-          font-size: 27px;
+        & li > a {
+          color: $pink-color-500;
+          border: 1px solid $pink-color-500;
+          border-radius: 100%;
+          padding: 0.5rem 0.8rem;
+          text-decoration: none;
+          margin-right: 10px;
+          font-size: 25px;
+          transition: all 0.2s;
+  
+          &:hover {
+            font-size: 27px;
+          }
         }
       }
+
     }
   }
 

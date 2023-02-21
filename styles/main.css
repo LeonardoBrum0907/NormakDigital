@@ -289,14 +289,14 @@
 }
 .rodape-columns .rodape-column nav ul li {
   margin: 10px 0;
+  width: 100%;
 }
-.rodape-columns .rodape-column nav ul li a {
+.rodape-columns .rodape-column nav ul li > a {
   color: #000000;
   text-decoration: none;
-  border: 1px solid red;
-  padding: 0.5rem 0;
+  padding: 1rem 1rem 1rem 0;
 }
-.rodape-columns .rodape-column nav ul li a:hover {
+.rodape-columns .rodape-column nav ul li > a:hover {
   cursor: pointer;
   color: #ea1d5d;
 }
@@ -308,7 +308,7 @@
   align-items: center;
   height: 100%;
 }
-.rodape-columns .rodape-column .social-icons a {
+.rodape-columns .rodape-column .social-icons ul li > a {
   color: #ea1d5d;
   border: 1px solid #ea1d5d;
   border-radius: 100%;
@@ -318,7 +318,7 @@
   font-size: 25px;
   transition: all 0.2s;
 }
-.rodape-columns .rodape-column .social-icons a:hover {
+.rodape-columns .rodape-column .social-icons ul li > a:hover {
   font-size: 27px;
 }
 .rodape-columns .direitos {
