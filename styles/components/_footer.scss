@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 5%;
-  height: 400px;
+  height: 500px;
+  position: relative;
 
   .rodape-column {
     display: flex;
@@ -73,15 +74,30 @@
       }
     }
   }
+
+  .direitos {
+    position: absolute;
+    bottom: 0;
+    @include flex-center();
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 100%;
+    height: 60px;
+    background: $white-color;
+
+    img {
+      width: 100px;
+    }
+  }
 }
 
 @media (max-width: 980px) {
   .rodape-columns {
-    margin-top: 6rem;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     height: max-content;
+    padding-bottom: 80px;
 
     .rodape-column {
       width: 80%;
