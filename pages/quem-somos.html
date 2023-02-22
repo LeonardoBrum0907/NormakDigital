@@ -75,6 +75,17 @@
       searchContainer.classList.toggle('focus');
       searchInput.focus();
     });
+
+    $(document).ready(function () {
+      var currentLocation = window.location.href;
+
+      $('nav a').each(function () {
+        var link = $(this).attr('href');
+        if (currentLocation == link) {
+          $(this).addClass('active');
+        }
+      });
+    });
   </script>
 
   <main>
@@ -84,12 +95,15 @@
     <section class="section-quem-somos">
       <div>
         <h1>Quem <br> somos <i class="fa-solid fa-angle-right"></i></h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor tenetur minus distinctio magnam. Enim quos numquam blanditiis beatae, illum maiores natus officia incidunt modi. Explicabo quas laboriosam nam perspiciatis veritatis itaque, eius nisi ducimus! Iste, corrupti aliquid obcaecati, eos officiis, voluptate rem nihil quaerat recusandae repellendus enim consequatur nostrum?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolor tenetur minus distinctio magnam.
+          Enim quos numquam blanditiis beatae, illum maiores natus officia incidunt modi. Explicabo quas laboriosam nam
+          perspiciatis veritatis itaque, eius nisi ducimus! Iste, corrupti aliquid obcaecati, eos officiis, voluptate
+          rem nihil quaerat recusandae repellendus enim consequatur nostrum?</p>
         <a href="#">Vamos começar<i class="fa-solid fa-arrow-right arrow-toggle"></i></a>
       </div>
       <img src="/assets/quem-somos/banner-quem-somos.png" alt="homem de terno apertando a mão de outra pessoa">
     </section>
-  
+
   </main>
 </body>
 

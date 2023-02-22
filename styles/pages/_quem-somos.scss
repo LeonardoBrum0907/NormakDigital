@@ -40,6 +40,11 @@
       text-decoration: none;
       width: 60%;
       max-width: 345px;
+
+      &:hover {
+        background: $cyan-color-500;
+        color: $white-color;
+      }
     }
   }
 

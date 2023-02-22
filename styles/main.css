@@ -710,6 +710,7 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
+  font-size: 1.3rem;
 }
 @media (max-width: 980px) {
   .section-blog .mySwiper2 .swiper-slide p {
@@ -1406,6 +1407,7 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
+  font-size: 1.3rem;
   color: #ffffff;
   width: 80%;
   max-width: 600px;
@@ -1434,6 +1436,10 @@
   .section-quem-somos div a {
     font-size: 1rem;
   }
+}
+.section-quem-somos div a:hover {
+  background: #02eb9e;
+  color: #ffffff;
 }
 .section-quem-somos img {
   width: 50%;
