@@ -369,9 +369,14 @@
 .section-trafego {
   display: flex;
   flex-direction: column;
-  padding: 4rem 7rem 0;
   position: relative;
-  height: 850px;
+  padding: 4rem 2rem 4rem 7rem;
+  height: 800px;
+}
+@media (max-width: 980px) {
+  .section-trafego {
+    padding: 1rem;
+  }
 }
 .section-trafego h1 {
   color: #ea1d5d;
@@ -388,7 +393,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  width: 65%;
+  width: 50%;
 }
 .section-trafego__description h2 {
   font-size: 2.5rem;
@@ -396,7 +401,6 @@
   font-weight: 400;
 }
 .section-trafego__description p {
-  width: 70%;
   color: #ffffff;
   font-size: 1.3rem;
   font-weight: 400;
@@ -428,8 +432,8 @@
 }
 .section-trafego .avatar img {
   position: absolute;
-  bottom: 10%;
-  right: 5%;
+  bottom: 0;
+  right: 10%;
   width: auto;
   height: 70%;
   -o-object-fit: contain;
@@ -445,6 +449,7 @@
 }
 .section-trafego .gear {
   position: absolute;
+  z-index: -1;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -457,11 +462,15 @@
 
 .o-que-vc-precisa {
   position: relative;
+  padding: 4rem 2rem 4rem 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3rem;
-  padding: 0 7rem;
+}
+@media (max-width: 980px) {
+  .o-que-vc-precisa {
+    padding: 1rem;
+  }
 }
 .o-que-vc-precisa h2 {
   color: #ea1d5d;
@@ -617,7 +626,12 @@
 
 .section-blog {
   display: flex;
-  padding: 0 2rem 0 7rem;
+  padding: 4rem 2rem 4rem 7rem;
+}
+@media (max-width: 980px) {
+  .section-blog {
+    padding: 1rem;
+  }
 }
 .section-blog > div {
   display: flex;
@@ -693,10 +707,8 @@
   }
 }
 .section-blog .mySwiper2 .swiper-slide p {
-  color: #ea1d5d;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: none;
   color: #24262a;
 }
 @media (max-width: 980px) {
@@ -857,19 +869,19 @@
 .section-comece-seo .modal .modal-content section input {
   width: 45%;
   background: transparent;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   padding: 23px;
   border-radius: 24px;
   text-transform: uppercase;
-  color: #E1E1E1;
+  color: #e1e1e1;
 }
 .section-comece-seo .modal .modal-content textarea {
   background: transparent;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   padding: 23px;
   border-radius: 24px;
   text-transform: uppercase;
-  color: #E1E1E1;
+  color: #e1e1e1;
   width: 100%;
   resize: none;
   height: 400px;
@@ -951,10 +963,15 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 0 7rem;
+  padding: 4rem 2rem 4rem 7rem;
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+@media (max-width: 980px) {
+  .empresas-atendidas-slider {
+    padding: 1rem;
+  }
 }
 .empresas-atendidas-slider h2 {
   position: relative;
@@ -997,8 +1014,13 @@
 
 .faq-section {
   margin-top: 5rem;
-  padding: 0 7rem;
+  padding: 4rem 2rem 4rem 7rem;
   height: 800px;
+}
+@media (max-width: 980px) {
+  .faq-section {
+    padding: 1rem;
+  }
 }
 .faq-section a {
   display: flex;
@@ -1055,7 +1077,7 @@
   margin-bottom: 1rem;
   padding: 1rem 1rem 1rem 2rem;
   min-width: 350px;
-  width: 45%;
+  width: 48%;
   min-height: 88px;
   height: -moz-max-content;
   height: max-content;
@@ -1067,6 +1089,7 @@
   color: #24262a;
   font-size: 1.3rem;
   width: 100%;
+  padding-right: 3rem;
 }
 .faq-section .faq-cards .faq-card__question.active {
   color: #ea1d5d;
@@ -1116,7 +1139,6 @@
     background-position: 80%;
   }
   .section-trafego {
-    padding: 1rem 1rem 0;
     height: 75vh;
   }
   .section-trafego .gear,
@@ -1144,7 +1166,6 @@
     height: 3.38rem;
   }
   .o-que-vc-precisa {
-    padding: 0 1rem 3rem;
     flex-direction: column;
     gap: 2rem;
   }
@@ -1231,7 +1252,6 @@
   .section-blog {
     flex-direction: column;
     gap: 2rem;
-    padding: 0 1rem;
   }
   .section-blog .mySwiper2 {
     width: 100%;
@@ -1321,9 +1341,6 @@
     bottom: 0;
     left: 50%;
   }
-  .empresas-atendidas-slider {
-    padding: 0 1rem;
-  }
   .empresas-atendidas-slider .mySwiper3 > button {
     display: none;
   }
@@ -1390,7 +1407,7 @@ textarea {
 }
 
 body {
-  background: #E1E1E1;
+  background: #e1e1e1;
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
   max-width: 1920px;

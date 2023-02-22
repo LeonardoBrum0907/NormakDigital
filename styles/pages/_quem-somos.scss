@@ -1,0 +1,25 @@
+.section-quem-somos {
+  border: 1px solid red;
+  padding: 4rem 0 0 7rem;
+  @include flex-center();
+  justify-content: space-between;
+  position: relative;
+
+  div {
+    border: 1px solid red;
+    width: 50%;
+
+    h1 {
+      @include title(h1);
+
+      & > i {
+        color: red;
+      }
+    }
+  }
+
+  img {
+    width: 50%;
+    border: 1px solid blue;
+  }
+}
