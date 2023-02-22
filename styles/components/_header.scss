@@ -40,8 +40,7 @@
           transition: color 0.2s ease;
           height: 2.5rem;
 
-
-          &:hover {
+          &:hover, &.active {
             color: $pink-color-500;
           }
         }

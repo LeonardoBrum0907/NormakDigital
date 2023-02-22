@@ -40,7 +40,7 @@
   transition: color 0.2s ease;
   height: 2.5rem;
 }
-.site-header__nav ul li a:hover {
+.site-header__nav ul li a:hover, .site-header__nav ul li a.active {
   color: #ea1d5d;
 }
 .site-header__nav ul li.has-submenu {
