@@ -22,7 +22,7 @@
         <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
       </a>
       <ul class="mobile-menu">
-        <li><a class="active" href="/pages/quem-somos.html">Quem somos</a></li>
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
         <li class="has-submenu">
           <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases<span>›</span></a>
           <ul class="submenu">
@@ -58,36 +58,6 @@
       <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
     </div>
   </header>
-  <script>
-    const searchContainer = document.querySelector('.search-container');
-    const searchIcon = searchContainer.querySelector('.search-icon');
-    const searchInput = searchContainer.querySelector('input');
-
-    const menuBtn = document.querySelector('.hamburger-menu');
-    const navbar = document.querySelector('.mobile-menu');
-
-    menuBtn.addEventListener('click', () => {
-      navbar.classList.toggle('navbar--open');
-      menuBtn.classList.toggle('active')
-    });
-
-    searchIcon.addEventListener('click', () => {
-      searchContainer.classList.toggle('focus');
-      searchInput.focus();
-    });
-
-    $(document).ready(function () {
-      var currentLocation = window.location.href;
-
-      $('nav a').each(function () {
-        var link = $(this).attr('href');
-        if (currentLocation == link) {
-          $(this).addClass('active');
-        }
-      });
-    });
-  </script>
-
   <main>
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
       alt="imagem de fundo cinza escuro"></figure>
@@ -105,6 +75,8 @@
     </section>
 
   </main>
+
+  <script src="/scripts/header.js"></script>
 </body>
 
 </html>

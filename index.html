@@ -18,8 +18,6 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> -->
   <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 
-
-
 </head>
 
 <body>
@@ -65,24 +63,6 @@
       <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
     </div>
   </header>
-  <script>
-    const searchContainer = document.querySelector('.search-container');
-    const searchIcon = searchContainer.querySelector('.search-icon');
-    const searchInput = searchContainer.querySelector('input');
-
-    const menuBtn = document.querySelector('.hamburger-menu');
-    const navbar = document.querySelector('.mobile-menu');
-
-    menuBtn.addEventListener('click', () => {
-      navbar.classList.toggle('navbar--open');
-      menuBtn.classList.toggle('active')
-    });
-
-    searchIcon.addEventListener('click', () => {
-      searchContainer.classList.toggle('focus');
-      searchInput.focus();
-    });
-  </script>
 
   <main>
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
@@ -515,6 +495,9 @@
       <img src="/assets/logo-bottom.svg" alt="">
     </div>
   </footer>
+
+  <!-- header script -->
+  <script src="/scripts/header.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
