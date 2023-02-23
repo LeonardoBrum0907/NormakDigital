@@ -1777,6 +1777,51 @@
   }
 }
 
+.section-selos {
+  padding: 4rem 2rem 4rem 7rem;
+}
+@media (max-width: 980px) {
+  .section-selos {
+    padding: 4rem 1rem;
+  }
+}
+.section-selos h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  border-left: 3px solid #ea1d5d;
+}
+@media (max-width: 980px) {
+  .section-selos h2 {
+    font-size: 1.6666666667rem !important;
+  }
+}
+.section-selos__certificados {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .section-selos__certificados {
+    justify-content: center;
+  }
+}
+.section-selos__certificados div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 217px;
+  margin: 1rem 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
 @media (max-width: 980px) {
   .section-quem-somos {
     flex-direction: column;
