@@ -162,6 +162,41 @@
   }
 }
 
+.section-acreditamos-pessoas {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+  padding-right: 8rem;
+  background-color: $gray-color-900;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: -25px;
+  }
+
+  &__description {
+    width: 60%;
+
+    h2 {
+      font-size: 40px;
+      color: $cyan-color-500;
+    }
+
+    p {
+      font-size: 24px;
+      color: $white-color;
+    }
+  }
+
+  button {
+    @include button();
+    background-color: $cyan-color-500;
+    width: 25%;
+    border: none;
+  }
+}
+
 @media (max-width: 980px) {
   .section-quem-somos {
     flex-direction: column;
@@ -225,6 +260,25 @@
       section {
         min-height: 230px;
       }
+    }
+  }
+
+  .section-acreditamos-pessoas {
+    flex-direction: column;
+    gap: 2rem;
+
+    &__description {
+      padding: 1.5rem;
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    img {
+      height: 120px;
     }
   }
 }

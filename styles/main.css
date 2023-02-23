@@ -1576,6 +1576,54 @@
   }
 }
 
+.section-acreditamos-pessoas {
+  padding: 4rem 2rem 4rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8rem;
+  background-color: #24262a;
+  position: relative;
+}
+@media (max-width: 980px) {
+  .section-acreditamos-pessoas {
+    padding: 1rem;
+  }
+}
+.section-acreditamos-pessoas img {
+  position: absolute;
+  left: -25px;
+}
+.section-acreditamos-pessoas__description {
+  width: 60%;
+}
+.section-acreditamos-pessoas__description h2 {
+  font-size: 40px;
+  color: #02eb9e;
+}
+.section-acreditamos-pessoas__description p {
+  font-size: 24px;
+  color: #ffffff;
+}
+.section-acreditamos-pessoas button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: #02eb9e;
+  width: 25%;
+  border: none;
+}
+@media (max-width: 980px) {
+  .section-acreditamos-pessoas button {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 980px) {
   .section-quem-somos {
     flex-direction: column;
@@ -1630,6 +1678,21 @@
   }
   .section-nossa-historia__principios section {
     min-height: 230px;
+  }
+  .section-acreditamos-pessoas {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-acreditamos-pessoas__description {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .section-acreditamos-pessoas button {
+    width: 100%;
+    max-width: 400px;
+  }
+  .section-acreditamos-pessoas img {
+    height: 120px;
   }
 }
 * {
