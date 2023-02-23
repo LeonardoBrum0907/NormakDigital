@@ -498,6 +498,9 @@
   <!-- header script -->
   <script src="/scripts/header.js"></script>
 
+  <!--Form modal-->
+  <script src="/scripts/form-modal.js"></script>
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!-- Initialize Swiper -->
@@ -566,20 +569,6 @@
           spaceBetween: 100,
         },
       }
-    });
-  </script>
-  <!--Form modal-->
-  <script>
-    const abrirModal = document.getElementById('abrir-modal');
-    const modal = document.getElementById('modal-form');
-    const fecharModal = document.getElementById('fechar-modal-form');
-
-    abrirModal.addEventListener('click', () => {
-      modal.style.display = 'flex';
-    });
-
-    fecharModal.addEventListener('click', () => {
-      modal.style.display = 'none';
     });
   </script>
 </body>
