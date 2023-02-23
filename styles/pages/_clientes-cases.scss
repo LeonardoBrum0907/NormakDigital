@@ -1,0 +1,17 @@
+.section-falam-sobre-nos {
+  border: 1px solid red;
+  @include container();
+  padding-top: 6rem;
+
+  h1 {
+    @include title(h1);
+    line-height: 100px;
+    width: 80%;
+  }
+
+  p {
+    @include title(p);
+    color: $white-color;
+    width: 50%;
+  }
+}

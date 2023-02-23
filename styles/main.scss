@@ -36,18 +36,21 @@ $font-size-p: 1.3rem;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+
   } @else if $type == "h2" {
     $font-size: $font-size-h2;
     color: $pink-color-500;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+
   } @else if $type == "h3" {
     $font-size: $font-size-h3;
     color: $pink-color-500;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+    
   } @else if $type == "p" {
     $font-size: $font-size-p;
     font-weight: 400;
@@ -96,6 +99,7 @@ $font-size-p: 1.3rem;
 @import "components/footer";
 @import "pages/home";
 @import "pages/quem-somos";
+@import "pages/clientes-cases";
 
 * {
   margin: 0;
