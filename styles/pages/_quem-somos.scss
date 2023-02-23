@@ -209,7 +209,6 @@
     width: 50%;
     gap: 2rem;
 
-
     h2 {
       @include title(h3);
       padding-left: 2rem;
@@ -225,7 +224,7 @@
       @include button();
       background-color: $cyan-color-500;
       text-decoration: none;
-      color:$black-color;
+      color: $black-color;
       margin-left: 2rem;
       width: 60%;
     }
@@ -233,6 +232,77 @@
 
   img {
     width: 45%;
+  }
+}
+
+.section-depoimentos {
+  @include container();
+
+  h2 {
+    @include title(h3);
+    padding-left: 2rem;
+    border-left: 3px solid $pink-color-500;
+  }
+
+  .swiper {
+    position: relative;
+    padding: 0 3rem 0 7rem;
+    margin-top: 2rem;
+    width: 90%;
+
+    .swiper-slide {
+      background-color: $gray-color-900;
+      padding: 2rem 2rem 2rem 6rem;
+      border-radius: 20px;
+
+      div {
+        @include flex-center();
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        background-color: $white-color;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      h3 {
+        @include title(h3);
+        color: $white-color;
+      }
+
+      p {
+        margin-top: 1rem;
+        position: relative;
+        color: $white-color;
+
+        i {
+          position: absolute;
+          left: -35px;
+          font-size: 2rem;
+          color: $cyan-color-500;
+        }
+      }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      background: transparent;
+      color: $pink-color-500;
+      border: none;
+    }
+
+    @media (max-width: 980px) {
+      padding: 0;
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+    }
   }
 }
 

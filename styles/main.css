@@ -1692,6 +1692,91 @@
   width: 45%;
 }
 
+.section-depoimentos {
+  padding: 4rem 2rem 4rem 7rem;
+}
+@media (max-width: 980px) {
+  .section-depoimentos {
+    padding: 4rem 1rem;
+  }
+}
+.section-depoimentos h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  border-left: 3px solid #ea1d5d;
+}
+@media (max-width: 980px) {
+  .section-depoimentos h2 {
+    font-size: 1.6666666667rem !important;
+  }
+}
+.section-depoimentos .swiper {
+  position: relative;
+  padding: 0 3rem 0 7rem;
+  margin-top: 2rem;
+  width: 90%;
+}
+.section-depoimentos .swiper .swiper-slide {
+  background-color: #24262a;
+  padding: 2rem 2rem 2rem 6rem;
+  border-radius: 20px;
+}
+.section-depoimentos .swiper .swiper-slide div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-depoimentos .swiper .swiper-slide h3 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+@media (max-width: 980px) {
+  .section-depoimentos .swiper .swiper-slide h3 {
+    font-size: 1.6666666667rem !important;
+  }
+}
+.section-depoimentos .swiper .swiper-slide p {
+  margin-top: 1rem;
+  position: relative;
+  color: #ffffff;
+}
+.section-depoimentos .swiper .swiper-slide p i {
+  position: absolute;
+  left: -35px;
+  font-size: 2rem;
+  color: #02eb9e;
+}
+.section-depoimentos .swiper .swiper-button-prev,
+.section-depoimentos .swiper .swiper-button-next {
+  background: transparent;
+  color: #ea1d5d;
+  border: none;
+}
+@media (max-width: 980px) {
+  .section-depoimentos .swiper {
+    padding: 0;
+  }
+  .section-depoimentos .swiper .swiper-button-prev,
+  .section-depoimentos .swiper .swiper-button-next {
+    display: none;
+  }
+}
+
 @media (max-width: 980px) {
   .section-quem-somos {
     flex-direction: column;
