@@ -11,10 +11,115 @@
 
   <link rel="stylesheet" href="/styles/main.css">
 
-  <title>Document</title>
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+
+  <title>Normak Digital - Serviços</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Serviços</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases<span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/clientes-cases/cliente1.html">Sublink 1</a></li>
+            <li><a href="/pages/clientes-cases/cliente2.html">Sublink 2</a></li>
+            <li><a href="/pages/clientes-cases/cliente3.html">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
+      alt="imagem de fundo cinza escuro"></figure>
+
+    <section class="section-motores-busca">
+      <div>
+        <h1>Otimização para motores de busca <i class="fa-solid fa-angle-right"></i></h1>
+        <p>Feito corretamente, o SEO tem o potencial de se tornar sua fonte de tráfego e receita mais econômica. Mas é uma arte delicada e mesmo a menor violação das diretrizes do Google pode fazer com que você saia completamente do radar do seu cliente.</p>
+        <button class="btn-comecar-agora" id="abrir-modal">Começar agora <i class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+      </div>
+
+      <img src="/assets/servicos/banner-motores-busca.png" alt="celular com eletrodomésticos pesquisado no google">
+      
+    </section>
+    
+    <section class="teste">teste</section>
+  </main>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio"
+        required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form">&times;</button>
+    </fieldset>
+  </form>
+
+  <script src="/scripts/header.js"></script>
+  <script src="/scripts/form-modal.js"></script>
 </body>
 </html>

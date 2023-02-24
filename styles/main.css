@@ -1985,7 +1985,6 @@
 }
 
 .section-motores-busca {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -2002,7 +2001,6 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
-  border: 1px solid blue;
   width: 60%;
 }
 .section-motores-busca div h1 {
@@ -2039,14 +2037,20 @@
   justify-content: space-between;
   padding: 0 5%;
   font-size: 1.3rem;
-  background-color: #02eb9e;
-  width: 60%;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 70%;
   max-width: 400px;
 }
 @media (max-width: 980px) {
   .section-motores-busca div button {
     font-size: 1rem;
   }
+}
+.section-motores-busca div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
 }
 .section-motores-busca img {
   width: 50%;
@@ -2066,6 +2070,9 @@
   .section-motores-busca div h1 {
     font-size: 50px;
     line-height: 50px;
+  }
+  .section-motores-busca img {
+    width: 80%;
   }
 }
 * {
