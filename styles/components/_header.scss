@@ -149,10 +149,11 @@
     display: none;
   }
 
-  @media (max-width: 1300px) {
-    // height: 127px;
-    // padding: 1.5rem 5%;
+  @media (min-width: 1700px) {
+    padding: 1.5rem 15rem;
+  }
 
+  @media (max-width: 1300px) {
     &__nav {
       gap: 5%;
 

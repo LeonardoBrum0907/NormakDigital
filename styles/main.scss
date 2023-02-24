@@ -89,7 +89,7 @@ $font-size-p: 1.3rem;
 }
 
 @mixin container() {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
 
   @media (max-width: 1700px) {
     padding: 4rem 2rem 4rem 7rem;

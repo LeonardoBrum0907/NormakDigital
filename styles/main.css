@@ -134,6 +134,11 @@
 .site-header .hamburger-menu {
   display: none;
 }
+@media (min-width: 1700px) {
+  .site-header {
+    padding: 1.5rem 15rem;
+  }
+}
 @media (max-width: 1300px) {
   .site-header__nav {
     gap: 5%;
@@ -518,7 +523,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   height: 800px;
 }
 @media (max-width: 1700px) {
@@ -615,7 +620,7 @@
 
 .o-que-vc-precisa {
   position: relative;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -784,7 +789,7 @@
 
 .section-blog {
   display: flex;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
 }
 @media (max-width: 1700px) {
   .section-blog {
@@ -1017,7 +1022,7 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1073,7 +1078,7 @@
 
 .faq-section {
   margin-top: 5rem;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   height: 800px;
 }
 @media (max-width: 1700px) {
@@ -1424,7 +1429,7 @@
   }
 }
 .section-quem-somos {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -1442,7 +1447,7 @@
   }
 }
 .section-quem-somos div {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -1519,7 +1524,7 @@
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -1650,7 +1655,7 @@
 }
 
 .section-acreditamos-pessoas {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1703,7 +1708,7 @@
 }
 
 .section-empresas-atendidas {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1776,7 +1781,7 @@
 }
 
 .section-depoimentos {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
 }
 @media (max-width: 1700px) {
   .section-depoimentos {
@@ -1866,7 +1871,7 @@
 }
 
 .section-selos {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
 }
 @media (max-width: 1700px) {
   .section-selos {
@@ -2005,7 +2010,7 @@
 }
 .section-falam-sobre-nos {
   border: 1px solid red;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   padding-top: 6rem;
 }
 @media (max-width: 1700px) {
@@ -2049,7 +2054,7 @@
   display: flex;
   align-items: center;
   align-items: flex-start;
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -2130,7 +2135,7 @@
 }
 
 .section-acelere-crescimento {
-  padding: 4rem 3rem 4rem 10rem;
+  padding: 4rem 3rem 4rem 15rem;
   display: flex;
   align-items: center;
   gap: 10%;
