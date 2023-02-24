@@ -171,7 +171,6 @@
     left: 0;
     width: 70vw;
     background-color: #ffffff;
-    z-index: 10;
     border-radius: 0 20px 20px 20px;
   }
   @keyframes menu {
@@ -194,6 +193,7 @@
   }
   .site-header__nav .mobile-menu.navbar--open li .submenu {
     width: 100%;
+    z-index: 10;
   }
   .site-header .hamburger-menu {
     position: relative;
