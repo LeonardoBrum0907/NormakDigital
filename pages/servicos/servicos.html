@@ -101,7 +101,8 @@
           Nossa equipe de Serviços de Consultoria oferece um profundo conhecimento operacional, que ajuda nossos
           clientes a estabelecerem uma sólida ponte entre a concepção e a execução de suas estratégias. Se a sua equipe
           tiver poucos recursos e competências especializadas, ou estiver lutando para fazer a coisa acontecer, nós te
-          daremos cobertura!</p>
+          daremos cobertura!
+        </p>
       </div>
       <nav>
         <ul>
@@ -112,7 +113,106 @@
       </nav>
       <img src="/assets/servicos/menor-que-acelere.png" alt="operador menor que rosa">
 
+    </section>
+
+    <section class="section-abordagem">
+      <div class="section-abordagem__background"></div>
+      <img src="/assets/home/menor-que-abordagem.svg" alt="operador menor que">
+      <h2 class="section-abordagem__description">nossa abordagem</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <section class="swiper-slide">
+            <div class="icone">
+              <img src="/assets/icons/key-icon.svg" alt="icone">
+            </div>
+            <h2>Pesquisa <br> de palavra chave</h2>
+            <p class="texto1">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+              prosseguir com
+              qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+              palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+            </p>
+            <button class="btn-ler-mais first" aria-label="ler mais"></button>
+            <script>
+              const btnLerMais1 = document.querySelector('.first');
+              const texto1 = document.querySelector('.texto1');
+
+              btnLerMais1.addEventListener('click', function () {
+                btnLerMais1.classList.toggle('focus');
+                texto1.classList.toggle('active')
+              });
+            </script>
+
+          </section>
+          <section class="swiper-slide">
+            <div class="icone">
+              <img src="/assets/icons/graphic.svg" alt="icone">
+            </div>
+            <h2>SEO na página</h2>
+            <p class="texto2">O SEO On-Page é a base de qualquer site de sucesso. Ao implementar melhorias na
+              estrutura do seu site, navegação, links internos, conteúdo, uso de palavras-chave e metatags, garantimos
+              que seu site seja fácil de pesquisar e fácil de usar.
+            </p>
+            <button class="btn-ler-mais second" aria-label="ler mais"></button>
+
+            <script>
+              const btnLerMais2 = document.querySelector('.second');
+              const texto2 = document.querySelector('.texto2');
+
+              btnLerMais2.addEventListener('click', function () {
+                btnLerMais2.classList.toggle('focus');
+                texto2.classList.toggle('active')
+              });
+            </script>
+          </section>
+          <section class="swiper-slide">
+            <div class="icone">
+              <img src="/assets/icons/gear-icon.svg" alt="icone">
+            </div>
+            <h2>SEO técnico</h2>
+            <p class="texto3">É vital garantir que não haja nada que impeça o Google de rastrear e indexar seu site.
+              Verificamos, corrigimos e otimizamos o desempenho do seu site, velocidade, robots.txt, meta robôs, erros
+              de página, redirecionamentos e sitemaps.
+            </p>
+            <button class="btn-ler-mais third" aria-label="ler mais"></button>
+
+            <script>
+              const btnLerMais3 = document.querySelector('.third');
+              const texto3 = document.querySelector('.texto3');
+
+              btnLerMais3.addEventListener('click', function () {
+                btnLerMais3.classList.toggle('focus');
+                texto3.classList.toggle('active')
+              });
+            </script>
+          </section>
+          <section class="swiper-slide">
+            <div class="icone">
+              <img src="/assets/icons/graphic.svg" alt="icone">
+            </div>
+            <h2>Pesquisa <br> de palavra chave</h2>
+            <p class="texto4">A pesquisa de palavras-chave é a espinha dorsal de qualquer campanha de SEO. Antes de
+              prosseguir com
+              qualquer SEO On-Page ou Off-Page, realizamos uma pesquisa abrangente de palavras-chave para identificar
+              palavras-chave relevantes, de baixa dificuldade e alto volume que as pessoas usam para pesquisar .
+            </p>
+            <button class="btn-ler-mais fourth" aria-label="ler mais"></button>
+
+            <script>
+              const btnLerMais4 = document.querySelector('.fourth ');
+              const texto4 = document.querySelector('.texto4');
+
+              btnLerMais4.addEventListener('click', function () {
+                btnLerMais4.classList.toggle('focus');
+                texto4.classList.toggle('active')
+              });
+            </script>
+          </section>
+        </div>
+        <button class="swiper-button-next" aria-label="scrollar slider de cards para direita"></button>
+        <button class="swiper-button-prev" aria-label="scrollar slider de cards para esquerda"></button>
       </div>
+    </section>
   </main>
 
   <form class="modal" id="modal-form" method="post" action="/submit-form">
@@ -148,6 +248,36 @@
 
   <script src="/scripts/header.js"></script>
   <script src="/scripts/form-modal.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        680: {
+          slidesPerView: 2.3,
+          spaceBetween: 40,
+        },
+        1240: {
+          slidesPerView: 3.3,
+          spaceBetween: 50,
+        },
+        // 1700: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 100,
+        // },
+      }
+    });
+  </script>
 </body>
 
 </html>
