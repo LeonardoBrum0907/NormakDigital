@@ -75,6 +75,7 @@ $font-size-p: 1.3rem;
 
   @media (max-width: 980px) {
     font-size: 1rem;
+    
   }
 }
 
@@ -98,9 +99,11 @@ $font-size-p: 1.3rem;
 @import "components/header";
 @import "components/footer";
 @import "components/form";
+
 @import "pages/home";
 @import "pages/quem-somos";
 @import "pages/clientes-cases";
+@import "pages/servicos/servicos";
 
 * {
   margin: 0;

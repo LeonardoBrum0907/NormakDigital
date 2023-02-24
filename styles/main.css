@@ -69,7 +69,6 @@
   background-color: #ffffff;
   border-radius: 0 20px 20px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1;
 }
 .site-header__nav ul li.has-submenu .submenu::before {
   content: "";
@@ -357,7 +356,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 999 !important;
   left: 0;
   top: 0;
   width: 100%;
@@ -372,7 +371,7 @@
   border-left: none;
   border-right: none;
   border-radius: 10px;
-  height: 90vh;
+  height: 70vh;
   width: 80%;
   position: relative;
   display: flex;
@@ -380,6 +379,10 @@
   justify-content: center;
   flex-direction: column;
   gap: 26px;
+  z-index: 10;
+}
+.modal .modal-content img {
+  display: none;
 }
 .modal .modal-content legend {
   position: absolute;
@@ -466,21 +469,21 @@
 
 @media (max-width: 980px) {
   .modal {
-    display: flex;
-    position: absolute;
-    top: initial;
-    bottom: 0;
-    height: 698px;
-    margin-top: 3rem;
-    border-radius: 10px;
-    background-color: transparent;
+    justify-content: flex-start;
   }
   .modal .modal-content {
-    max-height: 698px;
-    width: 100%;
     border-top: 5px solid #ea1d5d;
-    padding: 7rem 1rem 1rem;
-    gap: 1rem;
+    height: 89vh;
+    width: 95vw;
+  }
+  .modal .modal-content img {
+    height: 200px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 150px;
   }
   .modal .modal-content legend {
     color: #ea1d5d;
@@ -495,9 +498,6 @@
   }
   .modal .modal-content section input {
     width: 100%;
-  }
-  .modal .fechar-modal {
-    display: none;
   }
 }
 .img-background-top {
@@ -1329,12 +1329,44 @@
   .section-comece-seo .btn-comecar-agora {
     display: none;
   }
+  .section-comece-seo .modal {
+    display: flex;
+    position: absolute;
+    top: inherit;
+    bottom: 0;
+    margin-top: 3rem;
+    max-height: 698px;
+    width: 100%;
+  }
+  .section-comece-seo .modal .modal-content {
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #ea1d5d;
+    padding-top: 5rem;
+  }
+  .section-comece-seo .modal .modal-content legend {
+    color: #ea1d5d;
+  }
+  .section-comece-seo .modal .modal-content legend span {
+    display: none;
+  }
+  .section-comece-seo .modal .modal-content section {
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+  }
+  .section-comece-seo .modal .modal-content section input {
+    width: 100%;
+  }
+  .section-comece-seo .modal .fechar-modal {
+    display: none;
+  }
   .section-comece-seo .linha-passos {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 28%;
-    padding-bottom: 90px;
+    padding-bottom: 130px;
     height: calc(100% - 650px);
     top: 0;
     right: 0;
@@ -1952,6 +1984,90 @@
   }
 }
 
+.section-motores-busca {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 4rem 2rem 4rem 7rem;
+}
+@media (max-width: 980px) {
+  .section-motores-busca {
+    padding: 4rem 1rem;
+  }
+}
+.section-motores-busca div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid blue;
+  width: 60%;
+}
+.section-motores-busca div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+}
+@media (max-width: 980px) {
+  .section-motores-busca div h1 {
+    font-size: 4.3333333333rem;
+  }
+}
+.section-motores-busca div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #ffffff;
+  width: 80%;
+}
+@media (max-width: 980px) {
+  .section-motores-busca div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-motores-busca div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: #02eb9e;
+  width: 60%;
+  max-width: 400px;
+}
+@media (max-width: 980px) {
+  .section-motores-busca div button {
+    font-size: 1rem;
+  }
+}
+.section-motores-busca img {
+  width: 50%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+  .section-motores-busca {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-motores-busca div {
+    width: 100%;
+  }
+  .section-motores-busca div h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
