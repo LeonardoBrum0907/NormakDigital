@@ -518,8 +518,13 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   height: 800px;
+}
+@media (max-width: 1700px) {
+  .section-trafego {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-trafego {
@@ -583,16 +588,16 @@
   bottom: 0;
   right: 10%;
   width: auto;
-  height: 70%;
+  height: 80%;
   -o-object-fit: contain;
      object-fit: contain;
 }
 @media (max-width: 1200px) {
   .section-trafego .avatar img {
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: 35vh;
     right: 0;
-    bottom: -130px;
+    bottom: -60px;
   }
 }
 .section-trafego .gear {
@@ -610,10 +615,15 @@
 
 .o-que-vc-precisa {
   position: relative;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 1700px) {
+  .o-que-vc-precisa {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .o-que-vc-precisa {
@@ -774,7 +784,12 @@
 
 .section-blog {
   display: flex;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
+}
+@media (max-width: 1700px) {
+  .section-blog {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-blog {
@@ -1002,10 +1017,15 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+@media (max-width: 1700px) {
+  .empresas-atendidas-slider {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .empresas-atendidas-slider {
@@ -1053,8 +1073,13 @@
 
 .faq-section {
   margin-top: 5rem;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   height: 800px;
+}
+@media (max-width: 1700px) {
+  .faq-section {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .faq-section {
@@ -1399,12 +1424,17 @@
   }
 }
 .section-quem-somos {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
+}
+@media (max-width: 1700px) {
+  .section-quem-somos {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-quem-somos {
@@ -1489,8 +1519,13 @@
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   position: relative;
+}
+@media (max-width: 1700px) {
+  .section-nossa-historia {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-nossa-historia {
@@ -1615,13 +1650,18 @@
 }
 
 .section-acreditamos-pessoas {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 8rem;
   background-color: #24262a;
   position: relative;
+}
+@media (max-width: 1700px) {
+  .section-acreditamos-pessoas {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-acreditamos-pessoas {
@@ -1663,10 +1703,15 @@
 }
 
 .section-empresas-atendidas {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 1700px) {
+  .section-empresas-atendidas {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas {
@@ -1731,7 +1776,12 @@
 }
 
 .section-depoimentos {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
+}
+@media (max-width: 1700px) {
+  .section-depoimentos {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-depoimentos {
@@ -1816,7 +1866,12 @@
 }
 
 .section-selos {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
+}
+@media (max-width: 1700px) {
+  .section-selos {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-selos {
@@ -1950,8 +2005,13 @@
 }
 .section-falam-sobre-nos {
   border: 1px solid red;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   padding-top: 6rem;
+}
+@media (max-width: 1700px) {
+  .section-falam-sobre-nos {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos {
@@ -1989,8 +2049,13 @@
   display: flex;
   align-items: center;
   align-items: flex-start;
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   position: relative;
+}
+@media (max-width: 1700px) {
+  .section-motores-busca {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-motores-busca {
@@ -2065,11 +2130,16 @@
 }
 
 .section-acelere-crescimento {
-  padding: 4rem 2rem 4rem 7rem;
+  padding: 4rem 3rem 4rem 10rem;
   display: flex;
   align-items: center;
   gap: 10%;
   position: relative;
+}
+@media (max-width: 1700px) {
+  .section-acelere-crescimento {
+    padding: 4rem 2rem 4rem 7rem;
+  }
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento {

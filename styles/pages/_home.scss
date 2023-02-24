@@ -61,14 +61,14 @@
     bottom: 0;
     right: 10%;
     width: auto;
-    height: 70%;
+    height: 80%;
     object-fit: contain;
 
     @media (max-width: 1200px) {
-      width: 50%;
-      height: 50%;
+      width: auto;
+      height: 35vh;
       right: 0;
-      bottom: -130px;
+      bottom: -60px;
     }
   }
 
