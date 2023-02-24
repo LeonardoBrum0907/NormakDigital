@@ -127,7 +127,7 @@
 
       p {
         @include title(p);
-        width: 90%;
+        width: 100%;
         padding-left: 2rem;
       }
 
@@ -199,6 +199,33 @@
       }
     }
   }
+}
+
+.section-servicos {
+  @include flex-center();
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  @include container();
+  background-color: $gray-color-900;
+
+  div {
+    width: 450px;
+    padding: 3rem;
+    border: 1px solid $gray-color-100;
+    border-radius: 16px;
+
+    span {
+      @include title(h3);
+    }
+
+    p {
+      @include title(p);
+      color: $gray-color-500;
+      margin-top: 2rem;
+    }
+  }
+
 }
 
 @media (max-width: 1200px) {
