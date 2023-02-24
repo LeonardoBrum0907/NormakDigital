@@ -1,6 +1,7 @@
 .section-quem-somos {
   @include container();
   @include flex-center();
+  align-items: flex-start;
   justify-content: space-between;
   position: relative;
 
@@ -346,7 +347,7 @@
     div {
       width: 100%;
       h1 {
-        line-height: 55px;
+        line-height: 60px;
         justify-content: flex-start;
         i {
           margin-bottom: 0;
