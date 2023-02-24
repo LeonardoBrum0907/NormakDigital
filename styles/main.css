@@ -1989,6 +1989,7 @@
   align-items: center;
   align-items: flex-start;
   padding: 4rem 2rem 4rem 7rem;
+  position: relative;
 }
 @media (max-width: 980px) {
   .section-motores-busca {
@@ -2001,7 +2002,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
-  width: 60%;
+  width: 50%;
 }
 .section-motores-busca div h1 {
   color: #ea1d5d;
@@ -2053,16 +2054,92 @@
   color: #ffffff;
 }
 .section-motores-busca img {
-  width: 50%;
-  height: 80%;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  width: 40%;
+  height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.section-acelere-crescimento {
+  padding: 4rem 2rem 4rem 7rem;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  position: relative;
+}
+@media (max-width: 980px) {
+  .section-acelere-crescimento {
+    padding: 4rem 1rem;
+  }
+}
+.section-acelere-crescimento div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 45%;
+  height: 100%;
+}
+.section-acelere-crescimento div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-acelere-crescimento div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-acelere-crescimento div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-acelere-crescimento div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-acelere-crescimento nav {
+  position: absolute;
+  top: 1rem;
+}
+.section-acelere-crescimento nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-acelere-crescimento nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-acelere-crescimento nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-acelere-crescimento nav ul li a.active {
+  color: #000000;
+}
+.section-acelere-crescimento img {
+  width: 40%;
+  max-width: 500px;
 }
 
 @media (max-width: 1200px) {
   .section-motores-busca {
     flex-direction: column;
     align-items: center;
+    height: 150vh;
+    max-height: 800px;
   }
   .section-motores-busca div {
     width: 100%;
@@ -2072,7 +2149,17 @@
     line-height: 50px;
   }
   .section-motores-busca img {
-    width: 80%;
+    width: auto;
+    height: 35%;
+    top: initial;
+    right: 0;
+    bottom: 0;
+  }
+  .section-acelere-crescimento div {
+    width: 90%;
+  }
+  .section-acelere-crescimento img {
+    display: none;
   }
 }
 * {

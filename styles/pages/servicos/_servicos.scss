@@ -2,19 +2,20 @@
   @include flex-center();
   align-items: flex-start;
   @include container();
-  
+  position: relative;
+
   div {
     @include flex-center();
     align-items: flex-start;
     flex-direction: column;
     gap: 2rem;
-    width: 60%;
+    width: 50%;
 
     h1 {
       @include title(h1);
       line-height: 100px;
     }
-  
+
     p {
       @include title(p);
       color: $white-color;
@@ -25,7 +26,7 @@
       @include button();
       background-color: transparent;
       border: 1px solid $cyan-color-500;
-      color:  $cyan-color-500;
+      color: $cyan-color-500;
       width: 70%;
       max-width: 400px;
 
@@ -37,16 +38,76 @@
   }
 
   img {
-    width: 50%;
-    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    width: 40%;
+    height: auto;
     object-fit: contain;
   }
 }
 
-@media(max-width: 1200px) {
+.section-acelere-crescimento {
+  @include container();
+  @include flex-center();
+  gap: 10%;
+  position: relative;
+
+  div {
+    @include flex-center();
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+    height: 100%;
+
+    h2 {
+      @include title(h3);
+      border-left: 3px solid $pink-color-500;
+      padding-left: 2rem;
+    }
+    p {
+      @include title(p);
+      padding-left: 2rem;
+
+    }
+  }
+
+  nav {
+    position: absolute;
+    top: 1rem;
+
+    ul {
+      @include flex-center();
+      gap: 1rem;
+      list-style: none;
+
+      li {
+        font-size: 24px;
+        color: darken($gray-color-100, 5%);
+
+        a {
+          color: darken($gray-color-100, 5%);
+          text-decoration: none;
+          &.active {
+            color: $black-color;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    width: 40%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
   .section-motores-busca {
     flex-direction: column;
     align-items: center;
+    height: 150vh;
+    max-height: 800px;
 
     div {
       width: 100%;
@@ -58,7 +119,20 @@
     }
 
     img {
-      width: 80%;
+      width: auto;
+      height: 35%;
+      top: initial;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .section-acelere-crescimento {
+    div {
+      width: 90%;
+    }
+    img {
+      display: none;
     }
   }
 }
