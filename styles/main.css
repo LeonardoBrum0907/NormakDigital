@@ -2302,6 +2302,10 @@
     font-size: 1rem;
   }
 }
+.section-estrategia-seo .fale-especialista div button:hover {
+  background-color: #02d28d;
+  color: #ffffff;
+}
 .section-estrategia-seo .fale-especialista img {
   width: 40%;
   height: auto;
@@ -2506,6 +2510,10 @@
   .section-cases-diferenca div button {
     font-size: 1rem;
   }
+}
+.section-cases-diferenca div button:hover {
+  background-color: #02d28d;
+  color: #ffffff;
 }
 .section-cases-diferenca div:last-child {
   background: #24262a;

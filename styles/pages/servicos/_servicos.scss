@@ -138,6 +138,11 @@
         width: 60%;
         max-width: 460px;
         margin-left: 2rem;
+
+        &:hover {
+          background-color: darken($cyan-color-500, 5%);
+          color: $white-color;
+        }
       }
     }
 
@@ -273,6 +278,10 @@
       max-width: 430px;
       margin-left: 2rem;
 
+      &:hover {
+        background-color: darken($cyan-color-500, 5%);
+        color: $white-color;
+      }
     }
 
     &:last-child {
