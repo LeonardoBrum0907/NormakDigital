@@ -223,7 +223,7 @@
   .site-header .hamburger-menu.active::after {
     position: absolute;
     color: #000000;
-    right: 0;
+    right: -15px;
     content: "Fechar";
   }
   .site-header .hamburger-menu.active .hamburger-menu__line:nth-child(1) {

@@ -234,7 +234,7 @@
       width: 80px;
       color: $white-color;
       cursor: pointer;
-      z-index: 11;
+      z-index: 11;      
 
       &::after {
         content: "Menu";
@@ -248,7 +248,7 @@
         &::after {
           position: absolute;
           color: $black-color;
-          right: 0;
+          right: -15px;
           content: "Fechar";
         }
 
