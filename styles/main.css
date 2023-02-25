@@ -2798,6 +2798,47 @@
   max-width: 600px;
 }
 
+.section-beneficios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+  gap: 3rem;
+  background-color: #24262a;
+}
+.section-beneficios div {
+  width: 550px;
+  height: 350px;
+  padding: 3rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+}
+.section-beneficios div span {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+@media (max-width: 980px) {
+  .section-beneficios div span {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-beneficios div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #919191;
+  margin-top: 2rem;
+}
+@media (max-width: 980px) {
+  .section-beneficios div p {
+    font-size: 0.8666666667rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .section-consultoria-seo {
     flex-direction: column;
