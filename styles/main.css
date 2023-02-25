@@ -383,7 +383,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 26px;
+  gap: 20px;
   z-index: 10;
 }
 .modal .modal-content img {
@@ -425,6 +425,7 @@
   width: 100%;
   resize: none;
   height: 400px;
+  min-height: 100px;
 }
 .modal .modal-content label {
   display: none;
@@ -462,8 +463,9 @@
   width: 30px;
   font-size: 24px;
   font-weight: bold;
-  color: #888;
+  color: #ffffff;
   border-radius: 50%;
+  border: none;
   background-color: #000000;
   cursor: pointer;
   opacity: 0.9;
@@ -478,8 +480,9 @@
   }
   .modal .modal-content {
     border-top: 5px solid #ea1d5d;
+    padding: 5rem 1rem 1rem 1rem;
     height: 89vh;
-    width: 95vw;
+    width: 99vw;
   }
   .modal .modal-content img {
     height: 200px;
