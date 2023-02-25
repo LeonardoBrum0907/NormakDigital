@@ -383,7 +383,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   z-index: 10;
 }
 .modal .modal-content img {
@@ -415,6 +415,11 @@
   text-transform: uppercase;
   color: #e1e1e1;
 }
+@media (max-width: 380px) {
+  .modal .modal-content section input {
+    padding: 15px;
+  }
+}
 .modal .modal-content textarea {
   background: transparent;
   border: 1px solid #e1e1e1;
@@ -425,7 +430,12 @@
   width: 100%;
   resize: none;
   height: 400px;
-  min-height: 100px;
+  min-height: 80px;
+}
+@media (max-width: 380px) {
+  .modal .modal-content textarea {
+    padding: 15px;
+  }
 }
 .modal .modal-content label {
   display: none;
@@ -481,7 +491,7 @@
   .modal .modal-content {
     border-top: 5px solid #ea1d5d;
     padding: 5rem 1rem 1rem 1rem;
-    height: 89vh;
+    height: 75vh;
     width: 99vw;
   }
   .modal .modal-content img {
@@ -501,7 +511,7 @@
   }
   .modal .modal-content section {
     flex-direction: column;
-    gap: 26px;
+    gap: 15px;
     align-items: center;
   }
   .modal .modal-content section input {
