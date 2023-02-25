@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+
+  <title>Normak Digital - Consultoria SEO</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases<span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/clientes-cases/cliente1.html">Sublink 1</a></li>
+            <li><a href="/pages/clientes-cases/cliente2.html">Sublink 2</a></li>
+            <li><a href="/pages/clientes-cases/cliente3.html">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
+      alt="imagem de fundo cinza escuro"></figure>
+
+    <section class="section-consultoria-seo">
+      <div>
+        <h1>Consultoria SEO <i class="fa-solid fa-angle-right"></i></h1>
+        <p>O que é consultoria em SEO? <br>
+          A Consultoria em SEO é o termo pelo qual, geralmente, o mercado se refere à prestação de serviços de
+          otimização de sites para mecanismos de busca (SEO)</p>
+        <button class="btn-comecar-agora abrir-modal">Começar agora <i
+            class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+      </div>
+
+      <img src="/assets/servicos/banner-consultoria-seo.png" alt="mulher sorrindo usando celular">
+    </section>
+
+    <section class="section-como-funciona">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a href="#">Serviços</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a class="active" href="#">Consultoria SEO</a></li>
+          </ul>
+        </nav>
+        <h2>Como funciona a Consultoria de SEO?/</h2>
+        <p>A Consultoria SEO tem por objetivo melhorar o posicionamento do seu site nos mecanismos de buscas (ex.
+          Google) visando atrair mais clientes, aumentar a geração de leads e vendas através de seu site. Nós da
+          Consultoria Digital somos especialistas em SEO e podemos ajudar você a melhorar o seu posicionamento no
+          Google, ultrapassando seus concorrentes e aumentando os seus resultados.
+        </p>
+      </div>
+      
+      <img src="/assets/servicos/menor-que-acelere.png" alt="operador menor que rosa">
+
+    </section>
+  </main>
+
   <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
   <h1>Consultoria SEO</h1>
 </body>
+
 </html>
