@@ -698,6 +698,7 @@
   flex-direction: column;
   position: relative;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   height: 800px;
 }
 @media (max-width: 1700px) {
@@ -795,6 +796,7 @@
 .o-que-vc-precisa {
   position: relative;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -862,6 +864,7 @@
 .section-blog {
   display: flex;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
   .section-blog {
@@ -1095,6 +1098,7 @@
   height: -moz-max-content;
   height: max-content;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1151,6 +1155,7 @@
 .faq-section {
   margin-top: 5rem;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   height: 800px;
 }
 @media (max-width: 1700px) {
@@ -1445,6 +1450,7 @@
 }
 .section-quem-somos {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -1540,6 +1546,7 @@
   align-items: flex-start;
   flex-direction: column;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -1671,6 +1678,7 @@
 
 .section-acreditamos-pessoas {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1724,6 +1732,7 @@
 
 .section-empresas-atendidas {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1797,6 +1806,7 @@
 
 .section-depoimentos {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
   .section-depoimentos {
@@ -1887,6 +1897,7 @@
 
 .section-selos {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
   .section-selos {
@@ -2026,6 +2037,7 @@
 .section-falam-sobre-nos {
   border: 1px solid red;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   padding-top: 6rem;
 }
 @media (max-width: 1700px) {
@@ -2070,6 +2082,7 @@
   align-items: center;
   align-items: flex-start;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -2151,6 +2164,7 @@
 
 .section-acelere-crescimento {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   gap: 10%;
@@ -2227,6 +2241,7 @@
 
 .section-estrategia-seo {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -2389,6 +2404,7 @@
   justify-content: center;
   gap: 2rem;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   background-color: #24262a;
 }
 @media (max-width: 1700px) {
@@ -2435,6 +2451,7 @@
 
 .section-cases-diferenca {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   padding: 4rem 8rem;
   display: flex;
   align-items: center;
@@ -2637,6 +2654,7 @@
   align-items: center;
   align-items: flex-start;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -2724,6 +2742,7 @@
 
 .section-como-funciona {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   padding-right: 6rem;
   display: flex;
   align-items: center;
@@ -2875,6 +2894,7 @@
   align-items: center;
   align-items: flex-start;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -2962,6 +2982,7 @@
 
 .section-seo-ecommerce {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   padding-right: 6rem;
   display: flex;
   align-items: center;
@@ -3043,6 +3064,7 @@
 
 .section-estrategia-seo-para-ecommerce {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   padding-right: 4rem;
@@ -3185,6 +3207,7 @@
   align-items: center;
   align-items: flex-start;
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
@@ -3267,6 +3290,7 @@
 
 .section-geolocalizacao {
   padding: 4rem 15rem;
+  margin-bottom: 5rem;
   padding-top: 10rem;
   padding-right: 6rem;
   display: flex;
