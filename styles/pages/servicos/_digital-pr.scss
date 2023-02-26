@@ -1,0 +1,376 @@
+.section-digital-pr {
+  @include flex-center();
+  align-items: flex-start;
+  @include container();
+  position: relative;
+
+  div {
+    @include flex-center();
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+
+    h1 {
+      @include title(h1);
+      line-height: 100px;
+    }
+
+    p {
+      @include title(p);
+      color: $white-color;
+      width: 80%;
+    }
+
+    button {
+      @include button();
+      background-color: transparent;
+      border: 1px solid $cyan-color-500;
+      color: $cyan-color-500;
+      width: 70%;
+      max-width: 400px;
+
+      &:hover {
+        background-color: $cyan-color-500;
+        color: $white-color;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    width: 50%;
+    z-index: 1;
+    height: auto;
+    object-fit: contain;
+    
+    @media(max-width: 1400px) {
+      width: 40%;
+      right: 0;
+    }
+  }
+}
+
+.section-o-que-e-pr {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+  position: relative;
+
+  div {
+    @include flex-center();
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    height: 100%;
+
+    nav {
+      align-self: flex-start;
+  
+      ul {
+        @include flex-center();
+        gap: 1rem;
+        list-style: none;
+  
+        li {
+          font-size: 24px;
+          color: darken($gray-color-100, 5%);
+  
+          a {
+            color: darken($gray-color-100, 5%);
+            text-decoration: none;
+            &.active {
+              color: $black-color;
+            }
+          }
+        }
+      }
+    }
+
+    h2 {
+      @include title(h3);
+      border-left: 3px solid $pink-color-500;
+      padding-left: 2rem;
+
+    }
+    p {
+      @include title(p);
+      padding-left: 2rem;
+    }
+  }
+
+  
+
+  img {
+    width: 40%;
+    max-width: 600px;
+  }
+}
+
+.modal-digital-pr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .modal-content {
+    background-color: $gray-color-900;
+    padding: 3rem;
+    border-top: 50px solid $pink-color-500;
+    border-bottom: 50px solid $pink-color-500;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    @include flex-center();
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+
+    img {
+      display: none;
+    }
+
+    legend {
+      position: absolute;
+      top: 1rem;
+      left: 3rem;
+      color: $cyan-color-500;
+      font-size: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+
+      span {
+        color: $pink-color-500;
+      }
+    }
+
+    section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        width: 45%;
+        @include input();
+      }
+    }
+
+    textarea {
+      @include input();
+      width: 100%;
+      resize: none;
+      flex: 1;
+      min-height: 90px;
+    }
+
+    label {
+      display: none;
+    }
+
+    .btn-submit {
+      position: absolute;
+      bottom: -5rem;
+      background-color: $cyan-color-500;
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      border: none;
+      @include flex-center();
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 0.8rem;
+      color: $gray-color-900;
+
+      img {
+        width: 25px;
+        height: 25px;
+      }
+
+      &:hover {
+        background-color: lighten($cyan-color-500, 5%);
+      }
+    }
+
+    .fechar-modal {
+      display: none;
+      position: absolute;
+      top: -2.5rem;
+      right: 1rem;
+      height: 30px;
+      width: 30px;
+      font-size: 24px;
+      font-weight: bold;
+      color: $white-color;
+      border-radius: 50%;
+      border: none;
+      background-color: $black-color;
+      cursor: pointer;
+      opacity: 0.9;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.fale-especialista-pr {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+
+  div {
+    @include flex-center();
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+
+    h2 {
+      @include title(h3);
+      border-left: 3px solid $pink-color-500;
+      padding-left: 2rem;
+    }
+
+    p {
+      @include title(p);
+      width: 100%;
+      padding-left: 2rem;
+    }
+
+    button {
+      @include button();
+      background-color: $cyan-color-500;
+      border: none;
+      width: 60%;
+      max-width: 460px;
+
+      &:hover {
+        background-color: lighten($cyan-color-500, 5%);
+        color: $white-color;
+      }
+    }
+  }
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media(max-width:1200px) {
+  .section-digital-pr {
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+    max-height: 800px;
+    overflow: hidden;
+
+    div {
+      width: 100%;
+
+      h1 {
+        font-size: 50px;
+        line-height: 50px;
+      }
+    }
+
+    img {
+      width: auto;
+      height: 50%;
+      top: initial;
+      right: -100px;
+      bottom: 0;
+    }
+  }
+
+  .section-o-que-e-pr {
+    div {
+      width: 90%;
+
+      nav ul li {
+        font-size: 1rem;
+      }
+    }
+    img {
+      display: none;
+    }
+  }
+
+  .modal-digital-pr {
+    justify-content: flex-start;    
+    width: 100%;
+    .modal-content {
+      border-top: 5px solid $pink-color-500;
+      padding: 5rem 1rem 1rem 1rem;
+      height: max-content;
+      width: 99vw;
+
+      img {
+        height: 200px;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(-50%, -50%);
+        width: 150px;
+      }
+
+      legend {
+        color: $pink-color-500;
+        left: 1rem;
+
+        span {
+          display: none;
+        }
+      }
+
+      section {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .fale-especialista-pr {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+    div {
+      width: 100%;
+
+      p {
+        width: 80%;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+
+    img {
+      width: 90%;
+    }
+  }
+}
