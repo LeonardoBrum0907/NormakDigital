@@ -2870,6 +2870,316 @@
     display: none;
   }
 }
+.section-habilidades {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 4rem 15rem;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-habilidades {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-habilidades {
+    padding: 4rem 1rem;
+  }
+}
+.section-habilidades div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.section-habilidades div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+}
+@media (max-width: 980px) {
+  .section-habilidades div h1 {
+    font-size: 4.3333333333rem;
+  }
+}
+.section-habilidades div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #ffffff;
+  width: 80%;
+}
+@media (max-width: 980px) {
+  .section-habilidades div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-habilidades div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 70%;
+  max-width: 400px;
+}
+@media (max-width: 980px) {
+  .section-habilidades div button {
+    font-size: 1rem;
+  }
+}
+.section-habilidades div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-habilidades img {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  width: 45%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 1400px) {
+  .section-habilidades img {
+    width: 40%;
+    right: 0;
+  }
+}
+
+.section-seo-ecommerce {
+  padding: 4rem 15rem;
+  padding-right: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-seo-ecommerce {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-seo-ecommerce {
+    padding: 4rem 1rem;
+  }
+}
+.section-seo-ecommerce div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.section-seo-ecommerce div nav {
+  align-self: flex-start;
+}
+.section-seo-ecommerce div nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-seo-ecommerce div nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-seo-ecommerce div nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-seo-ecommerce div nav ul li a.active {
+  color: #000000;
+}
+.section-seo-ecommerce div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-seo-ecommerce div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-seo-ecommerce div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  width: 50%;
+}
+@media (max-width: 980px) {
+  .section-seo-ecommerce div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-seo-ecommerce div p:last-child {
+  width: 100%;
+}
+.section-seo-ecommerce img {
+  width: 50%;
+  max-width: 600px;
+}
+
+.section-estrategia-seo-para-ecommerce {
+  padding: 4rem 15rem;
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1700px) {
+  .section-estrategia-seo-para-ecommerce {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-estrategia-seo-para-ecommerce {
+    padding: 4rem 1rem;
+  }
+}
+.section-estrategia-seo-para-ecommerce div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.section-estrategia-seo-para-ecommerce div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-estrategia-seo-para-ecommerce div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-estrategia-seo-para-ecommerce div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  width: 100%;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-estrategia-seo-para-ecommerce div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-estrategia-seo-para-ecommerce div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: #02eb9e;
+  border: none;
+  width: 60%;
+  max-width: 460px;
+  margin-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-estrategia-seo-para-ecommerce div button {
+    font-size: 1rem;
+  }
+}
+.section-estrategia-seo-para-ecommerce div button:hover {
+  background-color: #02d28d;
+  color: #ffffff;
+}
+.section-estrategia-seo-para-ecommerce img {
+  width: 40%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .section-habilidades {
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+    max-height: 800px;
+  }
+  .section-habilidades div {
+    width: 100%;
+  }
+  .section-habilidades div h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-habilidades img {
+    width: auto;
+    height: 30%;
+    top: initial;
+    right: 0;
+    bottom: 0;
+  }
+  .section-seo-ecommerce div {
+    width: 90%;
+  }
+  .section-seo-ecommerce div nav ul li {
+    font-size: 1rem;
+  }
+  .section-seo-ecommerce div p {
+    width: 100%;
+  }
+  .section-seo-ecommerce img {
+    display: none;
+  }
+  .section-estrategia-seo-para-ecommerce {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  .section-estrategia-seo-para-ecommerce div {
+    width: 100%;
+  }
+  .section-estrategia-seo-para-ecommerce div p {
+    width: 80%;
+  }
+  .section-estrategia-seo-para-ecommerce div button {
+    width: 80%;
+  }
+  .section-estrategia-seo-para-ecommerce img {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) and (max-width: 680px) {
+  .section-estrategia-seo-para-ecommerce img {
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
