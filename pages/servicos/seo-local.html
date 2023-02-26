@@ -1,13 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+
+  <title>Normak Digital - SEO Local</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Seo Local</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases<span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/clientes-cases/cliente1.html">Sublink 1</a></li>
+            <li><a href="/pages/clientes-cases/cliente2.html">Sublink 2</a></li>
+            <li><a href="/pages/clientes-cases/cliente3.html">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
+      alt="imagem de fundo cinza escuro"></figure>
+
+      
+    <section class="section-seo-local">
+      <div>
+        <h1>SEO Local <i class="fa-solid fa-angle-right"></i></h1>
+        <p>Feito corretamente, o SEO tem o potencial de se tornar sua fonte de tráfego e receita mais econômica. Mas é
+          uma arte delicada e mesmo a menor violação das diretrizes do Google pode fazer com que você saia completamente
+          do radar do seu cliente.</p>
+        <button class="btn-comecar-agora abrir-modal">Vamos começar <i
+            class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+      </div>
+
+      <img src="/assets/servicos/SEOlocal.png" alt="celular na mão">
+    </section>
+
+    <section class="section-geolocalizacao">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a href="#">Serviços</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a class="active" href="#">E-commerce SEO</a></li>
+          </ul>
+        </nav>
+        <h2>A geolocalização é fundamental/</h2>
+        <p>
+          É cada vez mais comum as pessoas fazerem pesquisas por produtos ou serviços utilizando mecanismos de busca como o Google. Pensando nisso, muitas empresas têm buscado se posicionar para que seus sites sejam localizados e estejam nas primeiras posições.          
+        </p>
+        <p>
+          Uma das alternativas para ajudar a localização das empresas é o SEO (Search Engine Optimization), que consiste na otimização das páginas de um site para alcançar um bom posicionamento orgânico nos mecanismos de busca (Google, Yahoo!, Bing etc.).
+        </p>
+      </div>
+
+      <div>
+        <img src="/assets/servicos/notebook-estrategia-seo.png" alt="notebook com codigos de programação na tela e um celular com uma dashboard na frente.">
+
+        <h2>Otimize seu site</h2>
+        <p>Para começar, recomendo que utilize a ferramenta Análise de Sites, que ajudará você a verificar o desempenho do seu site e SEO.</p>
+
+        <button class="btn-comecar-agora abrir-modal">Fale com um especialista <i
+          class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

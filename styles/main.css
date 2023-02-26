@@ -463,7 +463,7 @@
   height: 25px;
 }
 .modal .modal-content .btn-submit:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
 }
 .modal .modal-content .fechar-modal {
   position: absolute;
@@ -977,7 +977,7 @@
   }
 }
 .section-blog .mySwiper2 .swiper-slide a:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
   color: #ffffff;
 }
 
@@ -1059,7 +1059,7 @@
   }
 }
 .section-comece-seo .btn-comecar-agora:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
   color: #ffffff;
 }
 .section-comece-seo .linha-passos {
@@ -2303,7 +2303,7 @@
   }
 }
 .section-estrategia-seo .fale-especialista div button:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
   color: #ffffff;
 }
 .section-estrategia-seo .fale-especialista img {
@@ -2512,7 +2512,7 @@
   }
 }
 .section-cases-diferenca div button:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
   color: #ffffff;
 }
 .section-cases-diferenca div:last-child {
@@ -3115,7 +3115,7 @@
   }
 }
 .section-estrategia-seo-para-ecommerce div button:hover {
-  background-color: #02d28d;
+  background-color: #0afdad;
   color: #ffffff;
 }
 .section-estrategia-seo-para-ecommerce img {
@@ -3178,6 +3178,252 @@
 @media (max-width: 1200px) and (max-width: 680px) {
   .section-estrategia-seo-para-ecommerce img {
     width: 100%;
+  }
+}
+.section-seo-local {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 4rem 15rem;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-seo-local {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-seo-local {
+    padding: 4rem 1rem;
+  }
+}
+.section-seo-local div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.section-seo-local div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+  width: 60%;
+}
+@media (max-width: 980px) {
+  .section-seo-local div h1 {
+    font-size: 4.3333333333rem;
+  }
+}
+.section-seo-local div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #ffffff;
+  width: 80%;
+}
+@media (max-width: 980px) {
+  .section-seo-local div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-seo-local div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 70%;
+  max-width: 400px;
+}
+@media (max-width: 980px) {
+  .section-seo-local div button {
+    font-size: 1rem;
+  }
+}
+.section-seo-local div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-seo-local img {
+  position: absolute;
+  right: 3%;
+  top: 2rem;
+  width: 50%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-geolocalizacao {
+  padding: 4rem 15rem;
+  padding-top: 10rem;
+  padding-right: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-geolocalizacao {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-geolocalizacao {
+    padding: 4rem 1rem;
+  }
+}
+.section-geolocalizacao div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 100%;
+}
+.section-geolocalizacao div:first-child {
+  padding-top: 2rem;
+  width: 40%;
+}
+.section-geolocalizacao div:last-child {
+  width: 56%;
+}
+.section-geolocalizacao div nav {
+  align-self: flex-start;
+}
+.section-geolocalizacao div nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-geolocalizacao div nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-geolocalizacao div nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-geolocalizacao div nav ul li a.active {
+  color: #000000;
+}
+.section-geolocalizacao div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-geolocalizacao div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-geolocalizacao div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+@media (max-width: 980px) {
+  .section-geolocalizacao div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-geolocalizacao div img {
+  width: 60%;
+  max-width: 600px;
+}
+.section-geolocalizacao div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: #02eb9e;
+  border: none;
+  width: 60%;
+  max-width: 460px;
+  margin-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-geolocalizacao div button {
+    font-size: 1rem;
+  }
+}
+.section-geolocalizacao div button:hover {
+  background-color: #0afdad;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .section-seo-local {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-height: 800px;
+    overflow: hidden;
+  }
+  .section-seo-local div {
+    width: 80%;
+  }
+  .section-seo-local div h1 {
+    font-size: 50px;
+    line-height: 50px;
+    width: 100%;
+  }
+  .section-seo-local div button {
+    width: 100%;
+  }
+  .section-seo-local img {
+    width: auto;
+    height: 35%;
+    top: initial;
+    right: -80px;
+    bottom: 0;
+  }
+  .section-geolocalizacao {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-geolocalizacao div {
+    width: 100%;
+  }
+  .section-geolocalizacao div:first-child {
+    width: 100%;
+  }
+  .section-geolocalizacao div:last-child {
+    width: 100%;
+  }
+  .section-geolocalizacao div nav ul li {
+    font-size: 1rem;
+  }
+  .section-geolocalizacao div p {
+    width: 100%;
+  }
+  .section-geolocalizacao div button {
+    width: 80%;
+  }
+  .section-geolocalizacao img {
+    display: none;
   }
 }
 * {

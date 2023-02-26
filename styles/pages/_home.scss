@@ -203,7 +203,7 @@
         text-decoration: none;
 
         &:hover {
-          background-color: darken($cyan-color-500, 5%);
+          background-color: lighten($cyan-color-500, 5%);
           color: $white-color;
         }
       }
@@ -273,7 +273,7 @@
     border: none;
 
     &:hover {
-      background-color: darken($cyan-color-500, 5%);
+      background-color: lighten($cyan-color-500, 5%);
       color: $white-color;
     }
   }
