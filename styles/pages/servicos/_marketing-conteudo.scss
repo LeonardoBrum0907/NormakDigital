@@ -1,0 +1,132 @@
+.section-marketing-conteudo {
+  @include flex-center();
+  align-items: flex-start;
+  @include container();
+  position: relative;
+
+  div {
+    @include flex-center();
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+
+    h1 {
+      @include title(h1);
+      line-height: 100px;
+    }
+
+    p {
+      @include title(p);
+      color: $white-color;
+      width: 80%;
+    }
+
+    button {
+      @include button();
+      background-color: transparent;
+      border: 1px solid $cyan-color-500;
+      color: $cyan-color-500;
+      width: 70%;
+      max-width: 400px;
+
+      &:hover {
+        background-color: $cyan-color-500;
+        color: $white-color;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 3%;
+    top: 1rem;
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.section-o-que-e-marketing {
+  @include container();
+  padding-top: 6rem;
+  @include flex-center();
+  justify-content: space-between;
+  position: relative;
+
+  div {
+    @include flex-center();
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 70%;
+    height: 100%;
+
+    nav {
+      align-self: flex-start;
+
+      ul {
+        @include flex-center();
+        gap: 1rem;
+        list-style: none;
+
+        li {
+          font-size: 24px;
+          color: darken($gray-color-100, 5%);
+
+          a {
+            color: darken($gray-color-100, 5%);
+            text-decoration: none;
+            &.active {
+              color: $black-color;
+            }
+          }
+        }
+      }
+    }
+
+    h2 {
+      @include title(h3);
+      border-left: 3px solid $pink-color-500;
+      padding-left: 2rem;
+      width: 60%;
+    }
+    p {
+      @include title(p);
+      padding-left: 2rem;
+
+    }
+  }
+
+  img {
+    width: 50%;
+    max-width: 600px;
+  }
+}
+
+.section-guia {
+  @include flex-center();
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+  gap: 3rem;
+  background-color: $gray-color-900;
+
+  div {
+    width: 550px;  
+    height: 500px;
+    padding: 3rem;
+    border: 1px solid $gray-color-100;
+    border-radius: 16px;
+
+    span {
+      @include title(h3);
+    }
+
+    p {
+      @include title(p);
+      color: $gray-color-500;
+      margin-top: 2rem;
+    }
+  }
+}

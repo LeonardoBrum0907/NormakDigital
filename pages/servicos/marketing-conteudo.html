@@ -1,13 +1,301 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+
+  <title>Normak Digital - Marketing de Conteúdo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Marketing conteudo</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases<span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/clientes-cases/cliente1.html">Sublink 1</a></li>
+            <li><a href="/pages/clientes-cases/cliente2.html">Sublink 2</a></li>
+            <li><a href="/pages/clientes-cases/cliente3.html">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
+      alt="imagem de fundo cinza escuro"></figure>
+
+    <section class="section-marketing-conteudo">
+      <div>
+        <h1>de conteúdo relevante <i class="fa-solid fa-angle-right"></i></h1>
+        <p>Com o Marketing de Conteúdo, a empresa ajuda seu público-alvo a resolver seus problemas e vira uma autoridade
+          no assunto.</p>
+        <button class="btn-comecar-agora abrir-modal">Vamos começar <i
+            class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+      </div>
+
+      <img src="/assets/servicos/marketing-de-conteudo.png" alt="celular na mão">
+    </section>
+
+    <section class="section-o-que-e-marketing">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a href="#">Serviços</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a class="active" href="#">Marketing de Conteúdo</a></li>
+          </ul>
+        </nav>
+        <h2>O que é Marketing de Conteúdo?</h2>
+        <p>
+          Ao começar uma estratégia de Marketing Digital, todo profissional de marketing encontra essa frente chamada
+          Marketing de Conteúdo. Mas, afinal de contas, o que ela significa?
+        </p>
+        <p>
+          Indo direto ao ponto, Marketing de Conteúdo é a estratégia de produzir conteúdos para seu público-alvo, que o
+          auxilie em todo processo de compra e o atraia para você de forma natural e espontânea. Podemos dizer que é o
+          combustível ou a base do Inbound Marketing.
+        </p>
+      </div>
+    </section>
+
+    <div class="section-guia">
+      <div>
+        <span>Como estabeleça o tom de voz em seus conteúdos</span>
+        <p>
+          O que é tom na escrita? Quais são os principais tipos e exemplos de tom de voz que você pode usar em seu copy?
+          Acesse nosso guia definitivo para 2022 e encontre o tom perfeito para sua marca!
+        </p>
+      </div>
+      <div>
+        <span>Um guia para engajar e converter sua audiência</span>
+        <p>
+          A produção de conteúdo é uma das habilidades mais importantes para um profissional de marketing. Neste guia,
+          vamos nos aprofundar em tudo que você precisar saber para se destacar e criar um conteúdo único, orientando-o
+          num processo passo a passo que você pode replicar para obter sucesso em sua estratégia.
+        </p>
+      </div>
+      <div>
+        <span>Criar um calendário de conteúdo em 2022</span>
+        <p>
+          Procurando tornar sua pesquisa de palavras-chave, planejamento de conteúdo e produção mais eficientes? Acesse
+          este modelo definitivo de calendário de conteúdo para 2022.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="section-estrategia-seo">
+      <section class="fale-especialista">
+        <img src="/assets/servicos/notebook-estrategia-seo.png"
+          alt="notebook com codigos de programação na tela e um celular com uma dashboard na frente.">
+
+        <div>
+          <h2>Estratégias de SEO sustentáveis</h2>
+          <p>Nós nos concentramos nos resultados de longo prazo de nossos clientes, em vez de no sucesso da noite para o
+            dia</p>
+          <button class="btn-comecar-agora abrir-modal">Fale com um especialista <i
+              class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </section>
+
+      <section class="seo-360">
+        <h3><span>SEO 360º</span> traz o futuro da otimização de sites para o presente.</h3>
+        <p>Nossos especialistas irão trabalhar junto com seu time de marketing para entender seus objetivos e
+          identificar as melhores oportunidades para atingi-los.</p>
+      </section>
+
+      <section class="principios">
+        <div>
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <h4>Planejamento</h4>
+          <p>O planejamento cuidadoso e a pesquisa completa estão no centro de cada campanha de SEO que realizamos.</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-heart"></i>
+          <h4>Abordagem Ética</h4>
+          <p>Nenhum SEO esboçado. Utilizamos apenas estratégias éticas e sustentáveis que funcionam para o melhor do seu
+            negócio.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h4>Motivado pelo desempenho</h4>
+          <p>Nossas campanhas de SEO são estruturadas para fornecer resultados tangíveis e orientados por dados que
+            realmente beneficiam seus negócios.</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-file-lines"></i>
+          <h4>Relatórios simples</h4>
+          <p>Sem reportagens absurdas. Na Solvid, nos esforçamos para criar relatórios significativos que pintam toda a
+            imagem.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="section-cases-diferenca">
+      <div>
+        <h2>Cases que fazem a diferença</h2>
+        <p>nós entregamos a experiência, mais o <span>sucesso</span> fica para os nossos clientes</p>
+        <button class="btn-comecar-agora abrir-modal">Fale com um especialista <i
+            class="fa-solid fa-angle-right"></i></button>
+      </div>
+
+      <div>
+        <h3>Atraia mais clientes e aumente a autoridade da sua marca</h3>
+        <p>Tenha um time de especialistas em SEO trabalhando para posicionar seu site no Google, Bing e outros
+          mecanismos de busca, usando estratégias testadas e comprovadas para colocar seu site à frente da concorrência.
+        </p>
+        <img src="/assets/servicos/Rectangle1.svg" alt="retangulo rosa">
+        <img src="/assets/servicos/Rectangle2.svg" alt="retangulo ciano">
+      </div>
+    </section>
+    
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
+  </main>
+
+  <footer class="rodape-columns">
+    <div class="rodape-column">
+      <img src="/assets/logo-bottom.svg" alt="Logo da empresa">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+      <div>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@empresa.com</p>
+      </div>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Sobre</h2>
+        <ul>
+          <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+          <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+          <li><a href="/pages/clientes-cases/clientes-cases.html">Clientes e Cases</a></li>
+          <li><a href="/pages/clientes-cases/cliente1.html">Cases de sucesso</a></li>
+          <li><a href="/pages/parceiros.html">Parceiros</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Serviços</h2>
+        <ul>
+          <li><a href="/pages/servicos/seo-360.html">Consultoria SEO 360</a></li>
+          <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+          <li><a href="/pages/servicos/seo-local.html">SEO local</a></li>
+          <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+        </ul>
+      </nav>
+      <nav class="social-icons">
+        <h2>Midias sociais</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="direitos">
+      <span>© 2013-2022Normak Digital</span>
+      <img src="/assets/logo-bottom.svg" alt="">
+    </div>
+  </footer>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form">&times;</button>
+    </fieldset>
+  </form>
+
+  <!-- mobile-menu JS -->
+  <script src="/scripts/header.js"></script>
+
+  <!-- form JS -->
+  <script src="/scripts/form-modal.js"></script>
 </body>
+
 </html>

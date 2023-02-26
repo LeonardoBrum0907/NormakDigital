@@ -689,7 +689,7 @@
   background-repeat: no-repeat;
   z-index: -1;
   max-height: 1000px;
-  height: 800px;
+  height: 700px;
   width: 100%;
 }
 
@@ -2101,7 +2101,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
-  width: 50%;
+  width: 60%;
 }
 .section-motores-busca div h1 {
   color: #ea1d5d;
@@ -3446,6 +3446,211 @@
     display: none;
   }
 }
+.section-marketing-conteudo {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-marketing-conteudo {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-marketing-conteudo {
+    padding: 4rem 1rem;
+  }
+}
+.section-marketing-conteudo div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.section-marketing-conteudo div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+}
+@media (max-width: 980px) {
+  .section-marketing-conteudo div h1 {
+    font-size: 4.3333333333rem;
+  }
+}
+.section-marketing-conteudo div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #ffffff;
+  width: 80%;
+}
+@media (max-width: 980px) {
+  .section-marketing-conteudo div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-marketing-conteudo div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 70%;
+  max-width: 400px;
+}
+@media (max-width: 980px) {
+  .section-marketing-conteudo div button {
+    font-size: 1rem;
+  }
+}
+.section-marketing-conteudo div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-marketing-conteudo img {
+  position: absolute;
+  right: 3%;
+  top: 1rem;
+  width: 40%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-o-que-e-marketing {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-o-que-e-marketing {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-o-que-e-marketing {
+    padding: 4rem 1rem;
+  }
+}
+.section-o-que-e-marketing div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 70%;
+  height: 100%;
+}
+.section-o-que-e-marketing div nav {
+  align-self: flex-start;
+}
+.section-o-que-e-marketing div nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-o-que-e-marketing div nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-o-que-e-marketing div nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-o-que-e-marketing div nav ul li a.active {
+  color: #000000;
+}
+.section-o-que-e-marketing div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+  width: 60%;
+}
+@media (max-width: 980px) {
+  .section-o-que-e-marketing div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-o-que-e-marketing div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-o-que-e-marketing div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-o-que-e-marketing img {
+  width: 50%;
+  max-width: 600px;
+}
+
+.section-guia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+  gap: 3rem;
+  background-color: #24262a;
+}
+.section-guia div {
+  width: 550px;
+  height: 500px;
+  padding: 3rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+}
+.section-guia div span {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+@media (max-width: 980px) {
+  .section-guia div span {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-guia div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #919191;
+  margin-top: 2rem;
+}
+@media (max-width: 980px) {
+  .section-guia div p {
+    font-size: 0.8666666667rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
