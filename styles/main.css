@@ -4113,6 +4113,220 @@
     width: 90%;
   }
 }
+.section-seo-360 {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  position: relative;
+  margin: 0;
+}
+@media (max-width: 1700px) {
+  .section-seo-360 {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-seo-360 {
+    padding: 4rem 1rem;
+  }
+}
+.section-seo-360 div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 55%;
+}
+.section-seo-360 div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+}
+@media (max-width: 980px) {
+  .section-seo-360 div h1 {
+    font-size: 4.3333333333rem;
+  }
+}
+@media (max-width: 1700px) {
+  .section-seo-360 div h1 {
+    font-size: 5rem;
+  }
+}
+.section-seo-360 div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  color: #ffffff;
+  width: 80%;
+}
+@media (max-width: 980px) {
+  .section-seo-360 div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-seo-360 div button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 70%;
+  max-width: 400px;
+}
+@media (max-width: 980px) {
+  .section-seo-360 div button {
+    font-size: 1rem;
+  }
+}
+.section-seo-360 div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-seo-360 img {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  width: 40%;
+  z-index: 1;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 1400px) {
+  .section-seo-360 img {
+    width: 40%;
+    right: 0;
+  }
+}
+
+.section-futuro-otimizacao {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-futuro-otimizacao {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-futuro-otimizacao {
+    padding: 4rem 1rem;
+  }
+}
+.section-futuro-otimizacao div {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+  height: 100%;
+}
+.section-futuro-otimizacao div nav {
+  align-self: flex-start;
+}
+.section-futuro-otimizacao div nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-futuro-otimizacao div nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-futuro-otimizacao div nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-futuro-otimizacao div nav ul li a.active {
+  color: #000000;
+}
+.section-futuro-otimizacao div h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-left: 3px solid #ea1d5d;
+  padding-left: 2rem;
+  width: 70%;
+}
+@media (max-width: 980px) {
+  .section-futuro-otimizacao div h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-futuro-otimizacao div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-futuro-otimizacao div p {
+    font-size: 0.8666666667rem;
+  }
+}
+.section-futuro-otimizacao img {
+  position: absolute;
+  right: 10%;
+  bottom: 2rem;
+  width: auto;
+  height: 650px;
+  max-width: 600px;
+}
+
+@media (max-width: 1200px) {
+  .section-seo-360 {
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    max-height: 800px;
+    overflow: hidden;
+  }
+  .section-seo-360 div {
+    width: 100%;
+  }
+  .section-seo-360 div h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .section-seo-360 img {
+    width: auto;
+    height: 30%;
+    top: initial;
+    right: -50px;
+    bottom: 0;
+  }
+  .section-futuro-otimizacao div {
+    width: 90%;
+  }
+  .section-futuro-otimizacao div h2 {
+    width: 100%;
+  }
+  .section-futuro-otimizacao div nav ul li {
+    font-size: 1rem;
+  }
+  .section-futuro-otimizacao img {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -4139,11 +4353,7 @@ body main {
   background: #ffffff;
   position: relative;
   z-index: 0;
-}
-@media (max-width: 980px) {
-  body main {
-    padding-bottom: 15rem;
-  }
+  padding-bottom: 15rem;
 }
 body button {
   cursor: pointer;

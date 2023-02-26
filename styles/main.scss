@@ -119,6 +119,7 @@ $font-size-p: 1.3rem;
 @import "pages/servicos/seo-local";
 @import "pages/servicos/marketing-conteudo";
 @import "pages/servicos/digital-pr";
+@import "pages/servicos/seo-360";
 
 * {
   margin: 0;
@@ -146,10 +147,7 @@ body {
     background: $white-color;
     position: relative;
     z-index: 0;
-
-    @media (max-width: 980px) {
-      padding-bottom: 15rem;
-    }
+    padding-bottom: 15rem;
   }
 
   button {
