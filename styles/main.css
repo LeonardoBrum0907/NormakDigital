@@ -3291,7 +3291,7 @@
 .section-geolocalizacao {
   padding: 4rem 15rem;
   margin-bottom: 5rem;
-  padding-top: 10rem;
+  padding-top: 8rem;
   padding-right: 6rem;
   display: flex;
   align-items: center;
@@ -3402,7 +3402,7 @@
   .section-seo-local {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     max-height: 800px;
     overflow: hidden;
   }
@@ -3418,11 +3418,7 @@
     width: 100%;
   }
   .section-seo-local img {
-    width: auto;
-    height: 35%;
-    top: initial;
-    right: -80px;
-    bottom: 0;
+    display: none;
   }
   .section-geolocalizacao {
     flex-direction: column;
