@@ -1,27 +1,138 @@
 .section-falam-sobre-nos {
-  border: 1px solid red;
   @include container();
+  @include flex-center();
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
 
   h1 {
     @include title(h1);
     line-height: 100px;
     width: 90%;
-  border: 1px solid red;
-
   }
 
   p {
     @include title(p);
     color: $white-color;
     width: 50%;
-    margin-top: 2rem;
+  }
+
+  button {
+    display: none;
   }
 }
 
-@media(max-width: 980px) {
+.section-banner-cliente {
+  @include container();
+  margin-top: 10rem;
+
+  nav {
+    align-self: flex-start;
+
+    ul {
+      @include flex-center();
+      gap: 1rem;
+      list-style: none;
+
+      li {
+        font-size: 24px;
+        color: darken($gray-color-100, 5%);
+
+        a {
+          color: darken($gray-color-100, 5%);
+          text-decoration: none;
+          &.active {
+            color: $black-color;
+          }
+        }
+      }
+    }
+  }
+
+  div {
+    background-image: url(/assets/clientes/banner-cliente-celebrando.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    height: 500px;
+    position: relative;
+    margin-top: 3rem;
+    border-radius: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: rgb(167, 3, 52), $alpha: 0.5);
+      border-radius: 50px;
+    }
+
+    img {
+      position: absolute;
+      top: -30px;
+      left: 5%;
+      // transform: translate(0, -50%);
+    }
+
+    p {
+      @include title(h3);
+      color: $white-color;
+      position: absolute;
+      width: 80%;
+      left: 5%;
+      top: 60%;
+      transform: translate(0, -50%);
+    }
+  }
+}
+
+@media (max-width: 980px) {
   .section-falam-sobre-nos {
     h1 {
       line-height: 55px;
+    }
+
+    p {
+      width: 90%;
+    }
+
+    button {
+      @include button();
+      background: transparent;
+      border: 1px solid $cyan-color-500;
+      color: $cyan-color-500;
+      width: 20rem;
+      transition: 0.3s;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $cyan-color-500;
+        color: $white-color;
+      }
+    }
+  }
+
+  .section-banner-cliente {
+    padding: 0;
+
+    nav {
+      margin-left: 1rem;
+
+      ul li {
+        font-size: 1rem;
+      }
+    } 
+    
+
+    div {
+      border-radius: 0;
+
+      &::before {
+        border-radius: 0;
+      }
     }
   }
 }

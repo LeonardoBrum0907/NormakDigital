@@ -2034,9 +2034,13 @@
   }
 }
 .section-falam-sobre-nos {
-  border: 1px solid red;
   padding: 4rem 15rem;
   margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
 }
 @media (max-width: 1700px) {
   .section-falam-sobre-nos {
@@ -2055,7 +2059,6 @@
   font-size: 6.5rem;
   line-height: 100px;
   width: 90%;
-  border: 1px solid red;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
@@ -2069,17 +2072,144 @@
   font-size: 1.3rem;
   color: #ffffff;
   width: 50%;
-  margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos p {
     font-size: 0.8666666667rem;
   }
 }
+.section-falam-sobre-nos button {
+  display: none;
+}
+
+.section-banner-cliente {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+}
+@media (max-width: 1700px) {
+  .section-banner-cliente {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-banner-cliente {
+    padding: 4rem 1rem;
+  }
+}
+.section-banner-cliente nav {
+  align-self: flex-start;
+}
+.section-banner-cliente nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.section-banner-cliente nav ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.section-banner-cliente nav ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.section-banner-cliente nav ul li a.active {
+  color: #000000;
+}
+.section-banner-cliente div {
+  background-image: url(/assets/clientes/banner-cliente-celebrando.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 65%;
+  height: 500px;
+  position: relative;
+  margin-top: 3rem;
+  border-radius: 50px;
+}
+.section-banner-cliente div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(167, 3, 52, 0.5);
+  border-radius: 50px;
+}
+.section-banner-cliente div img {
+  position: absolute;
+  top: -30px;
+  left: 5%;
+}
+.section-banner-cliente div p {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #ffffff;
+  position: absolute;
+  width: 80%;
+  left: 5%;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+@media (max-width: 980px) {
+  .section-banner-cliente div p {
+    font-size: 1.6666666667rem;
+  }
+}
 
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
     line-height: 55px;
+  }
+  .section-falam-sobre-nos p {
+    width: 90%;
+  }
+  .section-falam-sobre-nos button {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    border-radius: 16px;
+    transition: 0.3s;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-size: 1.3rem;
+    background: transparent;
+    border: 1px solid #02eb9e;
+    color: #02eb9e;
+    width: 20rem;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+}
+@media (max-width: 980px) and (max-width: 980px) {
+  .section-falam-sobre-nos button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-falam-sobre-nos button:hover {
+    background-color: #02eb9e;
+    color: #ffffff;
+  }
+}
+@media (max-width: 980px) {
+  .section-banner-cliente {
+    padding: 0;
+  }
+  .section-banner-cliente nav {
+    margin-left: 1rem;
+  }
+  .section-banner-cliente nav ul li {
+    font-size: 1rem;
+  }
+  .section-banner-cliente div {
+    border-radius: 0;
+  }
+  .section-banner-cliente div::before {
+    border-radius: 0;
   }
 }
 .section-motores-busca {
