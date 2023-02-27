@@ -740,7 +740,7 @@
   font-size: 1.3rem;
   font-weight: 400;
 }
-.section-trafego__description .btn-vamos-comecar {
+.section-trafego__description button {
   display: flex;
   align-items: center;
   height: 4rem;
@@ -757,11 +757,11 @@
   text-decoration: none;
 }
 @media (max-width: 980px) {
-  .section-trafego__description .btn-vamos-comecar {
+  .section-trafego__description button {
     font-size: 1rem;
   }
 }
-.section-trafego__description .btn-vamos-comecar:hover {
+.section-trafego__description button:hover {
   background-color: #02eb9e;
   color: #ffffff;
 }
