@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .site-header {
   display: flex;
   align-items: center;
@@ -627,8 +626,7 @@
   .section-abordagem .texto2,
   .section-abordagem .texto3,
   .section-abordagem .texto4 {
-    max-height: 4em; /* altura máxima do texto */
-    text-overflow: ellipsis; /* exibir reticências no final do texto cortado */
+    max-height: 4em;
     overflow: hidden;
     margin-bottom: 20px;
   }
@@ -721,7 +719,7 @@
 }
 @media (max-width: 980px) {
   .section-trafego h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-trafego__description {
@@ -1287,14 +1285,13 @@
     background-position: 80%;
   }
   .section-trafego {
-    height: 75vh;
+    height: 90vh;
   }
   .section-trafego .gear,
   .section-trafego .mini-gear {
     display: none;
   }
   .section-trafego h1 {
-    font-size: 3.125rem;
     line-height: 3.71rem;
   }
   .section-trafego__description {
@@ -1491,7 +1488,7 @@
 }
 @media (max-width: 980px) {
   .section-quem-somos div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-quem-somos div h1 > i {
@@ -2040,7 +2037,6 @@
   border: 1px solid red;
   padding: 4rem 15rem;
   margin-bottom: 5rem;
-  padding-top: 6rem;
 }
 @media (max-width: 1700px) {
   .section-falam-sobre-nos {
@@ -2058,11 +2054,12 @@
   text-transform: uppercase;
   font-size: 6.5rem;
   line-height: 100px;
-  width: 80%;
+  width: 90%;
+  border: 1px solid red;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-falam-sobre-nos p {
@@ -2072,6 +2069,7 @@
   font-size: 1.3rem;
   color: #ffffff;
   width: 50%;
+  margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos p {
@@ -2079,6 +2077,11 @@
   }
 }
 
+@media (max-width: 980px) {
+  .section-falam-sobre-nos h1 {
+    line-height: 55px;
+  }
+}
 .section-motores-busca {
   display: flex;
   align-items: center;
@@ -2114,7 +2117,7 @@
 }
 @media (max-width: 980px) {
   .section-motores-busca div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-motores-busca div p {
@@ -2576,7 +2579,6 @@
     width: 100%;
   }
   .section-motores-busca div h1 {
-    font-size: 50px;
     line-height: 50px;
   }
   .section-motores-busca img {
@@ -2686,7 +2688,7 @@
 }
 @media (max-width: 980px) {
   .section-consultoria-seo div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-consultoria-seo div p {
@@ -2871,7 +2873,6 @@
     width: 100%;
   }
   .section-consultoria-seo div h1 {
-    font-size: 50px;
     line-height: 50px;
   }
   .section-consultoria-seo img {
@@ -2926,7 +2927,7 @@
 }
 @media (max-width: 980px) {
   .section-habilidades div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-habilidades div p {
@@ -3240,7 +3241,7 @@
 }
 @media (max-width: 980px) {
   .section-seo-local div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-seo-local div p {
@@ -3412,7 +3413,6 @@
     width: 80%;
   }
   .section-seo-local div h1 {
-    font-size: 50px;
     line-height: 50px;
     width: 100%;
   }
@@ -3483,7 +3483,7 @@
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-marketing-conteudo div p {
@@ -3688,7 +3688,7 @@
 }
 @media (max-width: 980px) {
   .section-digital-pr div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 .section-digital-pr div p {
@@ -4041,7 +4041,6 @@
     width: 100%;
   }
   .section-digital-pr div h1 {
-    font-size: 50px;
     line-height: 50px;
   }
   .section-digital-pr img {
@@ -4149,7 +4148,7 @@
 }
 @media (max-width: 980px) {
   .section-seo-360 div h1 {
-    font-size: 4.3333333333rem;
+    font-size: 3.25rem;
   }
 }
 @media (max-width: 1700px) {
@@ -4304,7 +4303,6 @@
     width: 100%;
   }
   .section-seo-360 div h1 {
-    font-size: 50px;
     line-height: 50px;
   }
   .section-seo-360 img {

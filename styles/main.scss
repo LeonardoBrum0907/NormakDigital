@@ -17,8 +17,7 @@ $font-size-p: 1.3rem;
 }
 
 @mixin text-ocult() {
-  max-height: 4em; /* altura máxima do texto */
-  text-overflow: ellipsis; /* exibir reticências no final do texto cortado */
+  max-height: 4em;
   overflow: hidden;
   margin-bottom: 20px;
 
@@ -60,7 +59,12 @@ $font-size-p: 1.3rem;
   }
 
   @media (max-width: 980px) {
-    font-size: calc($font-size / 1.5);
+    @if $type == "h1" {
+      font-size: calc($font-size / 2);
+    } @else {
+      font-size: calc($font-size / 1.5);
+    }
+    
   }
 }
 
