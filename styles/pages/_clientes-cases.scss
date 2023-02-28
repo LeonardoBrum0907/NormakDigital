@@ -89,6 +89,60 @@
   }
 }
 
+.section-empresas-slider {
+  background-color: $gray-color-100;
+  margin-top: 0;
+  @include container();
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+  position: relative;
+
+
+  & > img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -80px;
+    height: 400px;
+  }
+
+  h2 {
+    position: relative;
+    @include title(h3);
+  }
+
+  .mySwiper {
+    width: 100%;
+    align-self: flex-start;
+    padding: 0 3rem;
+
+    .swiper-slide {
+      @include flex-center();
+      justify-content: center;
+      height: 50px;
+
+      img {
+        object-fit: contain;
+        height: 100%;
+      }
+    }
+
+    & > button {
+      background: transparent;
+      border: none;
+      color: $pink-color-500;
+
+      &::after {
+        font-weight: 900;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 980px) {
   .section-falam-sobre-nos {
     h1 {
@@ -124,8 +178,7 @@
       ul li {
         font-size: 1rem;
       }
-    } 
-    
+    }
 
     div {
       border-radius: 0;
@@ -133,6 +186,16 @@
       &::before {
         border-radius: 0;
       }
+    }
+  }
+
+  .section-empresas-slider {
+    h2 {
+      margin-left: 4rem;
+    }
+    & > img {
+      top: 30%;
+      left: -130px;
     }
   }
 }

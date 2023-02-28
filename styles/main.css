@@ -2160,6 +2160,73 @@
   }
 }
 
+.section-empresas-slider {
+  background-color: #e1e1e1;
+  margin-top: 0;
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-empresas-slider {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-empresas-slider {
+    padding: 4rem 1rem;
+  }
+}
+.section-empresas-slider > img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -80px;
+  height: 400px;
+}
+.section-empresas-slider h2 {
+  position: relative;
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+@media (max-width: 980px) {
+  .section-empresas-slider h2 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-empresas-slider .mySwiper {
+  width: 100%;
+  align-self: flex-start;
+  padding: 0 3rem;
+}
+.section-empresas-slider .mySwiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.section-empresas-slider .mySwiper .swiper-slide img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+.section-empresas-slider .mySwiper > button {
+  background: transparent;
+  border: none;
+  color: #ea1d5d;
+}
+.section-empresas-slider .mySwiper > button::after {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
     line-height: 55px;
@@ -2210,6 +2277,15 @@
   }
   .section-banner-cliente div::before {
     border-radius: 0;
+  }
+}
+@media (max-width: 980px) {
+  .section-empresas-slider h2 {
+    margin-left: 4rem;
+  }
+  .section-empresas-slider > img {
+    top: 30%;
+    left: -130px;
   }
 }
 .section-motores-busca {
@@ -4480,6 +4556,7 @@ body {
 body main {
   background: #ffffff;
   position: relative;
+  overflow: hidden;
   z-index: 0;
   padding-bottom: 15rem;
 }

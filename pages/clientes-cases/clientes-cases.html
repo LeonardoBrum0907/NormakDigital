@@ -81,8 +81,6 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><i class="fa-solid fa-angle-right"></i></li>
-          <li><a href="#">Serviços</a></li>
-          <li><i class="fa-solid fa-angle-right"></i></li>
           <li><a class="active" href="#">Cliente & Cases</a></li>
         </ul>
       </nav>
@@ -95,12 +93,66 @@
           quae reiciendis velit magnam deleniti nobis quia modi.
         </p>
       </div>
-
     </div>
+
+    <section class="section-empresas-slider">
+      <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+      <h2>Junte-se a Mais de 5.000 Empresas,
+        entre Pequenos a Grandes Negócios</h2>
+      <!-- Swiper3 -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente1.html">
+            <img src="/assets/clientes/green-fuel.png" alt="Logotipo da Green Fuel">
+          </a>
+          
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente3.html">
+            <img src="/assets/clientes/witbiz.png" alt="Logotipo da Witbiz">
+          </a>
+
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente2.html">
+            <img src="/assets/clientes/intersena.png" alt="Logotipo da Intersena">
+          </a>
+
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente3.html">
+            <img src="/assets/clientes/witbiz.png" alt="Logotipo da Witbiz">
+          </a>
+        </div>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
+      </div>
+    </section>
   </main>
 
 
   <script src="/scripts/header.js"></script>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        620: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>
