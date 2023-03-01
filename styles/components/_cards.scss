@@ -1,0 +1,180 @@
+.cards-box {
+  position: relative;
+  height: 43.75rem;
+  min-width: 40.625rem;
+
+  &__card {
+    @include flex-center();
+    justify-content: center;
+    position: absolute;
+    border-radius: 47px;
+
+    &:first-child {
+      background-color: $gray-color-900;
+      height: 27.5rem;
+      width: 27.5rem;
+      right: 5%;
+      bottom: 0;
+      z-index: 1;
+      padding: 2rem;
+
+      span {
+        width: 80%;
+        font-size: 4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $pink-color-500;
+      }
+
+      button {
+        align-self: flex-start;
+        @include flex-center();
+        justify-content: center;
+        margin-left: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        background-color: $white-color;
+
+        i {
+          font-size: 1.5rem;
+          color: $pink-color-500;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      height: 23.125rem;
+      width: 23.125rem;
+      top: 40%;
+      transform: translate(0, -50%);
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: rgb(255, 0, 76), $alpha: 0.5);
+        border-radius: 30px;
+      }
+    }
+
+    &:last-child {
+      @include flex-center();
+      justify-content: center;
+      color: $gray-color-900;
+      height: 21.875rem;
+      width: 21.875rem;
+      background-color: $pink-color-500;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      padding: 2rem 2rem 2rem 5rem;
+
+      span {
+        width: 70%;
+        font-size: 4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $gray-color-900;
+      }
+
+      button {
+        align-self: flex-start;
+        @include flex-center();
+        justify-content: center;
+        margin-left: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        background-color: $white-color;
+
+        i {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .cards-box {
+    height: 38rem;
+    min-width: 35rem;
+
+    &__card {
+      &:first-child {
+        height: 24rem;
+        width: 24rem;
+        padding: 1rem;
+
+        button {
+          width: 30px;
+          height: 30px;
+        }
+
+        span {
+          font-size: 3rem;
+        }
+      }
+      &:nth-child(2) {
+        height: 20rem;
+        width: 20rem;
+      }
+      &:last-child {
+        height: 18rem;
+        width: 18rem;
+        padding: 2rem 2rem 2rem 4rem;
+
+        button {
+          width: 30px;
+          height: 30px;
+        }
+
+        span {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .cards-box {
+    height: 25rem;
+    min-width: 22rem;
+
+    &__card {
+      &:first-child {
+        height: 15rem;
+        width: 15rem;
+
+        span {
+          font-size: 2rem;
+        }
+      }
+      &:nth-child(2) {
+        height: 13rem;
+        width: 13rem;
+      }
+      &:last-child {
+        height: 12rem;
+        width: 12rem;
+
+        span {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

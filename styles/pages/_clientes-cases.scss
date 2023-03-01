@@ -100,7 +100,6 @@
   align-items: center;
   position: relative;
 
-
   & > img {
     position: absolute;
     top: 50%;
@@ -139,6 +138,54 @@
         font-weight: 900;
         font-size: 2rem;
       }
+    }
+  }
+}
+
+.section-sua-estrategia {
+  position: relative;
+  @include container();
+  padding-right: 8rem;
+  @include flex-center();
+  justify-content: space-between;
+
+  h2 {
+    @include title(h2);
+  }
+
+  &__description {
+    padding: 4rem 4rem 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 70%;
+
+    p {
+      font-size: $font-size-p;
+    }
+
+    .btn-ver-mais {
+      @include button();
+      background: $cyan-color-500;
+      color: $black-color;
+      width: 21.56rem;
+      transition: 0.3s;
+      text-decoration: none;
+
+      &:hover {
+        background: darken($cyan-color-500, 5%);
+        color: $white-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .section-sua-estrategia {
+    flex-direction: column;
+
+    &__description {
+      width: 100%;
     }
   }
 }

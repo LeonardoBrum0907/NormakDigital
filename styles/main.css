@@ -679,6 +679,165 @@
     content: "Ler menos";
   }
 }
+.cards-box {
+  position: relative;
+  height: 43.75rem;
+  min-width: 40.625rem;
+}
+.cards-box__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 47px;
+}
+.cards-box__card:first-child {
+  background-color: #24262a;
+  height: 27.5rem;
+  width: 27.5rem;
+  right: 5%;
+  bottom: 0;
+  z-index: 1;
+  padding: 2rem;
+}
+.cards-box__card:first-child span {
+  width: 80%;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ea1d5d;
+}
+.cards-box__card:first-child button {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  background-color: #ffffff;
+}
+.cards-box__card:first-child button i {
+  font-size: 1.5rem;
+  color: #ea1d5d;
+}
+.cards-box__card:nth-child(2) {
+  height: 23.125rem;
+  width: 23.125rem;
+  top: 40%;
+  transform: translate(0, -50%);
+}
+.cards-box__card:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 76, 0.5);
+  border-radius: 30px;
+}
+.cards-box__card:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #24262a;
+  height: 21.875rem;
+  width: 21.875rem;
+  background-color: #ea1d5d;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  padding: 2rem 2rem 2rem 5rem;
+}
+.cards-box__card:last-child span {
+  width: 70%;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #24262a;
+}
+.cards-box__card:last-child button {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+  background-color: #ffffff;
+}
+.cards-box__card:last-child button i {
+  font-size: 1.5rem;
+}
+.cards-box__card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+@media (max-width: 1400px) {
+  .cards-box {
+    height: 38rem;
+    min-width: 35rem;
+  }
+  .cards-box__card:first-child {
+    height: 24rem;
+    width: 24rem;
+    padding: 1rem;
+  }
+  .cards-box__card:first-child button {
+    width: 30px;
+    height: 30px;
+  }
+  .cards-box__card:first-child span {
+    font-size: 3rem;
+  }
+  .cards-box__card:nth-child(2) {
+    height: 20rem;
+    width: 20rem;
+  }
+  .cards-box__card:last-child {
+    height: 18rem;
+    width: 18rem;
+    padding: 2rem 2rem 2rem 4rem;
+  }
+  .cards-box__card:last-child button {
+    width: 30px;
+    height: 30px;
+  }
+  .cards-box__card:last-child span {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 980px) {
+  .cards-box {
+    height: 25rem;
+    min-width: 22rem;
+  }
+  .cards-box__card:first-child {
+    height: 15rem;
+    width: 15rem;
+  }
+  .cards-box__card:first-child span {
+    font-size: 2rem;
+  }
+  .cards-box__card:nth-child(2) {
+    height: 13rem;
+    width: 13rem;
+  }
+  .cards-box__card:last-child {
+    height: 12rem;
+    width: 12rem;
+  }
+  .cards-box__card:last-child span {
+    font-size: 2rem;
+  }
+}
 .img-background-top {
   position: absolute;
   top: 0;
@@ -2227,6 +2386,79 @@
   font-size: 2rem;
 }
 
+.section-sua-estrategia {
+  position: relative;
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  padding-right: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1700px) {
+  .section-sua-estrategia {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-sua-estrategia {
+    padding: 4rem 1rem;
+  }
+}
+.section-sua-estrategia h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 5.625rem;
+}
+@media (max-width: 980px) {
+  .section-sua-estrategia h2 {
+    font-size: 3.75rem;
+  }
+}
+.section-sua-estrategia__description {
+  padding: 4rem 4rem 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 70%;
+}
+.section-sua-estrategia__description p {
+  font-size: 1.3rem;
+}
+.section-sua-estrategia__description .btn-ver-mais {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background: #02eb9e;
+  color: #000000;
+  width: 21.56rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+@media (max-width: 980px) {
+  .section-sua-estrategia__description .btn-ver-mais {
+    font-size: 1rem;
+  }
+}
+.section-sua-estrategia__description .btn-ver-mais:hover {
+  background: #02d28d;
+  color: #ffffff;
+}
+
+@media (max-width: 1400px) {
+  .section-sua-estrategia {
+    flex-direction: column;
+  }
+  .section-sua-estrategia__description {
+    width: 100%;
+  }
+}
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
     line-height: 55px;
@@ -4546,6 +4778,16 @@ textarea {
   -webkit-touch-callout: none;
 }
 
+@media (max-width: 1700px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
 body {
   background: #e1e1e1;
   -webkit-font-smoothing: antialiased;
