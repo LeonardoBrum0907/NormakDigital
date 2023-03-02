@@ -790,10 +790,6 @@
     width: 24rem;
     padding: 1rem;
   }
-  .cards-box__card:first-child button {
-    width: 30px;
-    height: 30px;
-  }
   .cards-box__card:first-child span {
     font-size: 3rem;
   }
@@ -804,11 +800,7 @@
   .cards-box__card:last-child {
     height: 18rem;
     width: 18rem;
-    padding: 2rem 2rem 2rem 4rem;
-  }
-  .cards-box__card:last-child button {
-    width: 30px;
-    height: 30px;
+    padding: 1rem 1rem 1rem 4rem;
   }
   .cards-box__card:last-child span {
     font-size: 3rem;
