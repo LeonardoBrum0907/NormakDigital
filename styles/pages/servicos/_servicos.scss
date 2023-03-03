@@ -70,31 +70,6 @@
       padding-left: 2rem;
     }
   }
-
-  nav {
-    position: absolute;
-    top: 1rem;
-
-    ul {
-      @include flex-center();
-      gap: 1rem;
-      list-style: none;
-
-      li {
-        font-size: 24px;
-        color: darken($gray-color-100, 5%);
-
-        a {
-          color: darken($gray-color-100, 5%);
-          text-decoration: none;
-          &.active {
-            color: $black-color;
-          }
-        }
-      }
-    }
-  }
-
   img {
     width: 40%;
     max-width: 500px;

@@ -67,29 +67,6 @@
     width: 40%;
     height: 100%;
 
-    nav {
-      align-self: flex-start;
-  
-      ul {
-        @include flex-center();
-        gap: 1rem;
-        list-style: none;
-  
-        li {
-          font-size: 24px;
-          color: darken($gray-color-100, 5%);
-  
-          a {
-            color: darken($gray-color-100, 5%);
-            text-decoration: none;
-            &.active {
-              color: $black-color;
-            }
-          }
-        }
-      }
-    }
-
     h2 {
       @include title(h3);
       border-left: 3px solid $pink-color-500;
@@ -302,10 +279,6 @@
   .section-o-que-e-pr {
     div {
       width: 90%;
-
-      nav ul li {
-        font-size: 1rem;
-      }
     }
     img {
       display: none;

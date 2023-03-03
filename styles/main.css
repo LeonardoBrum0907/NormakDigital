@@ -847,6 +847,35 @@
     font-size: 1.2rem;
   }
 }
+.nav-pages {
+  align-self: flex-start;
+}
+.nav-pages ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.nav-pages ul li {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.nav-pages ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.nav-pages ul li a.active {
+  color: #000000;
+}
+
+@media (max-width: 980px) {
+  .nav-pages {
+    margin-left: 1rem;
+  }
+  .nav-pages ul li {
+    font-size: 1rem;
+  }
+}
 .img-background-top {
   position: absolute;
   top: 0;
@@ -903,7 +932,7 @@
 }
 .section-trafego__description p {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 .section-trafego__description button {
@@ -998,7 +1027,7 @@
   width: 50%;
 }
 .o-que-vc-precisa__description p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .o-que-vc-precisa__description .btn-ver-mais {
   display: flex;
@@ -1121,11 +1150,11 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-blog .mySwiper2 .swiper-slide p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-blog .mySwiper2 .swiper-slide a {
@@ -1401,7 +1430,7 @@
   position: relative;
   font-weight: 400;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
   padding-right: 3rem;
 }
@@ -1668,14 +1697,14 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
   max-width: 600px;
 }
 @media (max-width: 980px) {
   .section-quem-somos div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-quem-somos div a {
@@ -1758,12 +1787,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
 }
 @media (max-width: 980px) {
   .section-nossa-historia__description p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-nossa-historia__description p i {
@@ -1774,27 +1803,6 @@
 }
 .section-nossa-historia__description p:last-child i {
   color: #02eb9e;
-}
-.section-nossa-historia nav {
-  position: absolute;
-  top: 0;
-}
-.section-nossa-historia nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-nossa-historia nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-nossa-historia nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-nossa-historia nav ul li a.active {
-  color: #000000;
 }
 .section-nossa-historia img {
   position: absolute;
@@ -1940,11 +1948,11 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas__description p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-empresas-atendidas__description a {
@@ -2156,12 +2164,6 @@
     max-height: 243px;
     top: -15%;
   }
-  .section-nossa-historia nav {
-    top: 5rem;
-  }
-  .section-nossa-historia nav ul li {
-    font-size: 1rem;
-  }
   .section-nossa-historia__principios {
     width: 100%;
     flex-direction: column;
@@ -2237,13 +2239,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 50%;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-falam-sobre-nos button {
@@ -2264,26 +2266,6 @@
   .section-banner-cliente {
     padding: 4rem 1rem;
   }
-}
-.section-banner-cliente nav {
-  align-self: flex-start;
-}
-.section-banner-cliente nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-banner-cliente nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-banner-cliente nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-banner-cliente nav ul li a.active {
-  color: #000000;
 }
 .section-banner-cliente div {
   background-image: url(/assets/clientes/banner-cliente-celebrando.png);
@@ -2433,7 +2415,7 @@
   width: 70%;
 }
 .section-sua-estrategia__description p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .section-sua-estrategia__description .btn-ver-mais {
   display: flex;
@@ -2507,12 +2489,6 @@
   .section-banner-cliente {
     padding: 0;
   }
-  .section-banner-cliente nav {
-    margin-left: 1rem;
-  }
-  .section-banner-cliente nav ul li {
-    font-size: 1rem;
-  }
   .section-banner-cliente div {
     border-radius: 0;
   }
@@ -2527,6 +2503,236 @@
   .section-empresas-slider > img {
     top: 30%;
     left: -130px;
+  }
+}
+.section-intersena {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (max-width: 1700px) {
+  .section-intersena {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-intersena {
+    padding: 4rem 1rem;
+  }
+}
+.section-intersena span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  color: #ffffff;
+  width: 6.25rem;
+  height: 3.125rem;
+  font-size: 1.5rem;
+}
+.section-intersena h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+  width: 90%;
+}
+@media (max-width: 980px) {
+  .section-intersena h1 {
+    font-size: 3.25rem;
+  }
+}
+.section-intersena p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 60%;
+}
+@media (max-width: 980px) {
+  .section-intersena p {
+    font-size: 1rem;
+  }
+}
+.section-intersena button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  background-color: #02eb9e;
+  border: 1px solid #02eb9e;
+  color: #ffffff;
+  width: 35%;
+  transition: 0.3s;
+  text-decoration: none;
+}
+@media (max-width: 980px) {
+  .section-intersena button {
+    font-size: 1rem;
+  }
+}
+.section-intersena button:hover {
+  background-color: #0afdad;
+  color: #000000;
+}
+
+.section-banner-feedback {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-banner-feedback {
+    padding: 4rem 6rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-banner-feedback {
+    padding: 4rem 1rem;
+  }
+}
+.section-banner-feedback > div {
+  background-image: url(/assets/clientes/banner-cliente-celebrando.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 65%;
+  height: 500px;
+  position: relative;
+  margin-top: 3rem;
+  border-radius: 50px;
+}
+.section-banner-feedback > div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(167, 3, 52, 0.5);
+  border-radius: 50px;
+}
+.section-banner-feedback > div img {
+  position: absolute;
+  top: -30px;
+  left: 5%;
+}
+.section-banner-feedback > div p {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #ffffff;
+  position: absolute;
+  width: 80%;
+  left: 6%;
+  top: 40%;
+  transform: translate(0, -50%);
+}
+@media (max-width: 980px) {
+  .section-banner-feedback > div p {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-banner-feedback .feedback {
+  background-color: #ea1d5d;
+  padding: 2rem 2rem 2rem 6rem;
+  border-radius: 20px;
+  position: absolute;
+  width: 65%;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, 0);
+}
+.section-banner-feedback .feedback > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-banner-feedback .feedback h3 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+@media (max-width: 980px) {
+  .section-banner-feedback .feedback h3 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-banner-feedback .feedback p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  position: relative;
+  color: #ffffff;
+}
+@media (max-width: 980px) {
+  .section-banner-feedback .feedback p {
+    font-size: 1rem;
+  }
+}
+.section-banner-feedback .feedback p i {
+  position: absolute;
+  left: -35px;
+  font-size: 2rem;
+  color: #02eb9e;
+}
+
+@media (max-width: 980px) {
+  .section-banner-feedback {
+    padding: 0;
+  }
+  .section-banner-feedback > div {
+    border-radius: 0;
+  }
+  .section-banner-feedback > div::before {
+    border-radius: 0;
+  }
+  .section-banner-feedback > div > img {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .section-banner-feedback > div p {
+    top: 50%;
+  }
+  .section-banner-feedback .feedback {
+    top: 110%;
+    width: 90%;
+    padding: 5rem 3rem;
+  }
+  .section-banner-feedback .feedback > div {
+    left: 50%;
+    top: 0;
+  }
+  .section-banner-feedback .feedback h3 {
+    display: none;
+  }
+  .section-banner-feedback .feedback p {
+    text-align: center;
   }
 }
 .section-motores-busca {
@@ -2571,13 +2777,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-motores-busca div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-motores-busca div button {
@@ -2657,34 +2863,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
-}
-.section-acelere-crescimento nav {
-  position: absolute;
-  top: 1rem;
-}
-.section-acelere-crescimento nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-acelere-crescimento nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-acelere-crescimento nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-acelere-crescimento nav ul li a.active {
-  color: #000000;
 }
 .section-acelere-crescimento img {
   width: 40%;
@@ -2740,13 +2925,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .fale-especialista div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo .fale-especialista div button {
@@ -2803,13 +2988,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
   width: 70%;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .seo-360 p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo .principios {
@@ -2834,7 +3019,7 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
@@ -2842,7 +3027,7 @@
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .principios div h4 {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo .principios div p {
@@ -2891,13 +3076,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-servicos div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 
@@ -2953,11 +3138,11 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-cases-diferenca div button {
@@ -3142,13 +3327,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-consultoria-seo div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-consultoria-seo div button {
@@ -3218,26 +3403,6 @@
   width: 40%;
   height: 100%;
 }
-.section-como-funciona div nav {
-  align-self: flex-start;
-}
-.section-como-funciona div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-como-funciona div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-como-funciona div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-como-funciona div nav ul li a.active {
-  color: #000000;
-}
 .section-como-funciona div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -3255,12 +3420,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-como-funciona div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-como-funciona img {
@@ -3299,13 +3464,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-beneficios div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 
@@ -3331,9 +3496,6 @@
   }
   .section-como-funciona div {
     width: 90%;
-  }
-  .section-como-funciona div nav ul li {
-    font-size: 1rem;
   }
   .section-como-funciona img {
     display: none;
@@ -3381,13 +3543,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-habilidades div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-habilidades div button {
@@ -3458,26 +3620,6 @@
   width: 100%;
   height: 100%;
 }
-.section-seo-ecommerce div nav {
-  align-self: flex-start;
-}
-.section-seo-ecommerce div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-seo-ecommerce div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-seo-ecommerce div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-seo-ecommerce div nav ul li a.active {
-  color: #000000;
-}
 .section-seo-ecommerce div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -3495,13 +3637,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   width: 50%;
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-seo-ecommerce div p:last-child {
@@ -3557,13 +3699,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo-para-ecommerce div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo-para-ecommerce div button {
@@ -3618,9 +3760,6 @@
   }
   .section-seo-ecommerce div {
     width: 90%;
-  }
-  .section-seo-ecommerce div nav ul li {
-    font-size: 1rem;
   }
   .section-seo-ecommerce div p {
     width: 100%;
@@ -3695,13 +3834,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-seo-local div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-seo-local div button {
@@ -3773,26 +3912,6 @@
 .section-geolocalizacao div:last-child {
   width: 56%;
 }
-.section-geolocalizacao div nav {
-  align-self: flex-start;
-}
-.section-geolocalizacao div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-geolocalizacao div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-geolocalizacao div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-geolocalizacao div nav ul li a.active {
-  color: #000000;
-}
 .section-geolocalizacao div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -3810,13 +3929,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   width: 100%;
 }
 @media (max-width: 980px) {
   .section-geolocalizacao div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-geolocalizacao div img {
@@ -3882,9 +4001,6 @@
   .section-geolocalizacao div:last-child {
     width: 100%;
   }
-  .section-geolocalizacao div nav ul li {
-    font-size: 1rem;
-  }
   .section-geolocalizacao div p {
     width: 100%;
   }
@@ -3937,13 +4053,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-marketing-conteudo div button {
@@ -4008,26 +4124,6 @@
   width: 70%;
   height: 100%;
 }
-.section-o-que-e-marketing div nav {
-  align-self: flex-start;
-}
-.section-o-que-e-marketing div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-o-que-e-marketing div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-o-que-e-marketing div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-o-que-e-marketing div nav ul li a.active {
-  color: #000000;
-}
 .section-o-que-e-marketing div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -4046,12 +4142,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-o-que-e-marketing img {
@@ -4090,13 +4186,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-guia div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 
@@ -4142,13 +4238,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-digital-pr div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-digital-pr div button {
@@ -4219,26 +4315,6 @@
   width: 40%;
   height: 100%;
 }
-.section-o-que-e-pr div nav {
-  align-self: flex-start;
-}
-.section-o-que-e-pr div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-o-que-e-pr div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-o-que-e-pr div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-o-que-e-pr div nav ul li a.active {
-  color: #000000;
-}
 .section-o-que-e-pr div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -4256,12 +4332,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-o-que-e-pr div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-o-que-e-pr img {
@@ -4439,13 +4515,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .fale-especialista-pr div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .fale-especialista-pr div button {
@@ -4499,9 +4575,6 @@
   }
   .section-o-que-e-pr div {
     width: 90%;
-  }
-  .section-o-que-e-pr div nav ul li {
-    font-size: 1rem;
   }
   .section-o-que-e-pr img {
     display: none;
@@ -4607,13 +4680,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-seo-360 div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-seo-360 div button {
@@ -4683,26 +4756,6 @@
   width: 60%;
   height: 100%;
 }
-.section-futuro-otimizacao div nav {
-  align-self: flex-start;
-}
-.section-futuro-otimizacao div nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
-}
-.section-futuro-otimizacao div nav ul li {
-  font-size: 24px;
-  color: #d4d4d4;
-}
-.section-futuro-otimizacao div nav ul li a {
-  color: #d4d4d4;
-  text-decoration: none;
-}
-.section-futuro-otimizacao div nav ul li a.active {
-  color: #000000;
-}
 .section-futuro-otimizacao div h2 {
   color: #ea1d5d;
   font-weight: 900;
@@ -4721,12 +4774,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-futuro-otimizacao div p {
-    font-size: 0.8666666667rem;
+    font-size: 1rem;
   }
 }
 .section-futuro-otimizacao img {
@@ -4764,9 +4817,6 @@
   }
   .section-futuro-otimizacao div h2 {
     width: 100%;
-  }
-  .section-futuro-otimizacao div nav ul li {
-    font-size: 1rem;
   }
   .section-futuro-otimizacao img {
     display: none;

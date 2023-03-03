@@ -100,30 +100,6 @@
     }
   }
 
-  nav {
-    position: absolute;
-    top: 0;
-
-    ul {
-      @include flex-center();
-      gap: 1rem;
-      list-style: none;
-
-      li {
-        font-size: 24px;
-        color: darken($gray-color-100, 5%);
-
-        a {
-          color: darken($gray-color-100, 5%);
-          text-decoration: none;
-          &.active {
-            color: $black-color;
-          }
-        }
-      }
-    }
-  }
-
   img {
     position: absolute;
     right: 0;
@@ -386,14 +362,6 @@
     img {
       max-height: 243px;
       top: -15%;
-    }
-
-    nav {
-      top: 5rem;
-
-      ul li {
-        font-size: 1rem;
-      }
     }
 
     &__principios {

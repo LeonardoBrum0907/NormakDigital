@@ -1,0 +1,171 @@
+.section-intersena {
+  @include container();
+  @include flex-center();
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+
+  span {
+    @include flex-center();
+    justify-content: center;
+    border: 1px solid $white-color;
+    border-radius: 16px;
+    color: $white-color;
+    width: 6.25rem;
+    height: 3.125rem;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    @include title(h1);
+    line-height: 100px;
+    width: 90%;
+  }
+
+  p {
+    @include title(p);
+    color: $white-color;
+    width: 60%;
+  }
+
+  button {
+    @include button();
+    background-color: $cyan-color-500;
+    border: 1px solid $cyan-color-500;
+    color: $white-color;
+    width: 35%;
+    transition: 0.3s;
+    text-decoration: none;
+
+    &:hover {
+      background-color: lighten($cyan-color-500, 5%);
+      color: $black-color;
+    }
+  }
+}
+
+.section-banner-feedback {
+  @include container();
+  margin-top: 5rem;
+  position: relative;
+
+  & > div {
+    background-image: url(/assets/clientes/banner-cliente-celebrando.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    height: 500px;
+    position: relative;
+    margin-top: 3rem;
+    border-radius: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: rgb(167, 3, 52), $alpha: 0.5);
+      border-radius: 50px;
+    }
+
+    img {
+      position: absolute;
+      top: -30px;
+      left: 5%;
+    }
+
+    p {
+      @include title(h3);
+      color: $white-color;
+      position: absolute;
+      width: 80%;
+      left: 6%;
+      top: 40%;
+      transform: translate(0, -50%);
+    }
+  }
+
+  .feedback {
+    background-color: $pink-color-500;
+    padding: 2rem 2rem 2rem 6rem;
+    border-radius: 20px;
+    position: absolute;
+    width: 65%;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 0);
+
+    & > div {
+      @include flex-center();
+      justify-content: center;
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      background-color: $white-color;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    h3 {
+      @include title(h3);
+      color: $white-color;
+    }
+
+    p {
+      @include title(p);
+      margin-top: 1rem;
+      position: relative;
+      color: $white-color;
+
+      i {
+        position: absolute;
+        left: -35px;
+        font-size: 2rem;
+        color: $cyan-color-500;
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .section-banner-feedback {
+    padding: 0;
+    & > div {
+      border-radius: 0;
+      &::before {
+        border-radius: 0;
+      }
+      & > img {
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+
+      p {
+        top: 50%;
+      }
+    }
+    .feedback {
+      top: 110%;
+      width: 90%;
+      padding: 5rem 3rem;
+
+      & > div {
+        left: 50%;
+        top: 0;
+      }
+
+      h3 {
+        display: none;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

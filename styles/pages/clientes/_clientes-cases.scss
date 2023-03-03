@@ -26,29 +26,6 @@
   @include container();
   margin-top: 10rem;
 
-  nav {
-    align-self: flex-start;
-
-    ul {
-      @include flex-center();
-      gap: 1rem;
-      list-style: none;
-
-      li {
-        font-size: 24px;
-        color: darken($gray-color-100, 5%);
-
-        a {
-          color: darken($gray-color-100, 5%);
-          text-decoration: none;
-          &.active {
-            color: $black-color;
-          }
-        }
-      }
-    }
-  }
-
   div {
     background-image: url(/assets/clientes/banner-cliente-celebrando.png);
     background-size: cover;
@@ -218,14 +195,6 @@
 
   .section-banner-cliente {
     padding: 0;
-
-    nav {
-      margin-left: 1rem;
-
-      ul li {
-        font-size: 1rem;
-      }
-    }
 
     div {
       border-radius: 0;

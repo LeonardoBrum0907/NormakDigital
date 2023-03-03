@@ -9,7 +9,7 @@ $gray-color-500: #919191;
 $font-size-h1: 6.5rem;
 $font-size-h2: 5.625rem;
 $font-size-h3: 2.5rem;
-$font-size-p: 1.3rem;
+$font-size-p: 1.5rem;
 
 @mixin flex-center() {
   display: flex;
@@ -109,10 +109,12 @@ $font-size-p: 1.3rem;
 @import "components/form";
 @import "components/slider-abordagem";
 @import "components/cards";
+@import "components/nav-pages";
 
 @import "pages/home";
 @import "pages/quem-somos";
-@import "pages/clientes-cases";
+@import "pages/clientes/clientes-cases";
+@import "pages/clientes/cliente2";
 @import "pages/servicos/servicos";
 @import "pages/servicos/consultoria-seo";
 @import "pages/servicos/ecommerce-seo";
