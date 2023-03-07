@@ -120,11 +120,12 @@
 }
 
 .section-sua-estrategia {
-  position: relative;
   @include container();
-  padding-right: 8rem;
+  @include cards();
   @include flex-center();
   justify-content: space-between;
+  position: relative;
+  padding-right: 8rem;
 
   h2 {
     @include title(h2);
