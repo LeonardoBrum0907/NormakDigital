@@ -1,13 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+  <title>Normak Digital - Início</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Laudo SEO</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases</a>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <section class="section-planejamento">
+      <form class="modal-laudo-seo">
+        <fieldset class="modal-content">
+          <legend>Vamos crescer seu tráfego!</legend>
+
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="E-mail:" required>
+
+          <label for="tel">Telefone</label>
+          <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+          <label for="tel">URL do site</label>
+          <input type="text" id="site" name="site" placeholder="URL do site:" required>
+
+          <label for="message">Número de funcionários</label>
+          <input type="number" placeholder="Número de funcionários">
+
+          <button class="btn-submit" type="submit">Fale com um especialista</button>
+        </fieldset>
+      </form>
+
+      <div class="section-planejamento__description">
+        <span>Normak Digital</span>
+        <h1>Estratégia e planejamento de SEO</h1>
+
+        <p>
+          SEO <span>/</span> Marketing de Conteúdo <span>/</span> CRO <span>/</span>
+
+          Marketing de Pesquisa Paga <span>/</span> Mídia Social <span>/</span>
+
+          Analytics <span>/</span> Publicidade Programática
+        </p>
+      </div>
+    </section>
+
+    <div class="section-seo-marketing">
+      <section>
+        <h2>SEO e Marketing de Conteúdo</h2>
+        <p>
+          Desbloqueie grandes quantidades de tráfego fazendo SEO e conteúdos épicos que receberão links, aumentarão a
+          autoridade do seu site e serão mais compartilhados.
+        </p>
+      </section>
+      <section>
+        <h2>Mídia Paga</h2>
+        <p>
+          Estratégias e gestão de anúncios no Google, Facebook, Instagram, YouTube, LinkedIn, Bing, programática e
+          outros – otimize seus custos e tenha mais ROI.
+        </p>
+      </section>
+      <section>
+        <h2>SEO e Marketing de Conteúdo</h2>
+        <p>
+          Aumente as conversões do seu site e tenha resultados comprovados por metodologia científica.
+        </p>
+      </section>
+
+      <img src="/assets/servicos/menor-que-acelere.png" alt="operador menor que rosa">
+
+    </div>
+
+    <section class="section-empresas-slider">
+      <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+      <h2>Junte-se a Mais de 5.000 Empresas,
+        entre Pequenos a Grandes Negócios</h2>
+      <!-- Swiper3 -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente1.html">
+            <img src="/assets/clientes/green-fuel.png" alt="Logotipo da Green Fuel">
+          </a>
+
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente3.html">
+            <img src="/assets/clientes/witbiz.png" alt="Logotipo da Witbiz">
+          </a>
+
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente2.html">
+            <img src="/assets/clientes/intersena.png" alt="Logotipo da Intersena">
+          </a>
+
+          <a class="swiper-slide" href="/pages/clientes-cases/cliente3.html">
+            <img src="/assets/clientes/witbiz.png" alt="Logotipo da Witbiz">
+          </a>
+        </div>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
+      </div>
+    </section>
+
+    <section class="section-sua-estrategia" aria-label="Estratégia de marketing digital">
+      <div class="section-sua-estrategia__description">
+        <h2>sua estratégia
+          de marketing
+          digital</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga beatae porro, debitis hic nemo soluta
+          doloribus pariatur corrupti consectetur adipisci quibusdam dolores deserunt nihil quas, labore distinctio, et
+          rerum perferendis excepturi quaerat? </p>
+      </div>
+      <div class="cards-box">
+        <div class="cards-box__card">
+          <span>Plano de ação</span>
+          <button class="btn-comecar-agora abrir-modal"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="cards-box__card">
+          <img src="/assets/clientes/box-homem-pc.png" alt="homem usando o computador">
+        </div>
+        <div class="cards-box__card">
+          <span>Site/</span>
+          <button class="btn-comecar-agora abrir-modal"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
+  </main>
+
+  <footer class="rodape-columns">
+    <div class="rodape-column">
+      <img src="/assets/logo-bottom.svg" alt="Logo da empresa">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+      <div>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@empresa.com</p>
+      </div>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Sobre</h2>
+        <ul>
+          <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+          <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+          <li><a href="/pages/clientes-cases/clientes-cases.html">Clientes e Cases</a></li>
+          <li><a href="/pages/clientes-cases/cliente1.html">Cases de sucesso</a></li>
+          <li><a href="/pages/parceiros.html">Parceiros</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Serviços</h2>
+        <ul>
+          <li><a href="/pages/servicos/seo-360.html">Consultoria SEO 360</a></li>
+          <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+          <li><a href="/pages/servicos/seo-local.html">SEO local</a></li>
+          <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+        </ul>
+      </nav>
+      <nav class="social-icons">
+        <h2>Midias sociais</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="direitos">
+      <span>© 2013-2022Normak Digital</span>
+      <img src="/assets/logo-bottom.svg" alt="">
+    </div>
+  </footer>
+  
+  <!-- header script -->
+  <script src="/scripts/header.js"></script>
+
+  <!-- mobile-menu JS -->
+  <script src="/scripts/header.js"></script>
+
+  <!-- form JS -->
+  <script src="/scripts/form-modal.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        620: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        }
+      }
+    });
+  </script>
 </body>
+
 </html>
