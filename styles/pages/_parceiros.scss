@@ -1,0 +1,82 @@
+.section-agencia-parceira {
+  @include container();
+  @include flex-center();
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+
+  div {
+    width: 60%;
+    @include flex-center();
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+
+    h1 {
+      @include title(h1);
+      line-height: 100px;
+      @include flex-center();
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 2rem;
+
+      & > i {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+      }
+    }
+
+    p {
+      @include title(p);
+      color: $white-color;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    a {
+      @include button();
+      border: 1px solid $cyan-color-500;
+      color: $cyan-color-500;
+      text-decoration: none;
+      width: 60%;
+      max-width: 345px;
+
+      &:hover {
+        background: $cyan-color-500;
+        color: $white-color;
+      }
+    }
+  }
+
+  img {
+    width: 40%;
+  }
+}
+
+@media(max-width: 980px) {
+  .section-agencia-parceira {
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+    padding: 1rem 1rem 0 1rem;
+    div {
+      width: 90%;
+      h1 {
+        line-height: 60px;
+        justify-content: flex-start;
+        i {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        height: 44px;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+}

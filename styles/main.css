@@ -1,7 +1,7 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: 1.5rem 7rem;
+  padding: 1.5rem 5rem;
   justify-content: space-between;
   background-color: #24262a;
   position: relative;
@@ -2251,6 +2251,121 @@
     width: 90%;
   }
   .section-seo-marketing img {
+    display: none;
+  }
+}
+.section-agencia-parceira {
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 1700px) {
+  .section-agencia-parceira {
+    padding: 4rem 5rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-agencia-parceira {
+    padding: 4rem 1rem;
+  }
+}
+.section-agencia-parceira div {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+}
+.section-agencia-parceira div h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+}
+@media (max-width: 980px) {
+  .section-agencia-parceira div h1 {
+    font-size: 3.25rem;
+  }
+}
+.section-agencia-parceira div h1 > i {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.section-agencia-parceira div p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 80%;
+  max-width: 600px;
+}
+@media (max-width: 980px) {
+  .section-agencia-parceira div p {
+    font-size: 1rem;
+  }
+}
+.section-agencia-parceira div a {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 5%;
+  font-size: 1.3rem;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  text-decoration: none;
+  width: 60%;
+  max-width: 345px;
+}
+@media (max-width: 980px) {
+  .section-agencia-parceira div a {
+    font-size: 1rem;
+  }
+}
+.section-agencia-parceira div a:hover {
+  background: #02eb9e;
+  color: #ffffff;
+}
+.section-agencia-parceira img {
+  width: 40%;
+}
+
+@media (max-width: 980px) {
+  .section-agencia-parceira {
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .section-agencia-parceira div {
+    width: 90%;
+  }
+  .section-agencia-parceira div h1 {
+    line-height: 60px;
+    justify-content: flex-start;
+  }
+  .section-agencia-parceira div h1 i {
+    margin-bottom: 0;
+  }
+  .section-agencia-parceira div a {
+    height: 44px;
+  }
+  .section-agencia-parceira img {
     display: none;
   }
 }
