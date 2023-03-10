@@ -9,6 +9,7 @@
 
     .modal-content {
       @include flex-center();
+      align-items: flex-start;
       justify-content: space-evenly;
       flex-direction: column;
       background-color: $white-color;
@@ -20,7 +21,6 @@
       width: 450px;
       border-radius:0 0 45px 45px;
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-
 
       legend {
         position: absolute;
@@ -135,6 +135,120 @@
   }
 }
 
+.section-agende-reuniao {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+  padding-right: 8rem;
+  background-color: $gray-color-900;
+  position: relative;
+
+  img {
+    position: absolute;
+    left: -25px;
+  }
+
+  &__description {
+    width: 60%;
+    max-width: 640px;
+
+    h2 {
+      font-size: 40px;
+      color: $cyan-color-500;
+    }
+
+    p {
+      font-size: 24px;
+      color: $white-color;
+    }
+  }
+
+  button {
+    @include button();
+    background-color: $cyan-color-500;
+    width: 25%;
+    border: none;
+  }
+}
+
+.section-comece-seo-contato {
+  @include flex-center();
+  flex-direction: column;
+  position: relative;
+  min-height: 650px;
+  margin-top: 6rem;
+
+  &__title {
+    width: 100%;
+    @include flex-center();
+    justify-content: space-between;
+
+    img:last-child {
+      transform: rotate(180deg);
+    }
+
+    h2 {
+      @include title(h2);
+
+      @media (max-width: 1200px) {
+        font-size: 70px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+
+    section {
+      @include flex-center();
+      flex-direction: column;
+      gap: 5rem;
+      justify-content: center;
+      width: 20%;
+      min-width: 200px;
+      height: 100%;
+
+      h3 {
+        text-align: center;
+        font-weight: 400;
+      }
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+
+  .linha-passos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    .passo {
+      width: 150px;
+      height: 40px;
+      background-color: $pink-color-500;
+      border-radius: 16px;
+      @include flex-center();
+      font-size: 1rem;
+      justify-content: center;
+      color: $white-color;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .linha {
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      width: 70%;
+      border: 1px solid black;
+    }
+  }
+}
+
 @media(max-width: 1300px) {
   .section-vamos-conversar {
     flex-direction: column;
@@ -184,4 +298,110 @@
       }
     }
   }
+
+  .section-agende-reuniao {
+    flex-direction: column;
+    gap: 2rem;
+
+    &__description {
+      padding: 1.5rem;
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    img {
+      height: 120px;
+    }
+  }
+
+  .section-comece-seo-contato {
+    padding: 0 1rem 718px;
+    gap: 3rem;
+    &__title {
+      h2 {
+        font-size: 2.85rem;
+      }
+      img {
+        display: none;
+      }
+    }
+
+    &__content {
+      flex-direction: column;
+      gap: 3rem;
+
+      section {
+        width: 50%;
+        gap: 1rem;
+      }
+    }
+
+    .btn-comecar-agora {
+      display: none;
+    }
+
+    .modal {
+      display: flex;
+      position: absolute;
+      top: inherit;
+      bottom: 0;
+      margin-top: 3rem;
+      max-height: 698px;
+      width: 100%;
+
+      .modal-content {
+        width: 100%;
+        height: 100%;
+        border-top: 3px solid #ea1d5d;
+        padding-top: 5rem;
+
+        legend {
+          color: #ea1d5d;
+
+          span {
+            display: none;
+          }
+        }
+
+        section {
+          flex-direction: column;
+          gap: 26px;
+          align-items: center;
+
+          input {
+            width: 100%;
+          }
+        }
+      }
+
+      .fechar-modal {
+        display: none;
+      }
+    }
+
+    .linha-passos {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 28%;
+      padding-bottom: 130px;
+      height: calc(100% - 650px);
+      top: 0;
+      right: 0;
+      width: 40%;
+
+      .linha {
+        height: 90%;
+        width: 0;
+        top: initial;
+        bottom: 0;
+        left: 50%;
+      }
+    }
+  }
+
 }
