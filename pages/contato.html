@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+  <title>Normak Digital - Contato</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Contato</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases</a>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-top"
+      alt="imagem de fundo cinza escuro"></figure>
+
+    <section class="section-vamos-conversar">
+      <form class="modal-laudo-seo">
+        <fieldset class="modal-content">
+          <!-- <legend>Vamos crescer seu tráfego!</legend> -->
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="E-mail:" required>
+
+          <label for="tel">Telefone</label>
+          <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+          <label for="tel">URL do site</label>
+          <input type="text" id="site" name="site" placeholder="URL do site:" required>
+
+          <label for="message">Número de funcionários</label>
+          <input type="number" placeholder="Número de funcionários">
+
+          <label class="check">
+            <input type="checkbox" name="terms" required>
+            Li e concordo com os termos e condições da Normak Digital.
+          </label>
+          <button class="btn-submit" type="submit">Solicitar diagnóstico <i class="fa-solid fa-angle-right"></i></button>
+        </fieldset>
+      </form>
+
+      <div class="section-vamos-conversar__description">
+        <span>Vamos conversar?</span>
+        <h1>Estamos prontos para te ouvir e traçar a melhor estratégia para o seu negócio.</h1>
+
+        <p>
+          Receba o seu diagnóstico de Marketing Digital e decida se quer ajuda do nosso time para fazer sua empresa
+          crescer.
+        </p>
+        <p>
+          Preencha os dados ao lado e clique no botão para receber a avaliação do marketing digital da sua empresa
+        </p>
+      </div>
+    </section>
+
+  </main>
 </body>
+
 </html>

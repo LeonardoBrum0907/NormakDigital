@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .site-header {
   display: flex;
   align-items: center;
@@ -2914,6 +2915,215 @@
   }
   .section-comece-seo-parceiros .modal-parceiros .modal-content section input {
     width: 100%;
+  }
+}
+.section-vamos-conversar {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 15rem;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1700px) {
+  .section-vamos-conversar {
+    padding: 4rem 5rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-vamos-conversar {
+    padding: 4rem 1rem;
+  }
+}
+.section-vamos-conversar .modal-laudo-seo {
+  height: 650px;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: none;
+  border-top: 3px solid #ea1d5d;
+  padding: 2rem 2rem 0 2rem;
+  position: relative;
+  height: 100%;
+  width: 450px;
+  border-radius: 0 0 45px 45px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content legend {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 26px;
+  font-weight: 900;
+  color: #ea1d5d;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content > input {
+  background: transparent;
+  border: 1px solid #e1e1e1;
+  padding: 23px;
+  border-radius: 24px;
+  text-transform: uppercase;
+  color: #e1e1e1;
+  color: #24262a;
+  width: 100%;
+}
+@media (max-width: 380px) {
+  .section-vamos-conversar .modal-laudo-seo .modal-content > input {
+    padding: 15px;
+  }
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content label:not(:last-of-type) {
+  display: none;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content .check {
+  display: flex;
+  height: 25px;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content .check input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content .check input[type=checkbox]::before {
+  content: "✔";
+  display: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #02eb9e;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content .check input[type=checkbox]:checked::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content .check input[type=checkbox]:focus {
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content button {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 4%;
+  font-size: 1.5rem;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+}
+@media (max-width: 980px) {
+  .section-vamos-conversar .modal-laudo-seo .modal-content button {
+    font-size: 1rem;
+  }
+}
+.section-vamos-conversar .modal-laudo-seo .modal-content button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
+.section-vamos-conversar__description {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section-vamos-conversar__description span {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-vamos-conversar__description span {
+    font-size: 1rem;
+  }
+}
+.section-vamos-conversar__description h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 46px;
+  padding-left: 2rem;
+  border-left: 3px solid #ea1d5d;
+}
+@media (max-width: 980px) {
+  .section-vamos-conversar__description h1 {
+    font-size: 1.6666666667rem;
+  }
+}
+.section-vamos-conversar__description p {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.section-vamos-conversar__description p:last-child {
+  color: #02eb9e;
+  font-size: 24px;
+  width: 70%;
+}
+
+@media (max-width: 1300px) {
+  .section-vamos-conversar {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  .section-vamos-conversar .modal-laudo-seo {
+    width: 80%;
+  }
+  .section-vamos-conversar .modal-laudo-seo .modal-content {
+    width: 100%;
+  }
+  .section-vamos-conversar__description {
+    height: -moz-max-content;
+    height: max-content;
+    gap: 2rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-vamos-conversar .modal-laudo-seo {
+    width: 100%;
+  }
+  .section-vamos-conversar .modal-laudo-seo .modal-content input {
+    height: 64px;
+  }
+  .section-vamos-conversar__description h1 {
+    line-height: 25px;
+  }
+  .section-vamos-conversar__description p {
+    color: #24262a;
+    font-size: 1rem;
+  }
+  .section-vamos-conversar__description p:last-child {
+    background-color: #24262a;
+    width: 100%;
+    padding: 1rem;
   }
 }
 .section-falam-sobre-nos {
