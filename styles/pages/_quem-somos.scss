@@ -34,11 +34,12 @@
       max-width: 600px;
     }
 
-    a {
+    button {
       @include button();
       border: 1px solid $cyan-color-500;
       color: $cyan-color-500;
       text-decoration: none;
+      background-color: transparent;
       width: 60%;
       max-width: 345px;
 

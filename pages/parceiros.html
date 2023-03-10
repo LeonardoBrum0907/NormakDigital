@@ -20,6 +20,7 @@
 
   <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header class="site-header">
     <nav class="site-header__nav">
@@ -66,11 +67,192 @@
       <div>
         <h1>Seja uma agência parceira da normak</h1>
         <p>
-          Tenha apoio na entrega de soluções de marketing complexas, reduza custos e aumento das margens de serviços com a expansão de sua agência.
+          Tenha apoio na entrega de soluções de marketing complexas, reduza custos e aumento das margens de serviços com
+          a expansão de sua agência.
         </p>
-        <a href="#">Clique aqui<i class="fa-solid fa-arrow-right arrow-toggle"></i></a>
+        
+      <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Clique aqui <i
+          class="fa-solid fa-arrow-right arrow-toggle"></i></button>
       </div>
       <img src="/assets/home/mulher-notebook-blog.png" alt="Mulher usando um notebook">
     </section>
+
+    <div class="section-apoiamos-crescimento">
+      <section class="seo-360">
+        <h3>Veja como apoiamos o <span>crescimento sustentável</span> de sua agência</h3>
+      </section>
+
+      <section class="principios">
+        <div>
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <h4>Aumente seu lucro</h4>
+          <p>
+            Utilize ferramentas que ajudam agências a serem mais eficientes e reduza seus custos operacionais com ajuda
+            da tecnologia e produtos exclusivos para parceiros.
+          </p>
+        </div>
+        <div>
+          <i class="fa-regular fa-star"></i>
+          <h4>Diferencie suas ofertas</h4>
+          <p>
+            Entregue mais resultados aos seus clientes por meio de experiências que possibilitam a interação da marca
+            com a sua audiência, como Ion, Stage, Studio e outros serviços.
+          </p>
+        </div>
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>Acesse nossa rede de talentos</h4>
+          <p>
+            Utilize de nossa comunidade global de talentos para escalar a produção em sua agência e ter mais tempo para
+            focar na estratégia e nos resultados.
+          </p>
+        </div>
+        <div>
+          <i class="fa-regular fa-heart"></i>
+          <h4>Benefícios para parceiros</h4>
+          <p>
+            Tenha benefícios que só nossos parceiros possuem como treinamentos, mentorias, descontos em produtos e
+            serviços da Rock Content e nosso portal de parceiros recomendados.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="section-ingressar-programa">
+      <div class="section-ingressar-programa__title">
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+        <h2>Como ingressar no programa?</h2>
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+      </div>
+      <div class="section-ingressar-programa__content">
+        <section>
+          <img src="/assets/parceiros/contato-box.svg" alt="círculo com um icone de mensagem no centro">
+          <div>
+            <span class="etapas">Contato</span>
+            <p>
+              Agende uma entrevista com um de nossos consultores de parcerias e entenda mais a respeito do programa de
+              parcerias da Nomak/
+            </p>
+          </div>
+        </section>
+        <section>
+          <img src="/assets/parceiros/requisitos-box.svg" alt="círculo com um icone de checkbox no centro">
+          <div>
+            <span class="etapas">Requisitos</span>
+            <p>
+              Conheça e com a nossa ajuda obtenha os requisitos necessários para se tornarem uma agência parceira e
+              estarem aptos a candidatura.
+            </p>
+          </div>
+        </section>
+        <section>
+          <img src="/assets/parceiros/aprovacao-box.svg" alt="círculo com um icone de dashboard no centro">
+          <div>
+            <span class="etapas">Aprovação</span>
+            <p>
+              Submeta a candidatura e após a aprovação, acesse nosso programa de vantagens e benefícios exclusivos para
+              nossos parceiros.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Quero ingressar <i
+          class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+    </section>
+
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
+  </main>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
+    </fieldset>
+  </form>
+
+  <footer class="rodape-columns">
+    <div class="rodape-column">
+      <img src="/assets/logo-bottom.svg" alt="Logo da empresa">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+      <div>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@empresa.com</p>
+      </div>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Sobre</h2>
+        <ul>
+          <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+          <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+          <li><a href="/pages/clientes-cases/clientes-cases.html">Clientes e Cases</a></li>
+          <li><a href="/pages/clientes-cases/cliente1.html">Cases de sucesso</a></li>
+          <li><a href="/pages/parceiros.html">Parceiros</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Serviços</h2>
+        <ul>
+          <li><a href="/pages/servicos/seo-360.html">Consultoria SEO 360</a></li>
+          <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+          <li><a href="/pages/servicos/seo-local.html">SEO local</a></li>
+          <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+        </ul>
+      </nav>
+      <nav class="social-icons">
+        <h2>Midias sociais</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="direitos">
+      <span>© 2013-2022Normak Digital</span>
+      <img src="/assets/logo-bottom.svg" alt="">
+    </div>
+  </footer>
+
+  <script src="/scripts/header.js"></script>
+  <script src="/scripts/form-modal.js"></script>
+
 </body>
+
 </html>

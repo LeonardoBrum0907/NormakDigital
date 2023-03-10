@@ -70,7 +70,9 @@
           Enim quos numquam blanditiis beatae, illum maiores natus officia incidunt modi. Explicabo quas laboriosam nam
           perspiciatis veritatis itaque, eius nisi ducimus! Iste, corrupti aliquid obcaecati, eos officiis, voluptate
           rem nihil quaerat recusandae repellendus enim consequatur nostrum?</p>
-        <a href="#">Vamos começar<i class="fa-solid fa-arrow-right arrow-toggle"></i></a>
+
+        <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Vamos começar <i
+            class="fa-solid fa-arrow-right arrow-toggle"></i></button>
       </div>
       <img src="/assets/quem-somos/banner-quem-somos.png" alt="homem de terno apertando a mão de outra pessoa">
     </section>
@@ -189,7 +191,7 @@
               minima aperiam ab non cumque sapiente obcaecati, corrupti, similique accusamus, molestias iste? Vero
               expedita a et ratione modi.</p>
           </section>
-         
+
         </div>
         <button class="swiper-button-next"></button>
         <button class="swiper-button-prev"></button>
@@ -219,12 +221,43 @@
           <img src="/assets/quem-somos/top-100.svg" alt="certificado top 100digital agencies">
         </div>
       </div>
-      
+
 
     </section>
 
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
   </main>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
+    </fieldset>
+  </form>
 
   <footer class="rodape-columns">
     <div class="rodape-column">
@@ -282,10 +315,11 @@
   </footer>
 
   <script src="/scripts/header.js"></script>
+  <script src="/scripts/form-modal.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    
+
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
