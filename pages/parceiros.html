@@ -70,9 +70,9 @@
           Tenha apoio na entrega de soluções de marketing complexas, reduza custos e aumento das margens de serviços com
           a expansão de sua agência.
         </p>
-        
-      <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Clique aqui <i
-          class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+
+        <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Clique aqui <i
+            class="fa-solid fa-arrow-right arrow-toggle"></i></button>
       </div>
       <img src="/assets/home/mulher-notebook-blog.png" alt="Mulher usando um notebook">
     </section>
@@ -159,6 +159,178 @@
 
       <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Quero ingressar <i
           class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+    </section>
+
+    <section class="section-faq-parceiros">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-cards">
+        <article class="faq-card">
+          <h3 class="faq-card__question">O que preciso para me tornar um parceiro da Nomark <i
+              class="fa-solid fa-arrow-right arrow-toggle"></i>
+          </h3>
+          <div class="faq-card__answer">
+            <p>
+              Para o tier de entrada no programa, o processo consiste em: participar de uma entrevista com um de nossos
+              consultores de parcerias; completar a capacitação de 2 colaboradores nas certificações necessárias;
+              realizar
+              a contratação de um dos nossos softwares e assinar o termo de parceria.
+            </p>
+            <br>
+            <p>
+              A partir do segundo tier, também é necessária a contratação recorrente de créditos em nosso Marketplace.
+            </p>
+            <br>
+            <p>
+              Nossos consultores podem sanar todas as suas dúvidas.
+            </p>
+
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Preciso pagar para me tornar parceiro da Nomark<i
+              class="fa-solid fa-arrow-right arrow-toggle"></i>
+          </h3>
+          <div class="faq-card__answer">
+            <p>
+              Para o tier de entrada no programa, o processo consiste em: participar de uma entrevista com um de nossos
+              consultores de parcerias; completar a capacitação de 2 colaboradores nas certificações necessárias;
+              realizar
+              a contratação de um dos nossos softwares e assinar o termo de parceria.
+            </p>
+            <br>
+            <p>
+              A partir do segundo tier, também é necessária a contratação recorrente de créditos em nosso Marketplace.
+            </p>
+            <br>
+            <p>
+              Nossos consultores podem sanar todas as suas dúvidas.
+            </p>
+
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Quais os principais benefícios em me tornar um parceiro? <i
+              class="fa-solid fa-arrow-right arrow-toggle"></i>
+          </h3>
+          <div class="faq-card__answer">
+            <p>
+              Para o tier de entrada no programa, o processo consiste em: participar de uma entrevista com um de nossos
+              consultores de parcerias; completar a capacitação de 2 colaboradores nas certificações necessárias;
+              realizar
+              a contratação de um dos nossos softwares e assinar o termo de parceria.
+            </p>
+            <br>
+            <p>
+              A partir do segundo tier, também é necessária a contratação recorrente de créditos em nosso Marketplace.
+            </p>
+            <br>
+            <p>
+              Nossos consultores podem sanar todas as suas dúvidas.
+            </p>
+
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Qual a diferença entre ser um Rock Solutions
+            Partner e um cliente Studio? <i class="fa-solid fa-arrow-right arrow-toggle"></i>
+          </h3>
+          <div class="faq-card__answer">
+            <p>
+              Para o tier de entrada no programa, o processo consiste em: participar de uma entrevista com um de nossos
+              consultores de parcerias; completar a capacitação de 2 colaboradores nas certificações necessárias;
+              realizar
+              a contratação de um dos nossos softwares e assinar o termo de parceria.
+            </p>
+            <br>
+            <p>
+              A partir do segundo tier, também é necessária a contratação recorrente de créditos em nosso Marketplace.
+            </p>
+            <br>
+            <p>
+              Nossos consultores podem sanar todas as suas dúvidas.
+            </p>
+
+          </div>
+        </article>
+        <article class="faq-card">
+          <h3 class="faq-card__question">Os parceiros recebem algum tipo de comissão? <i
+              class="fa-solid fa-arrow-right arrow-toggle"></i>
+          </h3>
+          <div class="faq-card__answer">
+            <p>
+              Para o tier de entrada no programa, o processo consiste em: participar de uma entrevista com um de nossos
+              consultores de parcerias; completar a capacitação de 2 colaboradores nas certificações necessárias;
+              realizar
+              a contratação de um dos nossos softwares e assinar o termo de parceria.
+            </p>
+            <br>
+            <p>
+              A partir do segundo tier, também é necessária a contratação recorrente de créditos em nosso Marketplace.
+            </p>
+            <br>
+            <p>
+              Nossos consultores podem sanar todas as suas dúvidas.
+            </p>
+
+          </div>
+        </article>
+      </div>
+
+      <script>
+        const faqCards = document.querySelectorAll('.faq-card');
+
+        faqCards.forEach(card => {
+          const question = card.querySelector('.faq-card__question');
+          const answer = card.querySelector('.faq-card__answer');
+          const arrow = card.querySelector('.arrow-toggle');
+
+          card.addEventListener('click', () => {
+            question.classList.toggle('active')
+            arrow.classList.toggle('focus')
+            answer.classList.toggle('expanded');
+          });
+        });
+      </script>
+    </section>
+
+    <section class="section-comece-seo-parceiros">
+      <div class="section-comece-seo-parceiros__title">
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+        <h2>Comece seu seo hoje</h2>
+        <img src="/assets/home/menor-que-pink.svg" alt="operado menor que cor de rosa">
+      </div>
+      <form class="modal-parceiros">
+        <fieldset class="modal-content">
+          <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+
+          <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+          <section>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail:" required>
+          </section>
+
+          <section>
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+            <label for="tel">Site ou mídias sociais</label>
+            <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+          </section>
+
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio"
+            required></textarea>
+
+          <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+            Enviar</button>
+
+          <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
+        </fieldset>
+      </form>
     </section>
 
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>

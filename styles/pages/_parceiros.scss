@@ -201,6 +201,223 @@
   }
 }
 
+.section-faq-parceiros {
+  margin-top: 5rem;
+  padding: 4rem 5rem;
+
+  a {
+    @include button();
+    background: transparent;
+    width: 30%;
+    border: 1px solid $cyan-color-500;
+    text-decoration: none;
+    color: $cyan-color-500;
+
+    &:hover {
+      background: $cyan-color-500;
+      color: $white-color;
+    }
+  }
+
+  h2 {
+    @include title(h2);
+    margin-bottom: 2rem;
+  }
+
+  .faq-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .faq-card {
+      user-select: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: $white-color;
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 1rem;
+      padding: 1rem 1rem 1rem 2rem;
+      width: 100%;
+      min-height: 88px;
+      height: max-content;
+      cursor: pointer;
+
+      &__question {
+        @include title(h3);
+        position: relative;
+        font-weight: 900;
+        color: $gray-color-900;
+        width: 100%;
+        padding-right: 3rem;
+
+        &.active {
+          color: $pink-color-500;
+        }
+
+        .arrow-toggle {
+          position: absolute;
+          right: 0;
+          top: 10%;
+          transform: translate(-50%, -50%);
+          font-size: 2rem;
+          display: inline-block;
+          transition: transform 0.2s ease-in-out;
+          transform: rotate(0deg);
+
+          &.focus {
+            color: $pink-color-500;
+            transform: rotate(90deg);
+          }
+        }
+      }
+
+      &__answer {
+        @include title(p);
+        display: none;
+        margin-top: 1rem;
+        width: 80%;
+
+        p {
+          margin: 0;
+        }
+
+        &.expanded {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.section-comece-seo-parceiros {
+  @include flex-center();
+  flex-direction: column;
+  position: relative;
+  margin-top: 6rem;
+
+  &__title {
+    width: 100%;
+    @include flex-center();
+    justify-content: space-between;
+
+    img:last-child {
+      transform: rotate(180deg);
+    }
+
+    h2 {
+      @include title(h2);
+
+      @media (max-width: 1200px) {
+        font-size: 70px;
+      }
+    }
+  }
+
+  .modal-parceiros {
+    display: flex;
+    justify-content: center;
+    top: inherit;
+    bottom: 0;
+    margin-top: 3rem;
+    max-height: 698px;
+    width: 100%;
+
+    .modal-content {
+      background-color: $gray-color-900;
+      padding: 3rem;
+      border-top: 50px solid $pink-color-500;
+      border-bottom: 50px solid $pink-color-500;
+      border-left: none;
+      border-right: none;
+      border-radius: 10px;
+      height: 70vh;
+      width: 80%;
+      position: relative;
+      @include flex-center();
+      justify-content: center;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 10;
+
+      img {
+        display: none;
+      }
+
+      legend {
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        color: $cyan-color-500;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        span {
+          color: $pink-color-500;
+        }
+      }
+
+      section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+          width: 45%;
+          @include input();
+        }
+      }
+
+      textarea {
+        @include input();
+        width: 100%;
+        resize: none;
+        height: 400px;
+        min-height: 80px;
+      }
+
+      label {
+        display: none;
+      }
+
+      .btn-submit {
+        position: absolute;
+        bottom: -5rem;
+        background-color: $cyan-color-500;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        border: none;
+        @include flex-center();
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 0.8rem;
+        color: $gray-color-900;
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+
+        &:hover {
+          background-color: lighten($cyan-color-500, 5%);
+        }
+      }
+    }
+
+    .fechar-modal {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 980px) {
   .section-agencia-parceira {
     align-items: center;
@@ -240,7 +457,7 @@
           transform: rotate(180deg) translate(-30%);
         }
       }
-    } 
+    }
 
     &__content {
       align-items: center;
@@ -256,6 +473,66 @@
 
     .btn-comecar-agora {
       display: none;
+    }
+  }
+
+  .section-faq-parceiros {
+    padding: 0 1rem;
+
+    h2 {
+      font-size: 2.5rem;
+    }
+    a {
+      width: 100%;
+    }
+    .faq-cards {
+      justify-content: center;
+    }
+  }
+
+  .section-comece-seo-parceiros {
+    gap: 3rem;
+    &__title {
+     display: none;
+    }
+
+    .modal-parceiros {
+      justify-content: flex-start;
+
+      .modal-content {
+        border-top: 5px solid $pink-color-500;
+        padding: 5rem 1rem 1rem 1rem;
+        height: 75vh;
+        width: 99vw;
+
+        img {
+          height: 200px;
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          transform: translate(-50%, -50%);
+          width: 150px;
+        }
+
+        legend {
+          color: $pink-color-500;
+
+          span {
+            display: none;
+          }
+        }
+
+        section {
+          flex-direction: column;
+          gap: 15px;
+          align-items: center;
+
+          input {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
