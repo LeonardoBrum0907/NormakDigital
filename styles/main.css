@@ -2366,13 +2366,7 @@
     padding: 4rem 1rem;
   }
 }
-.section-apoiamos-crescimento .seo-360 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.section-apoiamos-crescimento .seo-360 h3 {
+.section-apoiamos-crescimento h2 {
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
@@ -2381,25 +2375,12 @@
   color: #24262a;
 }
 @media (max-width: 980px) {
-  .section-apoiamos-crescimento .seo-360 h3 {
+  .section-apoiamos-crescimento h2 {
     font-size: 1.6666666667rem;
   }
 }
-.section-apoiamos-crescimento .seo-360 h3 span {
+.section-apoiamos-crescimento h2 span {
   color: #02eb9e;
-}
-.section-apoiamos-crescimento .seo-360 p {
-  font-weight: 400;
-  text-transform: none;
-  color: #24262a;
-  font-size: 1.5rem;
-  text-align: center;
-  width: 70%;
-}
-@media (max-width: 980px) {
-  .section-apoiamos-crescimento .seo-360 p {
-    font-size: 1rem;
-  }
 }
 .section-apoiamos-crescimento .principios {
   display: flex;
@@ -2419,7 +2400,7 @@
   font-size: 3rem;
   color: #02eb9e;
 }
-.section-apoiamos-crescimento .principios div h4 {
+.section-apoiamos-crescimento .principios div h3 {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
@@ -2430,7 +2411,7 @@
   text-align: center;
 }
 @media (max-width: 980px) {
-  .section-apoiamos-crescimento .principios div h4 {
+  .section-apoiamos-crescimento .principios div h3 {
     font-size: 1rem;
   }
 }
@@ -2836,6 +2817,13 @@
   }
   .section-agencia-parceira img {
     display: none;
+  }
+  .section-apoiamos-crescimento .principios {
+    flex-direction: column;
+  }
+  .section-apoiamos-crescimento .principios div {
+    width: 50%;
+    min-width: 300px;
   }
   .section-ingressar-programa__title h2 {
     color: #ea1d5d;

@@ -62,25 +62,13 @@
   gap: 3rem;
   flex-direction: column;
 
-  .seo-360 {
-    @include flex-center();
-    flex-direction: column;
-    justify-content: center;
+  h2 {
+    @include title(h3);
+    text-align: center;
+    color: $gray-color-900;
 
-    h3 {
-      @include title(h3);
-      text-align: center;
-      color: $gray-color-900;
-
-      span {
-        color: $cyan-color-500;
-      }
-    }
-
-    p {
-      @include title(p);
-      text-align: center;
-      width: 70%;
+    span {
+      color: $cyan-color-500;
     }
   }
 
@@ -101,7 +89,7 @@
         color: $cyan-color-500;
       }
 
-      h4 {
+      h3 {
         @include title(p);
         color: $pink-color-500;
         font-weight: 900;
@@ -441,6 +429,17 @@
 
     img {
       display: none;
+    }
+  }
+
+  .section-apoiamos-crescimento {
+    .principios {
+      flex-direction: column;
+
+      div {
+        width: 50%;
+        min-width: 300px;
+      }
     }
   }
 
