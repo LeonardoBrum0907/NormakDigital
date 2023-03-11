@@ -1,0 +1,41 @@
+.section-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  @include container-first();
+
+  h1 {
+    @include title(h1);
+  }
+
+  p {
+    color: $white-color;
+    font-size: $font-size-p;
+    font-weight: 400;
+    width: 50%;
+  }
+
+  button {
+    @include button();
+    background: transparent;
+    border: 1px solid $cyan-color-500;
+    color: $cyan-color-500;
+    width: 20rem;
+    transition: 0.3s;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $cyan-color-500;
+      color: $white-color;
+    }
+  }
+}
+
+@media(max-width: 980px) {
+  .section-faq {
+    p {
+      width: 100%;
+    }
+  }
+}
