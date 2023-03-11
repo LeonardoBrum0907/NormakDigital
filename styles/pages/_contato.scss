@@ -2,7 +2,7 @@
   @include flex-center();
   align-items: flex-start;
   gap: 3rem;
-  @include container();
+  @include container-first();
 
   .modal-laudo-seo {
     height: 650px;

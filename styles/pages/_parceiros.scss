@@ -1,5 +1,5 @@
 .section-agencia-parceira {
-  @include container();
+  @include container-first();
   @include flex-center();
   align-items: flex-start;
   justify-content: space-between;

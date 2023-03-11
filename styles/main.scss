@@ -104,6 +104,25 @@ $font-size-p: 1.5rem;
   }
 }
 
+@mixin container-first() {
+  background-image: url("/assets/home/img-top.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  padding: 4rem 15rem 8rem;
+  margin-bottom: 5rem;
+
+  @media (max-width: 1700px) {
+    padding: 4rem 5rem 8rem;
+  }
+
+  @media (max-width: 980px) {
+    padding: 4rem 1rem 8rem;
+    background-size: 190% 100%;
+    background-position: center;
+  }
+}
+
 @mixin cards() {
   .cards-box {
     position: relative;
@@ -291,6 +310,7 @@ $font-size-p: 1.5rem;
 @import "pages/laudo-seo";
 @import "pages/parceiros";
 @import "pages/contato";
+@import "pages/faq";
 @import "pages/clientes/clientes-cases";
 @import "pages/clientes/cliente2";
 @import "pages/servicos/servicos";

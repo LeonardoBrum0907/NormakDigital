@@ -1,7 +1,7 @@
 .section-seo-360 {
   @include flex-center();
   align-items: flex-start;
-  @include container();
+  @include container-first();
   position: relative;
   margin: 0;
 

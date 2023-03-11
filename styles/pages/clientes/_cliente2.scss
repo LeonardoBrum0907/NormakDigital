@@ -1,5 +1,5 @@
 .section-intersena {
-  @include container();
+  @include container-first();
   @include flex-center();
   align-items: flex-start;
   flex-direction: column;
