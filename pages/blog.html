@@ -1,13 +1,323 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <meta name="description"
+    content="Empresa especializada em indexação em ferramentas de busca. Entre em contato e aumente a visibilidade da sua marca na internet.">
+  <title>Normak Digital - Blog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+  <script src="https://kit.fontawesome.com/a9dffb1e8e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <a href="javascript:history.back()" style="font-size: x-large;">voltar</a>
-  <h1>Blog</h1>
+  <header class="site-header">
+    <nav class="site-header__nav">
+      <a href="/index.html" class="site-header__logo">
+        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
+      </a>
+      <ul class="mobile-menu">
+        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases</a>
+        </li>
+        <li class="has-submenu">
+          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
+          <ul class="submenu">
+            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
+            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
+            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
+            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+        <li><a href="/pages/parceiros.html">Parceiros</a></li>
+        <li><a href="/pages/blog.html">Blog</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+        <span class="hamburger-menu__line"></span>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar">
+      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <section class="section-blog-normak">
+      <div>
+        <h1>O blog Normak <i class="fa-solid fa-angle-right"></i></h1>
+        <p>
+          Expanda seu conhecimento de SEO e marketing com tutoriais detalhados e estudos de caso.
+        </p>
+      </div>
+      <img src="/assets/home/mulher-notebook-blog.png" alt="Mulher usando um notebook">
+    </section>
+
+    <div class="section-feed-blog">
+      <nav class="nav-pages">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><i class="fa-solid fa-angle-right"></i></li>
+          <li><a class="active" href="#">Blog</a></li>
+        </ul>
+      </nav>
+
+      <div class="section-feed-blog__postagens">
+
+        <div class="recentes-populares">
+          <button class="btn-ultimas-postagens">Últimas postagens</button>
+          <button class="btn-posts-populares">Postagens populares</button>
+        </div>
+
+        <aside class="filters">
+          <h3>:Categorias</h3>
+          <button class="btn-filter active" data-category="all"><i class="fa-solid fa-list-ul"></i>Todos</button>
+          <button class="btn-filter" data-category="seo"><i class="fa-solid fa-magnifying-glass"></i>SEO</button>
+          <button class="btn-filter" data-category="noticias"><i class="fa-regular fa-bell"></i>Notícias</button>
+          <button class="btn-filter" data-category="relevantes"><i class="fa-regular fa-star"></i>Relevantes</button>
+          <button class="btn-filter" data-category="relevantes"><i class="fa-regular fa-star"></i>Relevantes</button>
+        </aside>
+
+        <div class="posts recentes">
+          <section class="preview-post-recente" data-category="seo">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <span>Notícias • Wordpress</span>
+              <h2>1 SEO - WordPress lança um novo plugin de desempenho</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17"><i class="fa-regular fa-calendar"></i> 17/01/2023</time>
+                <span class="views"><i class="fa-regular fa-eye"></i> 36 mil leituras</span>
+                <span class="read-time"><i class="fa-regular fa-clock"></i> 5 minutos de leitura</span>
+              </div>
+              <a href="link-para-o-post-completo">Ler mais</a>
+            </div>
+          </section>
+
+          <section class="preview-post-recente" data-category="noticias">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <h2>2 Título do post NOTICIA</h2>
+              <p>Primeiro parágrafo do post</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17">Publicado em 17 de Janeiro de 2023</time>
+                <span class="views">120 visualizações</span>
+                <span class="read-time">Tempo de leitura: 5 minutos</span>
+              </div>
+              <a href="link-para-o-post-completo" class="button">Ler mais</a>
+            </div>
+          </section>
+
+          <section class="preview-post-recente" data-category="relevantes">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <h2>3 Título do post RELEVANTES</h2>
+              <p>Primeiro parágrafo do post</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17">Publicado em 17 de Janeiro de 2023</time>
+                <span class="views">120 visualizações</span>
+                <span class="read-time">Tempo de leitura: 5 minutos</span>
+              </div>
+              <a href="link-para-o-post-completo" class="button">Ler mais</a>
+            </div>
+          </section>
+
+          <section class="preview-post-recente" data-category="noticias">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <h2>4 Título do post NOTICIA</h2>
+              <p>Primeiro parágrafo do post</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17">Publicado em 17 de Janeiro de 2023</time>
+                <span class="views">120 visualizações</span>
+                <span class="read-time">Tempo de leitura: 5 minutos</span>
+              </div>
+              <a href="link-para-o-post-completo" class="button">Ler mais</a>
+            </div>
+          </section>
+
+          <div class="pagination">
+            <!-- <button class="btn-pagination">1</button> -->
+          </div>
+        </div>
+
+        <div class="posts populares">
+          <section class="preview-post-popular" data-category="seo">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <h2>Título do post POPULAR SEO</h2>
+              <p>Primeiro parágrafo do post</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17">Publicado em 17 de Janeiro de 2023</time>
+                <span class="views">120 visualizações</span>
+                <span class="read-time">Tempo de leitura: 5 minutos</span>
+              </div>
+              <a href="link-para-o-post-completo" class="button">Ler mais</a>
+            </div>
+          </section>
+
+          <section class="preview-post-popular" data-category="noticias">
+            <figure>
+              <img src="imagem-do-post.jpg" alt="Imagem do post">
+            </figure>
+            <div class="preview-content" data-category="noticias">
+              <h2>Título do post POPULAR NOTICIA</h2>
+              <p>Primeiro parágrafo do post</p>
+              <div class="preview-meta">
+                <time datetime="2023-01-17">Publicado em 17 de Janeiro de 2023</time>
+                <span class="views">120 visualizações</span>
+                <span class="read-time">Tempo de leitura: 5 minutos</span>
+              </div>
+              <a href="link-para-o-post-completo" class="button">Ler mais</a>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="box-cta">
+          <div class="box-cta__box">
+            <span>Consultoria de SEO/</span>
+            <img src="/assets/blog/doc-lupa.png" alt="lupa">
+            <p>
+              Somos uma agência especializada em SEO, apaixonada em ajudar empresas a venderem mais no Google, através
+              de metodologia comprovada, pessoas criativas e foco em resultados.
+            </p>
+            <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Fale com um especialista</button>
+          </div>
+          <div class="box-cta__box">
+            <span>Ecommerce SEO/</span>
+            <img src="/assets/blog/monitor-seo.png" alt="monitor escrito seo na tela">
+            <p>
+              Conseguimos aumentar o tráfego orgânico da sua loja com uma metodologia completa e pensada totalmente em crescimento de faturamento e número de acessos qualificados.
+            </p>
+            <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Fale com um especialista</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
+  </main>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
+    </fieldset>
+  </form>
+
+  <footer class="rodape-columns">
+    <div class="rodape-column">
+      <img src="/assets/logo-bottom.svg" alt="Logo da empresa">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
+      <div>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@empresa.com</p>
+      </div>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Sobre</h2>
+        <ul>
+          <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
+          <li><a href="/pages/quem-somos.html">Quem somos</a></li>
+          <li><a href="/pages/clientes-cases/clientes-cases.html">Clientes e Cases</a></li>
+          <li><a href="/pages/clientes-cases/cliente1.html">Cases de sucesso</a></li>
+          <li><a href="/pages/parceiros.html">Parceiros</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rodape-column">
+      <nav>
+        <h2>Serviços</h2>
+        <ul>
+          <li><a href="/pages/servicos/seo-360.html">Consultoria SEO 360</a></li>
+          <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
+          <li><a href="/pages/servicos/seo-local.html">SEO local</a></li>
+          <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
+        </ul>
+      </nav>
+      <nav class="social-icons">
+        <h2>Midias sociais</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="direitos">
+      <span>© 2013-2022Normak Digital</span>
+      <img src="/assets/logo-bottom.svg" alt="">
+    </div>
+  </footer>
+
+  <script src="/scripts/header.js"></script>
+  <script src="/scripts/form-modal.js"></script>
+  <script src="/scripts/blog.js"></script>
 </body>
+
 </html>

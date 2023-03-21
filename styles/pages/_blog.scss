@@ -1,0 +1,287 @@
+.section-blog-normak {
+  @include container-first();
+  @include flex-center();
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+
+  div {
+    width: 50%;
+    @include flex-center();
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+
+    h1 {
+      @include title(h1);
+      line-height: 100px;
+
+      & > i {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+      }
+    }
+
+    p {
+      @include title(h3);
+      text-transform: none;
+      font-weight: 400;
+      color: $white-color;
+      width: 90%;
+      max-width: 600px;
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 0;
+    width: 40%;
+  }
+}
+
+.section-feed-blog {
+  @include container();
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  &__postagens {
+    display: grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 20% 50% 30%;
+
+    .recentes-populares {
+      grid-column-start: 1;
+      grid-column-end: 4;
+
+      button {
+        background: transparent;
+        border: none;
+        @include title(h3);
+        transition: 0.2s;
+        border-top: 3px solid transparent;
+
+        &:first-child {
+          margin-right: 2rem;
+        }
+
+        &.active {
+          border-top: 3px solid $cyan-color-500;
+          color: $cyan-color-500;
+        }
+      }
+    }
+
+    .filters {
+      @include flex-center();
+      flex-direction: column;
+      gap: 3rem;
+      height: 500px;
+      direction: rtl;
+      overflow-y: scroll;
+      padding-left: 1rem;
+
+      &::-webkit-scrollbar {
+        width: 10px;
+        background-color: transparent;
+        border: 1px solid $gray-color-500;
+        border-radius: 20px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        width: 5px;
+        background-color: $gray-color-500;
+        border-radius: 20px;
+      }
+
+      h3 {
+        position: sticky;
+        top: 0;
+        @include title(p);
+        background-color: $white-color;
+        width: 100%;
+        text-align: center;
+      }
+
+      button {
+        @include flex-center();
+        justify-content: center;
+        flex-direction: column;
+        background-color: transparent;
+        border: none;
+        gap: 1rem;
+        color: $gray-color-500;
+        font-size: 24px;
+        transition: 0.3s;
+
+        i {
+          font-size: 40px;
+        }
+
+        &:hover {
+          color: $pink-color-500;
+        }
+
+        &.active {
+          color: $pink-color-500;
+        }
+      }
+    }
+
+    .posts {
+      display: flex;
+      flex-direction: column;
+      gap: 8rem;
+
+      .preview-post-recente {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        figure {
+          height: 290px;
+          width: 450px;
+          background: $pink-color-500;
+          border-radius: 16px;
+        }
+
+        .preview-content {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+
+          & > span {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $cyan-color-500;
+          }
+
+          h2 {
+            @include title(h3);
+          }
+
+          p {
+            @include title(p);
+          }
+
+          .preview-meta {
+            @include flex-center();
+            justify-content: space-between;
+          }
+
+          a {
+            @include button();
+            background: $cyan-color-500;
+            color: $black-color;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .pagination {
+        display: flex;
+        gap: 1rem;
+
+        .btn-pagination {
+          height: 3.125rem;
+          width: 3.125rem;
+          background: transparent;
+          border-radius: 10px;
+          border: none;
+          font-size: 1.5rem;
+
+          &:hover {
+            border: 1px solid $gray-color-900;
+          }
+          &.active {
+            background-color: $gray-color-900;
+            color: $cyan-color-500;
+          }
+        }
+      }
+    }
+
+    .box-cta {
+      &__box {
+        @include flex-center();
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3.5rem 2.5rem;
+        height: 41.2rem;
+        border-radius: 16px;
+        position: relative;
+
+        span {
+          font-size: 2.5rem;
+          text-transform: uppercase;
+          font-weight: 900;
+          text-align: center;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        p {
+          color: $gray-color-100;
+          text-align: center;
+        }
+
+        button {
+          @include button();
+          justify-content: center;
+          padding: 0;
+          border: none;
+          width: 90%;
+          position: absolute;
+          bottom: 0;
+          transform: translate(0, 50%);
+
+        }
+        
+        &:first-child {
+          background: $pink-color-500;
+          margin-bottom: 8rem;
+          
+          span {
+            color: $gray-color-900;
+          }
+          
+          button {
+            background-color: $yellow-color-500;
+            
+            &:hover {
+              color: $pink-color-500;
+              background-color: lighten($yellow-color-500, 5%);
+            }
+          }
+        }
+
+        &:last-child {
+          background-color: $gray-color-900;
+
+          span {
+            color: $cyan-color-500;
+          }
+
+          img {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+
+          button {
+            background-color: $cyan-color-500;
+
+            &:hover {
+              background-color: lighten($cyan-color-500, 5%);
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

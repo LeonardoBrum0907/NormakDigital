@@ -1,10 +1,11 @@
 $cyan-color-500: #02eb9e;
+$yellow-color-500: #FFD740;
 $white-color: #ffffff;
 $black-color: #000000;
 $pink-color-500: #ea1d5d;
-$gray-color-900: #24262a;
 $gray-color-100: #e1e1e1;
 $gray-color-500: #919191;
+$gray-color-900: #24262a;
 
 $font-size-h1: 6.5rem;
 $font-size-h2: 5.625rem;
@@ -109,15 +110,15 @@ $font-size-p: 1.5rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
-  padding: 4rem 15rem 8rem;
+  padding: 4rem 15rem 15rem;
   margin-bottom: 5rem;
 
   @media (max-width: 1700px) {
-    padding: 4rem 5rem 8rem;
+    padding: 4rem 5rem 15rem;
   }
 
   @media (max-width: 980px) {
-    padding: 4rem 1rem 8rem;
+    padding: 4rem 1rem 15rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -311,6 +312,7 @@ $font-size-p: 1.5rem;
 @import "pages/parceiros";
 @import "pages/contato";
 @import "pages/faq";
+@import "pages/blog";
 @import "pages/clientes/clientes-cases";
 @import "pages/clientes/cliente2";
 @import "pages/servicos/servicos";
