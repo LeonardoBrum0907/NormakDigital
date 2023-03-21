@@ -521,7 +521,6 @@
   }
 }
 .section-abordagem {
-  margin: 6rem 0;
   padding-bottom: 3rem;
   position: relative;
   display: flex;
@@ -545,7 +544,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
   display: flex;
   align-items: center;
   margin-left: 120px;
@@ -554,7 +553,7 @@
 }
 @media (max-width: 980px) {
   .section-abordagem__description {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .section-abordagem__description span {
@@ -722,7 +721,7 @@
 }
 @media (max-width: 1700px) {
   .section-trafego {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -736,11 +735,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
 }
 @media (max-width: 980px) {
   .section-trafego h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-trafego__description {
@@ -766,8 +765,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -814,31 +813,30 @@
 
 .o-que-vc-precisa {
   position: relative;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 1700px) {
   .o-que-vc-precisa {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .o-que-vc-precisa {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .o-que-vc-precisa h2 {
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .o-que-vc-precisa h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .o-que-vc-precisa__description {
@@ -858,8 +856,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: #02eb9e;
   color: #000000;
   width: 21.56rem;
@@ -876,23 +874,23 @@
   color: #ffffff;
 }
 .o-que-vc-precisa .cards {
-  height: 100%;
-  width: 50%;
+  height: auto;
+  width: 40%;
+  border: 1px solid red;
 }
 
 .section-blog {
   display: flex;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
 }
 @media (max-width: 1700px) {
   .section-blog {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-blog {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-blog > div {
@@ -986,8 +984,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   color: #000000;
   background-color: #02eb9e;
   width: 300px;
@@ -1024,11 +1022,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo__title h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1067,8 +1065,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   text-decoration: none;
   width: 30%;
@@ -1116,20 +1114,19 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 @media (max-width: 1700px) {
   .empresas-atendidas-slider {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .empresas-atendidas-slider {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .empresas-atendidas-slider h2 {
@@ -1173,18 +1170,17 @@
 
 .faq-section {
   margin-top: 5rem;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   height: 800px;
 }
 @media (max-width: 1700px) {
   .faq-section {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .faq-section {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .faq-section a {
@@ -1194,8 +1190,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: transparent;
   width: 30%;
   border: 1px solid #02eb9e;
@@ -1215,12 +1211,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 980px) {
   .faq-section h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .faq-section .faq-cards {
@@ -1298,11 +1294,6 @@
 }
 
 @media (max-width: 980px) {
-  .img-background-top {
-    height: 90vh;
-    background-size: cover;
-    background-position: 80%;
-  }
   .section-trafego {
     height: 90vh;
   }
@@ -1354,7 +1345,7 @@
     margin-left: 5%;
   }
   .o-que-vc-precisa .cards {
-    width: 100%;
+    width: 80%;
   }
   .section-blog {
     flex-direction: column;
@@ -1480,7 +1471,7 @@
 }
 @media (max-width: 1700px) {
   .section-quem-somos {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -1502,7 +1493,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
   display: flex;
   align-items: center;
@@ -1512,7 +1503,7 @@
 }
 @media (max-width: 980px) {
   .section-quem-somos div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-quem-somos div h1 > i {
@@ -1541,8 +1532,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   border: 1px solid #02eb9e;
   color: #02eb9e;
   text-decoration: none;
@@ -1569,18 +1560,17 @@
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   position: relative;
 }
 @media (max-width: 1700px) {
   .section-nossa-historia {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-nossa-historia {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-nossa-historia__description {
@@ -1680,8 +1670,7 @@
 }
 
 .section-acreditamos-pessoas {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1691,12 +1680,12 @@
 }
 @media (max-width: 1700px) {
   .section-acreditamos-pessoas {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-acreditamos-pessoas {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-acreditamos-pessoas img {
@@ -1721,8 +1710,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   width: 25%;
   border: none;
@@ -1734,20 +1723,19 @@
 }
 
 .section-empresas-atendidas {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 1700px) {
   .section-empresas-atendidas {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-empresas-atendidas__description {
@@ -1790,8 +1778,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   text-decoration: none;
   color: #000000;
@@ -1808,17 +1796,16 @@
 }
 
 .section-depoimentos {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
 }
 @media (max-width: 1700px) {
   .section-depoimentos {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-depoimentos {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-depoimentos h2 {
@@ -1899,17 +1886,16 @@
 }
 
 .section-selos {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
 }
 @media (max-width: 1700px) {
   .section-selos {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-selos {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-selos h2 {
@@ -2035,17 +2021,16 @@
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
 }
 @media (max-width: 1700px) {
   .section-planejamento {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-planejamento {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-planejamento .modal-laudo-seo {
@@ -2102,8 +2087,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   width: 100%;
   background-color: transparent;
   border: 1px solid #02eb9e;
@@ -2138,12 +2123,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-planejamento__description h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-planejamento__description p {
@@ -2155,8 +2140,7 @@
 }
 
 .section-seo-marketing {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -2166,12 +2150,12 @@
 }
 @media (max-width: 1700px) {
   .section-seo-marketing {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-seo-marketing {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-seo-marketing section {
@@ -2264,7 +2248,7 @@
 }
 @media (max-width: 1700px) {
   .section-agencia-parceira {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -2286,7 +2270,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
   display: flex;
   align-items: center;
@@ -2296,7 +2280,7 @@
 }
 @media (max-width: 980px) {
   .section-agencia-parceira div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-agencia-parceira div h1 > i {
@@ -2325,8 +2309,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -2348,8 +2332,7 @@
 }
 
 .section-apoiamos-crescimento {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -2358,12 +2341,12 @@
 }
 @media (max-width: 1700px) {
   .section-apoiamos-crescimento {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-apoiamos-crescimento {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-apoiamos-crescimento h2 {
@@ -2450,13 +2433,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
   text-align: center;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-ingressar-programa__title h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .section-ingressar-programa__content {
@@ -2516,8 +2499,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   text-decoration: none;
   width: 25%;
@@ -2545,8 +2528,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: transparent;
   width: 30%;
   border: 1px solid #02eb9e;
@@ -2566,12 +2549,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 980px) {
   .section-faq-parceiros h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .section-faq-parceiros .faq-cards {
@@ -2673,11 +2656,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo-parceiros__title h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 @media (max-width: 1200px) {
@@ -2929,7 +2912,7 @@
 }
 @media (max-width: 1700px) {
   .section-vamos-conversar {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -3033,8 +3016,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   width: 100%;
   background-color: transparent;
   border: 1px solid #02eb9e;
@@ -3094,8 +3077,7 @@
 }
 
 .section-agende-reuniao {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -3105,12 +3087,12 @@
 }
 @media (max-width: 1700px) {
   .section-agende-reuniao {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-agende-reuniao {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-agende-reuniao img {
@@ -3136,8 +3118,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   width: 25%;
   border: none;
@@ -3169,11 +3151,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo-contato__title h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 @media (max-width: 1200px) {
@@ -3372,7 +3354,7 @@
 }
 @media (max-width: 1700px) {
   .section-faq {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -3386,11 +3368,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
 }
 @media (max-width: 980px) {
   .section-faq h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-faq p {
@@ -3406,8 +3388,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -3444,7 +3426,7 @@
 }
 @media (max-width: 1700px) {
   .section-blog-normak {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -3466,12 +3448,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-blog-normak div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-blog-normak div h1 > i {
@@ -3502,20 +3484,19 @@
 }
 
 .section-feed-blog {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 }
 @media (max-width: 1700px) {
   .section-feed-blog {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-feed-blog {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-feed-blog__postagens {
@@ -3668,8 +3649,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: #02eb9e;
   color: #000000;
   text-decoration: none;
@@ -3728,8 +3709,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   justify-content: center;
   padding: 0;
   border: none;
@@ -3790,7 +3771,7 @@
 }
 @media (max-width: 1700px) {
   .section-falam-sobre-nos {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -3804,13 +3785,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
   width: 90%;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-falam-sobre-nos p {
@@ -3831,18 +3812,17 @@
 }
 
 .section-banner-cliente {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   margin-top: 10rem;
 }
 @media (max-width: 1700px) {
   .section-banner-cliente {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-banner-cliente {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-banner-cliente div {
@@ -3891,8 +3871,7 @@
 .section-empresas-slider {
   background-color: #e1e1e1;
   margin-top: 0;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -3902,12 +3881,12 @@
 }
 @media (max-width: 1700px) {
   .section-empresas-slider {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-empresas-slider {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-empresas-slider > img {
@@ -3956,8 +3935,7 @@
 }
 
 .section-sua-estrategia {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -3966,12 +3944,12 @@
 }
 @media (max-width: 1700px) {
   .section-sua-estrategia {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-sua-estrategia {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-sua-estrategia .cards-box {
@@ -4129,11 +4107,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .section-sua-estrategia__description {
@@ -4153,8 +4131,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: #02eb9e;
   color: #000000;
   width: 21.56rem;
@@ -4193,8 +4171,8 @@
     border-radius: 16px;
     transition: 0.3s;
     justify-content: space-between;
-    padding: 0 4%;
-    font-size: 1.5rem;
+    padding: 0 5%;
+    font-size: 1.2rem;
     background: transparent;
     border: 1px solid #02eb9e;
     color: #02eb9e;
@@ -4248,7 +4226,7 @@
 }
 @media (max-width: 1700px) {
   .section-intersena {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -4273,13 +4251,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
   width: 90%;
 }
 @media (max-width: 980px) {
   .section-intersena h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-intersena p {
@@ -4302,8 +4280,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   border: 1px solid #02eb9e;
   color: #ffffff;
@@ -4322,19 +4300,18 @@
 }
 
 .section-banner-feedback {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   margin-top: 5rem;
   position: relative;
 }
 @media (max-width: 1700px) {
   .section-banner-feedback {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-banner-feedback {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-banner-feedback > div {
@@ -4439,20 +4416,19 @@
 }
 
 .section-description-page {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 @media (max-width: 1700px) {
   .section-description-page {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-description-page {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-description-page ul {
@@ -4488,8 +4464,7 @@
 }
 
 .section-sua-estrategia-cliente2 {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4498,12 +4473,12 @@
 }
 @media (max-width: 1700px) {
   .section-sua-estrategia-cliente2 {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-sua-estrategia-cliente2 .cards-box {
@@ -4661,11 +4636,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 h2 {
-    font-size: 1.75rem;
+    font-size: 2.3333333333rem;
   }
 }
 .section-sua-estrategia-cliente2__description {
@@ -4685,8 +4660,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: #02eb9e;
   color: #000000;
   width: 21.56rem;
@@ -4706,11 +4681,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 .cards-box__card:first-child span {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-sua-estrategia-cliente2 .cards-box__card:last-child {
@@ -4791,7 +4766,7 @@
 }
 @media (max-width: 1700px) {
   .section-motores-busca {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -4813,12 +4788,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-motores-busca div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-motores-busca div p {
@@ -4841,8 +4816,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -4869,8 +4844,7 @@
 }
 
 .section-acelere-crescimento {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   gap: 10%;
@@ -4878,12 +4852,12 @@
 }
 @media (max-width: 1700px) {
   .section-acelere-crescimento {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-acelere-crescimento div {
@@ -4925,8 +4899,7 @@
 }
 
 .section-estrategia-seo {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -4935,12 +4908,12 @@
 }
 @media (max-width: 1700px) {
   .section-estrategia-seo {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-estrategia-seo {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-estrategia-seo .fale-especialista {
@@ -4989,8 +4962,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   border: none;
   width: 60%;
@@ -5088,18 +5061,17 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   background-color: #24262a;
 }
 @media (max-width: 1700px) {
   .section-servicos {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-servicos {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-servicos div {
@@ -5135,8 +5107,7 @@
 }
 
 .section-cases-diferenca {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   padding: 4rem 8rem;
   display: flex;
   align-items: center;
@@ -5144,12 +5115,12 @@
 }
 @media (max-width: 1700px) {
   .section-cases-diferenca {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-cases-diferenca {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-cases-diferenca div {
@@ -5200,8 +5171,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background: #02eb9e;
   border: none;
   width: 70%;
@@ -5346,7 +5317,7 @@
 }
 @media (max-width: 1700px) {
   .section-consultoria-seo {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -5368,12 +5339,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-consultoria-seo div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-consultoria-seo div p {
@@ -5396,8 +5367,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -5430,8 +5401,7 @@
 }
 
 .section-como-funciona {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   padding-right: 6rem;
   display: flex;
   align-items: center;
@@ -5440,12 +5410,12 @@
 }
 @media (max-width: 1700px) {
   .section-como-funciona {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-como-funciona {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-como-funciona div {
@@ -5567,7 +5537,7 @@
 }
 @media (max-width: 1700px) {
   .section-habilidades {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -5589,12 +5559,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-habilidades div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-habilidades div p {
@@ -5617,8 +5587,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -5651,8 +5621,7 @@
 }
 
 .section-seo-ecommerce {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   padding-right: 6rem;
   display: flex;
   align-items: center;
@@ -5661,12 +5630,12 @@
 }
 @media (max-width: 1700px) {
   .section-seo-ecommerce {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-seo-ecommerce div {
@@ -5713,8 +5682,7 @@
 }
 
 .section-estrategia-seo-para-ecommerce {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   padding-right: 4rem;
@@ -5723,12 +5691,12 @@
 }
 @media (max-width: 1700px) {
   .section-estrategia-seo-para-ecommerce {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-estrategia-seo-para-ecommerce {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-estrategia-seo-para-ecommerce div {
@@ -5773,8 +5741,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   border: none;
   width: 60%;
@@ -5862,7 +5830,7 @@
 }
 @media (max-width: 1700px) {
   .section-seo-local {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -5884,13 +5852,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-seo-local div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-seo-local div p {
@@ -5913,8 +5881,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -5941,8 +5909,7 @@
 }
 
 .section-geolocalizacao {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   padding-top: 8rem;
   padding-right: 6rem;
   display: flex;
@@ -5952,12 +5919,12 @@
 }
 @media (max-width: 1700px) {
   .section-geolocalizacao {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-geolocalizacao {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-geolocalizacao div {
@@ -6012,8 +5979,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   border: none;
   width: 60%;
@@ -6087,7 +6054,7 @@
 }
 @media (max-width: 1700px) {
   .section-marketing-conteudo {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -6109,12 +6076,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-marketing-conteudo div p {
@@ -6137,8 +6104,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -6165,8 +6132,7 @@
 }
 
 .section-o-que-e-marketing {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   padding-top: 6rem;
   display: flex;
   align-items: center;
@@ -6175,12 +6141,12 @@
 }
 @media (max-width: 1700px) {
   .section-o-que-e-marketing {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-o-que-e-marketing div {
@@ -6277,7 +6243,7 @@
 }
 @media (max-width: 1700px) {
   .section-digital-pr {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -6299,12 +6265,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-digital-pr div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 .section-digital-pr div p {
@@ -6327,8 +6293,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -6362,8 +6328,7 @@
 }
 
 .section-o-que-e-pr {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6371,12 +6336,12 @@
 }
 @media (max-width: 1700px) {
   .section-o-que-e-pr {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-o-que-e-pr {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-o-que-e-pr div {
@@ -6547,20 +6512,19 @@
 }
 
 .fale-especialista-pr {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 1700px) {
   .fale-especialista-pr {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .fale-especialista-pr {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .fale-especialista-pr div {
@@ -6604,8 +6568,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: #02eb9e;
   border: none;
   width: 60%;
@@ -6719,7 +6683,7 @@
 }
 @media (max-width: 1700px) {
   .section-seo-360 {
-    padding: 4rem 5rem 15rem;
+    padding: 4rem 10rem 15rem;
   }
 }
 @media (max-width: 980px) {
@@ -6741,12 +6705,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 3.125rem;
+  font-size: 5rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-seo-360 div h1 {
-    font-size: 1.5625rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 1700px) {
@@ -6774,8 +6738,8 @@
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
-  padding: 0 4%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
   background-color: transparent;
   border: 1px solid #02eb9e;
   color: #02eb9e;
@@ -6809,20 +6773,19 @@
 }
 
 .section-futuro-otimizacao {
-  padding: 4rem 25rem;
-  margin-bottom: 5rem;
+  padding: 2rem 25rem;
   display: flex;
   align-items: center;
   position: relative;
 }
 @media (max-width: 1700px) {
   .section-futuro-otimizacao {
-    padding: 4rem 5rem;
+    padding: 2rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-futuro-otimizacao {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 .section-futuro-otimizacao div {
