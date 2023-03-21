@@ -18,7 +18,7 @@ $font-size-p: 1rem;
 }
 
 @mixin text-ocult() {
-  max-height: 4em;
+  max-height: 7em;
   overflow: hidden;
   margin-bottom: 20px;
 
@@ -36,18 +36,21 @@ $font-size-p: 1rem;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+    line-height: 70px;
   } @else if $type == "h2" {
     $font-size: $font-size-h2;
     color: $pink-color-500;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+    line-height: 50px;
   } @else if $type == "h3" {
     $font-size: $font-size-h3;
     color: $pink-color-500;
     font-weight: 900;
     text-transform: uppercase;
     font-size: $font-size;
+    line-height: 30px;
   } @else if $type == "p" {
     $font-size: $font-size-p;
     font-weight: 400;
@@ -93,8 +96,7 @@ $font-size-p: 1rem;
 }
 
 @mixin container() {
-  padding: 2rem 25rem;
-  // margin-bottom: 2rem;
+  padding: 2rem 15rem;
 
   @media (max-width: 1700px) {
     padding: 2rem 10rem;
@@ -110,7 +112,7 @@ $font-size-p: 1rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
-  padding: 4rem 25rem 15rem;
+  padding: 4rem 15rem 15rem;
   margin-bottom: 5rem;
 
   @media (max-width: 1700px) {
@@ -305,6 +307,7 @@ $font-size-p: 1rem;
 @import "components/slider-abordagem";
 @import "components/cards";
 @import "components/nav-pages";
+@import "components/icones-cards";
 
 @import "pages/home";
 @import "pages/quem-somos";

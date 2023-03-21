@@ -1,5 +1,5 @@
 .section-abordagem {
-  // margin: 6rem 0;
+  padding-right: 0;
   padding-bottom: 3rem;
   position: relative;
   display: flex;
@@ -19,15 +19,15 @@
     top: 0;
     left: 0;
 
-    height: 230px;
+    height: 290px;
   }
 
   &__description {
+    @include container();
     @include title(h2);
     @include flex-center();
-    margin-left: 120px;
     color: $white-color;
-    height: 230px;
+    height: 300px;
 
     span {
       font-weight: 100;
@@ -35,25 +35,27 @@
   }
 
   .swiper {
+    padding-right: 5rem;
     display: flex;
     align-items: center;
-    padding: 3rem 1rem 0.5rem 120px;
+    @include container();
+    padding-right: 2rem !important;
     width: 100%;
 
     .swiper-slide {
       position: relative;
       display: flex;
-      flex-direction: column;
-      gap: 3rem;
       align-items: center;
+      flex-direction: column;
+      gap: 2rem;
       text-align: center;
       height: max-content;
-      min-height: 400px;
-      max-width: 31.25rem;
+      min-height: 340px;
+      max-width: 28rem;
       background: $white-color;
       border-radius: 65px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      padding: 85px 40px 40px;
+      padding: 70px 25px 10px;
       cursor: grab;
 
       .icone {
@@ -61,8 +63,8 @@
         justify-content: center;
         position: absolute;
         top: -20px;
-        width: 6.25rem;
-        height: 6.25rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50px;
         background-color: $cyan-color-500;
 
@@ -72,11 +74,11 @@
         }
       }
 
-      h2 {
-        font-size: 1.5rem;
+      h3 {
+        font-size: 1.3rem;
         font-weight: 900;
         line-height: 25px;
-        height: 40px;
+        height: 30px;
         text-transform: uppercase;
       }
 
@@ -102,7 +104,7 @@
   }
 }
 
-@media(max-width: 980px) {
+@media (max-width: 980px) {
   .section-abordagem {
     .texto1,
     .texto2,
@@ -117,14 +119,14 @@
     }
 
     & > img {
-      left: -40px;
+      left: -45px;
     }
 
     .swiper {
       padding: 2rem 4rem 0.5rem 2rem;
 
       .swiper-slide {
-        padding: 70px 10px 10px;
+        padding: 70px 20px 10px;
 
         .icone {
           width: 5.71rem;

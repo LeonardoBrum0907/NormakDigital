@@ -11,10 +11,11 @@
   &__description {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.5rem;
     width: 50%;
 
     h2 {
+      margin-top: 1rem;
       font-size: $font-size-h3;
       color: $white-color;
       font-weight: 400;
@@ -45,7 +46,7 @@
   .avatar img {
     position: absolute;
     bottom: 0;
-    right: 20%;
+    right: 10%;
     width: auto;
     height: 80%;
 
@@ -109,8 +110,7 @@
   }
   .cards {
     height: auto;
-    width: 40%;
-    border: 1px solid red;
+    width: 50%;
   }
 }
 
@@ -146,12 +146,20 @@
       position: absolute;
       top: 80px;
       left: 30%;
+
+      &::after {
+        font-size: 2rem;
+      }
     }
     .swiper-button-prev {
       color: $pink-color-500;
       position: absolute;
       top: 80px;
       left: 0;
+
+      &::after {
+        font-size: 2rem;
+      }
     }
     .swiper-pagination-fraction {
       font-size: 1.5rem;
@@ -172,7 +180,7 @@
       h2 {
         @include title(h3);
         // font-size: $font-size-h3;
-        line-height: 46px;
+        // line-height: 46px;
         width: 70%;
       }
 
@@ -224,7 +232,8 @@
 
   &__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border: 1px solid red;
 
     section {
       @include flex-center();
@@ -269,6 +278,7 @@
     width: 100%;
     position: absolute;
     top: 55%;
+    border: 1px solid red;
     .passo {
       width: 150px;
       height: 40px;
@@ -362,6 +372,7 @@
   .faq-cards {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
     flex-wrap: wrap;
 
     .faq-card {
@@ -371,7 +382,7 @@
       flex-direction: column;
       background-color: $white-color;
       border-radius: 20px;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
       margin-bottom: 1rem;
       padding: 1rem 1rem 1rem 2rem;
       min-width: 350px;
@@ -382,9 +393,8 @@
 
       &__question {
         position: relative;
-        font-weight: 400;
+        font-weight: 800;
         color: $gray-color-900;
-        font-size: $font-size-p;
         width: 100%;
         padding-right: 3rem;
 
