@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   @include container-first();
-  height: 800px;
+  height: 600px;
 
   h1 {
     @include title(h1);
@@ -45,10 +45,9 @@
   .avatar img {
     position: absolute;
     bottom: 0;
-    right: 10%;
+    right: 20%;
     width: auto;
     height: 80%;
-    object-fit: contain;
 
     @media (max-width: 1200px) {
       width: auto;

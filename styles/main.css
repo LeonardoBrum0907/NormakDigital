@@ -545,7 +545,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
   display: flex;
   align-items: center;
   margin-left: 120px;
@@ -554,7 +554,7 @@
 }
 @media (max-width: 980px) {
   .section-abordagem__description {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .section-abordagem__description span {
@@ -716,9 +716,9 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
-  height: 800px;
+  height: 600px;
 }
 @media (max-width: 1700px) {
   .section-trafego {
@@ -736,11 +736,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
 }
 @media (max-width: 980px) {
   .section-trafego h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-trafego__description {
@@ -750,13 +750,13 @@
   width: 50%;
 }
 .section-trafego__description h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
   font-weight: 400;
 }
 .section-trafego__description p {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .section-trafego__description button {
@@ -787,11 +787,9 @@
 .section-trafego .avatar img {
   position: absolute;
   bottom: 0;
-  right: 10%;
+  right: 20%;
   width: auto;
   height: 80%;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 @media (max-width: 1200px) {
   .section-trafego .avatar img {
@@ -816,7 +814,7 @@
 
 .o-que-vc-precisa {
   position: relative;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -836,11 +834,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .o-que-vc-precisa h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .o-que-vc-precisa__description {
@@ -851,7 +849,7 @@
   width: 50%;
 }
 .o-que-vc-precisa__description p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .o-que-vc-precisa__description .btn-ver-mais {
   display: flex;
@@ -884,7 +882,7 @@
 
 .section-blog {
   display: flex;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -908,13 +906,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-blog > div > h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-blog > div img {
@@ -961,24 +959,24 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 46px;
   width: 70%;
 }
 @media (max-width: 980px) {
   .section-blog .mySwiper2 .swiper-slide h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-blog .mySwiper2 .swiper-slide p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-blog .mySwiper2 .swiper-slide p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-blog .mySwiper2 .swiper-slide a {
@@ -1026,11 +1024,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo__title h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 @media (max-width: 1200px) {
@@ -1118,7 +1116,7 @@
   margin-top: 6rem;
   height: -moz-max-content;
   height: max-content;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -1140,12 +1138,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
 }
 @media (max-width: 980px) {
   .empresas-atendidas-slider h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .empresas-atendidas-slider .mySwiper3 {
@@ -1175,7 +1173,7 @@
 
 .faq-section {
   margin-top: 5rem;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   height: 800px;
 }
@@ -1217,12 +1215,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 980px) {
   .faq-section h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .faq-section .faq-cards {
@@ -1254,7 +1252,7 @@
   position: relative;
   font-weight: 400;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 100%;
   padding-right: 3rem;
 }
@@ -1472,7 +1470,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -1504,7 +1502,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
   display: flex;
   align-items: center;
@@ -1514,7 +1512,7 @@
 }
 @media (max-width: 980px) {
   .section-quem-somos div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-quem-somos div h1 > i {
@@ -1526,14 +1524,14 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
   max-width: 600px;
 }
 @media (max-width: 980px) {
   .section-quem-somos div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-quem-somos div button {
@@ -1571,7 +1569,7 @@
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -1606,23 +1604,23 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-nossa-historia__description h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-nossa-historia__description p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 2rem 0;
 }
 @media (max-width: 980px) {
   .section-nossa-historia__description p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-nossa-historia__description p i {
@@ -1673,16 +1671,16 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-nossa-historia__principios section h3 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 
 .section-acreditamos-pessoas {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -1736,7 +1734,7 @@
 }
 
 .section-empresas-atendidas {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -1764,13 +1762,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   border-left: 3px solid #ea1d5d;
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas__description h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-empresas-atendidas__description p {
@@ -1778,11 +1776,11 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas__description p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-empresas-atendidas__description a {
@@ -1810,7 +1808,7 @@
 }
 
 .section-depoimentos {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -1827,13 +1825,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   border-left: 3px solid #ea1d5d;
 }
 @media (max-width: 980px) {
   .section-depoimentos h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-depoimentos .swiper {
@@ -1865,12 +1863,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
 }
 @media (max-width: 980px) {
   .section-depoimentos .swiper .swiper-slide h3 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-depoimentos .swiper .swiper-slide p {
@@ -1901,7 +1899,7 @@
 }
 
 .section-selos {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -1918,13 +1916,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   border-left: 3px solid #ea1d5d;
 }
 @media (max-width: 980px) {
   .section-selos h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-selos__certificados {
@@ -2037,7 +2035,7 @@
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -2129,23 +2127,23 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-planejamento__description span {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-planejamento__description h1 {
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-planejamento__description h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-planejamento__description p {
@@ -2157,7 +2155,7 @@
 }
 
 .section-seo-marketing {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -2186,25 +2184,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-seo-marketing section h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-seo-marketing section p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-seo-marketing section p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-seo-marketing img {
@@ -2256,7 +2254,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -2288,7 +2286,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
   display: flex;
   align-items: center;
@@ -2298,7 +2296,7 @@
 }
 @media (max-width: 980px) {
   .section-agencia-parceira div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-agencia-parceira div h1 > i {
@@ -2310,14 +2308,14 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
   max-width: 600px;
 }
 @media (max-width: 980px) {
   .section-agencia-parceira div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-agencia-parceira div button {
@@ -2350,7 +2348,7 @@
 }
 
 .section-apoiamos-crescimento {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -2372,13 +2370,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #24262a;
 }
 @media (max-width: 980px) {
   .section-apoiamos-crescimento h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-apoiamos-crescimento h2 span {
@@ -2406,7 +2404,7 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
@@ -2414,19 +2412,19 @@
 }
 @media (max-width: 980px) {
   .section-apoiamos-crescimento .principios div h3 {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-apoiamos-crescimento .principios div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 @media (max-width: 980px) {
   .section-apoiamos-crescimento .principios div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 
@@ -2452,13 +2450,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
   text-align: center;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-ingressar-programa__title h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .section-ingressar-programa__content {
@@ -2498,13 +2496,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: 400;
 }
 @media (max-width: 980px) {
   .section-ingressar-programa__content section div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-ingressar-programa__content section img {
@@ -2568,12 +2566,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 980px) {
   .section-faq-parceiros h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .section-faq-parceiros .faq-cards {
@@ -2605,7 +2603,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   position: relative;
   font-weight: 900;
   color: #24262a;
@@ -2614,7 +2612,7 @@
 }
 @media (max-width: 980px) {
   .section-faq-parceiros .faq-cards .faq-card__question {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-faq-parceiros .faq-cards .faq-card__question.active {
@@ -2638,14 +2636,14 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: none;
   margin-top: 1rem;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-faq-parceiros .faq-cards .faq-card__answer {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-faq-parceiros .faq-cards .faq-card__answer p {
@@ -2675,11 +2673,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo-parceiros__title h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 @media (max-width: 1200px) {
@@ -2831,12 +2829,12 @@
     color: #ea1d5d;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 980px) and (max-width: 980px) {
   .section-ingressar-programa__title h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 980px) {
@@ -2926,7 +2924,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -3062,27 +3060,27 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   margin-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-vamos-conversar__description span {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-vamos-conversar__description h1 {
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 46px;
   padding-left: 2rem;
   border-left: 3px solid #ea1d5d;
 }
 @media (max-width: 980px) {
   .section-vamos-conversar__description h1 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-vamos-conversar__description p {
@@ -3096,7 +3094,7 @@
 }
 
 .section-agende-reuniao {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -3171,11 +3169,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .section-comece-seo-contato__title h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 @media (max-width: 1200px) {
@@ -3369,7 +3367,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
 }
 @media (max-width: 1700px) {
@@ -3388,16 +3386,16 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
 }
 @media (max-width: 980px) {
   .section-faq h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-faq p {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   width: 50%;
 }
@@ -3436,7 +3434,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -3468,12 +3466,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-blog-normak div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-blog-normak div h1 > i {
@@ -3485,7 +3483,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-transform: none;
   font-weight: 400;
   color: #ffffff;
@@ -3494,7 +3492,7 @@
 }
 @media (max-width: 980px) {
   .section-blog-normak div p {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-blog-normak img {
@@ -3504,7 +3502,7 @@
 }
 
 .section-feed-blog {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -3535,13 +3533,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   transition: 0.2s;
   border-top: 3px solid transparent;
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .recentes-populares button {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-feed-blog__postagens .recentes-populares button:first-child {
@@ -3578,14 +3576,14 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #ffffff;
   width: 100%;
   text-align: center;
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .filters h3 {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-feed-blog__postagens .filters button {
@@ -3640,22 +3638,22 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .posts .preview-post-recente .preview-content h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-feed-blog__postagens .posts .preview-post-recente .preview-content p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .posts .preview-post-recente .preview-content p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-feed-blog__postagens .posts .preview-post-recente .preview-content .preview-meta {
@@ -3782,7 +3780,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -3806,26 +3804,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
   width: 90%;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-falam-sobre-nos p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 50%;
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-falam-sobre-nos button {
@@ -3833,7 +3831,7 @@
 }
 
 .section-banner-cliente {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   margin-top: 10rem;
 }
@@ -3876,7 +3874,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
   position: absolute;
   width: 80%;
@@ -3886,14 +3884,14 @@
 }
 @media (max-width: 980px) {
   .section-banner-cliente div p {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 
 .section-empresas-slider {
   background-color: #e1e1e1;
   margin-top: 0;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -3924,11 +3922,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-empresas-slider h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-empresas-slider .mySwiper {
@@ -3958,7 +3956,7 @@
 }
 
 .section-sua-estrategia {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -4131,11 +4129,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .section-sua-estrategia__description {
@@ -4146,7 +4144,7 @@
   width: 70%;
 }
 .section-sua-estrategia__description p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .section-sua-estrategia__description .btn-ver-mais {
   display: flex;
@@ -4240,7 +4238,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -4275,26 +4273,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
   width: 90%;
 }
 @media (max-width: 980px) {
   .section-intersena h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-intersena p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-intersena p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-intersena button {
@@ -4324,7 +4322,7 @@
 }
 
 .section-banner-feedback {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   margin-top: 5rem;
   position: relative;
@@ -4368,7 +4366,7 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
   position: absolute;
   width: 80%;
@@ -4378,7 +4376,7 @@
 }
 @media (max-width: 980px) {
   .section-banner-feedback > div p {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-banner-feedback .feedback {
@@ -4411,26 +4409,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
 }
 @media (max-width: 980px) {
   .section-banner-feedback .feedback h3 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-banner-feedback .feedback p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 1rem;
   position: relative;
   color: #ffffff;
 }
 @media (max-width: 980px) {
   .section-banner-feedback .feedback p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-banner-feedback .feedback p i {
@@ -4441,7 +4439,7 @@
 }
 
 .section-description-page {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -4462,12 +4460,12 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 2rem 0 2rem 2rem;
 }
 @media (max-width: 980px) {
   .section-description-page ul {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-description-page ul li {
@@ -4481,16 +4479,16 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-description-page p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 
 .section-sua-estrategia-cliente2 {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -4663,11 +4661,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5.625rem;
+  font-size: 2.625rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 h2 {
-    font-size: 3.75rem;
+    font-size: 1.75rem;
   }
 }
 .section-sua-estrategia-cliente2__description {
@@ -4678,7 +4676,7 @@
   width: 70%;
 }
 .section-sua-estrategia-cliente2__description p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .section-sua-estrategia-cliente2__description .btn-ver-mais {
   display: flex;
@@ -4708,11 +4706,11 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 .cards-box__card:first-child span {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-sua-estrategia-cliente2 .cards-box__card:last-child {
@@ -4787,7 +4785,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -4815,25 +4813,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-motores-busca div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-motores-busca div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-motores-busca div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-motores-busca div button {
@@ -4871,7 +4869,7 @@
 }
 
 .section-acelere-crescimento {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -4900,25 +4898,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-acelere-crescimento div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-acelere-crescimento img {
@@ -4927,7 +4925,7 @@
 }
 
 .section-estrategia-seo {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -4962,26 +4960,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .fale-especialista div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo .fale-especialista div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .fale-especialista div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-estrategia-seo .fale-especialista div button {
@@ -5022,13 +5020,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #24262a;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .seo-360 h3 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo .seo-360 h3 span {
@@ -5038,13 +5036,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   width: 70%;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .seo-360 p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-estrategia-seo .principios {
@@ -5069,7 +5067,7 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
@@ -5077,7 +5075,7 @@
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .principios div h4 {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-estrategia-seo .principios div p {
@@ -5090,7 +5088,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   background-color: #24262a;
 }
@@ -5115,29 +5113,29 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-servicos div span {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-servicos div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-servicos div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 
 .section-cases-diferenca {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   padding: 4rem 8rem;
   display: flex;
@@ -5166,13 +5164,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-cases-diferenca div:first-child p {
@@ -5188,11 +5186,11 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-cases-diferenca div button {
@@ -5227,12 +5225,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #02eb9e;
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div:last-child h3 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-cases-diferenca div:last-child p {
@@ -5342,7 +5340,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -5370,25 +5368,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-consultoria-seo div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-consultoria-seo div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-consultoria-seo div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-consultoria-seo div button {
@@ -5432,7 +5430,7 @@
 }
 
 .section-como-funciona {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   padding-right: 6rem;
   display: flex;
@@ -5462,25 +5460,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-como-funciona div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-como-funciona div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-como-funciona div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-como-funciona img {
@@ -5508,24 +5506,24 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-beneficios div span {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-beneficios div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-beneficios div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 
@@ -5563,7 +5561,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -5591,25 +5589,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-habilidades div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-habilidades div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-habilidades div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-habilidades div button {
@@ -5653,7 +5651,7 @@
 }
 
 .section-seo-ecommerce {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   padding-right: 6rem;
   display: flex;
@@ -5684,26 +5682,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-seo-ecommerce div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
   width: 50%;
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-seo-ecommerce div p:last-child {
@@ -5715,7 +5713,7 @@
 }
 
 .section-estrategia-seo-para-ecommerce {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -5746,26 +5744,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo-para-ecommerce div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-estrategia-seo-para-ecommerce div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-estrategia-seo-para-ecommerce div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-estrategia-seo-para-ecommerce div button {
@@ -5858,7 +5856,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -5886,26 +5884,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-seo-local div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-seo-local div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-seo-local div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-seo-local div button {
@@ -5943,7 +5941,7 @@
 }
 
 .section-geolocalizacao {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   padding-top: 8rem;
   padding-right: 6rem;
@@ -5981,26 +5979,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-geolocalizacao div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-geolocalizacao div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
   width: 100%;
 }
 @media (max-width: 980px) {
   .section-geolocalizacao div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-geolocalizacao div img {
@@ -6083,7 +6081,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -6111,25 +6109,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-marketing-conteudo div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-marketing-conteudo div button {
@@ -6167,7 +6165,7 @@
 }
 
 .section-o-que-e-marketing {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   padding-top: 6rem;
   display: flex;
@@ -6198,26 +6196,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
   width: 60%;
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-o-que-e-marketing div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-o-que-e-marketing img {
@@ -6245,24 +6243,24 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 980px) {
   .section-guia div span {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-guia div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #919191;
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
   .section-guia div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 
@@ -6273,7 +6271,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
 }
@@ -6301,25 +6299,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-digital-pr div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 .section-digital-pr div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-digital-pr div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-digital-pr div button {
@@ -6364,7 +6362,7 @@
 }
 
 .section-o-que-e-pr {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -6394,25 +6392,25 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-o-que-e-pr div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-o-que-e-pr div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-o-que-e-pr div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-o-que-e-pr img {
@@ -6549,7 +6547,7 @@
 }
 
 .fale-especialista-pr {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -6577,26 +6575,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .fale-especialista-pr div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .fale-especialista-pr div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 100%;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .fale-especialista-pr div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .fale-especialista-pr div button {
@@ -6714,7 +6712,7 @@
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
   position: relative;
   margin: 0;
@@ -6743,12 +6741,12 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 6.5rem;
+  font-size: 3.125rem;
   line-height: 100px;
 }
 @media (max-width: 980px) {
   .section-seo-360 div h1 {
-    font-size: 3.25rem;
+    font-size: 1.5625rem;
   }
 }
 @media (max-width: 1700px) {
@@ -6760,13 +6758,13 @@
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
   width: 80%;
 }
 @media (max-width: 980px) {
   .section-seo-360 div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-seo-360 div button {
@@ -6811,7 +6809,7 @@
 }
 
 .section-futuro-otimizacao {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -6840,26 +6838,26 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
   width: 70%;
 }
 @media (max-width: 980px) {
   .section-futuro-otimizacao div h2 {
-    font-size: 1.6666666667rem;
+    font-size: 1rem;
   }
 }
 .section-futuro-otimizacao div p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 2rem;
 }
 @media (max-width: 980px) {
   .section-futuro-otimizacao div p {
-    font-size: 1rem;
+    font-size: 0.6666666667rem;
   }
 }
 .section-futuro-otimizacao img {

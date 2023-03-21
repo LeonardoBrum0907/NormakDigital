@@ -7,10 +7,10 @@ $gray-color-100: #e1e1e1;
 $gray-color-500: #919191;
 $gray-color-900: #24262a;
 
-$font-size-h1: 6.5rem;
-$font-size-h2: 5.625rem;
-$font-size-h3: 2.5rem;
-$font-size-p: 1.5rem;
+$font-size-h1: 3.125rem;
+$font-size-h2: 2.625rem;
+$font-size-h3: 1.5rem;
+$font-size-p: 1rem;
 
 @mixin flex-center() {
   display: flex;
@@ -93,7 +93,7 @@ $font-size-p: 1.5rem;
 }
 
 @mixin container() {
-  padding: 4rem 15rem;
+  padding: 4rem 25rem;
   margin-bottom: 5rem;
 
   @media (max-width: 1700px) {
@@ -110,7 +110,7 @@ $font-size-p: 1.5rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
-  padding: 4rem 15rem 15rem;
+  padding: 4rem 25rem 15rem;
   margin-bottom: 5rem;
 
   @media (max-width: 1700px) {
