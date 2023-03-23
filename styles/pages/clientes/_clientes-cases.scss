@@ -162,12 +162,16 @@
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .section-sua-estrategia {
     flex-direction: column;
 
     &__description {
       width: 100%;
+    }
+
+    img {
+      width: 80%;
     }
   }
 }
