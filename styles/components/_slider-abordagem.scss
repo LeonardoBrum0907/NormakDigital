@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
 
   &__background {
     position: absolute;
@@ -24,6 +25,7 @@
 
   &__description {
     @include container();
+    margin-bottom: 0;
     @include title(h2);
     @include flex-center();
     color: $white-color;
