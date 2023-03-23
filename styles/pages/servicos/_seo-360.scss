@@ -45,21 +45,16 @@
     position: absolute;
     right: 5%;
     top: 15%;
-    width: 40%;
+    width: 30%;
     z-index: 1;
     height: auto;
-    object-fit: contain;
-    
-    @media(max-width: 1400px) {
-      width: 40%;
-      right: 0;
-    }
   }
 }
 
 .section-futuro-otimizacao {
   @include container();
   @include flex-center();
+  justify-content: space-between;
   position: relative;
 
   div {
@@ -79,15 +74,13 @@
     p {
       @include title(p);
       padding-left: 2rem;
+      width: 70%;
+
     }
   }
 
   img {
-    position: absolute;
-    right: 10%;
-    bottom: 2rem;
-    width: auto;
-    height: 650px;
+    width: 30%;
     max-width: 600px;
   }
 }
