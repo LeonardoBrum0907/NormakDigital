@@ -180,7 +180,7 @@
       h2 {
         @include title(h3);
         // font-size: $font-size-h3;
-        // line-height: 46px;
+        // : 46px;
         width: 70%;
       }
 
@@ -457,10 +457,6 @@
       display: none;
     }
 
-    h1 {
-      line-height: 3.71rem;
-    }
-
     &__description {
       width: 100%;
 
@@ -492,7 +488,6 @@
 
       h2 {
         font-size: 2.85rem;
-        line-height: 3.35rem;
       }
 
       p {
@@ -527,7 +522,7 @@
 
       .swiper-slide {
         h2 {
-          line-height: 28px;
+         line-height : 28px;
         }
       }
 

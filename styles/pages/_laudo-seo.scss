@@ -68,7 +68,6 @@
 
     h1 {
       @include title(h1);
-      line-height: 100px;
     }
 
     p {
@@ -147,10 +146,6 @@
     }
 
     &__description {
-      h1 {
-        line-height: 50px;
-      }
-
       p, span{
         font-size: 1.5rem;
       }

@@ -13,8 +13,7 @@
 
     h1 {
       @include title(h1);
-      line-height: 100px;
-      width: 60%
+      width: 60%;
     }
 
     p {
@@ -86,7 +85,6 @@
     img {
       width: 60%;
       max-width: 600px;
-      
     }
 
     button {
@@ -103,7 +101,6 @@
       }
     }
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -116,19 +113,12 @@
 
     div {
       width: 80%;
-
-      h1 {
-        // font-size: 50px;
-        line-height: 50px;
-
-        width: 100%;
-      }
-      
-      button {
-        width: 100%;
-      }
     }
 
+    button {
+      width: 100%;
+    }
+    
     img {
       display: none;
       // width: auto;
@@ -139,31 +129,32 @@
     }
   }
 
-  .section-geolocalizacao {
-    flex-direction: column;
-    gap: 2rem;
+}
 
-    div {
+.section-geolocalizacao {
+  flex-direction: column;
+  gap: 2rem;
+
+  div {
+    width: 100%;
+
+    &:first-child {
       width: 100%;
-
-      &:first-child {
-        width: 100%;
-      }
-
-      &:last-child {
-        width: 100%;
-      }
-
-      p {
-        width: 100%;
-      }
-
-      button {
-        width: 80%;
-      }
     }
-    img {
-      display: none;
+
+    &:last-child {
+      width: 100%;
     }
+
+    p {
+      width: 100%;
+    }
+
+    button {
+      width: 80%;
+    }
+  }
+  img {
+    display: none;
   }
 }

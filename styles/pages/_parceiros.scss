@@ -14,7 +14,6 @@
 
     h1 {
       @include title(h1);
-      line-height: 100px;
       @include flex-center();
       justify-content: space-between;
       align-items: flex-end;
@@ -415,7 +414,6 @@
     div {
       width: 90%;
       h1 {
-        line-height: 60px;
         justify-content: flex-start;
         i {
           margin-bottom: 0;

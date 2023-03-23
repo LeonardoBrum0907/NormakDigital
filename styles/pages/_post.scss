@@ -1,0 +1,226 @@
+.section-titulo-post {
+  @include container-first();
+  @include flex-center();
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+
+  h1 {
+    @include title(h1);
+    @include flex-center();
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+
+  p {
+    @include title(h3);
+    font-weight: 400;
+    width: 80%;
+    text-transform: none;
+    color: $white-color;
+  }
+
+  & > span {
+    font-weight: 800;
+    color: $white-color;
+
+    span {
+      color: $cyan-color-500;
+    }
+  }
+
+  div {
+    width: 90%;
+    @include flex-center();
+    align-items: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+
+    &::before {
+      content: "";
+      background: $gray-color-100;
+      width: 80%;
+      height: 1px;
+    }
+
+    span {
+      color: $gray-color-500;
+
+      i {
+        color: $pink-color-500;
+        margin-right: 1rem;
+      }
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      gap: 1rem;
+
+      label {
+        display: none;
+      }
+      input {
+        @include input();
+        background-color: $white-color;
+        color: $gray-color-900;
+        width: 28%;
+      }
+      button {
+        @include button();
+        background-color: $cyan-color-500;
+        border: none;
+
+        &:hover {
+          background-color: lighten($cyan-color-500, 5%);
+          color: $white-color;
+        }
+      }
+    }
+  }
+}
+
+.section-post-content {
+  position: relative;
+  @include container();
+
+  figure {
+    width: 60vw;
+    transform: translate(0, -40%);
+    position: absolute;
+    top: 0;
+    max-width: 1200px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  aside {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    bottom: 0;
+    max-width: 350px;
+    width: 20vw;
+
+    nav {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      border: 1px solid $gray-color-500;
+      position: sticky;
+      right: 0;
+      top: 0;
+
+      h2 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        background-color: $gray-color-100;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1rem 0;
+      }
+
+      ul {
+        list-style: decimal;
+        gap: 2rem;
+        width: 80%;
+        
+        li {
+          margin-bottom: 2rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: $gray-color-900;
+
+          &:hover {
+            color: $pink-color-500;
+          }
+        }
+      }
+    }
+
+    .post-cta {
+      @include flex-center();
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2rem 2rem 3rem 2rem;
+      // height: 25rem;
+      border-radius: 16px;
+      position: relative;
+      background: $pink-color-500;
+      margin-bottom: 8rem;
+
+      span {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      img {
+        width: 60%;
+      }
+
+      p {
+        color: $gray-color-100;
+        text-align: center;
+      }
+
+      button {
+        @include button();
+        justify-content: center;
+        padding: 0;
+        border: none;
+        width: 90%;
+        background-color: $cyan-color-500;
+
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, 50%);
+      }
+    }
+  }
+
+  article {
+    width: 70%;
+    margin-top: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.1rem;
+
+    h2 {
+      @include title(h3);
+      border-left: 3px solid $pink-color-500;
+      padding-left: 2rem;
+      margin-top: 5rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-post-content {
+    aside {
+      display: none;
+    }
+
+    figure {
+      width: 100%;
+      left: 0;
+      position: initial;
+    }
+
+    article {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+}

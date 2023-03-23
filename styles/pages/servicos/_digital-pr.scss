@@ -13,7 +13,6 @@
 
     h1 {
       @include title(h1);
-      line-height: 100px;
     }
 
     p {
@@ -260,11 +259,6 @@
 
     div {
       width: 100%;
-
-      h1 {
-        // font-size: 50px;
-        line-height: 50px;
-      }
     }
 
     img {

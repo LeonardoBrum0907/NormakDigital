@@ -14,7 +14,6 @@
 
     h1 {
       @include title(h1);
-      line-height: 100px;
 
       & > i {
         font-size: 3rem;
@@ -49,7 +48,8 @@
   &__postagens {
     display: grid;
     grid-template-rows: 100px auto;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 15% 50% 30%;
+    gap: 4rem;
 
     .recentes-populares {
       grid-column-start: 1;
@@ -98,7 +98,8 @@
       h3 {
         position: sticky;
         top: 0;
-        @include title(p);
+        font-size: 1.3rem;
+        font-weight: 400;
         background-color: $white-color;
         width: 100%;
         text-align: center;
@@ -112,11 +113,11 @@
         border: none;
         gap: 1rem;
         color: $gray-color-500;
-        font-size: 24px;
+        font-size: 1.2rem;
         transition: 0.3s;
 
         i {
-          font-size: 40px;
+          font-size: 35px;
         }
 
         &:hover {
@@ -135,6 +136,51 @@
       gap: 8rem;
 
       .preview-post-recente {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        figure {
+          height: 290px;
+          width: 450px;
+          background: $pink-color-500;
+          border-radius: 16px;
+        }
+
+        .preview-content {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+
+          & > span {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $cyan-color-500;
+          }
+
+          h2 {
+            @include title(h3);
+          }
+
+          p {
+            @include title(p);
+          }
+
+          .preview-meta {
+            @include flex-center();
+            justify-content: space-between;
+          }
+
+          a {
+            @include button();
+            background: $cyan-color-500;
+            color: $black-color;
+            text-decoration: none;
+          }
+        }
+      }
+      .preview-post-popular {
         display: flex;
         flex-direction: column;
         gap: 4rem;
@@ -208,20 +254,16 @@
         @include flex-center();
         flex-direction: column;
         justify-content: space-between;
-        padding: 3.5rem 2.5rem;
-        height: 41.2rem;
+        padding: 2rem 2rem 3rem 2rem;
+        height: 35rem;
         border-radius: 16px;
         position: relative;
 
         span {
-          font-size: 2.5rem;
+          font-size: 2rem;
           text-transform: uppercase;
           font-weight: 900;
           text-align: center;
-        }
-
-        img {
-          width: 100%;
         }
 
         p {
@@ -238,20 +280,23 @@
           position: absolute;
           bottom: 0;
           transform: translate(0, 50%);
-
         }
-        
+
         &:first-child {
           background: $pink-color-500;
           margin-bottom: 8rem;
-          
+
           span {
             color: $gray-color-900;
           }
-          
+
+          img {
+            width: 80%;
+          }
+
           button {
             background-color: $yellow-color-500;
-            
+
             &:hover {
               color: $pink-color-500;
               background-color: lighten($yellow-color-500, 5%);
@@ -268,7 +313,8 @@
 
           img {
             position: absolute;
-            top: 50%;
+            width: 100%;
+            top: 40%;
             transform: translate(0, -50%);
           }
 
