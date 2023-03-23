@@ -130,6 +130,7 @@
     @include flex-center();
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 
     h3 {
       @include title(h3);
@@ -189,9 +190,9 @@
   background-color: $gray-color-900;
 
   div {
-    width: 450px;
-    height: 350px;
-    padding: 3rem;
+    width: 400px;
+    height: 300px;
+    padding: 2rem;
     border: 1px solid $gray-color-100;
     border-radius: 16px;
 
