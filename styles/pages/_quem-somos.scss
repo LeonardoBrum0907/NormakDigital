@@ -50,7 +50,12 @@
   }
 
   img {
-    width: 50%;
+    position: absolute;
+    bottom: 0;
+    // transform: translate(0, 20%);
+    right: 5%;
+    width: 40%;
+    max-width: 550px;
   }
 }
 
@@ -65,7 +70,7 @@
   &__description {
     position: relative;
     padding-left: 2rem;
-    width: 40%;
+    width: 50%;
 
     .linha {
       @include flex-center();
@@ -102,10 +107,11 @@
 
   img {
     position: absolute;
-    right: 0;
-    width: 50%;
+    top: 5rem;
+    right: 5%;
+    width: 30%;
     object-fit: contain;
-    max-height: 600px;
+    max-height: 400px;
 
     @media (max-width: 420px) {
       width: 60%;
@@ -123,7 +129,7 @@
       align-items: flex-start;
       flex-direction: column;
       gap: 1rem;
-      padding: 3rem 3rem 3rem 3rem;
+      padding: 3rem 2rem 3rem 2rem;
       margin: 1rem 0;
       min-height: 300px;
       max-width: 420px;
@@ -156,12 +162,13 @@
     width: 60%;
 
     h2 {
-      font-size: 40px;
+      @include title(h3);
       color: $cyan-color-500;
+      margin-bottom: 1rem;
     }
 
     p {
-      font-size: 24px;
+      @include title(p);
       color: $white-color;
     }
   }
