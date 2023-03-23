@@ -4147,6 +4147,119 @@
     margin-top: 0;
   }
 }
+.section-mapa-titulo {
+  background-image: url("/assets/home/img-top.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 4rem 15rem 15rem;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1700px) {
+  .section-mapa-titulo {
+    padding: 4rem 10rem 15rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-mapa-titulo {
+    padding: 4rem 1rem 15rem;
+    background-size: 190% 100%;
+    background-position: center;
+  }
+}
+.section-mapa-titulo h1 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 70px;
+  color: #ffffff;
+}
+@media (max-width: 980px) {
+  .section-mapa-titulo h1 {
+    font-size: 2.5rem;
+  }
+}
+.section-mapa-titulo h1 i {
+  margin-right: 2rem;
+}
+
+.section-mapa {
+  padding: 2rem 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+@media (max-width: 1700px) {
+  .section-mapa {
+    padding: 2rem 10rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-mapa {
+    padding: 2rem 1rem;
+  }
+}
+.section-mapa .card {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: flex;
+  flex-direction: column;
+  height: -moz-max-content;
+  height: max-content;
+  cursor: pointer;
+}
+.section-mapa .card__titulo {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #24262a;
+  width: 100%;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+.section-mapa .card__titulo.active {
+  color: #ea1d5d;
+}
+.section-mapa .card__titulo .fa-plus {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(0deg);
+}
+.section-mapa .card__titulo .fa-plus.focus {
+  color: #ea1d5d;
+  transform: rotate(90deg);
+}
+.section-mapa .card__conteudo {
+  display: none;
+  margin-top: 1rem;
+}
+.section-mapa .card__conteudo ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.section-mapa .card__conteudo ul li a {
+  text-decoration: none;
+  color: #24262a;
+}
+.section-mapa .card__conteudo ul li a:hover {
+  color: #ea1d5d;
+}
+.section-mapa .card__conteudo.expanded {
+  display: block;
+}
+
+@media (max-width: 680px) {
+  .section-mapa {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-falam-sobre-nos {
   background-image: url("/assets/home/img-top.png");
   background-size: 100% 100%;

@@ -1,0 +1,89 @@
+.section-mapa-titulo {
+  @include container-first();
+
+  h1 {
+    @include title(h1);
+    color: $white-color;
+
+    i {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.section-mapa {
+  @include container();
+  display: grid;
+  // grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+
+  .card {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    cursor: pointer;
+
+    &__titulo {
+      position: relative;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: $gray-color-900;
+      width: 100%;
+      text-transform: uppercase;
+      padding-right: 3rem;
+
+      &.active {
+        color: $pink-color-500;
+      }
+
+      .fa-plus {
+        position: absolute;
+        right: 0;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        transform: rotate(0deg);
+
+        &.focus {
+          color: $pink-color-500;
+          transform: rotate(90deg);
+        }
+      }
+    }
+
+    &__conteudo {
+      display: none;
+      margin-top: 1rem;
+
+      ul li {
+        list-style: none;
+        margin-bottom: 1rem;
+
+        a {
+          text-decoration: none;
+          color: $gray-color-900;
+
+          &:hover {
+            color: $pink-color-500;
+          }
+        }
+      }
+
+      &.expanded {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .section-mapa {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
