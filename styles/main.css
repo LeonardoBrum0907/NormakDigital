@@ -925,9 +925,10 @@
 .section-trafego .avatar img {
   position: absolute;
   bottom: 0;
-  right: 10%;
+  right: 15%;
   width: auto;
-  height: 80%;
+  height: 90%;
+  border: 1px solid red;
 }
 @media (max-width: 1200px) {
   .section-trafego .avatar img {
