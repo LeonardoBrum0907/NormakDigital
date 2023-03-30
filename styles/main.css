@@ -1712,10 +1712,10 @@
 }
 .section-quem-somos img {
   position: absolute;
-  bottom: 0;
+  top: 4rem;
   right: 5%;
   width: 40%;
-  max-width: 550px;
+  max-width: 650px;
 }
 
 .section-nossa-historia {
