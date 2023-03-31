@@ -31,9 +31,15 @@
     background-repeat: no-repeat;
     background-position: 65%;
     height: 400px;
+    width: 100%;
     position: relative;
     margin-top: 3rem;
     border-radius: 50px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.01)
+    }
 
     &::before {
       content: "";
@@ -72,7 +78,7 @@
   @include container();
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 1.5rem;
   height: 300px;
   align-items: center;
   position: relative;
@@ -103,6 +109,11 @@
       img {
         object-fit: contain;
         height: 100%;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.03)
+        }
       }
     }
 
@@ -146,16 +157,15 @@
       font-size: $font-size-p;
     }
 
-    .btn-ver-mais {
+    button {
       @include button();
-      background: $cyan-color-500;
-      color: $black-color;
-      width: 21.56rem;
-      transition: 0.3s;
-      text-decoration: none;
+      background-color: $cyan-color-500;
+      border: none;
+      width: 60%;
+      max-width: 460px;
 
       &:hover {
-        background: darken($cyan-color-500, 5%);
+        background-color: lighten($cyan-color-500, 5%);
         color: $white-color;
       }
     }
