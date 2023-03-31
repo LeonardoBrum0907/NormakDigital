@@ -97,9 +97,12 @@
   }
 
   .mySwiper {
-    width: 100%;
+    width: 80%;
     align-self: flex-start;
     padding: 0 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 
     .swiper-slide {
       @include flex-center();
@@ -229,5 +232,10 @@
       top: 30%;
       left: -130px;
     }
+    .mySwiper {
+      width: 90%;
+      top: 80%;
+    }
   }
+
 }

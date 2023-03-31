@@ -4962,9 +4962,12 @@
   }
 }
 .section-empresas-slider .mySwiper {
-  width: 100%;
+  width: 80%;
   align-self: flex-start;
   padding: 0 3rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .section-empresas-slider .mySwiper .swiper-slide {
   display: flex;
@@ -5272,6 +5275,10 @@
     top: 30%;
     left: -130px;
   }
+  .section-empresas-slider .mySwiper {
+    width: 90%;
+    top: 80%;
+  }
 }
 .section-intersena {
   background-image: url("/assets/home/img-top.png");
@@ -5364,6 +5371,7 @@
 .section-banner-feedback {
   padding: 2rem 15rem;
   margin-bottom: 5rem;
+  padding-bottom: 0 !important;
   margin-top: 5rem;
   position: relative;
 }
@@ -5382,10 +5390,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 65%;
-  height: 500px;
+  height: 400px;
+  width: 100%;
   position: relative;
   margin-top: 3rem;
   border-radius: 50px;
+  transition: 0.3s;
 }
 .section-banner-feedback > div::before {
   content: "";
@@ -5401,6 +5411,7 @@
   position: absolute;
   top: -30px;
   left: 5%;
+  width: 20%;
 }
 .section-banner-feedback > div p {
   color: #ea1d5d;
@@ -5411,7 +5422,7 @@
   color: #ffffff;
   position: absolute;
   width: 80%;
-  left: 6%;
+  left: 5%;
   top: 40%;
   transform: translate(0, -50%);
 }
@@ -5429,8 +5440,8 @@
   height: max-content;
   width: 65%;
   left: 50%;
-  top: 70%;
-  transform: translate(-50%, 0);
+  bottom: 0;
+  transform: translate(-50%, 50%);
 }
 .section-banner-feedback .feedback > div {
   display: flex;
@@ -5799,9 +5810,10 @@
     top: 50%;
   }
   .section-banner-feedback .feedback {
-    top: 110%;
+    bottom: 0;
     width: 90%;
     padding: 5rem 3rem;
+    transform: translate(-50%, 110%);
   }
   .section-banner-feedback .feedback > div {
     left: 50%;
