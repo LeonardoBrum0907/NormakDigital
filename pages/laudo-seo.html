@@ -84,7 +84,13 @@
       </form>
 
       <div class="section-planejamento__description">
-        <span>Normak Digital</span>
+        <nav class="nav-pages">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a class="active" href="#">Laudo SEO</a></li>
+          </ul>
+        </nav>
         <h1>Estratégia e planejamento de SEO</h1>
 
         <p>
@@ -159,14 +165,47 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga beatae porro, debitis hic nemo soluta
           doloribus pariatur corrupti consectetur adipisci quibusdam dolores deserunt nihil quas, labore distinctio, et
           rerum perferendis excepturi quaerat? </p>
+
+          <button class="btn-comecar-agora abrir-modal">Fale com um especialista <i
+            class="fa-solid fa-angle-right"></i></button>
       </div>
       <img class="cards" src="/assets/home/cards-voce-precisa.png"
           alt="Cartões com imagens e descrições de produtos que oferecemos">
     </section>
     
-
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
   </main>
+
+  <form class="modal" id="modal-form" method="post" action="/submit-form">
+    <fieldset class="modal-content">
+      <img src="/assets/home/menor-que-pink.svg" alt="operador menor que, cor de rosa">
+      <legend><span>Primeiro passo:</span> Preencha o formulario</legend>
+
+      <section>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Nome:" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail:" required>
+      </section>
+
+      <section>
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telefone:" required>
+
+        <label for="tel">Site ou mídias sociais</label>
+        <input type="text" id="site" name="site" placeholder="Site ou mídias sociais:" required>
+      </section>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" placeholder="Dê-nos uma breve descrição do seu negócio" required></textarea>
+
+      <button class="btn-submit" type="submit"><img src="/assets/icons/submit-icon.svg" alt="icone de enviar">
+        Enviar</button>
+
+      <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
+    </fieldset>
+  </form>
 
   <footer class="rodape-columns">
     <div class="rodape-column">
