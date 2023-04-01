@@ -378,6 +378,7 @@
   border-radius: 10px;
   height: 70vh;
   width: 80%;
+  max-width: 1700px;
   position: relative;
   display: flex;
   align-items: center;
@@ -970,12 +971,12 @@
 }
 @media (max-width: 1700px) {
   .section-trafego {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-trafego {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -1735,12 +1736,12 @@
 }
 @media (max-width: 1700px) {
   .section-quem-somos {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-quem-somos {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -2547,12 +2548,12 @@
 }
 @media (max-width: 1700px) {
   .section-agencia-parceira {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-agencia-parceira {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -3107,12 +3108,12 @@
 }
 @media (max-width: 1700px) {
   .section-vamos-conversar {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-vamos-conversar {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -3547,12 +3548,12 @@
 }
 @media (max-width: 1700px) {
   .section-faq {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-faq {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -3621,12 +3622,12 @@
 }
 @media (max-width: 1700px) {
   .section-blog-normak {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-blog-normak {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -4036,12 +4037,12 @@
 }
 @media (max-width: 1700px) {
   .section-titulo-post {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-titulo-post {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -4315,12 +4316,12 @@
 }
 @media (max-width: 1700px) {
   .section-mapa-titulo {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-mapa-titulo {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -4435,12 +4436,12 @@
 }
 @media (max-width: 1700px) {
   .section-estrategia-planejamento {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-estrategia-planejamento {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -4918,12 +4919,12 @@
 }
 @media (max-width: 1700px) {
   .section-falam-sobre-nos {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-falam-sobre-nos {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -5399,12 +5400,12 @@
 }
 @media (max-width: 1700px) {
   .section-intersena {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-intersena {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -5953,12 +5954,12 @@
 }
 @media (max-width: 1700px) {
   .section-motores-busca {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-motores-busca {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -6269,14 +6270,19 @@
     padding: 2rem 1rem;
   }
 }
-.section-servicos div {
+.section-servicos a {
   width: 400px;
   height: 300px;
   padding: 2rem;
   border: 1px solid #e1e1e1;
   border-radius: 16px;
+  text-decoration: none;
+  transition: 0.3s;
 }
-.section-servicos div span {
+.section-servicos a:hover {
+  transform: scale(1.01);
+}
+.section-servicos a span {
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
@@ -6284,11 +6290,11 @@
   line-height: 35px;
 }
 @media (max-width: 980px) {
-  .section-servicos div span {
+  .section-servicos a span {
     font-size: 1.3333333333rem;
   }
 }
-.section-servicos div p {
+.section-servicos a p {
   font-weight: 400;
   text-transform: none;
   color: #24262a;
@@ -6297,7 +6303,7 @@
   margin-top: 2rem;
 }
 @media (max-width: 980px) {
-  .section-servicos div p {
+  .section-servicos a p {
     font-size: 1rem;
   }
 }
@@ -6513,12 +6519,12 @@
 }
 @media (max-width: 1700px) {
   .section-consultoria-seo {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-consultoria-seo {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -6584,8 +6590,9 @@
 .section-consultoria-seo img {
   position: absolute;
   right: 5%;
-  top: 15%;
+  top: 10%;
   width: 40%;
+  max-width: 600px;
   height: auto;
 }
 @media (max-width: 1400px) {
@@ -6616,10 +6623,9 @@
 }
 .section-como-funciona div {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 2rem;
-  width: 40%;
+  width: 45%;
   height: 100%;
 }
 .section-como-funciona div h2 {
@@ -6648,24 +6654,59 @@
     font-size: 1rem;
   }
 }
+.section-como-funciona div button {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 4%;
+  font-size: 1.2rem;
+  background-color: #02eb9e;
+  border: none;
+  width: 60%;
+  max-width: 460px;
+  margin-left: 2rem;
+}
+@media (max-width: 980px) {
+  .section-como-funciona div button {
+    font-size: 1rem;
+  }
+}
+.section-como-funciona div button:hover {
+  background-color: #0afdad;
+  color: #ffffff;
+}
 .section-como-funciona img {
   width: 30%;
   max-width: 600px;
 }
 
 .section-beneficios {
+  padding: 2rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 3rem 5rem;
-  gap: 3rem;
+  gap: 2rem;
   background-color: #24262a;
 }
+@media (max-width: 1700px) {
+  .section-beneficios {
+    padding: 2rem 10rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-beneficios {
+    padding: 2rem 1rem;
+  }
+}
 .section-beneficios div {
-  width: 550px;
+  width: 400px;
   height: 350px;
-  padding: 3rem;
+  padding: 3rem 2rem;
   border: 1px solid #e1e1e1;
   border-radius: 16px;
 }
@@ -6732,12 +6773,12 @@
 }
 @media (max-width: 1700px) {
   .section-habilidades {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-habilidades {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -6803,11 +6844,10 @@
 .section-habilidades img {
   position: absolute;
   right: 5%;
-  top: 15%;
-  width: 45%;
+  top: 10%;
+  width: 40%;
+  max-width: 600px;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 @media (max-width: 1400px) {
   .section-habilidades img {
@@ -6841,7 +6881,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 2rem;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 .section-seo-ecommerce div h2 {
@@ -6864,18 +6904,14 @@
   color: #24262a;
   font-size: 1rem;
   padding-left: 2rem;
-  width: 50%;
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce div p {
     font-size: 1rem;
   }
 }
-.section-seo-ecommerce div p:last-child {
-  width: 100%;
-}
 .section-seo-ecommerce img {
-  width: 50%;
+  width: 30%;
   max-width: 600px;
 }
 
@@ -7029,12 +7065,12 @@
 }
 @media (max-width: 1700px) {
   .section-seo-local {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-seo-local {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -7102,10 +7138,9 @@
   position: absolute;
   right: 5%;
   top: 2rem;
-  width: 40%;
+  width: 35%;
+  max-width: 600px;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .section-geolocalizacao {
@@ -7141,7 +7176,7 @@
   width: 40%;
 }
 .section-geolocalizacao div:last-child {
-  width: 56%;
+  width: 50%;
 }
 .section-geolocalizacao div h2 {
   color: #ea1d5d;
@@ -7216,30 +7251,29 @@
   .section-seo-local img {
     display: none;
   }
+  .section-geolocalizacao {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-geolocalizacao div {
+    width: 100%;
+  }
+  .section-geolocalizacao div:first-child {
+    width: 100%;
+  }
+  .section-geolocalizacao div:last-child {
+    width: 100%;
+  }
+  .section-geolocalizacao div p {
+    width: 100%;
+  }
+  .section-geolocalizacao div button {
+    width: 80%;
+  }
+  .section-geolocalizacao img {
+    display: none;
+  }
 }
-.section-geolocalizacao {
-  flex-direction: column;
-  gap: 2rem;
-}
-.section-geolocalizacao div {
-  width: 100%;
-}
-.section-geolocalizacao div:first-child {
-  width: 100%;
-}
-.section-geolocalizacao div:last-child {
-  width: 100%;
-}
-.section-geolocalizacao div p {
-  width: 100%;
-}
-.section-geolocalizacao div button {
-  width: 80%;
-}
-.section-geolocalizacao img {
-  display: none;
-}
-
 .section-marketing-conteudo {
   display: flex;
   align-items: center;
@@ -7253,12 +7287,12 @@
 }
 @media (max-width: 1700px) {
   .section-marketing-conteudo {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-marketing-conteudo {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -7323,12 +7357,11 @@
 }
 .section-marketing-conteudo img {
   position: absolute;
-  right: 3%;
+  right: 5%;
   top: 1rem;
   width: 35%;
+  max-width: 600px;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .section-o-que-e-marketing {
@@ -7356,7 +7389,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 2rem;
-  width: 70%;
+  width: 50%;
   height: 100%;
 }
 .section-o-que-e-marketing div h2 {
@@ -7367,7 +7400,7 @@
   line-height: 35px;
   border-left: 3px solid #ea1d5d;
   padding-left: 2rem;
-  width: 60%;
+  width: 80%;
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing div h2 {
@@ -7387,18 +7420,29 @@
   }
 }
 .section-o-que-e-marketing img {
-  width: 50%;
+  width: 30%;
   max-width: 600px;
 }
 
 .section-guia {
+  padding: 2rem 15rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 3rem 5rem;
-  gap: 3rem;
+  gap: 2rem;
   background-color: #24262a;
+}
+@media (max-width: 1700px) {
+  .section-guia {
+    padding: 2rem 10rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-guia {
+    padding: 2rem 1rem;
+  }
 }
 .section-guia div {
   width: 400px;
@@ -7446,12 +7490,12 @@
 }
 @media (max-width: 1700px) {
   .section-digital-pr {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-digital-pr {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -7517,12 +7561,10 @@
 .section-digital-pr img {
   position: absolute;
   right: 5%;
-  top: 15%;
-  width: 35%;
-  z-index: 1;
+  top: 5%;
+  width: 40%;
+  max-width: 600px;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 @media (max-width: 1400px) {
   .section-digital-pr img {
@@ -7585,7 +7627,7 @@
   }
 }
 .section-o-que-e-pr img {
-  width: 35%;
+  width: 30%;
   max-width: 600px;
 }
 
@@ -7888,12 +7930,12 @@
 }
 @media (max-width: 1700px) {
   .section-seo-360 {
-    padding: 4rem 10rem 15rem;
+    padding: 4rem 10rem 10rem;
   }
 }
 @media (max-width: 980px) {
   .section-seo-360 {
-    padding: 4rem 1rem 15rem;
+    padding: 4rem 1rem 10rem;
     background-size: 190% 100%;
     background-position: center;
   }
@@ -7964,9 +8006,9 @@
 .section-seo-360 img {
   position: absolute;
   right: 5%;
-  top: 15%;
-  width: 30%;
-  z-index: 1;
+  top: 10%;
+  width: 35%;
+  max-width: 600px;
   height: auto;
 }
 

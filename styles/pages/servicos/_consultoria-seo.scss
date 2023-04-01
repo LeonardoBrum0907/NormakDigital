@@ -39,8 +39,9 @@
   img {
     position: absolute;
     right: 5%;
-    top: 15%;
+    top: 10%;
     width: 40%;
+    max-width: 600px;
     height: auto;
     
     @media(max-width: 1400px) {
@@ -58,10 +59,10 @@
   position: relative;
 
   div {
-    @include flex-center();
+    display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 40%;
+    width: 45%;
     height: 100%;
 
     h2 {
@@ -72,6 +73,20 @@
     p {
       @include title(p);
       padding-left: 2rem;
+    }
+
+    button {
+      @include button();
+      background-color: $cyan-color-500;
+      border: none;
+      width: 60%;
+      max-width: 460px;
+      margin-left: 2rem;
+
+      &:hover {
+        background-color: lighten($cyan-color-500, 5%);
+        color: $white-color;
+      }
     }
   }
 
@@ -84,17 +99,18 @@
 }
 
 .section-beneficios {
+  @include container();
   @include flex-center();
   justify-content: center;
   flex-wrap: wrap;
-  padding: 3rem 5rem;
-  gap: 3rem;
+  // padding: 3rem 5rem;
+  gap: 2rem;
   background-color: $gray-color-900;
 
   div {
-    width: 550px;  
+    width: 400px;  
     height: 350px;
-    padding: 3rem;
+    padding: 3rem 2rem;
     border: 1px solid $gray-color-100;
     border-radius: 16px;
 

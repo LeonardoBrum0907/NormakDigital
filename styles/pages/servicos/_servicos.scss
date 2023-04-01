@@ -189,12 +189,18 @@
   @include container();
   background-color: $gray-color-900;
 
-  div {
+  a {
     width: 400px;
     height: 300px;
     padding: 2rem;
     border: 1px solid $gray-color-100;
     border-radius: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.01);
+    }
 
     span {
       @include title(h3);

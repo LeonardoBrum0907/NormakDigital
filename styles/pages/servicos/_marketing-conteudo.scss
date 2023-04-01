@@ -38,11 +38,11 @@
 
   img {
     position: absolute;
-    right: 3%;
+    right: 5%;
     top: 1rem;
     width: 35%;
+    max-width: 600px;
     height: auto;
-    object-fit: contain;
   }
 }
 
@@ -58,14 +58,14 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
-    width: 70%;
+    width: 50%;
     height: 100%;
 
     h2 {
       @include title(h3);
       border-left: 3px solid $pink-color-500;
       padding-left: 2rem;
-      width: 60%;
+      width: 80%;
     }
     p {
       @include title(p);
@@ -75,17 +75,17 @@
   }
 
   img {
-    width: 50%;
+    width: 30%;
     max-width: 600px;
   }
 }
 
 .section-guia {
+  @include container();
   @include flex-center();
   justify-content: center;
   flex-wrap: wrap;
-  padding: 3rem 5rem;
-  gap: 3rem;
+  gap: 2rem;
   background-color: $gray-color-900;
 
   div {
