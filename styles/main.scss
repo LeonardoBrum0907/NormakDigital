@@ -73,7 +73,7 @@ $font-size-p: 1rem;
 
 @mixin button() {
   @include flex-center();
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -312,6 +312,7 @@ $font-size-p: 1rem;
 @import "components/cards";
 @import "components/nav-pages";
 @import "components/icones-cards";
+@import "components/cards-relacionados";
 
 @import "pages/home";
 @import "pages/quem-somos";

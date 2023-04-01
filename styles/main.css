@@ -830,7 +830,7 @@
 .section-icones-cards .btn-comecar-agora {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -852,6 +852,111 @@
   color: #ffffff;
 }
 
+.section-cards-relacionados {
+  padding: 2rem 15rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: #e1e1e1;
+}
+@media (max-width: 1700px) {
+  .section-cards-relacionados {
+    padding: 2rem 10rem;
+  }
+}
+@media (max-width: 980px) {
+  .section-cards-relacionados {
+    padding: 2rem 1rem;
+  }
+}
+.section-cards-relacionados h2 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+@media (max-width: 980px) {
+  .section-cards-relacionados h2 {
+    font-size: 2.3333333333rem;
+  }
+}
+.section-cards-relacionados__card {
+  width: 300px;
+  height: 500px;
+  border: #919191 solid 1px;
+  background-color: #ffffff;
+}
+.section-cards-relacionados__card img {
+  width: 100%;
+  height: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-cards-relacionados__card .description {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.section-cards-relacionados__card .description h3 {
+  color: #ea1d5d;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 35px;
+}
+@media (max-width: 980px) {
+  .section-cards-relacionados__card .description h3 {
+    font-size: 1.3333333333rem;
+  }
+}
+.section-cards-relacionados__card .description p {
+  font-weight: 400;
+  text-transform: none;
+  color: #24262a;
+  font-size: 1rem;
+}
+@media (max-width: 980px) {
+  .section-cards-relacionados__card .description p {
+    font-size: 1rem;
+  }
+}
+.section-cards-relacionados__card .description a {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 4%;
+  font-size: 1.2rem;
+  background-color: #02eb9e;
+  text-decoration: none;
+  color: #000000;
+  border: none;
+}
+@media (max-width: 980px) {
+  .section-cards-relacionados__card .description a {
+    font-size: 1rem;
+  }
+}
+.section-cards-relacionados__card .description a:hover {
+  background-color: #0afdad;
+  color: #ffffff;
+}
+
+@media (max-width: 980px) {
+  .section-cards-relacionados {
+    justify-content: center;
+  }
+}
 .section-trafego {
   display: flex;
   flex-direction: column;
@@ -908,7 +1013,7 @@
 .section-trafego__description button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1001,7 +1106,7 @@
 .o-que-vc-precisa__description .btn-ver-mais {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1136,7 +1241,7 @@
 .section-blog .mySwiper2 .swiper-slide a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1219,7 +1324,7 @@
   bottom: 0;
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1348,7 +1453,7 @@
 .faq-section a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1688,7 +1793,7 @@
 .section-quem-somos div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1893,7 +1998,7 @@
 .section-acreditamos-pessoas button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -1963,7 +2068,7 @@
 .section-empresas-atendidas__description a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -2277,7 +2382,7 @@
 .section-planejamento .modal-laudo-seo .modal-content button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -2500,7 +2605,7 @@
 .section-agencia-parceira div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -2620,7 +2725,7 @@
 .section-faq-parceiros a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3101,7 +3206,7 @@
 .section-vamos-conversar .modal-laudo-seo .modal-content button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3204,7 +3309,7 @@
 .section-agende-reuniao button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3474,7 +3579,7 @@
 .section-faq button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3734,7 +3839,7 @@
 .section-feed-blog__postagens .posts .preview-post-recente .preview-content a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3802,7 +3907,7 @@
 .section-feed-blog__postagens .posts .preview-post-popular .preview-content a {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -3859,7 +3964,7 @@
 .section-feed-blog__postagens .box-cta__box button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4030,7 +4135,7 @@
 .section-titulo-post div form button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4143,7 +4248,7 @@
 .section-post-content aside .post-cta button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4385,7 +4490,7 @@
 .section-estrategia-planejamento div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4611,7 +4716,7 @@
 .section-ebook div .btn-ver-mais {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4687,7 +4792,7 @@
 .section-ebook form button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -4754,7 +4859,7 @@
 .section-topicos-material button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -5192,7 +5297,7 @@
 .section-sua-estrategia__description button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -5231,7 +5336,7 @@
   .section-falam-sobre-nos button {
     display: flex;
     align-items: center;
-    height: 4rem;
+    height: 3.5rem;
     border-radius: 16px;
     transition: 0.3s;
     justify-content: space-between;
@@ -5345,7 +5450,7 @@
 .section-intersena button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -5735,7 +5840,7 @@
 .section-sua-estrategia-cliente2__description .btn-ver-mais {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -5895,7 +6000,7 @@
 .section-motores-busca div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6045,7 +6150,7 @@
 .section-estrategia-seo .fale-especialista div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6260,7 +6365,7 @@
 .section-cases-diferenca div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6455,7 +6560,7 @@
 .section-consultoria-seo div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6674,7 +6779,7 @@
 .section-habilidades div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6832,7 +6937,7 @@
 .section-estrategia-seo-para-ecommerce div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -6972,7 +7077,7 @@
 .section-seo-local div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -7072,7 +7177,7 @@
 .section-geolocalizacao div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -7195,7 +7300,7 @@
 .section-marketing-conteudo div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -7388,7 +7493,7 @@
 .section-digital-pr div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -7667,7 +7772,7 @@
 .fale-especialista-pr div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;
@@ -7835,7 +7940,7 @@
 .section-seo-360 div button {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 16px;
   transition: 0.3s;
   justify-content: space-between;

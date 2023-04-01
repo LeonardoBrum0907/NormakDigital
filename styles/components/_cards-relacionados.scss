@@ -1,0 +1,63 @@
+.section-cards-relacionados {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: $gray-color-100;
+
+  h2 {
+    @include title(h2);
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  &__card {
+    width: 300px;
+    height: 500px;
+    border: $gray-color-500 solid 1px;
+    background-color: $white-color;
+
+    img {
+      width: 100%;
+      height: 40%;
+      object-fit: cover;
+    }
+
+    .description {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      h3 {
+        @include title(h3);
+      }
+
+      p {
+        @include title(p);
+      }
+
+      a {
+        @include button();
+        background-color: $cyan-color-500;
+        text-decoration: none;
+        color: $black-color;
+        border: none;
+
+        &:hover {
+          background-color: lighten($cyan-color-500, 5%);
+          color: $white-color;
+        }
+      }
+    }
+
+  }
+}
+
+@media(max-width: 980px) {
+  .section-cards-relacionados {
+    justify-content: center;
+  }
+}
