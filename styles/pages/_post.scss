@@ -27,6 +27,17 @@
     font-weight: 800;
     color: $white-color;
 
+    &:first-child {
+      @include flex-center();
+      justify-content: center;
+      border: 1px solid $white-color;
+      border-radius: 16px;
+      color: $white-color;
+      width: 6.25rem;
+      height: 3.125rem;
+      font-size: 1.5rem;
+    }
+
     span {
       color: $cyan-color-500;
     }
@@ -86,26 +97,11 @@
 .section-post-content {
   position: relative;
   @include container();
-
-  figure {
-    width: 60vw;
-    transform: translate(0, -40%);
-    position: absolute;
-    top: 0;
-    max-width: 1200px;
-
-    img {
-      width: 100%;
-    }
-  }
+  display: flex;
+  justify-content: space-between;
 
   aside {
-    position: absolute;
-    right: 5%;
-    top: 0;
-    bottom: 0;
-    max-width: 350px;
-    width: 20vw;
+    width: 250px;
 
     nav {
       display: flex;
@@ -113,9 +109,6 @@
       flex-direction: column;
       gap: 2rem;
       border: 1px solid $gray-color-500;
-      position: sticky;
-      right: 0;
-      top: 0;
 
       h2 {
         font-size: 1.2rem;
@@ -131,7 +124,7 @@
         list-style: decimal;
         gap: 2rem;
         width: 80%;
-        
+
         li {
           margin-bottom: 2rem;
         }
@@ -146,6 +139,11 @@
         }
       }
     }
+
+    .nav-fixed {
+      display: none;
+      width: inherit;
+     }
 
     .post-cta {
       @include flex-center();
@@ -196,6 +194,18 @@
     flex-direction: column;
     gap: 2rem;
     font-size: 1.1rem;
+
+    figure {
+      width: 50%;
+      transform: translate(0, -40%);
+      position: absolute;
+      top: 0;
+      max-width: 1200px;
+
+      img {
+        width: 100%;
+      }
+    }
 
     h2 {
       @include title(h3);

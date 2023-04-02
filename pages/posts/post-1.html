@@ -62,6 +62,7 @@
 
   <main>
     <section class="section-titulo-post">
+      <span>SEO</span>
       <h1>O que é SEO Experience?</h1>
       <p>
         SEO Experience é a nova geração de otimização de sites, focada prioritariamente na experiência do usuário,
@@ -83,31 +84,12 @@
     </section>
 
     <section class="section-post-content">
-      <aside>
-        <div class="post-cta">
-          <span>Consultoria de SEO/</span>
-          <img src="/assets/blog/doc-lupa.png" alt="lupa">
-          <p>
-            Somos uma agência especializada em SEO, apaixonada em ajudar empresas a venderem mais no Google, através
-            de metodologia comprovada, pessoas criativas e foco em resultados.
-          </p>
-          <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Fale com um especialista</button>
-        </div>
-        <nav>
-          <h2>Tabela de conteúdo</h2>
-          <ul>
-            <li><a href="#1">Este será um artigo diferente</a></li>
-            <li><a href="#2">O que é privacidade no mundo digital?</a></li>
-            <li><a href="#3">Entendimento da importância das leis de privacidade de dados</a></li>
-          </ul>
-        </nav>
-      </aside>
-      <figure>
-        <img src="/assets/blog/banner-post.jpg" alt="">
-        <span>January 24, 2023</span>
-      </figure>
-
       <article>
+        <figure>
+          <img src="/assets/blog/banner-post.jpg" alt="">
+          <span>January 24, 2023</span>
+        </figure>
+
         <h2 id="1">Este será um artigo diferente</h2>
         <p>
           Começarei contando duas histórias de dois empreendedores que são um dos mais geniais de nossos tempos.
@@ -243,8 +225,88 @@
         </p>
       </article>
 
+      <aside id="aside">
+        <div class="post-cta">
+          <span>Consultoria de SEO/</span>
+          <img src="/assets/blog/doc-lupa.png" alt="lupa">
+          <p>
+            Somos uma agência especializada em SEO, apaixonada em ajudar empresas a venderem mais no Google, através
+            de metodologia comprovada, pessoas criativas e foco em resultados.
+          </p>
+          <button class="btn-comecar-agora abrir-modal" id="abrir-modal">Fale com um especialista</button>
+        </div>
+        <nav id="nav">
+          <h2>Tabela de conteúdo</h2>
+          <ul>
+            <li><a href="#1">Este será um artigo diferente</a></li>
+            <li><a href="#2">O que é privacidade no mundo digital?</a></li>
+            <li><a href="#3">Entendimento da importância das leis de privacidade de dados</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-fixed">
+          <h2>Tabela de conteúdo</h2>
+          <ul>
+            <li><a href="#1">Este será um artigo diferente</a></li>
+            <li><a href="#2">O que é privacidade no mundo digital?</a></li>
+            <li><a href="#3">Entendimento da importância das leis de privacidade de dados</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <script>
+        const aside = document.querySelector('#aside')
+        const nav = document.querySelector('#nav');
+        const navFixed = document.querySelector('.nav-fixed');
+
+        window.addEventListener('scroll', function () {
+          if (nav.getBoundingClientRect().top <= 0 && aside.getBoundingClientRect().bottom - nav.offsetHeight >= 0) {
+            navFixed.style.display = 'flex';
+            navFixed.style.position = 'fixed';
+            navFixed.style.top = '2rem';
+
+            nav.style.visibility = 'hidden';
+          }  else {
+            navFixed.style.display = 'none';
+            nav.style.visibility = 'visible';
+
+          }
+        });
+      </script>
     </section>
 
+    <section class="section-cards-relacionados">
+      <h2>Posts relacionados</h2>
+      <div class="section-cards-relacionados__card">
+        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+        <div class="description">
+          <h3>WordPress lança um novo plugin de desempenho</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+            pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+            veniam. Quaerat.</p>
+          <a href="/pages/posts/post-1.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+      </div>
+      <div class="section-cards-relacionados__card">
+        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+        <div class="description">
+          <h3>WordPress lança um novo plugin de desempenho</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+            pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+            veniam. Quaerat.</p>
+          <a href="/pages/posts/post-1.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+      </div>
+      <div class="section-cards-relacionados__card">
+        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+        <div class="description">
+          <h3>WordPress lança um novo plugin de desempenho</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+            pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+            veniam. Quaerat.</p>
+          <a href="/pages/posts/post-1.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+      </div>
+    </section>
 
     <figure role="img" aria-label="Imagem de fundo da seção de tráfego" class="img-background-bottom"></figure>
   </main>
