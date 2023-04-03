@@ -1,0 +1,125 @@
+.section-pesquisa {
+  @include container-first();
+  padding-bottom: 5rem !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+
+  h1 {
+    @include title(h1);
+    width: 100%;
+    text-align: center;
+  }
+
+  div {
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+
+    input {
+      @include input();
+      width: 100%;
+      background-color: $white-color;
+      color: $gray-color-900;
+    }
+
+    i {
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.section-cards-posts {
+  @include container();
+  @include flex-center();
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 280px;
+    height: 600px;
+    border: $gray-color-500 solid 1px;
+    background-color: $white-color;
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .description {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+
+      h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $pink-color-500;
+        font-weight: 900;
+      }
+
+      p {
+        @include title(p);
+      }
+
+      a {
+        @include button();
+        background-color: $cyan-color-500;
+        text-decoration: none;
+        color: $black-color;
+        border: none;
+
+        &:hover {
+          background-color: lighten($cyan-color-500, 5%);
+          color: $white-color;
+        }
+      }
+    }
+  }
+
+  .pagination-pesquisa {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+
+    display: flex;
+    gap: 1rem;
+
+    button {
+      height: 3.125rem;
+      width: 3.125rem;
+      background: transparent;
+      border-radius: 10px;
+      border: none;
+      font-size: 1.5rem;
+
+      &:hover {
+        border: 1px solid $gray-color-900;
+      }
+      &.active {
+        background-color: $gray-color-900;
+        color: $cyan-color-500;
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .section-cards-posts {
+    justify-content: center;
+  }
+}
