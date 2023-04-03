@@ -682,7 +682,7 @@
   .section-abordagem .texto2,
   .section-abordagem .texto3,
   .section-abordagem .texto4 {
-    max-height: 7em;
+    max-height: 6em;
     overflow: hidden;
     margin-bottom: 20px;
   }
@@ -700,7 +700,7 @@
     left: -45px;
   }
   .section-abordagem .swiper {
-    padding: 2rem 4rem 0.5rem 2rem;
+    padding: 2rem 4rem 4rem 2rem;
   }
   .section-abordagem .swiper .swiper-slide {
     padding: 70px 20px 10px;
