@@ -4239,6 +4239,7 @@
 }
 .section-post-content aside .nav-fixed {
   display: none;
+  top: 5rem;
   width: inherit;
 }
 .section-post-content aside .post-cta {
@@ -4297,14 +4298,29 @@
   font-size: 1.1rem;
 }
 .section-post-content article figure {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   width: 50%;
   transform: translate(0, -40%);
   position: absolute;
   top: 0;
   max-width: 1200px;
+  border-bottom: 1px solid #919191;
 }
 .section-post-content article figure img {
   width: 100%;
+}
+.section-post-content article figure > div {
+  display: flex;
+  gap: 2rem;
+}
+.section-post-content article figure > div a {
+  text-decoration: none;
+  color: #24262a;
+}
+.section-post-content article figure > div a i {
+  color: #ea1d5d;
 }
 .section-post-content article h2 {
   color: #ea1d5d;

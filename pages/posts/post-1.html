@@ -87,7 +87,18 @@
       <article>
         <figure>
           <img src="/assets/blog/banner-post.jpg" alt="">
-          <span>January 24, 2023</span>
+          <div>
+            <a href="#"><i class="fa-regular fa-folder"></i> SEO</a>
+            <a href="#"><i class="fa-solid fa-hashtag"></i> SEO, Blog, Relevantes, Notícias</a>
+            <a href="#"><i class="fa-regular fa-calendar"></i> January 24, 2023</a>
+          </div>
+          <nav class="nav-pages">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><i class="fa-solid fa-angle-right"></i></li>
+              <li><a class="active" href="#">Blog</a></li>
+            </ul>
+          </nav>
         </figure>
 
         <h2 id="1">Este será um artigo diferente</h2>
@@ -259,10 +270,9 @@
         const navFixed = document.querySelector('.nav-fixed');
 
         window.addEventListener('scroll', function () {
-          if (nav.getBoundingClientRect().top <= 0 && aside.getBoundingClientRect().bottom - nav.offsetHeight >= 0) {
+          if (nav.getBoundingClientRect().top <= 100 && aside.getBoundingClientRect().bottom - nav.offsetHeight >= 0) {
             navFixed.style.display = 'flex';
             navFixed.style.position = 'fixed';
-            navFixed.style.top = '2rem';
 
             nav.style.visibility = 'hidden';
           }  else {
