@@ -1,6 +1,7 @@
   const searchContainer = document.querySelector('.search-container');
   const searchIcon = searchContainer.querySelector('.search-icon');
   const searchInput = searchContainer.querySelector('input');
+  const headerBox = document.querySelector('.site-header')
 
   const menuBtn = document.querySelector('.hamburger-menu');
   const navbar = document.querySelector('.mobile-menu');
@@ -24,5 +25,18 @@
   navLinks.forEach(link => {
     if (link.href === currentPage) {
       link.classList.add('active');
+    }
+  });
+
+  window.addEventListener('scroll', function() {
+    console.log(window.scrollY, headerBox.getBoundingClientRect().bottom)
+
+    if (this.window.scrollY >= 100) {
+      headerBox.classList.add('fixed')
+      console.log('relative')
+    } else {
+      headerBox.classList.remove('fixed')
+      console.log('fixed')
+
     }
   });

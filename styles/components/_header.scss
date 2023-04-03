@@ -4,7 +4,30 @@
   justify-content: space-between;
   background-color: $gray-color-900;
   position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
+
+  &.fixed {
+    position: fixed;
+    background-color: $gray-color-header;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    max-width: 1920px;
+    margin: 0 auto;
+    animation: 0.2s alternate descer;
+
+    @keyframes descer {
+      from {
+        top: -100%;
+      }
+    
+      to {
+        top: 0;
+      }
+    }
+  }
 
   &__logo img {
     width: 200px;
@@ -234,7 +257,7 @@
       width: 80px;
       color: $white-color;
       cursor: pointer;
-      z-index: 11;      
+      z-index: 11;
 
       &::after {
         content: "Menu";
