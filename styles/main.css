@@ -2271,6 +2271,7 @@
   }
   .section-quem-somos img {
     position: absolute;
+    top: initial;
     bottom: 0;
     left: -120px;
     width: 100%;
