@@ -645,7 +645,7 @@
   width: 2.5rem;
 }
 .section-abordagem .swiper .swiper-slide h3 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 900;
   line-height: 25px;
   height: 30px;
@@ -704,6 +704,7 @@
   }
   .section-abordagem .swiper .swiper-slide {
     padding: 70px 20px 10px;
+    border-radius: 20px;
   }
   .section-abordagem .swiper .swiper-slide .icone {
     width: 5.71rem;
