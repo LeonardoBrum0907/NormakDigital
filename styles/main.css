@@ -1746,6 +1746,9 @@
   .faq-section .faq-cards {
     justify-content: center;
   }
+  .faq-section .faq-cards .faq-card {
+    width: 100%;
+  }
   .img-background-bottom {
     background-position: 15%;
   }
@@ -8373,7 +8376,7 @@ body main {
   position: relative;
   overflow: hidden;
   z-index: 0;
-  padding-bottom: 15rem;
+  padding-bottom: 8rem;
 }
 body button {
   cursor: pointer;

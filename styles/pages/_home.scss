@@ -325,12 +325,12 @@
     margin: 2rem 0 5rem;
     padding: 0 2rem;
 
-    @media(max-width: 420px) {
+    @media (max-width: 420px) {
       .swiper-pagination-bullet {
         width: 20px;
         border-radius: 5px;
       }
-    
+
       .swiper-pagination-bullet-active {
         background: $pink-color-500;
         width: 40px;
@@ -536,7 +536,7 @@
 
       .swiper-slide {
         h2 {
-         line-height : 28px;
+          line-height: 28px;
         }
       }
 
@@ -658,6 +658,10 @@
     }
     .faq-cards {
       justify-content: center;
+
+      .faq-card {
+        width: 100%;
+      }
     }
   }
 
