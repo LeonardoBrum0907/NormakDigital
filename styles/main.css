@@ -46,7 +46,7 @@
   justify-content: space-around;
   font-size: 0.8rem;
   list-style: none;
-  width: 100%;
+  width: 60%;
   margin: 0;
   padding: 0;
 }
@@ -276,6 +276,9 @@
   .site-header {
     padding: 1.5rem 4%;
   }
+  .site-header .site-header__logo img {
+    width: 150px;
+  }
 }
 
 .rodape-columns {
@@ -373,6 +376,9 @@
   }
   .rodape-columns .rodape-column img {
     width: 250px;
+  }
+  .rodape-columns .rodape-column .social-icons {
+    margin-top: 2rem;
   }
 }
 .modal {

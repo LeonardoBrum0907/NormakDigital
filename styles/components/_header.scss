@@ -41,13 +41,13 @@
     width: calc(100% - 9rem);
     height: 100%;
     max-width: 1500px;
-
+    
     ul {
       display: flex;
       justify-content: space-around;
       font-size: 0.8rem;
       list-style: none;
-      width: 100%;
+      width: 60%;
       margin: 0;
       padding: 0;
 
@@ -311,5 +311,12 @@
 
   @media (max-width: 980px) {
     padding: 1.5rem 4%;
+
+    .site-header {
+
+      &__logo img {
+        width: 150px;
+      }
+    }
   }
 }
