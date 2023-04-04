@@ -878,7 +878,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   background-color: #e1e1e1;
 }
@@ -910,19 +910,19 @@
 .section-cards-relacionados__card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 600px;
+  width: 330px;
+  height: 500px;
   border: #919191 solid 1px;
   background-color: #ffffff;
 }
 .section-cards-relacionados__card img {
   width: 100%;
-  height: 200px;
+  height: 35%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .section-cards-relacionados__card .description {
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -4302,7 +4302,7 @@
   flex-direction: column;
   gap: 2rem;
   width: 50%;
-  transform: translate(0, -40%);
+  transform: translate(0, -30%);
   position: absolute;
   top: 0;
   max-width: 1200px;

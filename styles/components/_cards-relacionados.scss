@@ -2,7 +2,7 @@
   @include container();
   @include flex-center();
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   background-color: $gray-color-100;
 
@@ -16,19 +16,19 @@
   &__card {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 600px;
+    width: 330px;
+    height: 500px;
     border: $gray-color-500 solid 1px;
     background-color: $white-color;
 
     img {
       width: 100%;
-      height: 200px;
+      height: 35%;
       object-fit: cover;
     }
 
     .description {
-      padding: 2rem;
+      padding: 1.5rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
