@@ -1438,6 +1438,7 @@
   align-self: flex-start;
   margin: 2rem 0 5rem;
   padding: 0 2rem;
+  position: relative;
 }
 .empresas-atendidas-slider .mySwiper3 .swiper-pagination-bullet {
   width: 20px;
@@ -1859,7 +1860,6 @@
 }
 
 .section-nossa-historia {
-  margin-top: 5rem;
   display: flex;
   align-items: center;
   align-items: flex-start;
@@ -1867,6 +1867,7 @@
   padding: 2rem 15rem;
   margin-bottom: 5rem;
   position: relative;
+  border: 1px solid red;
 }
 @media (max-width: 1700px) {
   .section-nossa-historia {
@@ -1936,6 +1937,7 @@
   -o-object-fit: contain;
      object-fit: contain;
   max-height: 400px;
+  border: 1px solid red;
 }
 @media (max-width: 420px) {
   .section-nossa-historia img {
@@ -2297,7 +2299,6 @@
   }
   .section-nossa-historia {
     margin-top: 0;
-    padding-top: 8rem;
   }
   .section-nossa-historia__description {
     width: 100%;
