@@ -1468,7 +1468,6 @@
   margin-top: 5rem;
   padding: 2rem 15rem;
   margin-bottom: 5rem;
-  height: 800px;
 }
 @media (max-width: 1700px) {
   .faq-section {
@@ -1536,7 +1535,7 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   margin-bottom: 1rem;
   padding: 1rem 1rem 1rem 2rem;
-  min-width: 350px;
+  min-width: 305px;
   width: 48%;
   min-height: 88px;
   height: -moz-max-content;
