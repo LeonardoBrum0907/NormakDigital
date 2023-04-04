@@ -1193,7 +1193,6 @@
   }
 }
 .section-blog > div img {
-  height: 70%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
