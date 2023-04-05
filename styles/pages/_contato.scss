@@ -330,6 +330,7 @@
         font-size: 1rem;
 
         &:last-child {
+          display: none;
           background-color: $gray-color-900;
           width: 100%;
           padding: 1rem;

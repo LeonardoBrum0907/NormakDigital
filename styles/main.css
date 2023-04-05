@@ -3107,7 +3107,12 @@
     height: 44px;
   }
   .section-agencia-parceira img {
-    display: none;
+    width: auto;
+    height: 50%;
+    top: initial;
+    right: 0;
+    transform: translate(20%, 10%);
+    bottom: 0;
   }
   .section-apoiamos-crescimento .principios {
     flex-direction: column;
@@ -3593,6 +3598,7 @@
     font-size: 1rem;
   }
   .section-vamos-conversar__description p:last-child {
+    display: none;
     background-color: #24262a;
     width: 100%;
     padding: 1rem;
@@ -4839,7 +4845,7 @@
   align-items: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 .section-estrategia-planejamento div h1 {
   color: #ea1d5d;
@@ -4875,7 +4881,7 @@
   top: 50%;
   transform: translate(0, -50%);
 }
-.section-estrategia-planejamento div button {
+.section-estrategia-planejamento div a {
   display: flex;
   align-items: center;
   height: 3.5rem;
@@ -4890,13 +4896,14 @@
   background-color: transparent;
   width: 40%;
   max-width: 345px;
+  text-decoration: none;
 }
 @media (max-width: 980px) {
-  .section-estrategia-planejamento div button {
+  .section-estrategia-planejamento div a {
     font-size: 1rem;
   }
 }
-.section-estrategia-planejamento div button:hover {
+.section-estrategia-planejamento div a:hover {
   background: #02eb9e;
   color: #ffffff;
 }
@@ -5166,6 +5173,7 @@
   border-radius: 24px;
   text-transform: uppercase;
   color: #e1e1e1;
+  color: #24262a;
   border: 1px solid #ea1d5d;
 }
 @media (max-width: 380px) {
@@ -5279,6 +5287,9 @@
   .section-estrategia-planejamento div {
     width: 100%;
   }
+  .section-estrategia-planejamento div a {
+    width: 100%;
+  }
   .section-estrategia-planejamento img {
     position: absolute;
     transform: translate(0, 50%);
@@ -5286,6 +5297,17 @@
     left: -120px;
     width: 100%;
     max-width: 420px;
+  }
+  .section-ebook {
+    flex-direction: column;
+    margin-top: 15rem;
+  }
+  .section-ebook div {
+    width: 100%;
+  }
+  .section-ebook form {
+    margin-top: 3rem;
+    width: 100%;
   }
   .section-topicos-material ul li {
     width: 90%;

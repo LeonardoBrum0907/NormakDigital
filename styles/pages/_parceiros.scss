@@ -350,7 +350,12 @@
     }
 
     img {
-      display: none;
+      width: auto;
+      height: 50%;
+      top: initial;
+      right: 0;
+      transform: translate(20%, 10%);
+      bottom: 0;
     }
   }
 

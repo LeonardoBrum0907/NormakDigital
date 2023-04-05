@@ -22,44 +22,6 @@
 </head>
 
 <body>
-  <header class="site-header">
-    <nav class="site-header__nav">
-      <a href="/index.html" class="site-header__logo">
-        <img src="/assets/logo-top.svg" alt="Logo da empresa escrito Normak Digital">
-      </a>
-      <ul class="mobile-menu">
-        <li><a href="/pages/quem-somos.html">Quem somos</a></li>
-        <li class="has-submenu">
-          <a class="arrow-submenu" href="/pages/clientes-cases/clientes-cases.html">Clientes & Cases</a>
-        </li>
-        <li class="has-submenu">
-          <a class="arrow-submenu" href="/pages/servicos/servicos.html">Serviços <span>›</span></a>
-          <ul class="submenu">
-            <li><a href="/pages/servicos/consultoria-seo.html">Consultoria SEO</a></li>
-            <li><a href="/pages/servicos/digital-pr.html">Digital PR</a></li>
-            <li><a href="/pages/servicos/ecommerce-seo.html">Ecommerce SEO</a></li>
-            <li><a href="/pages/servicos/marketing-conteudo.html">Marketing de Conteúdo</a></li>
-            <li><a href="/pages/servicos/seo-360.html">SEO 360</a></li>
-            <li><a href="/pages/servicos/seo-local.html">SEO Local</a></li>
-          </ul>
-        </li>
-        <li><a href="/pages/laudo-seo.html">Laudo de SEO</a></li>
-        <li><a href="/pages/parceiros.html">Parceiros</a></li>
-        <li><a href="/pages/blog.html">Blog</a></li>
-        <li><a href="/pages/contato.html">Contato</a></li>
-      </ul>
-      <div class="hamburger-menu">
-        <span class="hamburger-menu__line"></span>
-        <span class="hamburger-menu__line"></span>
-        <span class="hamburger-menu__line"></span>
-      </div>
-    </nav>
-    <div class="search-container">
-      <input type="text" placeholder="Pesquisar">
-      <img class="search-icon" src="/assets/icons/search.svg" alt="icone de lupa para pesquisa">
-    </div>
-  </header>
-
   <main>
     <section class="section-estrategia-planejamento">
       <div>
@@ -74,7 +36,7 @@
               funcionam.</span></li>
         </ul>
 
-        <button class="btn-comecar-agora">Baixar Material <i class="fa-solid fa-arrow-right arrow-toggle"></i></button>
+        <a href="#form">Baixar Material <i class="fa-solid fa-arrow-right arrow-toggle"></i></a>
       </div>
       <img src="/assets/materiais-ricos/notebook-seo.png" alt="notebook com uma lupa ne tela">
     </section>
@@ -93,12 +55,14 @@
         </p>
       </div>
 
-      <form class="form-ebook">
+      <form class="form-ebook" id="form">
         <h2>Aproveite: é grátis</h2>
         <span><i class="fa-regular fa-file-lines"></i> É só preencher o formulário abaixo para acessar</span>
 
         <label for="">E-mail corporativo</label>
-        <input type="text" placeholder="Seu email">
+        <input type="text" placeholder="Seu Nome:" required>
+        <input type="text" placeholder="Seu Cargo:" required>
+        <input type="text" placeholder="Seu Email:" required>
 
         <p>
           Ao preencher o formulário, concordo * em receber comunicações de acordo com meus interesses.
@@ -184,8 +148,9 @@
           <li><a href="/pages/clientes-cases/clientes-cases.html">Clientes e Cases</a></li>
           <li><a href="/pages/clientes-cases/cliente1.html">Cases de sucesso</a></li>
           <li><a href="/pages/parceiros.html">Parceiros</a></li>
-                  <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
           <li><a href="/pages/contato.html">Contato</a></li>
+          <li><a href="/pages/mapa-site.html">Mapa do Site</a></li>
         </ul>
       </nav>
     </div>

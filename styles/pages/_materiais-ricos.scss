@@ -10,7 +10,7 @@
     @include flex-center();
     align-items: flex-start;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 
     h1 {
       @include title(h1);
@@ -40,7 +40,7 @@
       }
     }
 
-    button {
+    a {
       @include button();
       border: 1px solid $cyan-color-500;
       color: $cyan-color-500;
@@ -48,6 +48,7 @@
       background-color: transparent;
       width: 40%;
       max-width: 345px;
+      text-decoration: none;
 
       &:hover {
         background: $cyan-color-500;
@@ -134,6 +135,7 @@
 
     input {
       @include input();
+      color: $gray-color-900;
       border: 1px solid $pink-color-500;
 
       &::placeholder {
@@ -203,6 +205,10 @@
     padding: 1rem 1rem 0 1rem;
     div {
       width: 100%;
+
+      a {
+        width: 100%;
+      }
     }
 
     img {
@@ -212,6 +218,20 @@
       left: -120px;
       width: 100%;
       max-width: 420px;
+    }
+  }
+
+  .section-ebook {
+    flex-direction: column;
+    margin-top: 15rem;
+
+    div {
+      width: 100%;
+    }
+
+    form {
+      margin-top: 3rem;
+      width: 100%;
     }
   }
 
