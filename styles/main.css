@@ -4622,6 +4622,8 @@
   height: 550px;
   border: #919191 solid 1px;
   background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
 }
 .section-cards-posts__card img {
   width: 100%;
