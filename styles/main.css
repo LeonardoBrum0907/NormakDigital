@@ -3430,11 +3430,6 @@
     line-height: 40px;
   }
 }
-@media (max-width: 1200px) {
-  .section-comece-seo-contato__title h2 {
-    font-size: 70px;
-  }
-}
 .section-comece-seo-contato__content {
   display: flex;
   justify-content: space-around;
@@ -3465,7 +3460,7 @@
   top: 55%;
 }
 .section-comece-seo-contato .linha-passos .passo {
-  width: 150px;
+  width: 130px;
   height: 40px;
   background-color: #ea1d5d;
   border-radius: 16px;
@@ -3502,6 +3497,44 @@
     height: max-content;
     gap: 2rem;
   }
+  .section-comece-seo-contato {
+    padding: 0 1rem;
+    gap: 3rem;
+  }
+  .section-comece-seo-contato__title h2 {
+    font-size: 2.85rem;
+  }
+  .section-comece-seo-contato__title img {
+    display: none;
+  }
+  .section-comece-seo-contato__content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .section-comece-seo-contato__content section {
+    width: 50%;
+    gap: 1rem;
+  }
+  .section-comece-seo-contato .btn-comecar-agora {
+    display: none;
+  }
+  .section-comece-seo-contato .linha-passos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 40%;
+  }
+  .section-comece-seo-contato .linha-passos .linha {
+    height: 90%;
+    width: 0;
+    top: initial;
+    bottom: 0;
+    left: 50%;
+  }
 }
 @media (max-width: 980px) {
   .section-vamos-conversar {
@@ -3537,77 +3570,6 @@
   }
   .section-agende-reuniao img {
     height: 120px;
-  }
-  .section-comece-seo-contato {
-    padding: 0 1rem 718px;
-    gap: 3rem;
-  }
-  .section-comece-seo-contato__title h2 {
-    font-size: 2.85rem;
-  }
-  .section-comece-seo-contato__title img {
-    display: none;
-  }
-  .section-comece-seo-contato__content {
-    flex-direction: column;
-    gap: 3rem;
-  }
-  .section-comece-seo-contato__content section {
-    width: 50%;
-    gap: 1rem;
-  }
-  .section-comece-seo-contato .btn-comecar-agora {
-    display: none;
-  }
-  .section-comece-seo-contato .modal {
-    display: flex;
-    position: absolute;
-    top: inherit;
-    bottom: 0;
-    margin-top: 3rem;
-    max-height: 698px;
-    width: 100%;
-  }
-  .section-comece-seo-contato .modal .modal-content {
-    width: 100%;
-    height: 100%;
-    border-top: 3px solid #ea1d5d;
-    padding-top: 5rem;
-  }
-  .section-comece-seo-contato .modal .modal-content legend {
-    color: #ea1d5d;
-  }
-  .section-comece-seo-contato .modal .modal-content legend span {
-    display: none;
-  }
-  .section-comece-seo-contato .modal .modal-content section {
-    flex-direction: column;
-    gap: 26px;
-    align-items: center;
-  }
-  .section-comece-seo-contato .modal .modal-content section input {
-    width: 100%;
-  }
-  .section-comece-seo-contato .modal .fechar-modal {
-    display: none;
-  }
-  .section-comece-seo-contato .linha-passos {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 28%;
-    padding-bottom: 130px;
-    height: calc(100% - 650px);
-    top: 0;
-    right: 0;
-    width: 40%;
-  }
-  .section-comece-seo-contato .linha-passos .linha {
-    height: 90%;
-    width: 0;
-    top: initial;
-    bottom: 0;
-    left: 50%;
   }
 }
 .section-faq {
