@@ -52,7 +52,6 @@
   img {
     position: absolute;
     top: 4rem;
-    // transform: translate(0, 20%);
     right: 5%;
     width: 40%;
     max-width: 650px;
@@ -352,6 +351,10 @@
       }
 
       p {
+        width: 100%;
+      }
+
+      button {
         width: 100%;
       }
     }

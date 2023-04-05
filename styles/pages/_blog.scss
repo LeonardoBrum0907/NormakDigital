@@ -30,6 +30,21 @@
       width: 90%;
       max-width: 600px;
     }
+
+    button {
+      @include button();
+      background: transparent;
+      border: 1px solid $cyan-color-500;
+      color: $cyan-color-500;
+      width: 20rem;
+      transition: 0.3s;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $cyan-color-500;
+        color: $white-color;
+      }
+    }
   }
 
   img {
@@ -49,7 +64,6 @@
   &__postagens {
     position: relative;
     display: grid;
-    // grid-template-rows: 100px auto;
     grid-template-columns: 15% 50% 30%;
     gap: 4rem;
 
@@ -349,8 +363,8 @@
       height: 80%;
       top: initial;
       right: 0;
-      transform: translate(45%,0);
-      bottom: -300px;
+      transform: translate(47%,0);
+      bottom: -320px;
     }
   }
 

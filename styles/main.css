@@ -2318,6 +2318,9 @@
   .section-quem-somos div p {
     width: 100%;
   }
+  .section-quem-somos div button {
+    width: 100%;
+  }
   .section-quem-somos img {
     position: absolute;
     top: initial;
@@ -3712,6 +3715,31 @@
     line-height: 30px;
   }
 }
+.section-blog-normak div button {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: 16px;
+  transition: 0.3s;
+  justify-content: space-between;
+  padding: 0 4%;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 1px solid #02eb9e;
+  color: #02eb9e;
+  width: 20rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+@media (max-width: 980px) {
+  .section-blog-normak div button {
+    font-size: 1rem;
+  }
+}
+.section-blog-normak div button:hover {
+  background-color: #02eb9e;
+  color: #ffffff;
+}
 .section-blog-normak img {
   position: absolute;
   right: 5%;
@@ -4076,8 +4104,8 @@
     height: 80%;
     top: initial;
     right: 0;
-    transform: translate(45%, 0);
-    bottom: -300px;
+    transform: translate(47%, 0);
+    bottom: -320px;
   }
   .section-feed-blog__postagens {
     margin-top: 10rem;
@@ -4422,14 +4450,30 @@
   .section-post-content aside {
     display: none;
   }
-  .section-post-content figure {
-    width: 100%;
-    left: 0;
-    position: initial;
-  }
   .section-post-content article {
     width: 100%;
     margin-top: 0;
+  }
+  .section-post-content article figure {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform: translate(0);
+  }
+}
+@media (max-width: 980px) {
+  .section-titulo-post p {
+    width: 100%;
+  }
+  .section-titulo-post div {
+    width: 100%;
+  }
+  .section-titulo-post div form {
+    flex-direction: column;
+  }
+  .section-titulo-post div form input {
+    width: 100%;
   }
 }
 .section-pesquisa {
