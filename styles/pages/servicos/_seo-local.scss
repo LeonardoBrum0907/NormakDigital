@@ -106,13 +106,11 @@
 @media (max-width: 1200px) {
   .section-seo-local {
     flex-direction: column;
-    align-items: center;
     height: 80vh;
     max-height: 800px;
-    overflow: hidden;
 
     div {
-      width: 80%;
+      width: 100%;
     }
 
     button {
@@ -120,12 +118,11 @@
     }
     
     img {
-      display: none;
-      // width: auto;
-      // height: 35%;
-      // top: initial;
-      // right: -80px;
-      // bottom: 0;
+      width: auto;
+      height: 40%;
+      top: initial;
+      right: -40px;
+      bottom: -80px;
     }
   }
 

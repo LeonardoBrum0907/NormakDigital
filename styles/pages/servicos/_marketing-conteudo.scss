@@ -106,3 +106,34 @@
     }
   }
 }
+
+@media(max-width: 980px) {
+  .section-marketing-conteudo {
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+    max-height: 800px;
+    overflow: hidden;
+
+    div {
+      width: 100%;
+    }
+
+    img {
+      width: auto;
+      height: 45%;
+      top: initial;
+      right: -40px;
+      bottom: 0;
+    }
+  }
+
+  .section-o-que-e-marketing {
+    div {
+      width: 90%;
+    }
+    img {
+      display: none;
+    }
+  }
+}

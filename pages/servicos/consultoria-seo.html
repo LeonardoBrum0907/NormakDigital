@@ -216,6 +216,8 @@
         </div>
         <button class="swiper-button-next" aria-label="scrollar slider de cards para direita"></button>
         <button class="swiper-button-prev" aria-label="scrollar slider de cards para esquerda"></button>
+        <div class="swiper-pagination"></div>
+
       </div>
     </section>
 
@@ -385,6 +387,10 @@
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
       },
       breakpoints: {
         320: {

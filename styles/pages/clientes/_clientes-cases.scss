@@ -33,7 +33,7 @@
     height: 400px;
     width: 100%;
     position: relative;
-    margin-top: 3rem;
+    margin: 3rem 0;
     border-radius: 50px;
     transition: 0.3s;
 
@@ -58,6 +58,12 @@
       left: 5%;
       width: 20%;
       // transform: translate(0, -50%);
+
+      @media(max-width: 450px) {
+        width: 60%;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
     }
 
     p {
@@ -67,7 +73,8 @@
       width: 80%;
       left: 5%;
       top: 60%;
-      transform: translate(0, -50%);
+      transform: translate(0, -55%);
+      
     }
   }
 }
@@ -226,7 +233,7 @@
 
   .section-empresas-slider {
     h2 {
-      margin-left: 4rem;
+      margin-left: 5rem;
     }
     & > img {
       top: 30%;

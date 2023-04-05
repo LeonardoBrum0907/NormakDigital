@@ -184,8 +184,8 @@
 .section-servicos {
   @include flex-center();
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
   @include container();
   background-color: $gray-color-900;
 

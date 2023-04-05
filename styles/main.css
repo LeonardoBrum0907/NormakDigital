@@ -594,7 +594,8 @@
 }
 @media (max-width: 980px) {
   .section-abordagem__description {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-abordagem__description span {
@@ -801,7 +802,8 @@
 }
 @media (max-width: 980px) {
   .section-icones-cards__title h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-icones-cards__content {
@@ -911,7 +913,8 @@
 }
 @media (max-width: 980px) {
   .section-cards-relacionados h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-cards-relacionados__card {
@@ -1114,7 +1117,8 @@
 }
 @media (max-width: 980px) {
   .o-que-vc-precisa h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .o-que-vc-precisa__description {
@@ -1189,7 +1193,8 @@
 }
 @media (max-width: 980px) {
   .section-blog > div > h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-blog > div img {
@@ -1247,7 +1252,8 @@
 }
 @media (max-width: 980px) {
   .section-blog .mySwiper2 .swiper-slide h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-blog .mySwiper2 .swiper-slide p {
@@ -1311,7 +1317,8 @@
 }
 @media (max-width: 980px) {
   .section-comece-seo__title h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 @media (max-width: 1200px) {
@@ -1429,7 +1436,8 @@
 }
 @media (max-width: 980px) {
   .empresas-atendidas-slider h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .empresas-atendidas-slider .mySwiper3 {
@@ -1517,7 +1525,8 @@
 }
 @media (max-width: 980px) {
   .faq-section h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .faq-section .faq-cards {
@@ -1904,7 +1913,8 @@
 }
 @media (max-width: 980px) {
   .section-nossa-historia__description h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-nossa-historia__description p {
@@ -1973,7 +1983,8 @@
 }
 @media (max-width: 980px) {
   .section-nossa-historia__principios section h3 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 
@@ -2015,7 +2026,8 @@
 }
 @media (max-width: 980px) {
   .section-acreditamos-pessoas__description h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-acreditamos-pessoas__description p {
@@ -2085,7 +2097,8 @@
 }
 @media (max-width: 980px) {
   .section-empresas-atendidas__description h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-empresas-atendidas__description p {
@@ -2149,7 +2162,8 @@
 }
 @media (max-width: 980px) {
   .section-depoimentos h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-depoimentos .swiper {
@@ -2187,7 +2201,8 @@
 }
 @media (max-width: 980px) {
   .section-depoimentos .swiper .swiper-slide h3 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-depoimentos .swiper .swiper-slide p {
@@ -2251,7 +2266,8 @@
 }
 @media (max-width: 980px) {
   .section-selos h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-selos__certificados {
@@ -2473,13 +2489,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5rem;
-  line-height: 75px;
+  font-size: 3.5rem;
+  line-height: 50px;
 }
 @media (max-width: 980px) {
   .section-planejamento__description h1 {
-    font-size: 3.3333333333rem;
-    line-height: 50px;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-planejamento__description p {
@@ -2527,7 +2543,8 @@
 }
 @media (max-width: 980px) {
   .section-seo-marketing section h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-seo-marketing section p {
@@ -2719,7 +2736,8 @@
 }
 @media (max-width: 980px) {
   .section-apoiamos-crescimento h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-apoiamos-crescimento h2 span {
@@ -2809,7 +2827,8 @@
 }
 @media (max-width: 980px) {
   .section-faq-parceiros h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-faq-parceiros .faq-cards {
@@ -2908,7 +2927,8 @@
 }
 @media (max-width: 980px) {
   .section-comece-seo-parceiros__title h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 @media (max-width: 1200px) {
@@ -3065,7 +3085,8 @@
 }
 @media (max-width: 980px) and (max-width: 980px) {
   .section-ingressar-programa__title h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 @media (max-width: 980px) {
@@ -3310,7 +3331,8 @@
 }
 @media (max-width: 980px) {
   .section-vamos-conversar__description h1 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-vamos-conversar__description p {
@@ -3404,7 +3426,8 @@
 }
 @media (max-width: 980px) {
   .section-comece-seo-contato__title h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 @media (max-width: 1200px) {
@@ -3724,7 +3747,8 @@
 }
 @media (max-width: 980px) {
   .section-blog-normak div p {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-blog-normak img {
@@ -3774,7 +3798,8 @@
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .recentes-populares button {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-feed-blog__postagens .recentes-populares button:first-child {
@@ -3871,7 +3896,8 @@
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .posts .preview-post-recente .preview-content h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-feed-blog__postagens .posts .preview-post-recente .preview-content p {
@@ -3939,7 +3965,8 @@
 }
 @media (max-width: 980px) {
   .section-feed-blog__postagens .posts .preview-post-popular .preview-content h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-feed-blog__postagens .posts .preview-post-popular .preview-content p {
@@ -4131,7 +4158,8 @@
 }
 @media (max-width: 980px) {
   .section-titulo-post p {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-titulo-post > span {
@@ -4367,7 +4395,8 @@
 }
 @media (max-width: 980px) {
   .section-post-content article h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 
@@ -4962,7 +4991,8 @@
 }
 @media (max-width: 980px) {
   .section-ebook div > h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-ebook div p {
@@ -5015,7 +5045,8 @@
 }
 @media (max-width: 980px) {
   .section-ebook form h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-ebook form span {
@@ -5089,7 +5120,8 @@
 }
 @media (max-width: 980px) {
   .section-topicos-material h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-topicos-material ul {
@@ -5240,7 +5272,7 @@
   height: 400px;
   width: 100%;
   position: relative;
-  margin-top: 3rem;
+  margin: 3rem 0;
   border-radius: 50px;
   transition: 0.3s;
 }
@@ -5263,6 +5295,13 @@
   left: 5%;
   width: 20%;
 }
+@media (max-width: 450px) {
+  .section-banner-cliente div img {
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
 .section-banner-cliente div p {
   color: #ea1d5d;
   font-weight: 900;
@@ -5274,11 +5313,12 @@
   width: 80%;
   left: 5%;
   top: 60%;
-  transform: translate(0, -50%);
+  transform: translate(0, -55%);
 }
 @media (max-width: 980px) {
   .section-banner-cliente div p {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 
@@ -5321,7 +5361,8 @@
 }
 @media (max-width: 980px) {
   .section-empresas-slider h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-empresas-slider .mySwiper {
@@ -5539,7 +5580,8 @@
 }
 @media (max-width: 980px) {
   .section-sua-estrategia h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-sua-estrategia__description {
@@ -5632,7 +5674,7 @@
 }
 @media (max-width: 980px) {
   .section-empresas-slider h2 {
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
   .section-empresas-slider > img {
     top: 30%;
@@ -5776,6 +5818,11 @@
   left: 5%;
   width: 20%;
 }
+@media (max-width: 450px) {
+  .section-banner-feedback > div img {
+    width: 100%;
+  }
+}
 .section-banner-feedback > div p {
   color: #ea1d5d;
   font-weight: 900;
@@ -5791,7 +5838,8 @@
 }
 @media (max-width: 980px) {
   .section-banner-feedback > div p {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-banner-feedback .feedback {
@@ -5830,7 +5878,8 @@
 }
 @media (max-width: 980px) {
   .section-banner-feedback .feedback h3 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-banner-feedback .feedback p {
@@ -6082,7 +6131,8 @@
 }
 @media (max-width: 980px) {
   .section-sua-estrategia-cliente2 h2 {
-    font-size: 2.3333333333rem;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-sua-estrategia-cliente2__description {
@@ -6168,6 +6218,7 @@
   .section-banner-feedback > div > img {
     left: 50%;
     transform: translate(-50%, 0);
+    max-width: 200px;
   }
   .section-banner-feedback > div p {
     top: 50%;
@@ -6326,7 +6377,8 @@
 }
 @media (max-width: 980px) {
   .section-acelere-crescimento div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-acelere-crescimento div p {
@@ -6389,7 +6441,8 @@
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .fale-especialista div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-estrategia-seo .fale-especialista div p {
@@ -6451,7 +6504,8 @@
 }
 @media (max-width: 980px) {
   .section-estrategia-seo .seo-360 h3 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-estrategia-seo .seo-360 h3 span {
@@ -6511,8 +6565,8 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
   padding: 2rem 15rem;
   margin-bottom: 5rem;
   background-color: #24262a;
@@ -6548,7 +6602,8 @@
 }
 @media (max-width: 980px) {
   .section-servicos a span {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-servicos a p {
@@ -6602,7 +6657,8 @@
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-cases-diferenca div:first-child p {
@@ -6663,7 +6719,8 @@
 }
 @media (max-width: 980px) {
   .section-cases-diferenca div:last-child h3 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-cases-diferenca div:last-child p {
@@ -6896,7 +6953,8 @@
 }
 @media (max-width: 980px) {
   .section-como-funciona div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-como-funciona div p {
@@ -6976,7 +7034,8 @@
 }
 @media (max-width: 980px) {
   .section-beneficios div span {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-beneficios div p {
@@ -7152,7 +7211,8 @@
 }
 @media (max-width: 980px) {
   .section-seo-ecommerce div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-seo-ecommerce div p {
@@ -7211,7 +7271,8 @@
 }
 @media (max-width: 980px) {
   .section-estrategia-seo-para-ecommerce div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-estrategia-seo-para-ecommerce div p {
@@ -7271,10 +7332,10 @@
   }
   .section-habilidades img {
     width: auto;
-    height: 30%;
+    height: 40%;
+    right: -30px;
     top: initial;
-    right: 0;
-    bottom: 0;
+    bottom: -50px;
   }
   .section-seo-ecommerce div {
     width: 90%;
@@ -7446,7 +7507,8 @@
 }
 @media (max-width: 980px) {
   .section-geolocalizacao div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-geolocalizacao div p {
@@ -7494,19 +7556,21 @@
 @media (max-width: 1200px) {
   .section-seo-local {
     flex-direction: column;
-    align-items: center;
     height: 80vh;
     max-height: 800px;
-    overflow: hidden;
   }
   .section-seo-local div {
-    width: 80%;
+    width: 100%;
   }
   .section-seo-local button {
     width: 100%;
   }
   .section-seo-local img {
-    display: none;
+    width: auto;
+    height: 40%;
+    top: initial;
+    right: -40px;
+    bottom: -80px;
   }
   .section-geolocalizacao {
     flex-direction: column;
@@ -7661,7 +7725,8 @@
 }
 @media (max-width: 980px) {
   .section-o-que-e-marketing div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-o-que-e-marketing div p {
@@ -7717,7 +7782,8 @@
 }
 @media (max-width: 980px) {
   .section-guia div span {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-guia div p {
@@ -7734,6 +7800,31 @@
   }
 }
 
+@media (max-width: 980px) {
+  .section-marketing-conteudo {
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+    max-height: 800px;
+    overflow: hidden;
+  }
+  .section-marketing-conteudo div {
+    width: 100%;
+  }
+  .section-marketing-conteudo img {
+    width: auto;
+    height: 45%;
+    top: initial;
+    right: -40px;
+    bottom: 0;
+  }
+  .section-o-que-e-marketing div {
+    width: 90%;
+  }
+  .section-o-que-e-marketing img {
+    display: none;
+  }
+}
 .section-digital-pr {
   display: flex;
   align-items: center;
@@ -7868,7 +7959,8 @@
 }
 @media (max-width: 980px) {
   .section-o-que-e-pr div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-o-que-e-pr div p {
@@ -8052,7 +8144,8 @@
 }
 @media (max-width: 980px) {
   .fale-especialista-pr div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .fale-especialista-pr div p {
@@ -8218,11 +8311,6 @@
     line-height: 50px;
   }
 }
-@media (max-width: 1700px) {
-  .section-seo-360 div h1 {
-    font-size: 5rem;
-  }
-}
 .section-seo-360 div p {
   font-weight: 400;
   text-transform: none;
@@ -8308,7 +8396,8 @@
 }
 @media (max-width: 980px) {
   .section-futuro-otimizacao div h2 {
-    font-size: 1.3333333333rem;
+    font-size: 1.6666666667rem;
+    line-height: 30px;
   }
 }
 .section-futuro-otimizacao div p {
