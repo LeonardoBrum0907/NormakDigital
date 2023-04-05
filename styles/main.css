@@ -4858,13 +4858,13 @@
   color: #ea1d5d;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 5rem;
-  line-height: 75px;
+  font-size: 3.5rem;
+  line-height: 50px;
 }
 @media (max-width: 980px) {
   .section-estrategia-planejamento div h1 {
-    font-size: 3.3333333333rem;
-    line-height: 50px;
+    font-size: 2.9166666667rem;
+    line-height: 40px;
   }
 }
 .section-estrategia-planejamento div h1 > i {
