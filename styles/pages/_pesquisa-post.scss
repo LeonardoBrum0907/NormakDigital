@@ -37,7 +37,7 @@
 .section-cards-posts {
   @include container();
   @include flex-center();
-  justify-content: space-between;
+  justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
   position: relative;
@@ -45,9 +45,9 @@
   &__card {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     min-width: 280px;
-    height: 600px;
+    height: 550px;
     border: $gray-color-500 solid 1px;
     background-color: $white-color;
 
