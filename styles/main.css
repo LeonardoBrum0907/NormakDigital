@@ -2305,7 +2305,6 @@
   .section-quem-somos {
     flex-direction: column;
     height: 750px;
-    padding: 1rem 1rem 0 1rem;
   }
   .section-quem-somos div {
     width: 100%;
@@ -2316,8 +2315,8 @@
   .section-quem-somos div h1 i {
     margin-bottom: 0;
   }
-  .section-quem-somos div a {
-    height: 44px;
+  .section-quem-somos div p {
+    width: 100%;
   }
   .section-quem-somos img {
     position: absolute;

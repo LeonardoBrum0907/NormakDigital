@@ -219,7 +219,6 @@
 
     h2 {
       @include title(h2);
-      // font-size: $font-size-h2;
 
       @media (max-width: 1200px) {
         font-size: 70px;
