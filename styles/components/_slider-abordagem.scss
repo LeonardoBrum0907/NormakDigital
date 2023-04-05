@@ -91,28 +91,28 @@
         display: none;
       }
     }
-  }
 
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    border: none;
-    background-color: $black-color;
-    color: $white-color;
-    opacity: 0.9;
-  }
-
-  .swiper-pagination-bullet {
-    width: 20px;
-    border-radius: 5px;
-  }
-
-  .swiper-pagination-bullet-active {
-    background: $pink-color-500;
-    width: 40px;
-    border-radius: 5px;
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      border: none;
+      background-color: $black-color;
+      color: $white-color;
+      opacity: 0.9;
+    }
+  
+    .swiper-pagination-bullet {
+      width: 20px;
+      border-radius: 5px;
+    }
+  
+    .swiper-pagination-bullet-active {
+      background: $pink-color-500;
+      width: 40px;
+      border-radius: 5px;
+    }
   }
 }
 

@@ -166,32 +166,64 @@
 
     <section class="section-cards-relacionados">
       <h2>Cases relacionados</h2>
-      <div class="section-cards-relacionados__card">
-        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
-        <div class="description">
-          <h3>Intersena</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam veniam. Quaerat.</p>
-          <a href="/pages/clientes-cases/cliente2.html"> Saiba mais <i
-            class="fa-solid fa-angle-right"></i></a>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <section class="swiper-slide">
+            <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+            <div class="description">
+              <h3>Intersena</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+                pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+                veniam. Quaerat.</p>
+              <a href="/pages/clientes-cases/cliente2.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+          </section>
+          <section class="swiper-slide">
+            <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+            <div class="description">
+              <h3>Witbiz</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+                pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+                veniam. Quaerat.</p>
+              <a href="/pages/clientes-cases/cliente3.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+          </section>
+          <section class="swiper-slide">
+            <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+            <div class="description">
+              <h3>Green Fuel</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+                pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+                veniam. Quaerat.</p>
+              <a href="/pages/clientes-cases/cliente1.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+          </section>
+          <section class="swiper-slide">
+            <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+            <div class="description">
+              <h3>Intersena</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+                pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+                veniam. Quaerat.</p>
+              <a href="/pages/clientes-cases/cliente2.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+          </section>
+          <section class="swiper-slide">
+            <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
+            <div class="description">
+              <h3>Intersena</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci
+                pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam
+                veniam. Quaerat.</p>
+              <a href="/pages/clientes-cases/cliente2.html"> Saiba mais <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+          </section>
+
         </div>
-      </div>
-      <div class="section-cards-relacionados__card">
-        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
-        <div class="description">
-          <h3>Witbitz</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam veniam. Quaerat.</p>
-          <a href="/pages/clientes-cases/cliente3.html"> Saiba mais <i
-            class="fa-solid fa-angle-right"></i></a>
-        </div>
-      </div>
-      <div class="section-cards-relacionados__card">
-        <img src="/assets/clientes/banner-cliente-celebrando.png" alt="imagem do cliente">
-        <div class="description">
-          <h3>Green Fuel</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, ad laudantium placeat, dolorem, adipisci pariatur provident maiores soluta at quis fugiat nulla quos perferendis aliquid debitis possimus ipsam veniam. Quaerat.</p>
-          <a href="/pages/clientes-cases/cliente1.html"> Saiba mais <i
-            class="fa-solid fa-angle-right"></i></a>
-        </div>
+        <button class="swiper-button-next" aria-label="scrollar slider de cards para direita"></button>
+        <button class="swiper-button-prev" aria-label="scrollar slider de cards para esquerda"></button>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -283,6 +315,40 @@
       <button class="fechar-modal" id="fechar-modal-form"><i class="fa-solid fa-xmark"></i></button>
     </fieldset>
   </form>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.2,
+            spaceBetween: 30,
+          },
+          680: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1440: {
+            slidesPerView: 3.5,
+            spaceBetween: 50,
+          }
+        }
+      });
+    </script>
 
   <!-- mobile-menu JS -->
   <script src="/scripts/header.js"></script>

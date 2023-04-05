@@ -1,69 +1,104 @@
 .section-cards-relacionados {
   @include container();
-  @include flex-center();
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
   background-color: $gray-color-100;
+  position: relative;
+  height: 700px;
 
   h2 {
     @include title(h2);
     width: 100%;
     text-align: center;
-    line-height: 100px;
   }
 
-  &__card {
+  .swiper {
+    @include container();
     display: flex;
-    flex-direction: column;
-    width: 330px;
-    height: 500px;
-    border: $gray-color-500 solid 1px;
-    background-color: $white-color;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
 
-    img {
-      width: 100%;
-      height: 35%;
-      object-fit: cover;
-    }
-
-    .description {
-      padding: 1.5rem;
+    .swiper-slide {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      flex: 1;
+      height: 500px;
+      border: $gray-color-500 solid 1px;
+      border-radius: 16px;
+      overflow: hidden;
+      background-color: $white-color;
 
-      h3 {
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        color: $pink-color-500;
-        font-weight: 900;
+      img {
+        width: 100%;
+        height: 35%;
+        object-fit: cover;
       }
 
-      p {
-        @include title(p);
-      }
+      .description {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
 
-      a {
-        @include button();
-        background-color: $cyan-color-500;
-        text-decoration: none;
-        color: $black-color;
-        border: none;
+        h3 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          color: $pink-color-500;
+          font-weight: 900;
+        }
 
-        &:hover {
-          background-color: lighten($cyan-color-500, 5%);
-          color: $white-color;
+        p {
+          @include title(p);
+        }
+
+        a {
+          @include button();
+          background-color: $cyan-color-500;
+          text-decoration: none;
+          color: $black-color;
+          border: none;
+
+          &:hover {
+            background-color: lighten($cyan-color-500, 5%);
+            color: $white-color;
+          }
         }
       }
     }
 
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      border: none;
+      background-color: $black-color;
+      color: $white-color;
+      opacity: 0.9;
+    }
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      border-radius: 5px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: $pink-color-500;
+      width: 40px;
+      border-radius: 5px;
+    }
   }
 }
 
-@media(max-width: 980px) {
+@media (max-width: 980px) {
   .section-cards-relacionados {
     justify-content: center;
+
+    .swiper {
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+    }
   }
 }
