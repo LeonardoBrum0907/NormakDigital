@@ -29,8 +29,6 @@
   });
 
   window.addEventListener('scroll', function() {
-    console.log(window.scrollY, headerBox.getBoundingClientRect().bottom)
-
     if (this.window.scrollY >= 100) {
       headerBox.classList.add('fixed')
       console.log('relative')

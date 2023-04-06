@@ -41,6 +41,11 @@
     a {
       color: $cyan-color-500;
       text-decoration: none;
+      transition: 0.3s;
+
+      &:hover {
+        color: darken($cyan-color-500, 10%);
+      }
     }
   }
 
