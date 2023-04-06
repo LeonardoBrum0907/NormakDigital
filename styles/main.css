@@ -4273,8 +4273,9 @@
   height: 3.125rem;
   font-size: 1.5rem;
 }
-.section-titulo-post > span span {
+.section-titulo-post > span a {
   color: #02eb9e;
+  text-decoration: none;
 }
 .section-titulo-post div {
   width: 90%;
